@@ -7,15 +7,24 @@ const a2Curriculum = [
         goal: "Discuss personal work habits and coding routines using adverbs of frequency and degree. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(頻度や程度の副詞を使って、個人の仕事の習慣やコーディングのルーティンについて議論する。)</span>",
 pronunciation: {
     title: "Pronunciation: Sentence Stress",
-    eng: "Clap on the frequency adverb and the main verb to practice English rhythm (e.g., I AL-ways START work EAR-ly).",
-    jpn: "頻度の副詞とメインの動詞で手を叩き、英語の自然なリズムを練習しましょう（例：I AL-ways START work EAR-ly）。"
+    eng: "The first syllable of a frequency adverb is usually stressed (always, often, usually, rarely, never).",
+    jpn: "頻度副詞の最初の音節には、通常、強勢が置かれます。"
 },
 
 
-        introArticle: [
-            { eng: "Everyone has different work habits. A good daily routine is very important for your work. Some people always start their work early in the morning. They like drinking coffee and reading emails before the office gets busy. Other people rarely work in the morning. They usually work best late at night when the house is quiet.", jpn: "誰もが異なる仕事の習慣を持っています。良い毎日のルーティンはあなたの仕事にとって非常に重要です。いつも朝早く仕事を始める人もいます。彼らはオフィスが忙しくなる前に、コーヒーを飲んだりメールを読んだりするのが好きです。一方で、朝に働くことはめったにない人もいます。彼らはたいてい、家が静かになる夜遅くに最もよく働きます。" },
-            { eng: "The work environment is also important. Open offices are very noisy, so workers often wear headphones. They enjoy listening to music while they work. Many people use dark screens because it is better for their eyes. Taking short breaks is another great habit. If you look at a computer screen for too long, your head will hurt. Walking away from the desk helps you rest.", jpn: "職場環境も重要です。オープンオフィスはとても騒がしいので、労働者はよくヘッドホンをつけます。彼らは働きながら音楽を聴くのを楽しんでいます。多くの人が暗い画面を使いますが、それは目により良いからです。短い休憩を取ることももう一つの素晴らしい習慣です。コンピューターの画面を長く見すぎると、頭が痛くなります。デスクから離れて歩くことは、休むのに役立ちます。" },
-            { eng: "Teamwork is also a big part of office life. Teams usually check projects together. They like helping new staff learn new skills. However, finishing your own tasks is only half the job. At the end of the day, good workers always write notes and close their computers. Planning tomorrow's tasks makes the next day much easier. A good daily routine makes a worker fast, happy, and useful.", jpn: "チームワークもオフィス生活の大きな部分です。チームはたいてい一緒にプロジェクトを確認します。彼らは新しいスタッフが新しいスキルを学ぶのを助けるのが好きです。しかし、自分のタスクを終わらせることは仕事の半分にすぎません。一日の終わりに、良い労働者は常にメモを書き、コンピューターを閉じます。明日のタスクを計画することで、次の日がずっと楽になります。良い毎日のルーティンは、労働者を速く、幸せで、役に立つ存在にします。" }
+introArticle: [
+            { 
+                eng: "People work in different ways. A good daily routine is very important. Some people always start work early in the morning. They like drinking coffee and reading emails before the office gets busy. Other people do not often work in the morning. They usually work best late at night when the house is quiet.", 
+                jpn: "人々の働き方は様々です。良い毎日のルーティンはとても大切です。いつも朝早く仕事を始める人もいます。オフィスが忙しくなる前に、コーヒーを飲んでメールを読むのが好きです。朝はあまり働かない人もいます。家が静かな夜遅くに働くのが一番得意です。" 
+            },
+            { 
+                eng: "Where you work is also important. Open offices are very loud, so workers often wear headphones. They enjoy listening to music while they work. Many people use dark screens because it is better for their eyes. Taking short breaks is also a great idea. If you look at a computer for too long, your head will hurt. Walking away from the desk helps you rest.", 
+                jpn: "働く場所も大切です。オープンオフィスはとてもうるさいので、働く人はよくヘッドホンをつけます。働きながら音楽を聴くのが好きです。目に良いので、暗い画面を使う人も多いです。短い休憩を取るのも良いアイデアです。コンピューターを長く見すぎると、頭が痛くなります。机から離れて歩くと、休むことができます。" 
+            },
+            { 
+                eng: "Teamwork is also a big part of office life. Teams usually check their work together. They like helping new staff learn new things. But finishing your own jobs is only half the work. At the end of the day, good workers always write notes and turn off their computers. Planning tomorrow's work makes the next day much easier. A good routine makes a worker fast, happy, and good at their job.", 
+                jpn: "チームワークもオフィス生活の大きな部分です。チームはたいてい一緒に仕事を確認します。新しいスタッフが新しいことを学ぶのを助けるのが好きです。しかし、自分の仕事を終わらせることは仕事の半分にすぎません。一日の終わりに、良い働き手はいつもメモを書いてコンピューターの電源を切ります。明日の仕事を計画すると、次の日がずっと楽になります。良いルーティンは、働き手を速く、幸せにし、仕事を上手にしてくれます。" 
+            }
         ],
         discussionTopics: [
             { titleEng: "Morning Routines", titleJpn: "朝のルーティン", subtopics: [{ eng: "Checking emails", jpn: "メールの確認" }, { eng: "Stand-up meetings", jpn: "スタンドアップミーティング" }, { eng: "Coffee breaks", jpn: "コーヒー休憩" }] },
@@ -88,14 +97,13 @@ pronunciation: {
                 ] 
             }
         ],
-        expressions: [
-            { eng: "In general...", jpn: "一般的に...", exampleEng: "In general, I usually arrive at 9 AM.", exampleJpn: "一般的に、私はたいてい午前9時に到着します。" },
-            { eng: "To tell the truth...", jpn: "実を言うと...", exampleEng: "To tell the truth, I hate open offices.", exampleJpn: "実を言うと、私はオープンオフィスが嫌いです。" },
-            { eng: "As a rule...", jpn: "原則として...", exampleEng: "As a rule, I never check emails at night.", exampleJpn: "原則として、私は夜にメールをチェックすることは絶対にありません。" },
-            { eng: "Mostly...", jpn: "ほとんどの場合...", exampleEng: "Mostly, I enjoy working alone.", exampleJpn: "ほとんどの場合、私は一人で働くのを楽しんでいます。" },
-            { eng: "Especially...", jpn: "特に...", exampleEng: "I like writing code, especially late at night.", exampleJpn: "私はコードを書くのが好きです、特に夜遅くが。" }
-        ],
-        homework: {
+expressions: [
+            { eng: "Usually...", jpn: "たいてい...", exampleEng: "Usually, I arrive at 9 AM.", exampleJpn: "たいてい、私は午前9時に到着します。" },
+            { eng: "Actually...", jpn: "実は...", exampleEng: "Actually, I don't like open offices.", exampleJpn: "実は、私はオープンオフィスが好きではありません。" },
+            { eng: "Normally...", jpn: "普段は...", exampleEng: "Normally, I don't check emails at night.", exampleJpn: "普段は、夜にメールをチェックしません。" },
+            { eng: "Most of the time...", jpn: "ほとんどの場合...", exampleEng: "Most of the time, I like working alone.", exampleJpn: "ほとんどの場合、私は一人で働くのが好きです。" },
+            { eng: "Especially...", jpn: "特に...", exampleEng: "I like writing code, especially at night.", exampleJpn: "私はコードを書くのが好きです、特に夜が。" }
+        ],        homework: {
             vocab: [
                 { eng: "Notification", jpn: "通知", exEng: "I turned off my chat notifications.", exJpn: "チャットの通知をオフにしました。" },
                 { eng: "Monitor", jpn: "モニター", exEng: "I use two monitors for working.", exJpn: "作業に2つのモニターを使用します。" },
@@ -135,164 +143,164 @@ pronunciation: {
         }
     },
     {
-        id: 2, 
-        chapter: "Chapter 1: Everyday Office Routines", 
-        type: "transactional", 
-        title: "Lesson 002: Daily Status Updates",
-        goal: "Give a simple project update using time adverbs and prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(時の副詞と前置詞を使って、簡単なプロジェクトの進捗報告を行う。)</span>",
-pronunciation: {
-    title: "Pronunciation: V/B and L/R Sounds",
-    eng: "Practice the difference between L and R, and V and B (e.g., Late vs. Rate, Review vs. Blocker). Watch the teacher's mouth shape.",
-    jpn: "LとR、VとBの違いを練習しましょう（例：Late と Rate、Review と Blocker）。先生の口の形に注目してください。"
-},
-        vocab: [
-            { eng: "Status", jpn: "状況 / ステータス", exEng: "What is the status of the project?", exJpn: "プロジェクトのステータスはどうなっていますか？" },
-            { eng: "Update", jpn: "更新 / 進捗", exEng: "Please give me a quick update.", exJpn: "手短に進捗を教えてください。" },
-            { eng: "Task", jpn: "タスク / 作業", exEng: "I have three tasks to do today.", exJpn: "今日やるべきタスクが3つあります。" },
-            { eng: "Progress", jpn: "進捗 / 進行", exEng: "We are making good progress.", exJpn: "私たちは順調に進捗しています。" },
-            { eng: "Meeting", jpn: "会議 / ミーティング", exEng: "The team meeting is at 10 AM.", exJpn: "チーム会議は午前10時からです。" },
-            { eng: "Morning", jpn: "朝", exEng: "I check my email every morning.", exJpn: "毎朝メールをチェックします。" },
-            { eng: "Schedule", jpn: "スケジュール / 予定", exEng: "My schedule is completely full.", exJpn: "私のスケジュールは完全に埋まっています。" },
-            { eng: "Blocker", jpn: "障害 / ブロッカー", exEng: "Do you have any blockers today?", exJpn: "今日何か障害（ブロッカー）はありますか？" },
-            { eng: "Plan", jpn: "計画", exEng: "What is the plan for tomorrow?", exJpn: "明日の計画は何ですか？" },
-            { eng: "Current", jpn: "現在の", exEng: "The current version has a bug.", exJpn: "現在のバージョンにはバグがあります。" },
-            { eng: "Complete", jpn: "完了する", exEng: "I will complete the report soon.", exJpn: "すぐにレポートを完了させます。" },
-            { eng: "Database", jpn: "データベース", exEng: "I am updating the database now.", exJpn: "私は今データベースを更新しています。" },
-            { eng: "Project", jpn: "プロジェクト", exEng: "This project is very important.", exJpn: "このプロジェクトはとても重要です。" },
-            { eng: "Team", jpn: "チーム", exEng: "Our team works very well together.", exJpn: "私たちのチームはとてもうまく連携しています。" }
+        "id": 2, 
+        "chapter": "Chapter 1: Everyday Office Routines", 
+        "type": "transactional", 
+        "title": "Lesson 002: Daily Status Updates",
+        "goal": "Give a simple project update using time adverbs and prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(時の副詞と前置詞を使って、簡単なプロジェクトの進捗報告を行う。)</span>",
+        "pronunciation": {
+            "title": "Pronunciation: V/B and L/R Sounds",
+            "eng": "Practice the difference between L and R, and V and B (e.g., Late vs. Rate, Review vs. Blocker). Watch the teacher's mouth shape.",
+            "jpn": "LとR、VとBの違いを練習しましょう（例：Late と Rate、Review と Blocker）。先生の口の形に注目してください。"
+        },
+        "vocab": [
+            { "eng": "Status", "jpn": "状況 / ステータス", "exEng": "What is the status of the project?", "exJpn": "プロジェクトのステータスはどうなっていますか？" },
+            { "eng": "Update", "jpn": "更新 / 進捗", "exEng": "Please give me a quick update.", "exJpn": "手短に進捗を教えてください。" },
+            { "eng": "Task", "jpn": "タスク / 作業", "exEng": "I have three tasks to do today.", "exJpn": "今日やるべきタスクが3つあります。" },
+            { "eng": "Progress", "jpn": "進捗 / 進行", "exEng": "We are making good progress.", "exJpn": "私たちは順調に進捗しています。" },
+            { "eng": "Meeting", "jpn": "会議 / ミーティング", "exEng": "The team meeting is at 10 AM.", "exJpn": "チーム会議は午前10時からです。" },
+            { "eng": "Morning", "jpn": "朝", "exEng": "I check my email every morning.", "exJpn": "毎朝メールをチェックします。" },
+            { "eng": "Schedule", "jpn": "スケジュール / 予定", "exEng": "My schedule is completely full.", "exJpn": "私のスケジュールは完全に埋まっています。" },
+            { "eng": "Blocker", "jpn": "障害 / ブロッカー", "exEng": "Do you have any blockers today?", "exJpn": "今日何か障害（ブロッカー）はありますか？" },
+            { "eng": "Plan", "jpn": "計画", "exEng": "What is the plan for tomorrow?", "exJpn": "明日の計画は何ですか？" },
+            { "eng": "Current", "jpn": "現在の", "exEng": "The current version has a bug.", "exJpn": "現在のバージョンにはバグがあります。" },
+            { "eng": "Complete", "jpn": "完了する", "exEng": "I will complete the report soon.", "exJpn": "すぐにレポートを完了させます。" },
+            { "eng": "Database", "jpn": "データベース", "exEng": "I am updating the database now.", "exJpn": "私は今データベースを更新しています。" },
+            { "eng": "Project", "jpn": "プロジェクト", "exEng": "This project is very important.", "exJpn": "このプロジェクトはとても重要です。" },
+            { "eng": "Team", "jpn": "チーム", "exEng": "Our team works very well together.", "exJpn": "私たちのチームはとてもうまく連携しています。" }
         ],
-        dialogue: [
-            { speaker: "Manager", eng: "Good morning. Do you have a minute to talk?", jpn: "おはようございます。少し話す時間はありますか？" },
-            { speaker: "Staff", eng: "Good morning. Yes, I am free right now.", jpn: "おはようございます。はい、今は空いています。" },
-            { speaker: "Manager", eng: "Great. <span class='swappable'>Can you give me an update</span> on the new project?", jpn: "素晴らしい。新しいプロジェクトの進捗を教えてもらえますか？" },
-            { speaker: "Staff", eng: "Sure. <span class='swappable'>I am working on the database</span> <i class='grammar-target'>now</i>.", jpn: "もちろんです。私は今、データベースの作業をしています。" },
-            { speaker: "Manager", eng: "How is it going? Are there any big problems?", jpn: "調子はどうですか？何か大きな問題はありますか？" },
-            { speaker: "Staff", eng: "It is going well. <i class='grammar-target'>I had a small bug yesterday</i>, but <i class='grammar-target'>I fixed it</i>.", jpn: "順調です。昨日は小さなバグがありましたが、直しました。" },
-            { speaker: "Manager", eng: "That is good to hear. Are there any blockers for your work?", jpn: "それを聞いて安心しました。作業の障害（ブロッカー）はありますか？" },
-            { speaker: "Staff", eng: "No blockers. I will finish the task <i class='grammar-target'>today</i>.", jpn: "障害はありません。今日中にタスクを終わらせます。" },
-            { speaker: "Manager", eng: "Excellent. <span class='swappable'>We need to review it together.</span>", jpn: "素晴らしい。一緒にそれを見直す必要があります。" },
-            { speaker: "Staff", eng: "I agree. When do you have time?", jpn: "同感です。いつお時間がありますか？" },
-            { speaker: "Manager", eng: "I'm busy in the morning tomorrow because <i class='grammar-target'>I'm meeting a client </i> but I have some free time tomorrow afternoon.", jpn: "明日は午前中、クライアントとの打ち合わせがあるので忙しいですが、午後は少し時間が空いています。" },
-            { speaker: "Staff", eng: "Understood. Let's meet tomorrow afternoon then.", jpn: "承知しました。それじゃあ、明日の午後、会いましょう。" }
+        "dialogue": [
+            { "speaker": "Manager", "eng": "Good morning. Do you have a minute to talk?", "jpn": "おはようございます。少し話す時間はありますか？" },
+            { "speaker": "Staff", "eng": "Good morning. Yes, I am free right now.", "jpn": "おはようございます。はい、今は空いています。" },
+            { "speaker": "Manager", "eng": "Great. <span class='swappable'>Can you give me an update</span> on the new project?", "jpn": "素晴らしい。新しいプロジェクトの進捗を教えてもらえますか？" },
+            { "speaker": "Staff", "eng": "Sure. I am working on the database <i class='grammar-target'>now</i>.", "jpn": "もちろんです。私は今、データベースの作業をしています。" },
+            { "speaker": "Manager", "eng": "How is it going? Are there any big problems?", "jpn": "調子はどうですか？何か大きな問題はありますか？" },
+            { "speaker": "Staff", "eng": "<span class='swappable'>Everything is going according to plan</span>. <i class='grammar-target'>I will finish the main task today</i>.", "jpn": "すべて計画通りに進んでいます。今日中にメインのタスクを終わらせます。" },
+            { "speaker": "Manager", "eng": "That is good to hear. Are there any blockers for your work?", "jpn": "それを聞いて安心しました。作業の障害（ブロッカー）はありますか？" },
+            { "speaker": "Staff", "eng": "Yes. <span class='swappable'>We need more people</span> for the testing phase.", "jpn": "はい。テスト工程でもっと人が必要です。" },
+            { "speaker": "Manager", "eng": "I understand. I'll see what I can do. .", "jpn": "わかりました。できることをやってみます。" },
+            { "speaker": "Staff", "eng": "Thanks. Do you have time to discuss it tomorrow?", "jpn": "ありがとう。明日、それについて話し合う時間はありますか？" },
+            { "speaker": "Manager", "eng": "I'm busy tomorrow morning because <i class='grammar-target'>I'm meeting a client </i>, but I have time tomorrow afternoon.", "jpn": "明日の朝はクライアントとの打ち合わせがあるので忙しいですが、午後は時間があります。" },
+            { "speaker": "Staff", "eng": "Understood. Let's meet tomorrow afternoon then.", "jpn": "承知しました。それじゃあ、明日の午後、会いましょう。" }
         ],
-        dialogueStructure: [
+        "dialogueStructure": [
             "Greet + Ask if they are free <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 空いているか尋ねる)</span>",
             "> Greet + Say you are free <span class='jpn-text'>(挨拶 ＋ 空いていると伝える)</span>",
             "Ask for an update <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(進捗を尋ねる)</span>",
             "> State current action + Time adverb <span class='jpn-text'>(現在のアクションを述べる ＋ 時の副詞)</span>",
             "Ask about problems <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(問題について尋ねる)</span>",
-            "> Explain the past situation + resolution <span class='jpn-text'>(過去の状況を説明する ＋ 解決策)</span>",
+            "> Say the project is going well + Future prediction <span class='jpn-text'>(プロジェクトが順調であることを伝える ＋ 未来の予測)</span>",
             "Ask if there are blockers <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(障害がないか尋ねる)</span>",
-            "> Answer + State completion time <span class='jpn-text'>(答える ＋ 完了時間を述べる)</span>",
-            "Suggest a review <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(レビューを提案する)</span>",
-            "> Agree + Ask for the time <span class='jpn-text'>(同意する ＋ 時間を尋ねる)</span>",
-            "State your free time <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(空き時間を述べる)</span>",
-            "> Confirm a scheduled future meeting + Time <span class='jpn-text'>(予定されている将来の会議を確認する ＋ 時間)</span>"
+            "> Answer that you don't have enough of something <span class='jpn-text'>(何かが足りないと答える)</span>",
+            "Say you will try to help <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(「手伝うようにする」と言う)</span>",
+            "> Thank them + Ask for next meeting <span class='jpn-text'>(お礼を伝え、次回の打ち合わせを依頼する)</span>",
+            "State a confirmed future plan + Free time <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(確定した将来の計画 ＋ 空き時間を述べる)</span>",
+            "> Confirm the meeting time <span class='jpn-text'>(会議の時間を確定する)</span>"
         ],
-        expressions: [
+        "expressions": [
             { 
-                category: "1. Asking for an update (進捗を尋ねる)", 
-                options: [
-                    { eng: "Can you give me an update?", jpn: "進捗を教えてもらえますか？" },
-                    { eng: "What is your status?", jpn: "あなたのステータスはどうなっていますか？" },
-                    { eng: "How is the progress?", jpn: "進捗はどうですか？" }
+                "category": "1. Asking for an update (進捗を尋ねる)", 
+                "options": [
+                    { "eng": "Can you give me an update?", "jpn": "進捗を教えてもらえますか？" },
+                    { "eng": "What is your status?", "jpn": "あなたのステータスはどうなっていますか？" },
+                    { "eng": "How is the progress?", "jpn": "進捗はどうですか？" }
                 ] 
             },
             { 
-                category: "2. Stating current actions (現在のアクションを述べる)", 
-                options: [
-                    { eng: "I am working on the database.", jpn: "データベースの作業をしています。" },
-                    { eng: "I am fixing the bug.", jpn: "バグを修正しています。" },
-                    { eng: "I am checking the documents.", jpn: "書類を確認しています。" }
+                "category": "2. Saying the project is going well (プロジェクトが順調であることを伝える)", 
+                "options": [
+                    { "eng": "Everything is going according to plan.", "jpn": "すべて計画通りに進んでいます。" },
+                    { "eng": "It is going well.", "jpn": "順調です。" },
+                    { "eng": "We are making good progress.", "jpn": "私たちは順調に進捗しています。" }
                 ] 
             },
             { 
-                category: "3. Suggesting a review (レビューを提案する)", 
-                options: [
-                    { eng: "We need to review it together.", jpn: "一緒にそれを見直す必要があります。" },
-                    { eng: "Let's check it together.", jpn: "一緒にそれを確認しましょう。" },
-                    { eng: "We should look at it together.", jpn: "一緒にそれを見るべきです。" }
+                "category": "3. Saying you don't have enough of something (何かが足りないことを伝える)", 
+                "options": [
+                    { "eng": "We need more people.", "jpn": "もっと人が必要です。" },
+                    { "eng": "We don't have enough time.", "jpn": "時間が足りません。" },
+                    { "eng": "We are short on resources.", "jpn": "リソースが不足しています。" }
                 ] 
             }
         ],
-        grammarPoints: [
+        "grammarPoints": [
             { 
-                point: "1. Adverbs: Points in Time (時の副詞)", 
-                hint: "Use words like 'now', 'today', or 'yesterday' at the end of the sentence.", 
-                shortExample: "I am talking to him now.", 
-                explanation: "We use adverbs of time to say exactly when something happened or is happening. These usually go at the end of the sentence.", 
-                explanationJpn: "いつ何が起きたか（または起きているか）を正確に伝えるために時の副詞を使います。これらは通常、文末に置きます。", 
-                examples: [
-                    { eng: "I will go there tomorrow night.", jpn: "明日の夜、そこに行きます。" }, 
-                    { eng: "Let's do it tomorrow morning.", jpn: "明日の朝にやりましょう。" }
+                "point": "1. Adverbs: Points in Time (時の副詞)", 
+                "hint": "Use words like 'now', 'today', or 'yesterday' at the end of the sentence.", 
+                "shortExample": "I am talking to him now.", 
+                "explanation": "We use adverbs of time to say exactly when something happened or is happening. These usually go at the end of the sentence.", 
+                "explanationJpn": "いつ何が起きたか（または起きているか）を正確に伝えるために時の副詞を使います。これらは通常、文末に置きます。", 
+                "examples": [
+                    { "eng": "I will go there tomorrow night.", "jpn": "明日の夜、そこに行きます。" }, 
+                    { "eng": "Let's do it tomorrow morning.", "jpn": "明日の朝にやりましょう。" }
                 ] 
             },
             { 
-                point: "2. Future Tenses: Present Continuous (現在進行形で表す決定済みの未来)", 
-                hint: "Use 'am/is/are + ~ing' to express a confirmed future plan.", 
-                shortExample: "I'm having lunch with Sam at 1pm.", 
-                explanation: "We can use the present continuous tense to express future plans. We use this when we have already confirmed the plan with another person (like an appointment or meeting).", 
-                explanationJpn: "未来の計画を表現するために現在進行形を使うことができます。これは（アポイントメントや会議のように）他の人とすでに計画を確定している場合に使用します。", 
-                examples: [
-                    { eng: "I am meeting you tomorrow.", jpn: "明日あなたに会う予定です。" }, 
-                    { eng: "We are holding the event on Friday.", jpn: "金曜日にイベントを開催します。" }
+                "point": "2. Future Tenses: Present Continuous (現在進行形で表す決定済みの未来)", 
+                "hint": "Use 'am/is/are + ~ing' to express a confirmed future plan.", 
+                "shortExample": "I'm having lunch with Sam at 1pm.", 
+                "explanation": "We can use the present continuous tense to express future plans. We use this when we have already confirmed the plan with another person (like an appointment or meeting).", 
+                "explanationJpn": "未来の計画を表現するために現在進行形を使うことができます。これは（アポイントメントや会議のように）他の人とすでに計画を確定している場合に使用します。", 
+                "examples": [
+                    { "eng": "I am meeting you tomorrow.", "jpn": "明日あなたに会う予定です。" }, 
+                    { "eng": "We are holding the event on Friday.", "jpn": "金曜日にイベントを開催します。" }
                 ] 
             },
             { 
-                point: "3. Past Tense: Expressing past actions (過去のアクションを表現する)", 
-                hint: "Use the past tense form of the verb for finished actions.", 
-                shortExample: "I had a small bug yesterday, but I fixed it.", 
-                explanation: "When you report what happened earlier, use the past tense. Regular verbs add '-ed', but some verbs are irregular (have -> had).", 
-                explanationJpn: "以前に起きたことを報告する時は、過去形を使います。規則動詞には「-ed」を付けますが、一部の動詞は不規則に変化します（have -> had）。", 
-                examples: [
-                    { eng: "I fixed the problem.", jpn: "私はその問題を修正しました。" }, 
-                    { eng: "He had a meeting yesterday.", jpn: "彼は昨日会議がありました。" }
+                "point": "3. Future Tense: Using 'will' for predictions (未来形：「will」を使った予測)", 
+                "hint": "Use 'will' to predict future events or state a future fact.", 
+                "shortExample": "I will finish the task today.", 
+                "explanation": "When you are stating a prediction or something you believe will be a fact in the future, use 'will'. This is often used for promises or future outcomes.", 
+                "explanationJpn": "未来の予測や事実になると信じていることを述べる時は「will」を使います。これは約束や未来の結論によく使われます。", 
+                "examples": [
+                    { "eng": "I will finish the task today.", "jpn": "今日中にタスクを終わらせます。" }, 
+                    { "eng": "We will need more time.", "jpn": "私たちはもっと時間が必要になるでしょう。" }
                 ] 
             }
         ],
-        roleplay: {
-            a: "You are a Manager. Ask your staff if they are free to talk. Ask for a status update. Ask if they have any blockers. Suggest reviewing the work together. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはマネージャーです。スタッフに話す時間があるか尋ねてください。進捗状況を尋ねてください。障害がないか尋ねてください。一緒に作業を見直すことを提案してください。)</span>",
-            b: "You are a Staff member. Say you are free. State your current action using an adverb of time. Answer the manager's questions and say when you will finish. Confirm a scheduled future meeting using the present continuous tense. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはスタッフです。時間が空いていると伝えてください。時の副詞を使って現在のアクションを述べてください。マネージャーの質問に答え、いつ終わるか言ってください。現在進行形を使って、予定されている将来の会議を確認してください。)</span>"
+        "roleplay": {
+            "a": "You are a Manager. Ask your staff if they are free to talk. Ask for a status update. Ask if they have any blockers. Suggest reviewing the work together. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはマネージャーです。スタッフに話す時間があるか尋ねてください。進捗状況を尋ねてください。障害がないか尋ねてください。一緒に作業を見直すことを提案してください。)</span>",
+            "b": "You are a Staff member. Say you are free. State your current action using an adverb of time. Answer the manager's questions and say when you will finish. Confirm a scheduled future meeting using the present continuous tense. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはスタッフです。時間が空いていると伝えてください。時の副詞を使って現在のアクションを述べてください。マネージャーの質問に答え、いつ終わるか言ってください。現在進行形を使って、予定されている将来の会議を確認してください。)</span>"
         },
-        homework: {
-            vocab: [
-                { eng: "Afternoon", jpn: "午後", exEng: "The meeting is in the afternoon.", exJpn: "会議は午後にあります。" },
-                { eng: "Evening", jpn: "夕方 / 夜", exEng: "I will send the email this evening.", exJpn: "今晩メールを送ります。" },
-                { eng: "Tomorrow", jpn: "明日", exEng: "I am working from home tomorrow.", exJpn: "明日は在宅勤務です。" },
-                { eng: "Finish", jpn: "終わらせる", exEng: "I will finish the design today.", exJpn: "今日デザインを終わらせます。" },
-                { eng: "Review", jpn: "見直す / レビュー", exEng: "We need to review the code.", exJpn: "コードを見直す必要があります。" },
-                { eng: "Check", jpn: "確認する", exEng: "Please check your schedule.", exJpn: "スケジュールを確認してください。" },
-                { eng: "Test", jpn: "テストする", exEng: "We are testing the new app.", exJpn: "新しいアプリをテストしています。" },
-                { eng: "Submit", jpn: "提出する", exEng: "Submit the report by 5 PM.", exJpn: "午後5時までにレポートを提出してください。" },
-                { eng: "Daily", jpn: "毎日の / 日次", exEng: "We have a daily stand-up meeting.", exJpn: "毎日のスタンドアップミーティングがあります。" },
-                { eng: "Weekly", jpn: "毎週の / 週次", exEng: "The weekly report is due on Friday.", exJpn: "週次レポートの期限は金曜日です。" },
-                { eng: "Deadline", jpn: "締め切り", exEng: "The deadline is tomorrow morning.", exJpn: "締め切りは明日の朝です。" },
-                { eng: "Urgent", jpn: "緊急の", exEng: "This bug is very urgent.", exJpn: "このバグは非常に緊急です。" },
-                { eng: "Important", jpn: "重要な", exEng: "This is an important update.", exJpn: "これは重要なアップデートです。" },
-                { eng: "Confirm", jpn: "確認する / 確定する", exEng: "I will confirm the time later.", exJpn: "後で時間を確認します。" }
+        "homework": {
+            "vocab": [
+                { "eng": "Afternoon", "jpn": "午後", "exEng": "The meeting is in the afternoon.", "exJpn": "会議は午後にあります。" },
+                { "eng": "Evening", "jpn": "夕方 / 夜", "exEng": "I will send the email this evening.", "exJpn": "今晩メールを送ります。" },
+                { "eng": "Tomorrow", "jpn": "明日", "exEng": "I am working from home tomorrow.", "exJpn": "明日は在宅勤務です。" },
+                { "eng": "Finish", "jpn": "終わらせる", "exEng": "I will finish the design today.", "exJpn": "今日デザインを終わらせます。" },
+                { "eng": "Review", "jpn": "見直す / レビュー", "exEng": "We need to review the code.", "exJpn": "コードを見直す必要があります。" },
+                { "eng": "Check", "jpn": "確認する", "exEng": "Please check your schedule.", "exJpn": "スケジュールを確認してください。" },
+                { "eng": "Test", "jpn": "テストする", "exEng": "We are testing the new app.", "exJpn": "新しいアプリをテストしています。" },
+                { "eng": "Submit", "jpn": "提出する", "exEng": "Submit the report by 5 PM.", "exJpn": "午後5時までにレポートを提出してください。" },
+                { "eng": "Daily", "jpn": "毎日の / 日次", "exEng": "We have a daily stand-up meeting.", "exJpn": "毎日のスタンドアップミーティングがあります。" },
+                { "eng": "Weekly", "jpn": "毎週の / 週次", "exEng": "The weekly report is due on Friday.", "exJpn": "週次レポートの期限は金曜日です。" },
+                { "eng": "Deadline", "jpn": "締め切り", "exEng": "The deadline is tomorrow morning.", "exJpn": "締め切りは明日の朝です。" },
+                { "eng": "Urgent", "jpn": "緊急の", "exEng": "This bug is very urgent.", "exJpn": "このバグは非常に緊急です。" },
+                { "eng": "Important", "jpn": "重要な", "exEng": "This is an important update.", "exJpn": "これは重要なアップデートです。" },
+                { "eng": "Confirm", "jpn": "確認する / 確定する", "exEng": "I will confirm the time later.", "exJpn": "後で時間を確認します。" }
             ],
-            writingTask: { promptEng: "Write a short paragraph about your daily work routine. Mention what time you start, what tasks you do today, and a meeting you are having tomorrow.", promptJpn: "毎日の仕事のルーティンについて短い段落を書いてください。何時に始めるか、今日どんなタスクをするか、明日予定している会議について言及してください。" },
-            clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
-            clickingGamesDesc: "Translate the 10 sentences to practice adverbs of time, present continuous for the future, and past tense.",
-            clickingGames: [
-                { prompt: "私は今、彼と話しています。", target: "I am talking to him now.", words: ["I", "am", "talking", "to", "him", "now."] },
-                { prompt: "明日の夜、そこに行きます。", target: "I will go there tomorrow night.", words: ["I", "will", "go", "there", "tomorrow", "night."] },
-                { prompt: "午後1時にサムとランチを食べる予定です。", target: "I am having lunch with Sam at 1pm.", words: ["I", "am", "having", "lunch", "with", "Sam", "at", "1pm."] },
-                { prompt: "私たちは金曜日にイベントを開催します。", target: "We are holding the event on Friday.", words: ["We", "are", "holding", "the", "event", "on", "Friday."] },
-                { prompt: "昨日そこで働きました。", target: "I worked there yesterday.", words: ["I", "worked", "there", "yesterday."] },
-                { prompt: "彼女は私より前に到着しました。", target: "She arrived before me.", words: ["She", "arrived", "before", "me."] },
-                { prompt: "明日の朝にやりましょう。", target: "Let's do it tomorrow morning.", words: ["Let's", "do", "it", "tomorrow", "morning."] },
-                { prompt: "私は明日あなたに会う予定です。", target: "I am meeting you tomorrow.", words: ["I", "am", "meeting", "you", "tomorrow."] },
-                { prompt: "今日そのタスクを終わらせます。", target: "I will finish the task today.", words: ["I", "will", "finish", "the", "task", "today."] },
-                { prompt: "私はそのバグを直しました。", target: "I fixed the bug.", words: ["I", "fixed", "the", "bug."] }
+            "writingTask": { "promptEng": "Write a short paragraph about your daily work routine. Mention what time you start, what tasks you do today, and a meeting you are having tomorrow.", "promptJpn": "毎日の仕事のルーティンについて短い段落を書いてください。何時に始めるか、今日どんなタスクをするか、明日予定している会議について言及してください。" },
+            "clickingGamesTitle": "Task 3: Grammar Practice (Sentence Builder)",
+            "clickingGamesDesc": "Translate the 10 sentences to practice adverbs of time, present continuous for the future, and past tense.",
+            "clickingGames": [
+                { "prompt": "私は今、彼と話しています。", "target": "I am talking to him now.", "words": ["I", "am", "talking", "to", "him", "now."] },
+                { "prompt": "明日の夜、そこに行きます。", "target": "I will go there tomorrow night.", "words": ["I", "will", "go", "there", "tomorrow", "night."] },
+                { "prompt": "午後1時にサムとランチを食べる予定です。", "target": "I am having lunch with Sam at 1pm.", "words": ["I", "am", "having", "lunch", "with", "Sam", "at", "1pm."] },
+                { "prompt": "私たちは金曜日にイベントを開催します。", "target": "We are holding the event on Friday.", "words": ["We", "are", "holding", "the", "event", "on", "Friday."] },
+                { "prompt": "昨日そこで働きました。", "target": "I worked there yesterday.", "words": ["I", "worked", "there", "yesterday."] },
+                { "prompt": "彼女は私より前に到着しました。", "target": "She arrived before me.", "words": ["She", "arrived", "before", "me."] },
+                { "prompt": "明日の朝にやりましょう。", "target": "Let's do it tomorrow morning.", "words": ["Let's", "do", "it", "tomorrow", "morning."] },
+                { "prompt": "私は明日あなたに会う予定です。", "target": "I am meeting you tomorrow.", "words": ["I", "am", "meeting", "you", "tomorrow."] },
+                { "prompt": "今日そのタスクを終わらせます。", "target": "I will finish the task today.", "words": ["I", "will", "finish", "the", "task", "today."] },
+                { "prompt": "私はそのバグを直しました。", "target": "I fixed the bug.", "words": ["I", "fixed", "the", "bug."] }
             ],
-            extendedReading: {
-                title: "Task 4: Extended Reading (Daily Stand-ups)",
-                eng: "In modern corporate offices, fast and clear communication is extremely important. Many development and business teams use a system called 'Agile'. A key part of Agile is the daily stand-up meeting. Every morning, the team gathers for a short meeting. It is called a 'stand-up' because people usually stand up to keep the meeting quick and energetic. Usually, these meetings last only 10 to 15 minutes.\n\nDuring the stand-up, each staff member answers three simple questions. First, what did you do yesterday? Second, what are you doing today? Third, do you have any blockers? A blocker is anything that stops a person from finishing their work. For example, if a server is down, that is a blocker. If a worker does not understand a task, that is also a blocker. By answering these three questions every day, the project manager knows the exact status of the project without asking too many questions. If someone has a problem, another team member can step in and offer help immediately.\n\nAfter the meeting, the team usually updates a digital task board. They move their digital notes to different columns, like 'To Do', 'In Progress', or 'Done'. This helps everyone see the progress clearly at any time of day. The daily stand-up is not for long discussions or deep problem solving. It is just a quick check. If two colleagues need to talk more about a big problem, they will schedule a different meeting later in the day. This daily routine keeps the project moving smoothly and prevents major delays. It also builds a strong, supportive team environment because everyone talks to each other every single day.",
-                jpn: "現代の企業のオフィスでは、迅速で明確なコミュニケーションが極めて重要です。多くの開発チームやビジネスチームは「アジャイル」と呼ばれるシステムを使用しています。アジャイルの重要な部分が毎日のスタンドアップミーティングです。毎朝、チームは短い会議のために集まります。会議を素早くエネルギッシュに保つために人々が通常立ち上がることから、「スタンドアップ」と呼ばれています。通常、これらの会議はわずか10〜15分しか続きません。\n\nスタンドアップの間、各スタッフは3つの簡単な質問に答えます。第一に、昨日は何をしましたか？第二に、今日は何をしていますか？第三に、何かブロッカー（障害）はありますか？ブロッカーとは、人が仕事を終えるのを妨げるあらゆるもののことです。例えば、サーバーがダウンしている場合、それはブロッカーです。労働者がタスクを理解していない場合もブロッカーになります。毎日これらの質問に答えることで、プロジェクトマネージャーは多すぎる質問をすることなく、プロジェクトの正確な状況を把握します。もし誰かが問題を抱えていれば、他のチームメンバーが介入し、すぐに助けを提供できます。\n\n会議の後、チームは通常デジタルタスクボードを更新します。彼らはデジタルメモを「To Do（やるべきこと）」「In Progress（進行中）」「Done（完了）」などの異なる列に移動させます。これは全員が1日のどの時間でも進捗を明確に見るのに役立ちます。毎日のスタンドアップは長時間の議論や深い問題解決のためのものではありません。単なる素早い確認です。もし2人の同僚が大きな問題についてもっと話す必要がある場合は、その日の後半に別の会議を予定します。この毎日のルーティンはプロジェクトをスムーズに進め、大きな遅延を防ぎます。また、全員が毎日お互いに話すため、強力で協力的なチーム環境を構築します。"
+            "extendedReading": {
+                "title": "Task 4: Extended Reading (Daily Stand-ups)",
+                "eng": "In modern corporate offices, fast and clear communication is extremely important. Many development and business teams use a system called 'Agile'. A key part of Agile is the daily stand-up meeting. Every morning, the team gathers for a short meeting. It is called a 'stand-up' because people usually stand up to keep the meeting quick and energetic. Usually, these meetings last only 10 to 15 minutes.\n\nDuring the stand-up, each staff member answers three simple questions. First, what did you do yesterday? Second, what are you doing today? Third, do you have any blockers? A blocker is anything that stops a person from finishing their work. For example, if a server is down, that is a blocker. If a worker does not understand a task, that is also a blocker. By answering these three questions every day, the project manager knows the exact status of the project without asking too many questions. If someone has a problem, another team member can step in and offer help immediately.\n\nAfter the meeting, the team usually updates a digital task board. They move their digital notes to different columns, like 'To Do', 'In Progress', or 'Done'. This helps everyone see the progress clearly at any time of day. The daily stand-up is not for long discussions or deep problem solving. It is just a quick check. If two colleagues need to talk more about a big problem, they will schedule a different meeting later in the day. This daily routine keeps the project moving smoothly and prevents major delays. It also builds a strong, supportive team environment because everyone talks to each other every single day.",
+                "jpn": "現代の企業のオフィスでは、迅速で明確なコミュニケーションが極めて重要です。多くの開発チームやビジネスチームは「アジャイル」と呼ばれるシステムを使用しています。アジャイルの重要な部分が毎日のスタンドアップミーティングです。毎朝、チームは短い会議のために集まります。会議を素早くエネルギッシュに保つために人々が通常立ち上がることから、「スタンドアップ」と呼ばれています。通常、これらの会議はわずか10〜15分しか続きません。\n\nスタンドアップの間、各スタッフは3つの簡単な質問に答えます。第一に、昨日は何をしましたか？第二に、今日は何をしていますか？第三に、何かブロッカー（障害）はありますか？ブロッカーとは、人が仕事を終えるのを妨げるあらゆるもののことです。例えば、サーバーがダウンしている場合、それはブロッカーです。労働者がタスクを理解していない場合もブロッカーになります。毎日これらの質問に答えることで、プロジェクトマネージャーは多すぎる質問をすることなく、プロジェクトの正確な状況を把握します。もし誰かが問題を抱えていれば、他のチームメンバーが介入し、すぐに助けを提供できます。\n\n会議の後、チームは通常デジタルタスクボードを更新します。彼らはデジタルメモを「To Do（やるべきこと）」「In Progress（進行中）」「Done（完了）」などの異なる列に移動させます。これは全員が1日のどの時間でも進捗を明確に見るのに役立ちます。毎日のスタンドアップは長時間の議論や深い問題解決のためのものではありません。単なる素早い確認です。もし2人の同僚が大きな問題についてもっと話す必要がある場合は、その日の後半に別の会議を予定します。この毎日のルーティンはプロジェクトをスムーズに進め、大きな遅延を防ぎます。また、全員が毎日お互いに話すため、強力で協力的なチーム環境を構築します。"
             }
         }
-    },
+},
     {
         id: 3, 
         chapter: "Chapter 1: Everyday Office Routines", 
@@ -304,10 +312,19 @@ pronunciation: {
     eng: "Link the comparative adjective directly into a weak 'than' sound (/ðən/): fas-ter_than, har-der_than.",
     jpn: "比較級の形容詞と弱く発音される「than（/ðən/）」を繋げて発音しましょう（例：fas-ter_than, har-der_than）。"
 },
-        introArticle: [
-            { eng: "The workplace is changing very quickly. In the past, everyone traveled to an office every day. Today, many companies let people work from home. Working from home is very popular because it is easier to change your schedule. You do not have to take crowded trains. This saves a lot of time and energy. Your home is often more comfortable than a busy office.", jpn: "職場は非常に速く変化しています。過去には、誰もが毎日オフィスに通っていました。今日、多くの企業が在宅勤務を許可しています。在宅勤務はスケジュールを変更しやすいので非常に人気があります。満員電車に乗る必要がありません。これは多くの時間とエネルギーを節約します。あなたの家は、忙しいオフィスよりも快適であることが多いです。" },
-            { eng: "However, working from home is not always perfect. It is free but lonely. Some people want to talk to their coworkers face-to-face. On the other hand, working in a normal office has many good points. Talking is much faster. If you have a problem, you can walk to your manager's desk and ask a question right away. Team meetings are often better when everyone is in the same room. It is easier to share ideas together.", jpn: "しかし、在宅勤務は常に完璧というわけではありません。自由ですが孤独です。同僚と対面で話したいと思う人もいます。一方で、通常のオフィスで働くことには多くの良い点があります。話すことははるかに速いです。問題があれば、マネージャーのデスクに歩いて行き、すぐに質問することができます。全員が同じ部屋にいるとき、チーム会議はしばしばより良くなります。アイデアを一緒に共有するのがより簡単です。" },
-            { eng: "The office is busy but exciting. However, the morning train ride is terrible. Trains are crowded and make people tired. Also, buying lunch near the office is more expensive than eating at home. When we compare these two styles, we see different good points. Home work is cheaper and more comfortable. Office work is faster and better for teamwork. Many businesses now use a mixed system. People work at home for three days and go to the office for two days. This system is modern and balanced.", jpn: "オフィスは忙しいですが刺激的です。しかし、朝の電車の乗車はひどいものです。電車は混雑しており、人々を疲れさせます。また、オフィスの近くで昼食を買うのは、家で食べるよりも高価です。これら2つのスタイルを比較すると、異なる良い点が見えます。在宅勤務はより安く、より快適です。オフィスワークはより速く、チームワークにより適しています。現在、多くの企業が混合システムを使用しています。人々は3日間家で働き、2日間オフィスに行きます。このシステムは現代的でバランスが取れています。" }
+introArticle: [
+            {
+                eng: "Work is changing fast. In the past, everyone went to an office every day. Today, many companies let people work from home. Working from home is very popular because you can choose your time. You do not have to take full trains. This saves a lot of time. Your home is often more comfortable than a busy office.",
+                jpn: "仕事のあり方は速く変わっています。昔は、誰もが毎日オフィスに行っていました。今日では、多くの会社が家で働くことを許しています。自分の時間を選べるため、在宅勤務はとても人気があります。満員の電車に乗る必要がありません。これで多くの時間が節約できます。あなたの家は、忙しいオフィスよりも快適であることが多いです。"
+            },
+            {
+                eng: "But, working from home is not always perfect. You are free, but you can feel alone. Some people want to talk to the people they work with. Working in a normal office has many good points, too. Talking is much faster. If you have a problem, you can walk to your boss and ask a question. Team meetings are often better when everyone is in the same room. It is easier to share ideas.",
+                jpn: "しかし、在宅勤務はいつも完璧というわけではありません。自由ですが、一人ぼっちに感じることもあります。一緒に働く人と話したいと思う人もいます。普通のオフィスで働くことにも、良い点がたくさんあります。話すほうがずっと早いです。問題があれば、上司のところに歩いて行って質問できます。チームの会議は、みんなが同じ部屋にいるときのほうが良くなることが多いです。アイデアを共有するのがもっと簡単になります。"
+            },
+            {
+                eng: "The office is busy but exciting. But the morning train is terrible. Trains are full and make people tired. Also, buying lunch near the office is more expensive than eating at home. Both ways of working have good points. Working at home is cheaper and more comfortable. Working in the office is faster and better for teamwork. Many businesses now use a mix. People work at home for three days and go to the office for two days. This way is modern and good for everyone.",
+                jpn: "オフィスは忙しいですが、刺激的です。しかし、朝の電車はひどいです。電車はいっぱいで、人々を疲れさせます。また、オフィスの近くで昼食を買うのは、家で食べるよりも高いです。両方の働き方には良い点があります。家で働くことは安くて快適です。オフィスで働くことは早く、チームワークに良いです。今では、多くの会社が両方を混ぜて使っています。人々は3日間家で働き、2日間オフィスに行きます。このやり方は現代的で、みんなにとって良いものです。"
+            }
         ],
         discussionTopics: [
             { titleEng: "Working from Home", titleJpn: "在宅勤務", subtopics: [{ eng: "No morning commute", jpn: "朝の通勤がない" }, { eng: "Comfortable environment", jpn: "快適な環境" }, { eng: "Feeling lonely", jpn: "孤独を感じる" }] },
@@ -434,8 +451,8 @@ pronunciation: {
         goal: "Report a problem and explain the cause using adverbs of cause and result. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(問題を報告し、原因と結果を表す副詞を使ってその原因を説明してください。)</span>",
 pronunciation: {
     title: "Pronunciation: Empathy Intonation",
-    eng: "Practice saying 'That's terrible' with falling, sympathetic intonation, and 'That's great' with rising, happy intonation.",
-    jpn: "「That's terrible」をトーンを下げて共感的に、「That's great」をトーンを上げて嬉しそうに発音する練習をしましょう。"
+    eng: "Practice saying 'That's terrible' with falling, sympathetic intonation.",
+    jpn: "「That's terrible」をトーンを下げて共感的に発音する練習をしましょう。"
 },
         vocab: [
             { eng: "Schedule", jpn: "スケジュール / 予定", exEng: "We are behind schedule.", exJpn: "私たちはスケジュールから遅れています。" },
@@ -592,13 +609,22 @@ pronunciation: {
         goal: "Discuss future ideas, brainstorm options, and express strong opinions using superlative adjectives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(将来のアイデアについて議論し、選択肢をブレインストーミングし、最上級の形容詞を使って強い意見を表現する。)</span>",
 pronunciation: {
     title: "Pronunciation: Syllable Stress",
-    eng: "Count the syllables in the superlative adjectives and emphasize the stressed syllable (e.g., SMAR-test, most ex-PEN-sive).",
-    jpn: "最上級の形容詞の音節を数え、アクセントのある音節を強調しましょう（例：SMAR-test, most ex-PEN-sive）。"
+    eng: "adding 'est' or 'most' never changes the original stress of the base adjective SMARt > SMAR-test.",
+    jpn: "「est」や「most」を付けても、基本となる形容詞の元の強勢が変わることはありません。"
 },
-        introArticle: [
-            { eng: "When we look at the future of business, we see many exciting things. First, future computers will change how we work. AI programs are becoming very smart and helpful. With fast internet and new smart phones, we can do our work much faster than before. Because of this technology, many businesses are planning to grow. They are making new things to sell. They are also opening new offices in different countries and finding new staff. A growing company is a busy company.", jpn: "ビジネスの未来を見ると、多くのワクワクすることがあります。まず、未来のコンピューターが私たちの働き方を変えるでしょう。AIプログラムはとても賢く、役に立つようになっています。高速インターネットと新しいスマートフォンにより、私たちは以前よりもはるかに速く仕事をこなすことができます。この技術のおかげで、多くの企業が成長を計画しています。彼らは売るための新しいものを作っています。また、様々な国に新しいオフィスをオープンし、新しいスタッフを見つけています。成長している会社は忙しい会社です。" },
-            { eng: "To grow, a company needs good ideas. Managers and workers have team meetings to share their thoughts. Writing on whiteboards helps everyone see the plan clearly. Then, the team works together to choose the best idea. Of course, every business has hard times, so solving problems is a very important skill. Finding the reason for a problem is the first step. Then, companies must look for cheap answers and take fast actions to fix the problem. The smartest teams always test their ideas first.", jpn: "成長するために、会社には良いアイデアが必要です。マネージャーと労働者はチーム会議を開き、考えを共有します。ホワイトボードに書くことで、全員が計画を明確に見やすくなります。その後、チームは協力して最良のアイデアを選びます。もちろん、どのビジネスにも困難な時期はあるため、問題解決は非常に重要なスキルです。問題の理由を見つけることが最初のステップです。次に、企業は安い答えを探し、問題を修正するために素早い行動をとらなければなりません。最も賢いチームは常に最初にアイデアをテストします。" },
-            { eng: "For workers, planning for the future is also changing. Learning new things is necessary to stay useful in a modern office. Workers are always thinking about getting a better job or moving to a new city. Finally, we must think about big changes in the world. Working on the internet lets people work from any country in the world. Online shopping is changing how we buy things, and using clean energy is important to protect our earth. By planning carefully today, we can build a strong world for tomorrow.", jpn: "労働者にとって、将来の計画も変化しています。現代のオフィスで役に立ち続けるためには、新しいことを学ぶことが必要です。労働者は常に、より良い仕事に就くことや新しい都市へ引っ越すことを考えています。最後に、私たちは世界的な大きな変化について考えなければなりません。インターネットで働くことで、人々は世界中のどの国からでも働くことができます。オンラインショッピングは私たちの物の買い方を変えており、クリーンエネルギーを使うことは地球を守るために重要です。今日慎重に計画することで、私たちは明日のための強い世界を築くことができます。" }
+introArticle: [
+            { 
+                eng: "Business will change a lot in the future. Computers and AI are very smart now. We use fast internet and smart phones to work quickly. Because of this, many companies want to grow. They make new things to sell. They open new offices and find new workers. A growing company is very busy.", 
+                jpn: "ビジネスは将来大きく変わります。コンピューターやAIは今、とても賢いです。私たちは速いインターネットやスマートフォンを使って早く仕事をします。このため、多くの会社は大きくなりたいと思っています。彼らは売るための新しいものを作ります。新しいオフィスを開いて、新しい働き手を見つけます。成長する会社はとても忙しいです。" 
+            },
+            { 
+                eng: "A company needs good ideas to grow. Managers and workers have meetings to talk. They write on whiteboards to see the plan. Then, the team chooses the best idea. Sometimes, business is hard. Fixing problems is important. First, you must find why there is a problem. Next, you must act fast to fix it. Good teams always test their ideas first.", 
+                jpn: "会社が大きくなるには、良いアイデアが必要です。マネージャーと働く人は会議で話します。彼らは計画を見るためにホワイトボードに書きます。そして、チームは一番良いアイデアを選びます。時々、ビジネスは難しいです。問題を直すことは大切です。まず、なぜ問題があるのかを見つけなければなりません。次に、それを直すために早く動かなければなりません。良いチームはいつも最初にアイデアを試します。" 
+            },
+            { 
+                eng: "Jobs are changing too. Workers must learn new things for their office. Many workers want to find a better job or move to a new city. We must also think about the world. People can use the internet to work from any country. We buy things online now. We also need clean energy for our earth. If we plan well today, our world will be good tomorrow.", 
+                jpn: "仕事も変わっています。働く人はオフィスのために新しいことを学ばなければなりません。多くの人が、より良い仕事を見つけたり、新しい町へ引っ越したいと思っています。私たちは世界についても考えなければなりません。人々はインターネットを使って、どの国からでも働くことができます。私たちは今、オンラインで買い物をします。私たちの地球にはクリーンエネルギーも必要です。今日しっかり計画すれば、私たちの世界は明日良くなるでしょう。" 
+            }
         ],
         discussionTopics: [
             { titleEng: "Future Technology", titleJpn: "未来のテクノロジー", subtopics: [{ eng: "AI tools", jpn: "AIツール" }, { eng: "Fast internet", jpn: "高速インターネット" }, { eng: "Smart devices", jpn: "スマートデバイス" }] },
@@ -671,12 +697,12 @@ pronunciation: {
                 ] 
             }
         ],
-        expressions: [
-            { eng: "To my mind...", jpn: "私の考えでは...", exampleEng: "To my mind, the easiest solutions are usually the best ones.", exampleJpn: "私の考えでは、最も簡単な解決策が通常最良のものです。" },
-            { eng: "Without a doubt...", jpn: "間違いなく...", exampleEng: "Without a doubt, managing our time is the biggest challenge.", exampleJpn: "間違いなく、私たちの時間を管理することが最大の課題です。" },
-            { eng: "For this reason...", jpn: "このような理由から...", exampleEng: "Option A is the cheapest. For this reason, we should choose it.", exampleJpn: "オプションAが最も安いです。このような理由から、私たちはそれを選ぶべきです。" },
-            { eng: "Because of this...", jpn: "このために...", exampleEng: "The new software is the fastest. Because of this, it is the best option.", exampleJpn: "新しいソフトウェアが最も速いです。このために、それが最良の選択肢です。" },
-            { eng: "Actually...", jpn: "実は...", exampleEng: "Some people like the old system. Actually, the new system is much easier to use.", exampleJpn: "古いシステムが好きな人もいます。実は、新しいシステムの方がはるかに使いやすいです。" }
+expressions: [
+            { eng: "I think...", jpn: "〜だと思います...", exampleEng: "I think the easiest solutions are usually the best ones.", exampleJpn: "最も簡単な解決策が通常最良のものだと思います。" },
+            { eng: "Definitely...", jpn: "絶対に... / 間違いなく...", exampleEng: "Managing our time is definitely the biggest challenge.", exampleJpn: "間違いなく、私たちの時間を管理することが最大の課題です。" },
+            { eng: "That's why...", jpn: "だから... / そのため...", exampleEng: "Option A is the cheapest. That's why we should choose it.", exampleJpn: "オプションAが最も安いです。だから、私たちはそれを選ぶべきです。" },
+            { eng: "So...", jpn: "だから... / それで...", exampleEng: "The new software is the fastest, so it is the best option.", exampleJpn: "新しいソフトウェアが最も速いので、それが最良の選択肢です。" },
+            { eng: "The truth is...", jpn: "実は... / 本当のところは...", exampleEng: "Some people like the old system. The truth is, the new system is much easier to use.", exampleJpn: "古いシステムが好きな人もいます。実は、新しいシステムの方がはるかに使いやすいです。" }
         ],
         homework: {
             vocab: [
@@ -717,130 +743,130 @@ pronunciation: {
             }
         }
     },
-    {
-        id: 6, 
-        chapter: "Chapter 1: Everyday Office Routines", 
-        type: "casestudy", 
-        title: "Lesson 006: Case Study - The New Digital Tool",
-        goal: "Analyze a complex software problem, find the causes from staff reports, and propose a complete solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(複雑なソフトウェアの問題を分析し、スタッフの報告から原因を見つけ、完全な解決策を提案する。)</span>",
-pronunciation: {
-    title: "Pronunciation: Consonant to Vowel Linking",
-    eng: "Practice linking a final consonant directly into a starting vowel (e.g., find_anything -> fin-dany-thing, moved_our -> move-dour).",
-    jpn: "最後の子音を次の母音と直接繋げて発音する練習をしましょう（例：find_anything -> fin-dany-thing, moved_our -> move-dour）。"
-},
-        vocab: [
-            { eng: "Digital tool", jpn: "デジタルツール", exEng: "This digital tool helps me organize my tasks.", exJpn: "このデジタルツールはタスクを整理するのに役立ちます。" },
-            { eng: "Issue", jpn: "問題 / 課題", exEng: "We found a minor issue with the website.", exJpn: "ウェブサイトに小さな問題が見つかりました。" },
-            { eng: "Missing", jpn: "見つからない / 欠けている", exEng: "My keys are missing from my desk.", exJpn: "私の机から鍵がなくなっています。" },
-            { eng: "Spam", jpn: "迷惑メール / スパム", exEng: "Please check your spam folder for the email.", exJpn: "メールが迷惑メールフォルダーにないか確認してください。" },
-            { eng: "Access", jpn: "アクセス / 接続", exEng: "Only staff can access this room.", exJpn: "スタッフのみがこの部屋にアクセスできます。" },
-            { eng: "Training", jpn: "トレーニング / 研修", exEng: "We have software training next Tuesday.", exJpn: "次の火曜日にソフトウェアのトレーニングがあります。" },
-            { eng: "Smartphone", jpn: "スマートフォン", exEng: "He reads the news on his smartphone.", exJpn: "彼はスマートフォンでニュースを読みます。" },
-            { eng: "Feature", jpn: "機能", exEng: "The camera is the best feature of this phone.", exJpn: "カメラはこの携帯電話の最高の機能です。" },
-            { eng: "Fail", jpn: "失敗する", exEng: "If the internet drops, the upload will fail.", exJpn: "インターネットが途切れると、アップロードは失敗します。" },
-            { eng: "Solve", jpn: "解決する", exEng: "We need a team to solve this difficult problem.", exJpn: "この難しい問題を解決するチームが必要です。" },
-            { eng: "Data", jpn: "データ", exEng: "Please save all your data to the hard drive.", exJpn: "すべてのデータをハードドライブに保存してください。" },
-            { eng: "Folder", jpn: "フォルダー", exEng: "I put the meeting notes in a blue folder.", exJpn: "会議のメモを青いフォルダーに入れました。" },
-            { eng: "System", jpn: "システム", exEng: "The alarm system turns on at night.", exJpn: "警報システムは夜にオンになります。" },
-            { eng: "Manager", jpn: "マネージャー", exEng: "The store manager is talking to a customer.", exJpn: "店長がお客様と話しています。" }
-        ],
-        situation: { eng: "Our company recently bought a very expensive computer program. The bosses thought this new software would help everyone work much faster and talk more easily. The goal was to stop using our old, slow ways. We wanted to have one place for all our work. However, the new tool is completely failing. Work is getting slower every day. The staff is very angry, and many people really hate using the new app because it stops their work. We are losing a lot of money and wasting many hours every week. People are going home late because they have to fix mistakes. Because of this terrible situation, the boss is very worried. He knows there are big problems, but he does not know the exact reasons why the software is failing so badly. He wants to know why the staff cannot do their jobs. To fix this big problem, you must find the answers. You will listen to four different workers from different groups in the company. Each person will explain a different part of the problem. You must read their stories carefully to understand everything. If you only fix one problem, the system will still fail. For example, if you only fix the computers, the people will still be unhappy. You must find out all the true reasons for this big failure. Your final goal is to build a step-by-step plan to fix all four areas of the software, teach the staff, and make everyone happy again. Please read the words from the four workers below to begin.", jpn: "私たちの会社は最近、非常に高価なコンピュータープログラムを購入しました。上司たちは、この新しいソフトウェアが全員の作業をずっと速くし、より簡単にコミュニケーションをとるのに役立つと考えました。目標は、古くて遅い方法を使うのをやめることでした。すべての仕事のために1つの場所を持ちたかったのです。しかし、新しいツールは完全に失敗しています。仕事は毎日遅くなっています。スタッフはとても怒っており、多くの人が自分の仕事を止めてしまうため、新しいアプリを使うことを本当に嫌がっています。私たちは毎週、多くのお金を失い、何時間も無駄にしています。人々は間違いを直さなければならないので、遅く家に帰っています。このひどい状況のため、上司はとても心配しています。彼は大きな問題があることは知っていますが、なぜソフトウェアがこれほどひどく失敗しているのか、正確な理由は知りません。彼はなぜスタッフが仕事ができないのかを知りたがっています。この大きな問題を解決するために、あなたは答えを見つけなければなりません。あなたは会社内の異なるグループの4人の労働者の話を聞きます。それぞれが問題の異なる部分を説明します。すべてを理解するために、彼らの話を注意深く読まなければなりません。1つの問題だけを修正しても、システムは依然として失敗します。例えば、コンピューターだけを直しても、人々は依然として不幸せなままです。あなたはこの大失敗のすべての本当の理由を見つけ出さなければなりません。あなたの最終的な目標は、ソフトウェアの4つの領域すべてを修正し、スタッフを教え、全員を再び幸せにするための段階的な計画を構築することです。始めるために、以下の4人の労働者の言葉を読んでください。" },
-        people: [
-            { name: "Person 1: Ken (Data Manager)", eng: "This is the most terrible data problem our department has ever had. When the company started the new system last month, nobody moved our old files into the new system. Because of this, the new system is empty. Now, we cannot find anything from last year. Important client papers and old reports are completely missing. My team spends at least three hours every single day just searching for old data in the broken folders. We look very foolish when important clients ask for their papers, and we have to say we lost them. We are very tired of looking for things.", jpn: "これは私たちの部署がこれまでに抱えた中で最もひどいデータの問題です。会社が先月新しいシステムを始めた時、誰も私たちの古いファイルを新しいシステムに移動しませんでした。このため、新しいシステムは空っぽです。今、私たちは去年のものを何も見つけることができません。重要なクライアントの書類や古い報告書が完全に行方不明です。私のチームは壊れたフォルダーの中で古いデータを探すためだけに、毎日少なくとも3時間を費やしています。重要なクライアントが書類を求めてきたとき、私たちはそれをなくしたと言わなければならず、とても馬鹿げて見えます。私たちは物を探すのにとても疲れています。" },
-            { name: "Person 2: Lisa (Project Manager)", eng: "The new app is the loudest and most annoying system I have ever used. It sends me about fifty emails every single day. Every time someone uploads a file, writes a comment, or finishes a task, my phone rings. My email box is completely full of useless messages from the app. Because of this, I cannot find the real, important emails from my actual clients. The constant noise gives me a terrible headache, and I cannot focus on my work at my desk. I have to turn off my phone, but then I miss real phone calls.", jpn: "新しいアプリは私が今まで使った中で最も騒々しく、最も煩わしいシステムです。1日に約50通のメールを送ってきます。誰かがファイルをアップロードしたり、コメントを書いたり、タスクを終わらせたりするたびに、私の電話が鳴ります。私のメールボックスはアプリからの役に立たないメッセージで完全にいっぱいです。このため、実際のクライアントからの本当の重要なメールを見つけることができません。絶え間ない騒音が私にひどい頭痛を与え、デスクでの仕事に集中することができません。電話の電源を切らなければなりませんが、そうすると本当の電話に出られなくなります。" },
-            { name: "Person 3: Mark (Sales Team)", eng: "This software is the biggest problem for my sales team. The app looks beautiful on a computer screen, but it does not work on smartphones at all. When we visit clients outside the office, we cannot use the system to show them the new product prices. Because we have no mobile phone access, we have to write all our notes on paper. Then, we have to type them into the computer later at night. We look very bad in front of our buyers, and we are losing a lot of sales. It takes too much time.", jpn: "このソフトウェアは私の営業チームにとって最大の問題です。アプリはコンピューターの画面では美しく見えますが、スマートフォンでは全く動きません。オフィスの外でクライアントを訪問するときに、システムを使って新製品の価格を見せることができません。携帯電話でのアクセスがないため、すべてのメモを紙に書かなければなりません。その後、夜遅くにコンピューターに入力しなければなりません。私たちはバイヤーの前でとても悪く見え、多くの売上を失っています。時間がかかりすぎます。" },
-            { name: "Person 4: Yui (New Staff)", eng: "This is the hardest software to learn in the world, especially for a beginner like me. The bosses gave zero training time to the new staff before they started it. There is no instruction book, no help video, and no help desk to call. We do not know how to use the basic parts of the app. People are clicking the wrong buttons and deleting important tasks by accident because the design is so confusing. Everyone is crying at their desks because they feel stupid. We do not know what to do when we see an error screen.", jpn: "これは世界で学ぶのが最も難しいソフトウェアであり、特に私のような初心者にとってはそうです。上司たちはそれを始める前に、新入社員に対してトレーニング時間をゼロにしました。説明書も、ヘルプビデオも、電話をかけるヘルプデスクもありません。私たちはアプリの基本的な部分の使い方を知りません。デザインがとても紛らわしいため、人々は間違ったボタンをクリックし、誤って重要なタスクを削除してしまいます。みんな自分が馬鹿だと感じるため、自分のデスクで泣いています。エラー画面を見たとき、どうすればいいのかわかりません。" }
-        ],
-        grammarPoints: [
-            { 
-                point: "1. Adjectives: Comparing 3 or more things (+est / most)", 
-                hint: "Use 'the most' for long adjectives, or add '-est' to short adjectives.", 
-                shortExample: "This is the most terrible data problem.", 
-                explanation: "When someone wants to emphasize the extreme scale of their problem, they use superlative adjectives. In the text, the staff use phrases like 'the most terrible', 'the loudest', 'the biggest', and 'the hardest' to show the boss how severe the situation is.", 
-                explanationJpn: "誰かが自分の問題の極端な規模を強調したいとき、彼らは最上級の形容詞を使用します。テキストの中で、スタッフは状況がいかに深刻かを上司に示すために「the most terrible（最もひどい）」「the loudest（最も騒々しい）」「the biggest（最大の）」「the hardest（最も難しい）」といったフレーズを使用しています。", 
-                examples: [
-                    { eng: "This is the most terrible data problem.", jpn: "これは最もひどいデータの問題です。" }, 
-                    { eng: "This software is the biggest problem.", jpn: "このソフトウェアは最大の問題です。" }
-                ] 
-            },
-            { 
-                point: "2. Pronouns: Indefinite pronouns (nobody, anything, everyone)", 
-                hint: "Use indefinite pronouns to refer to vague groups of people or things.", 
-                shortExample: "Nobody moved our old project files.", 
-                explanation: "To talk about groups of people or things without naming them specifically, the speakers use indefinite pronouns. For example, 'nobody moved the files', 'we cannot find anything', and 'everyone is crying'.", 
-                explanationJpn: "具体的に名前を挙げずに人々や物のグループについて話すために、話し手は不定代名詞を使用します。例えば、「nobody moved the files（誰もファイルを移動しなかった）」、「we cannot find anything（何も見つけられない）」、「everyone is crying（みんな泣いている）」などです。", 
-                examples: [
-                    { eng: "Nobody moved our old project files.", jpn: "誰も私たちの古いプロジェクトファイルを移動しませんでした。" }, 
-                    { eng: "We cannot find anything.", jpn: "私たちは何も見つけることができません。" }
-                ] 
-            },
-            { 
-                point: "3. Adverbs: Cause and Result (Because of this, so)", 
-                hint: "Use 'because of this' or 'so' to connect a problem to its result.", 
-                shortExample: "Because of this, I cannot find the real emails.", 
-                explanation: "The speakers need to explain the results of the software problems. They use phrases like 'because of this' (due to the spam, I lose emails) or 'so' (it is confusing, so people make mistakes) to clearly link the cause to the result.", 
-                explanationJpn: "話し手はソフトウェアの問題の結果を説明する必要があります。彼らは「because of this（このために：スパムのせいでメールを失う）」や「so（だから：紛らわしい、だから人々は間違える）」のようなフレーズを使って、原因と結果を明確に結びつけています。", 
-                examples: [
-                    { eng: "Because of this, I cannot find the real emails.", jpn: "このために、本当のメールを見つけることができません。" }, 
-                    { eng: "Because of this, the new system is empty.", jpn: "このために、新しいシステムは空っぽです。" }
-                ] 
-            }
-        ],
-        discussionPoints: [
-            { eng: "What's the problem?", jpn: "問題は何ですか？" },
-            { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
-            { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
-        ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
-        ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
-
-
-
-        homework: {
-            vocab: [
-                { eng: "Advanced", jpn: "高度な / 進んだ", exEng: "He takes an advanced English class.", exJpn: "彼は高度な英語のクラスを受講しています。" },
-                { eng: "Basic", jpn: "基本的な", exEng: "We learned basic math today.", exJpn: "私たちは今日基本的な数学を学びました。" },
-                { eng: "Update", jpn: "更新する", exEng: "Please update your app.", exJpn: "アプリを更新してください。" },
-                { eng: "Complain", jpn: "文句を言う", exEng: "The customer called to complain.", exJpn: "顧客が文句を言うために電話をかけてきました。" },
-                { eng: "Explain", jpn: "説明する", exEng: "Can you explain this to me?", exJpn: "これを私に説明してくれますか？" },
-                { eng: "Organized", jpn: "整理された", exEng: "My desk is very organized.", exJpn: "私のデスクはとても整理されています。" },
-                { eng: "Messy", jpn: "散らかった", exEng: "His room is always messy.", exJpn: "彼の部屋はいつも散らかっています。" },
-                { eng: "Refuse", jpn: "拒否する", exEng: "I refuse to eat this.", exJpn: "私はこれを食べることを拒否します。" },
-                { eng: "Accept", jpn: "受け入れる", exEng: "I accept your apology.", exJpn: "私はあなたの謝罪を受け入れます。" },
-                { eng: "Solution", jpn: "解決策", exEng: "We found a good solution.", exJpn: "私たちは良い解決策を見つけました。" },
-                { eng: "Require", jpn: "必要とする", exEng: "This job requires a lot of skill.", exJpn: "この仕事には多くのスキルが必要です。" },
-                { eng: "Patience", jpn: "忍耐", exEng: "Teaching requires a lot of patience.", exJpn: "教えることには多くの忍耐が必要です。" },
-                { eng: "Software", jpn: "ソフトウェア", exEng: "I bought new editing software.", exJpn: "新しい編集用ソフトウェアを買いました。" },
-                { eng: "Network", jpn: "ネットワーク", exEng: "The office network is fast.", exJpn: "オフィスのネットワークは速いです。" }
-            ],
-            writingTask: { promptEng: "Write a short paragraph answering this question: What is your solution to the four software problems? Please use superlative adjectives (the most..., the easiest...).", promptJpn: "「4つのソフトウェア問題に対するあなたの解決策は何ですか？」という質問に答える短い段落を書いてください。最上級の形容詞（the most..., the easiest...など）を含めてください。" },
-            clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
-            clickingGamesDesc: "Translate the 10 sentences to practice superlative adjectives with long words and nouns.",
-            clickingGames: [
-                { prompt: "これは最も難しい問題です。", target: "This is the most difficult problem.", words: ["This", "is", "the", "most", "difficult", "problem."] },
-                { prompt: "それは最も高価なソフトウェアです。", target: "It is the most expensive software.", words: ["It", "is", "the", "most", "expensive", "software."] },
-                { prompt: "彼は最もひどいマネージャーです。", target: "He is the most terrible manager.", words: ["He", "is", "the", "most", "terrible", "manager."] },
-                { prompt: "新しいアプリは最も煩わしいシステムです。", target: "The new app is the most annoying system.", words: ["The", "new", "app", "is", "the", "most", "annoying", "system."] },
-                { prompt: "これが最も緊急のタスクです。", target: "This is the most urgent task.", words: ["This", "is", "the", "most", "urgent", "task."] },
-                { prompt: "明確なコミュニケーションが最も重要なツールです。", target: "Clear communication is the most important tool.", words: ["Clear", "communication", "is", "the", "most", "important", "tool."] },
-                { prompt: "これが今年最大の課題です。", target: "This is the biggest challenge this year.", words: ["This", "is", "the", "biggest", "challenge", "this", "year."] },
-                { prompt: "私が使った中で最も騒々しいアプリです。", target: "It is the loudest app I have used.", words: ["It", "is", "the", "loudest", "app", "I", "have", "used."] },
-                { prompt: "それは学ぶのが最も難しいソフトウェアです。", target: "That is the hardest software to learn.", words: ["That", "is", "the", "hardest", "software", "to", "learn."] },
-                { prompt: "彼らは最も高度なモバイル版を買いました。", target: "They bought the most advanced mobile version.", words: ["They", "bought", "the", "most", "advanced", "mobile", "version."] }
-            ],
-            extendedReading: {
-                title: "Task 4: Extended Reading (Solving Big Software Problems)",
-                eng: "In the modern business world, companies always want to work faster. They often buy new software to help the team. However, buying a tool is only the first step. If the staff cannot use the tool easily, it becomes the biggest waste of money. A bad software rollout can cause many different problems at the same time. The staff will feel angry, and productivity will drop completely. It will become the most difficult challenge for the management team.\n\nWhen a big problem happens, managers must not panic. They must break the big problem into small pieces. For example, missing data is a technical problem. Annoying emails are a settings problem. Bad smartphone access is a hardware problem. Having no training is a human problem. You must fix all four of these areas if you want the project to succeed. If you only fix the technical side, the human problems will still ruin the project.\n\nTo solve these complex problems, clear communication is the most important tool. A good leader will stop their normal work and listen to the staff's complaints. Then, they will make a careful, step-by-step plan. They might hire extra help to move the old data. They will change the system settings to stop the noise. They will buy mobile access for the people outside. Finally, they will schedule a friendly training day for all the new staff.\n\nChange is never the easiest path for a company. Learning new tools is always scary at first. But with patience, a good leader, and a clear plan, a team can overcome their fears. Fixing all the small problems will make the new system the most helpful tool in the office.",
-                jpn: "現代のビジネスの世界では、企業は常に速く働くことを望んでいます。彼らはチームを助けるためにしばしば新しいソフトウェアを購入します。しかし、ツールを購入することは最初のステップにすぎません。もしスタッフがツールを簡単に使えなければ、それは最大のお金の無駄になります。悪いソフトウェアの導入は、同時に多くの異なる問題を引き起こす可能性があります。スタッフは怒りを感じ、生産性は完全に低下するでしょう。それは経営陣にとって最も困難な課題となるでしょう。\n\n大きな問題が起きたとき、マネージャーはパニックになってはいけません。彼らは大きな問題を小さなピースに分解しなければなりません。例えば、データが見つからないのは技術的な問題です。煩わしいメールは設定の問題です。スマホアクセスが悪いのはハードウェアの問題です。トレーニングがないのは人間の問題です。プロジェクトを成功させたいなら、これら4つの領域すべてを直さなければなりません。もし技術的な側面だけを直しても、人間の問題が依然としてプロジェクトを台無しにするでしょう。\n\nこれらの複雑な問題を解決するには、明確なコミュニケーションが最も重要なツールです。優れたリーダーは通常の作業を止め、スタッフの不満に耳を傾けます。それから、彼らは慎重な、段階的な計画を立てます。彼らは古いデータを移動するために追加の助けを雇うかもしれません。彼らは騒音を止めるためにシステム設定を変更するでしょう。外にいる人々のためにモバイルアクセスを購入します。最後に、彼らはすべての新入社員のためにフレンドリーなトレーニングの日を予定します。\n\n変化は会社にとって決して最も簡単な道ではありません。新しいツールを学ぶことは最初は常に怖いものです。しかし、忍耐と優れたリーダー、そして明確な計画があれば、チームは恐怖を乗り越えることができます。すべての小さな問題を直すことが、新しいシステムをオフィスで最も役立つツールにするのです。"
-            }
-        }
+ {
+    id: 6, 
+    chapter: "Chapter 1: Everyday Office Routines", 
+    type: "casestudy", 
+    title: "Lesson 006: Case Study - The New Digital Tool",
+    goal: "Analyze a complex software problem, find the causes from staff reports, and propose a complete solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(複雑なソフトウェアの問題を分析し、スタッフの報告から原因を見つけ、完全な解決策を提案する。)</span>",
+    pronunciation: {
+        title: "Pronunciation: Consonant to Vowel Linking",
+        eng: "Practice linking a final consonant directly into a starting vowel (e.g., find_anything -> fin-dany-thing, moved_our -> move-dour).",
+        jpn: "最後の子音を次の母音と直接繋げて発音する練習をしましょう（例：find_anything -> fin-dany-thing, moved_our -> move-dour）。"
     },
+    vocab: [
+        { eng: "Digital tool", jpn: "デジタルツール", exEng: "This digital tool helps me organize my tasks.", exJpn: "このデジタルツールはタスクを整理するのに役立ちます。" },
+        { eng: "Issue", jpn: "問題 / 課題", exEng: "We found a minor issue with the website.", exJpn: "ウェブサイトに小さな問題が見つかりました。" },
+        { eng: "Missing", jpn: "見つからない / 欠けている", exEng: "My keys are missing from my desk.", exJpn: "私の机から鍵がなくなっています。" },
+        { eng: "Spam", jpn: "迷惑メール / スパム", exEng: "Please check your spam folder for the email.", exJpn: "メールが迷惑メールフォルダーにないか確認してください。" },
+        { eng: "Access", jpn: "アクセス / 接続", exEng: "Only staff can access this room.", exJpn: "スタッフのみがこの部屋にアクセスできます。" },
+        { eng: "Training", jpn: "トレーニング / 研修", exEng: "We have software training next Tuesday.", exJpn: "次の火曜日にソフトウェアのトレーニングがあります。" },
+        { eng: "Smartphone", jpn: "スマートフォン", exEng: "He reads the news on his smartphone.", exJpn: "彼はスマートフォンでニュースを読みます。" },
+        { eng: "Feature", jpn: "機能", exEng: "The camera is the best feature of this phone.", exJpn: "カメラはこの携帯電話の最高の機能です。" },
+        { eng: "Fail", jpn: "失敗する", exEng: "If the internet drops, the upload will fail.", exJpn: "インターネットが途切れると、アップロードは失敗します。" },
+        { eng: "Solve", jpn: "解決する", exEng: "We need a team to solve this difficult problem.", exJpn: "この難しい問題を解決するチームが必要です。" },
+        { eng: "Data", jpn: "データ", exEng: "Please save all your data to the hard drive.", exJpn: "すべてのデータをハードドライブに保存してください。" },
+        { eng: "Folder", jpn: "フォルダー", exEng: "I put the meeting notes in a blue folder.", exJpn: "会議のメモを青いフォルダーに入れました。" },
+        { eng: "System", jpn: "システム", exEng: "The alarm system turns on at night.", exJpn: "警報システムは夜にオンになります。" },
+        { eng: "Manager", jpn: "マネージャー", exEng: "The store manager is talking to a customer.", exJpn: "店長がお客様と話しています。" }
+    ],
+    situation: { 
+        eng: "Our company recently bought a very expensive computer program. The bosses thought this new software would help everyone work much faster and talk more easily. The goal was to stop using our old, slow ways. We wanted to have one place for all our work. However, the new tool is completely failing. Work is getting slower every day. The staff is very angry, and many people really hate using the new app because it stops their work. We are losing a lot of money and wasting many hours every week. People are going home late because they have to fix mistakes. Because of this terrible situation, the boss is very worried. He knows there are big problems, but he does not know the exact reasons why the software is failing so badly. He wants to know why the staff cannot do their jobs.To fix this big problem, you must find the answers. You will listen to four different workers from different groups in the company. Each person will explain a different part of the problem. You must read their stories carefully to understand everything. If you only fix one problem, the system will still fail. For example, if you only fix the computers, the people will still be unhappy. You must find out all the true reasons for this big failure. Your final goal is to build a step-by-step plan to fix all four areas of the software, teach the staff, and make everyone happy again. Please read the words from the four workers below to begin.", 
+        jpn: "私たちの会社は最近、非常に高価なコンピュータープログラムを購入しました。上司たちは、この新しいソフトウェアが全員の作業をずっと速くし、より簡単にコミュニケーションをとるのに役立つと考えました。目標は、古くて遅い方法を使うのをやめることでした。すべての仕事のために1つの場所を持ちたかったのです。しかし、新しいツールは完全に失敗しています。仕事は毎日遅くなっています。スタッフはとても怒っており、多くの人が自分の仕事を止めてしまうため、新しいアプリを使うことを本当に嫌がっています。私たちは毎週、多くのお金を失い、何時間も無駄にしています。人々は間違いを直さなければならないので、遅く家に帰っています。このひどい状況のため、上司はとても心配しています。彼は大きな問題があることは知っていますが、なぜソフトウェアがこれほどひどく失敗しているのか、正確な理由は知りません。彼はなぜスタッフが仕事ができないのかを知りたがっています。この大きな問題を解決するために、あなたは答えを見つけなければなりません。あなたは会社内の異なるグループの4人の労働者の話を聞きます。それぞれが問題の異なる部分を説明します。すべてを理解するために、彼らの話を注意深く読まなければなりません。1つの問題だけを修正しても、システムは依然として失敗します。例えば、コンピューターだけを直しても、人々は依然として不幸せなままです。あなたはこの大失敗のすべての本当の理由を見つけ出さなければなりません。あなたの最終的な目標は、ソフトウェアの4つの領域すべてを修正し、スタッフを教え、全員を再び幸せにするための段階的な計画を構築することです。始めるために、以下の4人の労働者の言葉を読んでください" 
+    },
+    people: [
+        { name: "Person 1: Ken (Data Manager)", eng: "This is the most terrible data problem our department has ever had. When the company started the new system last month, nobody moved our old files into the new system. Because of this, the new system is empty. Now, we cannot find anything from last year. Important client papers and old reports are completely missing. My team spends at least three hours every single day just searching for old data in the broken folders. We look very foolish when important clients ask for their papers, and we have to say we lost them. We are very tired of looking for things.", jpn: "これは私たちの部署がこれまでに抱えた中で最もひどいデータの問題です。会社が先月新しいシステムを始めた時、誰も私たちの古いファイルを新しいシステムに移動しませんでした。このため、新しいシステムは空っぽです。今、私たちは去年のものを何も見つけることができません。重要なクライアントの書類や古い報告書が完全に行方不明です。私のチームは壊れたフォルダーの中で古いデータを探すためだけに、毎日少なくとも3時間を費やしています。重要なクライアントが書類を求めてきたとき、私たちはそれをなくしたと言わなければならず、とても馬鹿げて見えます。私たちは物を探すのにとても疲れています。" },
+        { name: "Person 2: Lisa (Project Manager)", eng: "The new app is the loudest and most annoying system I have ever used. It sends me about fifty emails every single day. Every time someone uploads a file, writes a comment, or finishes a task, my phone rings. My email box is completely full of useless messages from the app. Because of this, I cannot find the real, important emails from my actual clients. The constant noise gives me a terrible headache, and I cannot focus on my work at my desk. I have to turn off my phone, but then I miss real phone calls.", jpn: "新しいアプリは私が今まで使った中で最も騒々しく、最も煩わしいシステムです。1日に約50通のメールを送ってきます。誰かがファイルをアップロードしたり、コメントを書いたり、タスクを終わらせたりするたびに、私の電話が鳴ります。私のメールボックスはアプリからの役に立たないメッセージで完全にいっぱいです。このため、実際のクライアントからの本当の重要なメールを見つけることができません。絶え間ない騒音が私にひどい頭痛を与え、デスクでの仕事に集中することができません。電話の電源を切らなければなりませんが、そうすると本当の電話に出られなくなります。" },
+        { name: "Person 3: Mark (Sales Team)", eng: "This software is the biggest problem for my sales team. The app looks beautiful on a computer screen, but it does not work on smartphones at all. When we visit clients outside the office, we cannot use the system to show them the new product prices. Because we have no mobile phone access, we have to write all our notes on paper. Then, we have to type them into the computer later at night. We look very bad in front of our buyers, and we are losing a lot of sales. It takes too much time.", jpn: "このソフトウェアは私の営業チームにとって最大の問題です。アプリはコンピューターの画面では美しく見えますが、スマートフォンでは全く動きません。オフィスの外でクライアントを訪問するときに、システムを使って新製品の価格を見せることができません。携帯電話でのアクセスがないため、すべてのメモを紙に書かなければなりません。その後、夜遅くにコンピューターに入力しなければなりません。私たちはバイヤーの前でとても悪く見え、多くの売上を失っています。時間がかかりすぎます。" },
+        { name: "Person 4: Yui (New Staff)", eng: "This is the hardest software to learn in the world, especially for a beginner like me. The bosses gave zero training time to the new staff before they started it. There is no instruction book, no help video, and no help desk to call. We do not know how to use the basic parts of the app. People are clicking the wrong buttons and deleting important tasks by accident because the design is so confusing. Everyone is crying at their desks because they feel stupid. We do not know what to do when we see an error screen.", jpn: "これは世界で学ぶのが最も難しいソフトウェアであり、特に私のような初心者にとってはそうです。上司たちはそれを始める前に、新入社員に対してトレーニング時間をゼロにしました。説明書も、ヘルプビデオも、電話をかけるヘルプデスクもありません。私たちはアプリの基本的な部分の使い方を知りません。デザインがとても紛らわしいため、人々は間違ったボタンをクリックし、誤って重要なタスクを削除してしまいます。みんな自分が馬鹿だと感じるため、自分のデスクで泣いています。エラー画面を見たとき、どうすればいいのかわかりません。" }
+    ],
+    grammarPoints: [
+        { 
+            point: "1. Adjectives: Comparing 3 or more things (+est / most)", 
+            hint: "Use 'the most' for long adjectives, or add '-est' to short adjectives.", 
+            shortExample: "This is the most terrible data problem.", 
+            explanation: "When someone wants to emphasize the extreme scale of their problem, they use superlative adjectives. In the text, the staff use phrases like 'the most terrible', 'the loudest', 'the biggest', and 'the hardest' to show the boss how severe the situation is.", 
+            explanationJpn: "誰かが自分の問題の極端な規模を強調したいとき、彼らは最上級の形容詞を使用します。テキストの中で、スタッフは状況がいかに深刻かを上司に示すために「the most terrible（最もひどい）」「the loudest（最も騒々しい）」「the biggest（最大の）」「the hardest（最も難しい）」といったフレーズを使用しています。", 
+            examples: [
+                { eng: "This is the most terrible data problem.", jpn: "これは最もひどいデータの問題です。" }, 
+                { eng: "This software is the biggest problem.", jpn: "このソフトウェアは最大の問題です。" }
+            ] 
+        },
+        { 
+            point: "2. Pronouns: Indefinite pronouns (nobody, anything, everyone)", 
+            hint: "Use indefinite pronouns to refer to vague groups of people or things.", 
+            shortExample: "Nobody moved our old project files.", 
+            explanation: "To talk about groups of people or things without naming them specifically, the speakers use indefinite pronouns. For example, 'nobody moved the files', 'we cannot find anything', and 'everyone is crying'.", 
+            explanationJpn: "具体的に名前を挙げずに人々や物のグループについて話すために、話し手は不定代名詞を使用します。例えば、「nobody moved the files（誰もファイルを移動しなかった）」、「we cannot find anything（何も見つけられない）」、「everyone is crying（みんな泣いている）」などです。", 
+            examples: [
+                { eng: "Nobody moved our old project files.", jpn: "誰も私たちの古いプロジェクトファイルを移動しませんでした。" }, 
+                { eng: "We cannot find anything.", jpn: "私たちは何も見つけることができません。" }
+            ] 
+        },
+        { 
+            point: "3. Adverbs: Cause and Result (Because of this, so)", 
+            hint: "Use 'because of this' or 'so' to connect a problem to its result.", 
+            shortExample: "Because of this, I cannot find the real emails.", 
+            explanation: "The speakers need to explain the results of the software problems. They use phrases like 'because of this' (due to the spam, I lose emails) or 'so' (it is confusing, so people make mistakes) to clearly link the cause to the result.", 
+            explanationJpn: "話し手はソフトウェアの問題の結果を説明する必要があります。彼らは「because of this（このために：スパムのせいでメールを失う）」や「so（だから：紛らわしい、だから人々は間違える）」のようなフレーズを使って、原因と結果を明確に結びつけています。", 
+            examples: [
+                { eng: "Because of this, I cannot find the real emails.", jpn: "このために、本当のメールを見つけることができません。" }, 
+                { eng: "Because of this, the new system is empty.", jpn: "このために、新しいシステムは空っぽです。" }
+            ] 
+        }
+    ],
+    discussionPoints: [
+        { eng: "What's the problem?", jpn: "問題は何ですか？" },
+        { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
+        { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
+    ],
+  expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
+        ],
+    roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
+    homework: {
+        vocab: [
+            { eng: "Advanced", jpn: "高度な / 進んだ", exEng: "He takes an advanced English class.", exJpn: "彼は高度な英語のクラスを受講しています。" },
+            { eng: "Basic", jpn: "基本的な", exEng: "We learned basic math today.", exJpn: "私たちは今日基本的な数学を学びました。" },
+            { eng: "Update", jpn: "更新する", exEng: "Please update your app.", exJpn: "アプリを更新してください。" },
+            { eng: "Complain", jpn: "文句を言う", exEng: "The customer called to complain.", exJpn: "顧客が文句を言うために電話をかけてきました。" },
+            { eng: "Explain", jpn: "説明する", exEng: "Can you explain this to me?", exJpn: "これを私に説明してくれますか？" },
+            { eng: "Organized", jpn: "整理された", exEng: "My desk is very organized.", exJpn: "私のデスクはとても整理されています。" },
+            { eng: "Messy", jpn: "散らかった", exEng: "His room is always messy.", exJpn: "彼の部屋はいつも散らかっています。" },
+            { eng: "Refuse", jpn: "拒否する", exEng: "I refuse to eat this.", exJpn: "私はこれを食べることを拒否します。" },
+            { eng: "Accept", jpn: "受け入れる", exEng: "I accept your apology.", exJpn: "私はあなたの謝罪を受け入れます。" },
+            { eng: "Solution", jpn: "解決策", exEng: "We found a good solution.", exJpn: "私たちは良い解決策を見つけました。" },
+            { eng: "Require", jpn: "必要とする", exEng: "This job requires a lot of skill.", exJpn: "この仕事には多くのスキルが必要です。" },
+            { eng: "Patience", jpn: "忍耐", exEng: "Teaching requires a lot of patience.", exJpn: "教えることには多くの忍耐が必要です。" },
+            { eng: "Software", jpn: "ソフトウェア", exEng: "I bought new editing software.", exJpn: "新しい編集用ソフトウェアを買いました。" },
+            { eng: "Network", jpn: "ネットワーク", exEng: "The office network is fast.", exJpn: "オフィスのネットワークは速いです。" }
+        ],
+        writingTask: { promptEng: "Write a short paragraph answering this question: What is your solution to the four software problems? Please use superlative adjectives (the most..., the easiest...).", promptJpn: "「4つのソフトウェア問題に対するあなたの解決策は何ですか？」という質問に答える短い段落を書いてください。最上級の形容詞（the most..., the easiest...など）を含めてください。" },
+        clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
+        clickingGamesDesc: "Translate the 10 sentences to practice superlative adjectives with long words and nouns.",
+        clickingGames: [
+            { prompt: "これは最も難しい問題です。", target: "This is the most difficult problem.", words: ["This", "is", "the", "most", "difficult", "problem."] },
+            { prompt: "それは最も高価なソフトウェアです。", target: "It is the most expensive software.", words: ["It", "is", "the", "most", "expensive", "software."] },
+            { prompt: "彼は最もひどいマネージャーです。", target: "He is the most terrible manager.", words: ["He", "is", "the", "most", "terrible", "manager."] },
+            { prompt: "新しいアプリは最も煩わしいシステムです。", target: "The new app is the most annoying system.", words: ["The", "new", "app", "is", "the", "most", "annoying", "system."] },
+            { prompt: "これが最も緊急のタスクです。", target: "This is the most urgent task.", words: ["This", "is", "the", "most", "urgent", "task."] },
+            { prompt: "明確なコミュニケーションが最も重要なツールです。", target: "Clear communication is the most important tool.", words: ["Clear", "communication", "is", "the", "most", "important", "tool."] },
+            { prompt: "これが今年最大の課題です。", target: "This is the biggest challenge this year.", words: ["This", "is", "the", "biggest", "challenge", "this", "year."] },
+            { prompt: "私が使った中で最も騒々しいアプリです。", target: "It is the loudest app I have used.", words: ["It", "is", "the", "loudest", "app", "I", "have", "used."] },
+            { prompt: "それは学ぶのが最も難しいソフトウェアです。", target: "That is the hardest software to learn.", words: ["That", "is", "the", "hardest", "software", "to", "learn."] },
+            { prompt: "彼らは最も高度なモバイル版を買いました。", target: "They bought the most advanced mobile version.", words: ["They", "bought", "the", "most", "advanced", "mobile", "version."] }
+        ],
+        extendedReading: {
+            title: "Task 4: Extended Reading (Solving Big Software Problems)",
+            eng: "In the modern business world, companies always want to work faster. They often buy new software to help the team. However, buying a tool is only the first step. If the staff cannot use the tool easily, it becomes the biggest waste of money. A bad software rollout can cause many different problems at the same time. The staff will feel angry, and productivity will drop completely. It will become the most difficult challenge for the management team.\n\nWhen a big problem happens, managers must not panic. They must break the big problem into small pieces. For example, missing data is a technical problem. Annoying emails are a settings problem. Bad smartphone access is a hardware problem. Having no training is a human problem. You must fix all four of these areas if you want the project to succeed. If you only fix the technical side, the human problems will still ruin the project.\n\nTo solve these complex problems, clear communication is the most important tool. A good leader will stop their normal work and listen to the staff's complaints. Then, they will make a careful, step-by-step plan. They might hire extra help to move the old data. They will change the system settings to stop the noise. They will buy mobile access for the people outside. Finally, they will schedule a friendly training day for all the new staff.\n\nChange is never the easiest path for a company. Learning new tools is always scary at first. But with patience, a good leader, and a clear plan, a team can overcome their fears. Fixing all the small problems will make the new system the most helpful tool in the office.",
+            jpn: "現代のビジネスの世界では、企業は常に速く働くことを望んでいます。彼らはチームを助けるためにしばしば新しいソフトウェアを購入します。しかし、ツールを購入することは最初のステップにすぎません。もしスタッフがツールを簡単に使えなければ、それは最大のお金の無駄になります。悪いソフトウェアの導入は、同時に多くの異なる問題を引き起こす可能性があります。スタッフは怒りを感じ、生産性は完全に低下するでしょう。それは経営陣にとって最も困難な課題となるでしょう。\n\n大きな問題が起きたとき、マネージャーはパニックになってはいけません。彼らは大きな問題を小さなピースに分解しなければなりません。例えば、データが見つからないのは技術的な問題です。煩わしいメールは設定の問題です。スマホアクセスが悪いのはハードウェアの問題です。トレーニングがないのは人間の問題です。プロジェクトを成功させたいなら、これら4つの領域すべてを直さなければなりません。もし技術的な側面だけを直しても、人間の問題が依然としてプロジェクトを台無しにするでしょう。\n\nこれらの複雑な問題を解決するには、明確なコミュニケーションが最も重要なツールです。優れたリーダーは通常の作業を止め、スタッフの不満に耳を傾けます。それから、彼らは慎重な、段階的な計画を立てます。彼らは古いデータを移動するために追加の助けを雇うかもしれません。彼らは騒音を止めるためにシステム設定を変更するでしょう。外にいる人々のためにモバイルアクセスを購入します。最後に、彼らはすべての新入社員のためにフレンドリーなトレーニングの日を予定します。\n\n変化は会社にとって決して最も簡単な道ではありません。新しいツールを学ぶことは最初は常に怖いものです。しかし、忍耐と優れたリーダー、そして明確な計画があれば、チームは恐怖を乗り越えることができます。すべての小さな問題を直すことが、新しいシステムをオフィスで最も役立つツールにするのです。"
+        }
+    }
+},
 {
         id: 7, 
         chapter: "Chapter 1: Everyday Office Routines", 
@@ -877,11 +903,10 @@ pronunciation: {
                 "Explain why this change was positive"
             ] 
         },
-        exampleSpeech: { 
-            eng: "Today, I want to talk about a positive change at my office. The change was a new rule called 'No Meeting Friday'. This means we cannot have any meetings on Fridays. \n\nThis change happened about six months ago. Our new manager noticed that people were very tired. We didn't have enough time to finish our work. At first, some coworkers were a little worried. They thought talking to people would become difficult. However, most of the staff were very glad to try it.\n\nThis change was very positive because it helped us focus. Before this rule, I always had many meetings. I could not finish my work. Now, on Fridays, I can focus completely on my computer tasks. It is very quiet. For example, last Friday I finished a big report in just three hours because no one stopped my work.\n\nIn my opinion, this was the best change in our office. It dropped our stress and made everyone happier.", 
-            jpn: "本日は、私のオフィスでの前向きな変化についてお話ししたいと思います。その変化とは、「ノーミーティング・フライデー（金曜日は会議なし）」という新しいルールでした。これは、金曜日には会議をしてはいけないということを意味します。\n\nこの変化は約半年前に起こりました。私たちの新しいマネージャーは、人々がとても疲れていることに気づきました。私たちは仕事を終わらせる十分な時間がありませんでした。最初、一部の同僚は少し心配していました。彼らは人々と話すのが難しくなるのではないかと考えました。しかし、ほとんどのスタッフはそれを試すことにとても喜んでいました。\n\nこの変化は私たちが集中するのを助けてくれたので、とても前向きなものでした。このルールの前、私はいつもたくさんの会議がありました。自分の仕事を終わらせることができませんでした。今では金曜日には、コンピューターのタスクに完全に集中することができます。とても静かです。例えば、先週の金曜日、私は誰にも仕事を止められなかったので、わずか3時間で大きな報告書を仕上げました。\n\n私の意見では、これは私たちのオフィスにおける最高の変化でした。それは私たちのストレスを下げ、全員をより幸せにしました。" 
-        },
-        homework: {
+exampleSpeech: { 
+            eng: "Today, I want to talk about a good change at my work. We have a new rule: 'No Meeting Friday'. This means we cannot have meetings on Fridays.\n\nThis started six months ago. Our boss saw that we were very tired. We didn't have time to finish our work. At first, some people were worried. They thought talking to others would be hard. But most people were happy to try it.\n\nThis change is very good because it helps us work better. Before this rule, I had too many meetings. I could not finish my work. Now, on Fridays, I can just work on my computer. It is very quiet. For example, last Friday I finished a big report in three hours because no one stopped me.\n\nI think this is the best change in our office. It makes us less stressed and much happier.", 
+            jpn: "今日は、私の職場での良い変化について話したいと思います。「ノーミーティング・フライデー（金曜日は会議なし）」という新しいルールができました。これは、金曜日は会議をしてはいけないという意味です。\n\nこれは6ヶ月前に始まりました。上司は、私たちがとても疲れているのを見ました。仕事を終わらせる時間がなかったのです。最初、心配している人もいました。他の人と話すのが難しくなると思ったからです。しかし、ほとんどの人は喜んで試してみました。\n\nこの変化は仕事をもっとうまくこなす助けになるので、とても良いものです。このルールの前は、会議が多すぎました。自分の仕事を終わらせることができませんでした。今は金曜日には、コンピューターの仕事だけをすることができます。とても静かです。例えば、先週の金曜日は誰にも邪魔されなかったので、3時間で大きなレポートを終わらせました。\n\n私はこれがオフィスで一番良い変化だと思います。これによりストレスが減り、みんながもっと幸せになりました。" 
+        },        homework: {
             vocab: [
                 { eng: "Plan", jpn: "計画", exEng: "We have a new plan for the project.", exJpn: "プロジェクトのための新しい計画があります。" },
                 { eng: "Introduce", jpn: "導入する / 紹介する", exEng: "I want to introduce a new system.", exJpn: "新しいシステムを導入したいです。" },
@@ -936,10 +961,24 @@ pronunciation: {
         type: "opinion", 
         title: "Lesson 008: Online vs In-Store Shopping",
         goal: "Compare online and in-store shopping using demonstrative pronouns and determiners. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(指示代名詞と限定詞を使って、オンラインショッピングと実店舗での買い物を比較する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The Voiced 'TH' Sound (/ð/)",
+    eng: "Place your tongue between your teeth and make a vibrating sound for words like: this, that, these, those.",
+    jpn: "舌を歯の間に置き、this, that, these, those のような単語で振動音（濁ったTH）を出す練習をしましょう。"
+},
         introArticle: [
-            { eng: "Shopping is a necessary part of our daily lives. Today, we have two main ways to buy things: going to a real store or shopping on the internet. Both options have good and bad points. Shopping on the internet is very popular now. It is very fast and easy. You can buy almost anything from your computer while sitting on your sofa. You do not have to carry heavy bags, and the prices are often cheaper. However, online shopping has some problems. You cannot see or touch the real item. Sometimes, the clothes do not fit, and you have to return them.", jpn: "買い物は私たちの日常生活に不可欠な部分です。今日、私たちが物を買うには主に2つの方法があります。実際の店舗に行くか、インターネットで買い物をするかです。両方の選択肢に良い点と悪い点があります。インターネットでの買い物は現在非常に人気があります。とても速くて簡単です。ソファに座りながら、コンピューターからほぼ何でも買うことができます。重い袋を持ち運ぶ必要がなく、価格もしばしば安いです。しかし、オンラインショッピングにはいくつかの問題があります。本物のアイテムを見たり触ったりすることはできません。時々、服のサイズが合わず、返品しなければならないこともあります。" },
-            { eng: "In comparison, going to a real store is a different experience. Many people prefer going to a real store. When you shop in a store, you can try on clothes to check the size. You can feel the cloth and see the true color. If you need help, you can ask a friendly shop worker. Also, you get the item immediately after you pay at the cash register. You do not have to wait for a delivery truck. But going to a store takes a lot of time. The stores are often crowded on weekends.", jpn: "それに比べて、実際の店舗に行くことは異なる経験です。多くの人が実際の店舗に行くことを好みます。店で買い物をする時、服を試着してサイズを確認することができます。布地を感じ、本当の色を見ることができます。助けが必要な場合は、親切な店員に尋ねることができます。また、レジで支払った後、すぐにアイテムを受け取れます。配達のトラックを待つ必要はありません。しかし、店に行くには多くの時間がかかります。週末は店がよく混雑しています。" },
-            { eng: "Most people use both methods depending on what they want to buy. For heavy items like furniture or water, online delivery is perfect. For fresh food or expensive clothes, in-store shopping is usually better. Supermarkets are trying to mix both styles. Now you can order fresh food online and pick it up at the store. Both online and in-store shopping are changing quickly. In the future, new tools will make shopping even easier and faster for everyone.", jpn: "ほとんどの人は、買いたいものに応じて両方の方法を使用します。家具や水のような重いアイテムには、オンライン配達が最適です。新鮮な食べ物や高価な服には、通常、実店舗での買い物が適しています。スーパーマーケットは両方のスタイルを混ぜ合わせようとしています。今ではオンラインで新鮮な食べ物を注文し、店で受け取ることができます。オンラインショッピングも実店舗での買い物も急速に変化しています。将来、新しいツールは買い物をもっと簡単で、誰にとっても速いものにするでしょう。" }
+            {
+    "eng": "Shopping is important for our lives. Today, we can buy things in a shop or online. Both ways have good and bad points. Online shopping is very popular now. It is fast and easy. You can buy things while sitting on your sofa. You don't have to carry heavy bags, and things are often cheap. But online shopping has problems. You cannot touch the things. Sometimes clothes are too big or small, so you have to send them back.",
+    "jpn": "買い物は私たちの生活に大切です。今日、私たちはお店かオンラインで物を買うことができます。両方の方法に良い点と悪い点があります。オンラインショッピングは今とても人気があります。速くて簡単です。ソファに座りながら買い物ができます。重い袋を持つ必要がなく、値段もしばしば安いです。しかし、オンラインショッピングには問題があります。物に触ることができません。時々、服が大きすぎたり小さすぎたりして、送り返さなければなりません。"
+  },
+  {
+    "eng": "Going to a real shop is different. Many people like real shops. In a shop, you can try on clothes. You can touch them and see the real color. You can ask a shop worker for help. Also, you get the thing right away after you pay. You do not wait for a truck. But going to a shop takes a lot of time. Shops are very busy on weekends.",
+    "jpn": "実際のお店に行くのは違います。多くの人は実際のお店が好きです。お店では服を試着できます。触ってみて、本当の色を見ることができます。店員に助けを求めることもできます。また、お金を払った後、すぐに物をもらえます。トラックを待つ必要はありません。しかし、お店に行くのはたくさんの時間がかかります。週末はお店がとても混んでいます。"
+  },
+  {
+    "eng": "People use both ways to shop. Online shopping is good for heavy things like water. Real shops are better for fresh food or expensive clothes. Supermarkets are mixing both ways. Now you can buy food online and get it at the shop. Shopping is changing fast. In the future, shopping will be easier and faster for everyone.",
+    "jpn": "人々は買い物のために両方の方法を使います。水のような重い物には、オンラインショッピングが良いです。新鮮な食べ物や高い服には、実際のお店がより適しています。スーパーマーケットは両方の方法を混ぜています。今ではオンラインで食べ物を買って、お店で受け取ることもできます。買い物は速く変わっています。将来、買い物は誰にとってももっと簡単で速くなるでしょう。"
+  }
         ],
         discussionTopics: [
             { titleEng: "Online Shopping", titleJpn: "オンラインショッピング", subtopics: [{ eng: "Buying from home", jpn: "家から買う" }, { eng: "Fast delivery", jpn: "速い配達" }, { eng: "Cheaper prices", jpn: "より安い価格" }] },
@@ -1064,6 +1103,11 @@ pronunciation: {
         type: "transactional", 
         title: "Lesson 009: Buying Clothes in a Store",
         goal: "Request and describe specific clothing in a store and state payment methods. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(店舗で特定の服をリクエストして説明し、支払い方法を述べる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Polite Request Intonation",
+    eng: "Link the words 'Can_I' /kə.naɪ/ and raise your intonation at the end of the question (e.g., Can_I try_it_on? ↗).",
+    jpn: "「Can_I /kə.naɪ/」の単語を繋げ、質問の最後でイントネーションを上げましょう（例：Can_I try_it_on? ↗）。"
+},
         vocab: [
             { eng: "Jacket", jpn: "ジャケット", exEng: "I need a warm winter jacket.", exJpn: "暖かい冬用のジャケットが必要です。" },
             { eng: "Size", jpn: "サイズ", exEng: "What size are you?", exJpn: "サイズはいくつですか？" },
@@ -1218,10 +1262,24 @@ pronunciation: {
         type: "opinion", 
         title: "Lesson 010: Returns & Payments",
         goal: "Discuss payment methods and returning items using irregular comparatives and possessive pronouns. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不規則な比較級と所有代名詞を使って、支払い方法と商品の返品について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Vowel Reduction",
+    eng: "Speak the words 'just' and 'only' very quickly and quietly, putting all your vocal power on the number (e.g., It's just ONE HUNDRED yen).",
+    jpn: "「just」と「only」をとても速く静かに発音し、数字の部分にすべての声の力を込めましょう（例：It's just ONE HUNDRED yen）。"
+},
         introArticle: [
-            { eng: "How we pay for things is changing very fast. In the past, people only used cash to buy goods. Today, we have many different payment options. Credit cards, debit cards, and smartphone apps are very popular. Using a card is usually faster than using cash. You do not have to carry heavy coins in your wallet. However, some people believe that cash is better. When you use cash, you can see exactly how much money you spend. This makes it easier to save money and stay within your budget.", jpn: "私たちが物の支払いをする方法は非常に速く変化しています。過去には、人々は物を買うために現金しか使いませんでした。今日、私たちには多くの異なる支払いの選択肢があります。クレジットカード、デビットカード、スマートフォンアプリは非常に人気があります。カードを使うことは通常、現金を使うことよりも速いです。財布に重い硬貨を入れて持ち歩く必要がありません。しかし、現金の方がより良いと信じている人もいます。現金を使うとき、あなたは自分がいくら使ったかを正確に見ることができます。これにより、お金を節約し、予算内に収めることがより簡単になります。" },
-            { eng: "Returning items is another important part of shopping. Sometimes, we buy something and later realize it is the wrong size or color. Maybe the item is broken when we open the box. In these situations, we have to return the item to the store. Most stores have a customer service desk where you can get a refund or exchange the item. To get your money back, you usually need to show your receipt. Online returns can be harder because you have to put the item in a box and mail it back.", jpn: "アイテムを返品することも買い物の重要な部分です。時々、私たちは何かを買い、後でそれが間違ったサイズや色であることに気づきます。もしかすると、箱を開けた時にアイテムが壊れているかもしれません。これらの状況では、アイテムを店に返品しなければなりません。ほとんどの店には、返金を受けたりアイテムを交換したりできるカスタマーサービスデスクがあります。お金を返してもらうには、通常レシートを見せる必要があります。オンラインの返品は、アイテムを箱に入れて送り返さなければならないため、より難しい場合があります。" },
-            { eng: "Both paying and returning items require clear communication. If you buy a bad product, you must explain the problem to the shop assistant. You might say, 'This shirt is torn, and I would like a refund.' Good stores always want to keep their customers happy. They will usually help you without any problems. As shopping becomes more digital, understanding these daily tasks is very important. Managing your money and knowing how to return bad items will make you a much smarter shopper.", jpn: "支払いと返品の両方には、明確なコミュニケーションが必要です。もし悪い製品を買ってしまったら、店員に問題を説明しなければなりません。「このシャツは破れているので、返金をお願いしたいのですが」と言うかもしれません。良い店は常に顧客を幸せに保ちたいと思っています。彼らは通常、何の問題もなくあなたを助けてくれるでしょう。買い物がよりデジタルになるにつれて、これらの日常的なタスクを理解することは非常に重要です。お金を管理し、悪いアイテムを返品する方法を知ることで、あなたははるかに賢い買い物客になるでしょう。" }
+    { 
+        eng: "How we pay is changing. In the past, people only used cash. Today, we have many choices. Credit cards and phone apps are very popular. Using a card is usually faster than cash. You do not need heavy coins. But some people like cash better. With cash, you see how much you spend. This helps you save money.", 
+        jpn: "私たちの支払い方法は変化しています。昔は、人々は現金だけを使っていました。今日、私たちには多くの選択肢があります。クレジットカードやスマートフォンのアプリはとても人気があります。カードを使うことは通常、現金よりも速いです。重い硬貨は必要ありません。しかし、現金の方が好きだという人もいます。現金を使えば、いくら使ったかがわかります。これはお金を節約するのに役立ちます。" 
+    },
+    { 
+        eng: "Returning things is also important. Sometimes we buy the wrong size or color. Or the item is broken. Then, we must return it to the store. Most stores can give your money back or change the item. You usually need your receipt to get your money back. Online returns can be hard. You have to send the box back by mail.", 
+        jpn: "物を返品することも重要です。時々、私たちは間違ったサイズや色を買ってしまいます。または、品物が壊れていることもあります。その時は、それを店に返品しなければなりません。ほとんどの店は、お金を返してくれたり、品物を交換したりできます。お金を返してもらうには、通常レシートが必要です。オンラインの返品は難しいことがあります。箱を郵便で送り返さなければなりません。" 
+    },
+    { 
+        eng: "When you pay or return things, you need to speak clearly. If an item is bad, tell the shop worker. You can say, 'This shirt is broken. I want my money back, please.' Good stores want to help you. They will fix the problem. Shopping is changing, but these things are still important. Knowing how to use money and return items makes you a smart shopper.", 
+        jpn: "支払いや返品をするときは、はっきりと話す必要があります。もし品物が悪かったら、店員に伝えてください。「このシャツは破れています。お金を返してください」と言うことができます。良い店はあなたを助けたいと思っています。彼らは問題を解決してくれます。買い物は変化していますが、これらのことは依然として重要です。お金の使い方や返品の方法を知ることで、あなたは賢い買い物客になります。" 
+    }
         ],
         discussionTopics: [
             { titleEng: "Payment Methods", titleJpn: "支払い方法", subtopics: [{ eng: "Using cash", jpn: "現金を使う" }, { eng: "Credit cards", jpn: "クレジットカード" }, { eng: "Smartphone apps", jpn: "スマートフォンアプリ" }] },
@@ -1297,9 +1355,9 @@ pronunciation: {
         expressions: [
             { eng: "In my experience...", jpn: "私の経験では...", exampleEng: "In my experience, online returns are very difficult.", exampleJpn: "私の経験では、オンラインの返品はとても難しいです。" },
             { eng: "As far as I know...", jpn: "私の知る限り...", exampleEng: "As far as I know, they only take cash.", exampleJpn: "私の知る限り、彼らは現金しか受け付けません。" },
-            { eng: "To sum up...", jpn: "要約すると...", exampleEng: "To sum up, using a card is better than cash.", exampleJpn: "要約すると、カードを使うのは現金より良いです。" },
-            { eng: "In the end...", jpn: "結局のところ...", exampleEng: "In the end, keeping the receipt is the best idea.", exampleJpn: "結局のところ、レシートを保管しておくのが一番良いアイデアです。" },
-            { eng: "Generally speaking...", jpn: "一般的に言って...", exampleEng: "Generally speaking, local shops are more expensive.", exampleJpn: "一般的に言って、地元のお店の方が高価です。" }
+            { eng: "I'm pretty sure...", jpn: "確か... / 私の知る限りでは...", exampleEng: "I'm pretty sure the meeting starts at 10 AM.", exampleJpn: "確か、会議は午前10時に始まるはずです。" },
+            { eng: "Basically...", jpn: "要するに... / 基本的に...", exampleEng: "Basically, we need to rewrite the introduction.", exampleJpn: "要するに、導入部分を書き直す必要があります。" },
+ { eng: "Generally speaking...", jpn: "一般的に言って...", exampleEng: "Generally speaking, local shops are more expensive.", exampleJpn: "一般的に言って、地元のお店の方が高価です。" }
         ],
         homework: {
             vocab: [
@@ -1346,6 +1404,11 @@ pronunciation: {
         type: "transactional", 
         title: "Lesson 011: Returning a Broken Item",
         goal: "Return a broken item to a store and request a refund or exchange. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(壊れた商品を店に返品し、返金または交換を要求する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Choice Questions",
+    eng: "When giving two choices, your voice goes UP on the first option and DOWN on the second (e.g., Would you like a new machine ↗, or a refund ↘?).",
+    jpn: "2つの選択肢を提示する時、最初の選択肢で声を上げ、2つ目で下げます（例：Would you like a new machine ↗, or a refund ↘?）。"
+},
         vocab: [
             { eng: "Return", jpn: "返品する", exEng: "I want to return this phone.", exJpn: "この電話を返品したいです。" },
             { eng: "Broken", jpn: "壊れた", exEng: "The screen is broken.", exJpn: "画面が壊れています。" },
@@ -1500,10 +1563,24 @@ pronunciation: {
         type: "opinion", 
         title: "Lesson 012: Fashion & Store Displays",
         goal: "Give opinions on fashion, window displays, and personal style using verbs of perception. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(知覚動詞を使って、ファッション、ウィンドウディスプレイ、個人のスタイルについての意見を述べる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Consonant Clusters",
+    eng: "Do not add an extra vowel sound to the end of verbs. Hold the final 's' sound like a snake (e.g., 'looks' not 'look-su').",
+    jpn: "動詞の最後に余分な母音を足さないでください。最後の「s」の音をヘビのように長く伸ばします（例：「ルックス」ではなく「looks」）。"
+},
         introArticle: [
-            { eng: "Walking through a shopping mall is a very visual experience. Before you even enter a store, the window displays catch your eye. Store managers spend a lot of time and money designing these windows. They use bright lights, colorful posters, and fashionable mannequins to show their best clothes. A good window display makes the clothes look amazing. It tells a story and invites people to come inside. When you see a beautiful display, the clothes seem like magic.", jpn: "ショッピングモールを歩き回ることは、とても視覚的な体験です。お店に入る前から、ウィンドウディスプレイが目を引きます。店長はこれらの窓をデザインするのに多くの時間とお金を費やします。彼らは明るい照明、カラフルなポスター、そしてファッショナブルなマネキンを使って最高の服を見せます。良いウィンドウディスプレイは服を素晴らしく見せます。それは物語を語り、人々を中へと誘います。美しいディスプレイを見ると、服は魔法のように見えます。" },
-            { eng: "Inside the store, the colors and shapes of the clothes are also very important. People use fashion to express their personality. Some people love wearing bright colors like yellow and pink because it makes them feel happy and energetic. Other people prefer dark colors like black and navy blue. Dark colors often look more professional and serious. The shape of the clothes can also change how you look. Loose clothes are very comfortable for relaxing on the weekend. Tight clothes might look more formal for a business meeting or a nice dinner.", jpn: "店の中では、服の色や形も非常に重要です。人々は自分の個性を表現するためにファッションを使います。幸せでエネルギッシュな気分になるため、黄色やピンクのような明るい色を着るのが大好きな人もいます。一方で、黒やネイビーブルーのような暗い色を好む人もいます。暗い色はしばしば、よりプロフェッショナルで真面目に見えます。服の形も、あなたの見え方を変えることができます。ゆるい服は週末にリラックスするのにとても快適です。きつい（体にフィットした）服は、ビジネス会議や素敵な夕食のためによりフォーマルに見えるかもしれません。" },
-            { eng: "Fashion is always changing. What is popular today might not be popular next year. However, finding your own personal style is the most important thing. You do not have to buy every new trend. Instead, you should buy clothes that make you feel good. When you wear an outfit that fits well and matches your style, you feel much more confident. The next time you walk past a store window, look closely at the display. Think about how the colors and shapes make you feel, and decide what style is best for you.", jpn: "ファッションは常に変化しています。今日人気のあるものが来年は人気がないかもしれません。しかし、自分個人のスタイルを見つけることが最も重要なことです。すべての新しいトレンドを買う必要はありません。代わりに、自分を良い気分にさせてくれる服を買うべきです。サイズがよく合い、自分のスタイルに合った服を着ると、はるかに自信を感じます。次に店の窓の前を通り過ぎるときは、ディスプレイを注意深く見てください。色や形があなたにどう感じさせるか考え、自分にとってどのスタイルが最高かを決めてください。" }
+        {
+    "eng": "Walking in a shopping mall is fun. Before you go in a store, you see the big windows. Store managers spend a lot of time and money on these windows. They use bright lights, colorful posters, and dolls to show their best clothes. A good window makes the clothes look great. It says, 'Come inside!' When you see a beautiful window, the clothes look like magic.",
+    "jpn": "ショッピングモールを歩くのは楽しいです。お店に入る前に、大きな窓が見えます。店長はこれらの窓にたくさんの時間とお金を使います。彼らは一番良い服を見せるために、明るいライトやカラフルなポスター、人形を使います。良い窓は服をとても良く見せます。それは「中に入って！」と言っているようです。きれいな窓を見ると、服が魔法のように見えます。"
+  },
+  {
+    "eng": "Inside the store, the colors and shapes of clothes are very important. People wear clothes to show who they are. Some people love bright colors like yellow and pink. These colors make them feel happy. Other people like dark colors like black and blue. Dark colors look good for work. The shape of clothes changes how you look, too. Big clothes are comfortable for the weekend. Tight clothes are good for a business meeting or a nice dinner.",
+    "jpn": "お店の中では、服の色と形がとても大切です。人は自分がどんな人かを見せるために服を着ます。黄色やピンクのような明るい色が好きな人もいます。これらの色は楽しい気分にさせます。黒や青のような暗い色が好きな人もいます。暗い色は仕事にぴったりです。服の形も見た目を変えます。大きな服は週末に着るのに楽です。ぴったりした服は、仕事の会議や素敵な夕食に良いです。"
+  },
+  {
+    "eng": "Fashion changes all the time. Clothes that are popular today might not be popular next year. But finding your own style is the most important thing. You do not have to buy all the new clothes. You should buy clothes that make you feel good. When you wear clothes you like, you feel happy. Next time you walk by a store, look at the window. Think about the colors and shapes, and choose the best style for you.",
+    "jpn": "ファッションはいつも変わります。今日人気の服が、来年には人気がなくなるかもしれません。でも、自分のスタイルを見つけることが一番大切です。新しい服を全部買う必要はありません。自分がいい気分になる服を買うべきです。好きな服を着ると、幸せな気持ちになります。今度お店の前を歩くときは、窓を見てください。色や形について考えて、あなたにとって一番のスタイルを選んでください。"
+  }
         ],
         discussionTopics: [
             { titleEng: "Store Displays", titleJpn: "店舗のディスプレイ", subtopics: [{ eng: "Window shopping", jpn: "ウィンドウショッピング" }, { eng: "Bright lights", jpn: "明るい照明" }, { eng: "Mannequins", jpn: "マネキン" }] },
@@ -1581,11 +1658,10 @@ pronunciation: {
         ],
         expressions: [
             { eng: "It seems to me...", jpn: "私には〜のように思える...", exampleEng: "It seems to me that fast fashion is a bad idea.", exampleJpn: "私には、ファストファッションは悪いアイデアのように思えます。" },
-            { eng: "To tell the truth...", jpn: "実を言うと...", exampleEng: "To tell the truth, I don't care about fashion.", exampleJpn: "実を言うと、私はファッションを気にしません。" },
-            { eng: "From my point of view...", jpn: "私の観点からは...", exampleEng: "From my point of view, comfortable clothes are the best.", exampleJpn: "私の観点からは、快適な服が最高です。" },
-            { eng: "For instance...", jpn: "例えば...", exampleEng: "Colors can change your mood. For instance, yellow makes you happy.", exampleJpn: "色は気分を変えることができます。例えば、黄色はあなたを幸せにします。" },
-            { eng: "Ultimately...", jpn: "最終的には...", exampleEng: "Ultimately, you should wear what you like.", exampleJpn: "最終的には、自分の好きなものを着るべきです。" }
-        ],
+  { eng: "I feel like...", jpn: "〜な気がする...", exampleEng: "I feel like fast fashion is a bad idea.", exampleJpn: "ファストファッションは悪いアイデアのような気がします。" },
+            { eng: "Honestly...", jpn: "正直に言うと...", exampleEng: "Honestly, I don't care about fashion.", exampleJpn: "正直に言うと、私はファッションを気にしません。" },
+            { eng: "To me...", jpn: "私としては...", exampleEng: "To me, comfortable clothes are the best.", exampleJpn: "私としては、快適な服が最高です。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "Colors can change your mood. For example, yellow makes you happy.", exampleJpn: "色は気分を変えることができます。例えば、黄色はあなたを幸せにします。" },      ],
         homework: {
             vocab: [
                 { eng: "Trend", jpn: "トレンド / 流行", exEng: "This jacket is a new trend.", exJpn: "このジャケットは新しいトレンドです。" },
@@ -1631,6 +1707,11 @@ pronunciation: {
         type: "casestudy", 
         title: "Lesson 013: Case Study - The Supermarket Problem",
         goal: "Analyze a business problem from different staff viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なるスタッフの観点からビジネスの問題を分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak Forms of Was/Were",
+    eng: "Do not stress 'was' or 'were' in past progressive sentences. Say them quickly with a weak schwa sound (/wəz/, /wər/).",
+    jpn: "過去進行形の文では「was」や「were」を強調しないでください。弱い曖昧母音（/wəz/, /wər/）で素早く発音します。"
+},
         vocab: [
             { eng: "Supermarket", jpn: "スーパーマーケット", exEng: "I buy fresh fruit at the supermarket.", exJpn: "私はスーパーで新鮮な果物を買います。" },
             { eng: "Customer", jpn: "客 / 顧客", exEng: "The customer is angry about the delay.", exJpn: "客は遅延について怒っています。" },
@@ -1647,7 +1728,10 @@ pronunciation: {
             { eng: "Wait", jpn: "待つ", exEng: "We had to wait for twenty minutes.", exJpn: "私たちは20分待たなければなりませんでした。" },
             { eng: "Fresh", jpn: "新鮮な", exEng: "We need more fresh vegetables.", exJpn: "私たちはもっと新鮮な野菜が必要です。" }
         ],
-        situation: { eng: "Our company has a large supermarket in the center of the city. For many years, this supermarket was the most popular store in the area. Families loved to buy their fresh food and daily items here. However, in the last three months, we are losing many customers. People are going to the new store across the street instead. The supermarket manager is very worried because sales are dropping very fast. We are losing a lot of money every day. The manager knows that the store has some big problems, but he does not know the exact reasons. He is usually busy in his office and does not see the store floor. To fix this terrible situation, you must act as a problem-solver. You will listen to four different workers from the supermarket. Each person works in a different area of the store. They will explain a completely different part of the problem that is making their job hard and making the customers angry. You must read their complaints carefully to understand the full picture. If you only fix one department, the supermarket will still fail. For example, if you only clean the floors, people will still leave because of the long lines. You must find out all the true reasons for this big failure by connecting their stories. Your final goal is to build a smart, step-by-step plan to fix all four areas of the supermarket and make the customers happy again. Please read the words from the Cashier, the Stock Clerk, the Cleaner, and the Customer Service worker below to begin.", jpn: "私たちの会社は市の中心部に大きなスーパーマーケットを持っています。何年もの間、このスーパーは地域で最も人気のある店でした。家族連れはここで新鮮な食べ物や日用品を買うのが大好きでした。しかし、過去3ヶ月間、私たちは多くの客を失っています。人々は代わりに通りの向こう側にある新しい店に行っています。売上が非常に速く落ちているため、スーパーの店長はとても心配しています。私たちは毎日たくさんのお金を失っています。店長は店にいくつかの大きな問題があることは知っていますが、正確な理由は知りません。彼は通常オフィスで忙しく、売り場を見ていません。このひどい状況を解決するために、あなたは問題解決者として行動しなければなりません。あなたはスーパーの4人の異なる労働者の話を聞きます。それぞれが店の異なるエリアで働いています。彼らは自分たちの仕事を難しくし、客を怒らせている問題の全く異なる部分を説明します。全体像を理解するために、彼らの不満を注意深く読まなければなりません。1つの部署だけを直しても、スーパーは依然として失敗します。例えば、床をきれいにするだけでは、長い列のせいで人々は依然として去ってしまうでしょう。彼らの話を結びつけることで、この大失敗のすべての本当の理由を見つけ出さなければなりません。あなたの最終的な目標は、スーパーの4つのエリアすべてを修正し、客を再び幸せにするための賢明な段階的な計画を構築することです。始めるために、以下のレジ係、在庫係、清掃員、カスタマーサービス担当者の言葉を読んでください。" },
+        "situation": {
+    "eng": "Our company has a big supermarket in the city center. For many years, it was very popular. Families loved to buy food here. But in the last three months, we are losing many customers. People go to the new store across the street instead. The manager is very worried because sales are going down fast. We are losing a lot of money every day. He knows the store has big problems, but he does not know why. He is always in his office and does not see the store. You must help fix this problem. You will read stories from four workers. They work in different parts of the store. They will tell you why their jobs are hard and why customers are angry. You must read carefully. If you fix only one thing, the store will still fail. For example, if you only clean the floors, people will still leave because of the long lines. You must understand all the problems together. Your goal is to make a step-by-step plan to fix all four areas. This will make the customers happy again. Please read the words from the Cashier, the Stock Worker, the Cleaner, and the Customer Service Worker to begin.",
+    "jpn": "私たちの会社は市の中心部に大きなスーパーマーケットを持っています。何年もの間、このスーパーは地域で最も人気のある店でした。家族連れはここで新鮮な食べ物や日用品を買うのが大好きでした。しかし、過去3ヶ月間、私たちは多くの客を失っています。人々は代わりに通りの向こう側にある新しい店に行っています。売上が非常に速く落ちているため、スーパーの店長はとても心配しています。私たちは毎日たくさんのお金を失っています。店長は店にいくつかの大きな問題があることは知っていますが、正確な理由は知りません。彼は通常オフィスで忙しく、売り場を見ていません。このひどい状況を解決するために、あなたは問題解決者として行動しなければなりません。あなたはスーパーの4人の異なる労働者の話を聞きます。それぞれが店の異なるエリアで働いています。彼らは自分たちの仕事を難しくし、客を怒らせている問題の全く異なる部分を説明します。全体像を理解するために、彼らの不満を注意深く読まなければなりません。1つの部署だけを直しても、スーパーは依然として失敗します。例えば、床をきれいにするだけでは、長い列のせいで人々は依然として去ってしまうでしょう。彼らの話を結びつけることで、この大失敗のすべての本当の理由を見つけ出さなければなりません。あなたの最終的な目標は、スーパーの4つのエリアすべてを修正し、客を再び幸せにするための賢明な段階的な計画を構築することです。始めるために、以下のレジ係、在庫係、清掃員、カスタマーサービス担当者の言葉を読んでください。"
+  },
         people: [
             { name: "Person 1: Sarah (Cashier)", eng: "The checkout lines are a terrible problem every afternoon. We do not have enough cashiers working at the same time. The customers have to wait in line for twenty or thirty minutes. Because they wait so long, they become very angry and yell at us. Also, our cash registers are very old and slow. Sometimes, the computer screen freezes completely, and we cannot read the items. I was scanning a barcode yesterday, and the machine just stopped. It is very stressful.", jpn: "毎日の午後、レジの列はひどい問題です。同時に働いているレジ係が十分にいません。客は20分から30分も列に並んで待たなければなりません。彼らはそんなに長く待つので、とても怒って私たちを怒鳴ります。また、私たちのレジはとても古くて遅いです。時々、コンピューターの画面が完全にフリーズし、品物を読み取ることができなくなります。昨日バーコードをスキャンしていたら、機械がただ止まってしまいました。とてもストレスがたまります。" },
             { name: "Person 2: Mike (Stock Clerk)", eng: "Our shelves are completely empty, and it is a big problem. The delivery trucks are always arriving late from the farm. Because the trucks are late, we do not have enough fresh vegetables or fruit to put on the shelves in the morning. Customers ask me for tomatoes or apples, and I have to tell them we have nothing. Also, the back room is very messy. I cannot find the boxes when I need them. It takes too much time.", jpn: "私たちの棚は完全に空っぽで、それは大きな問題です。配達のトラックはいつも農場から遅れて到着します。トラックが遅れるので、朝、棚に並べるだけの十分な新鮮な野菜や果物がありません。お客さんにトマトやリンゴを求められても、何もないと伝えなければなりません。また、奥の部屋はとても散らかっています。必要な時に箱を見つけることができません。時間がかかりすぎます。" },
@@ -1694,12 +1778,12 @@ pronunciation: {
             { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+     expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to the supermarket manager. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(スーパーの店長に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -1747,6 +1831,11 @@ pronunciation: {
         type: "speakingtest", 
         title: "Lesson 014: Speaking Test - My Favorite Store",
         goal: "Prepare and deliver a short speech about your favorite store or shopping experience using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、お気に入りの店や買い物の経験についての短いスピーチを準備し、発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Sentence Stress for Contrast",
+    eng: "Put heavy vocal stress on the single most important noun in your opening sentence to grab attention (e.g., I want to talk about my FAVORITE store).",
+    jpn: "注意を引くために、最初の文の中で最も重要な名詞一つに強いアクセントを置きましょう（例：I want to talk about my FAVORITE store）。"
+},
         vocab: [
             { eng: "Favorite", jpn: "お気に入りの", exEng: "This is my favorite book.", exJpn: "これは私のお気に入りの本です。" },
             { eng: "Shop", jpn: "店 / 買い物をする", exEng: "I shop at the local market.", exJpn: "私は地元の市場で買い物をします。" },
@@ -1773,9 +1862,9 @@ pronunciation: {
             ] 
         },
         exampleSpeech: { 
-            eng: "Today, I want to talk about my favorite store. My favorite store is a large bookstore called City Books. This store is located in the center of my neighborhood, right next to the train station. \n\nI like this store because it is very relaxing and has a huge selection of items. The environment is perfect. They play soft music, and there is a small coffee shop inside. The store smells like fresh coffee and old paper. It is never too crowded, so I can walk around slowly. Also, the staff is very friendly. If I cannot find a book, they always help me look for it.\n\nFor example, last month I wanted to buy a book about cooking. I asked a shop worker for help. She smiled and showed me a great cookbook with beautiful pictures. I bought the book, sat in the coffee shop, and read it while drinking tea. It was a wonderful afternoon.\n\nIn conclusion, City Books is my favorite store because it offers a peaceful environment and excellent service. It is the best place to relax on a weekend.", 
-            jpn: "本日は、私のお気に入りの店についてお話ししたいと思います。私のお気に入りの店は、シティ・ブックスと呼ばれる大きな書店です。この店は私の近所の中心、駅のすぐ隣に位置しています。\n\n私がこの店を好きな理由は、とてもリラックスでき、品揃えが豊富だからです。環境は完璧です。静かな音楽が流れており、中には小さなコーヒーショップがあります。店内は淹れたてのコーヒーと古い紙のような匂いがします。決して混雑しすぎることはないので、ゆっくり歩き回ることができます。また、スタッフはとても親切です。もし私が本を見つけられない時、彼らはいつも私がそれを探すのを手伝ってくれます。\n\n例えば、先月私は料理に関する本を買いたいと思いました。私は店員に助けを求めました。彼女は微笑んで、美しい写真が載った素晴らしい料理本を見せてくれました。私はその本を買い、コーヒーショップに座って、お茶を飲みながらそれを読みました。素晴らしい午後でした。\n\n結論として、シティ・ブックスは平和な環境と優れたサービスを提供してくれるため、私のお気に入りの店です。週末にリラックスするのに最高の場所です。" 
-        },
+            eng: "Today, I want to talk about my favorite store. It is a big bookstore called City Books. It is next to the train station in my town.\n\nI like this store because it is quiet and has many books. There is a small cafe inside, and they play soft music. It is not too crowded, so I can walk slowly. The staff are very friendly. They always help me find books.\n\nFor example, last month I wanted a cooking book. A shop worker helped me find a nice book with beautiful pictures. I bought it, drank tea in the cafe, and read my new book. It was a great afternoon.\n\nCity Books is my favorite store because it is quiet and the staff are nice. It is the best place to relax on the weekend.", 
+  jpn: "今日は、私のお気に入りの店について話します。それは「シティ・ブックス」という大きな本屋です。私の町の駅の隣にあります。\n\n静かで、本がたくさんあるので、私はこの店が好きです。中には小さなカフェがあり、静かな音楽が流れています。人が多すぎないので、ゆっくり歩くことができます。店員さんはとても親切です。いつも本を探すのを手伝ってくれます。\n\n例えば先月、私は料理の本が欲しかったです。店員さんが、きれいな写真があるいい本を見つけてくれました。私はそれを買い、カフェでお茶を飲みながら新しい本を読みました。とてもいい午後でした。\n\n静かで店員さんが優しいので、シティ・ブックスは私のお気に入りの店です。週末にリラックスするのに一番いい場所です。" 
+},
         homework: {
             vocab: [
                 { eng: "District", jpn: "地区 / 地域", exEng: "The shopping district is very busy.", exJpn: "ショッピング地区はとても忙しいです。" },
@@ -1831,10 +1920,24 @@ pronunciation: {
         type: "opinion", 
         title: "Lesson 015: Tech Work in the Past",
         goal: "Discuss how IT and office work was different in the past using past state clauses and modal verbs of ability. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(過去の状態を表す節と能力を表す法動詞を使って、過去のITやオフィスワークがどのように異なっていたかについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Silent 'L' in Modals",
+    eng: "The 'L' in 'could' is completely silent (/kʊd/). For 'could not', practice the contraction 'couldn't' (/kʊdnt/) with a sharp stop.",
+    jpn: "「could」の「L」は完全に無音です（/kʊd/）。「could not」の場合は、鋭く止める短縮形「couldn't（/kʊdnt/）」を練習しましょう。"
+},
         introArticle: [
-            { eng: "The world of technology changes very fast. The way we work today is very different from the past. In the 90s, offices did not have fast internet or smart phones. People used large, heavy computers that sat on their desks. These old computers were very slow, and they could not save a lot of data. Workers saved their files on small plastic disks. If you lost the disk, you lost all your hard work. Today, we save everything in the cloud, so our files are always safe.", jpn: "テクノロジーの世界は非常に速く変化します。今日の私たちの働き方は過去とは大きく異なります。90年代には、オフィスに高速インターネットやスマートフォンはありませんでした。人々は机の上に置かれた大きくて重いコンピューターを使っていました。これらの古いコンピューターはとても遅く、多くのデータを保存できませんでした。労働者は小さなプラスチックのディスクにファイルを保存しました。もしディスクをなくしたら、一生懸命やった仕事のすべてを失いました。今日、私たちはすべてをクラウドに保存するので、ファイルは常に安全です。" },
-            { eng: "Talking to people was also much slower. Before email became popular, people wrote paper letters and sent them by fax. A fax machine sent a picture of the paper over a phone line. It took a long time to send a message to another country. When I was young, people could not work from home. If you needed to talk to your team, you had to travel to the office. Today, video calls let us see and talk to anyone in the world instantly. Work is much easier now.", jpn: "人々と話すこともはるかに遅かったです。メールが人気になる前、人々は紙の手紙を書き、FAXで送りました。FAX機は電話線を通じて紙の画像を送りました。他の国にメッセージを送るには長い時間がかかりました。私が若かった頃、人々は家から働くことができませんでした。チームと話す必要があれば、オフィスまで移動しなければなりませんでした。今日、ビデオ通話によって私たちは世界中の誰とでも瞬時に顔を見て話すことができます。今は仕事がずっと簡単です。" },
-            { eng: "Software development was also much harder in the past. Programmers had to write long code without smart tools to help them. If there was a bug, it took many days or weeks to find it. They read thick paper books to learn how to code. Now, developers can search the internet and find answers in seconds. While modern tools are great, some older workers say the past was better. They believe life was simpler because people were not always looking at screens. It is interesting to look back and see how much we have learned.", jpn: "過去にはソフトウェア開発もはるかに困難でした。プログラマーは助けてくれるスマートなツールなしで長いコードを書かなければなりませんでした。もしバグがあれば、それを見つけるのに何日も、あるいは何週間もかかりました。彼らはコーディングの仕方を学ぶために分厚い紙の本を読みました。今では、開発者はインターネットを検索して数秒で答えを見つけることができます。現代のツールは素晴らしいですが、一部の年配の労働者は過去の方が良かったと言います。彼らは、人々が常に画面を見ていたわけではないので、生活はもっとシンプルだったと信じています。過去を振り返り、私たちがどれだけ多くを学んできたかを見るのは興味深いことです。" }
+            {
+        eng: "Technology changes very fast. Our work today is different from the past. In the 1990s, offices did not have fast internet or smartphones. People used big, heavy computers on their desks. These old computers were very slow. They could not save much data. Workers saved files on small plastic disks. If you lost the disk, you lost your work. Today, we save everything on the internet, so our files are safe.",
+        jpn: "テクノロジーはとても速く変化します。今日の私たちの仕事は過去とは違います。1990年代、オフィスには高速インターネットやスマートフォンはありませんでした。人々は机の上で大きくて重いコンピューターを使っていました。これらの古いコンピューターはとても遅かったです。多くのデータを保存できませんでした。働く人たちは小さなプラスチックのディスクにファイルを保存しました。ディスクをなくすと、仕事のデータもなくなりました。今日、私たちはすべてをインターネット上に保存するので、ファイルは安全です。"
+    },
+    {
+        eng: "Talking to people was also slower. Before email, people wrote letters on paper. They sent them by fax. It took a long time to send a message to another country. In the past, people could not work from home. To talk to your team, you had to go to the office. Today, we use video calls. We can see and talk to people anywhere. Work is much easier now.",
+        jpn: "人と話すことももっと遅かったです。メールができる前、人々は紙に手紙を書きました。彼らはそれをFAXで送りました。他の国にメッセージを送るには長い時間がかかりました。昔は、家で働くことができませんでした。チームと話すためには、オフィスに行かなければなりませんでした。今日、私たちはビデオ通話を使います。どこにいる人とも顔を見て話すことができます。今は仕事がずっと簡単です。"
+    },
+    {
+        eng: "Making software was harder in the past. Programmers wrote long code without smart tools. If there was a mistake, it took days or weeks to find it. They read big books to learn. Now, they can search the internet and find answers very fast. Modern tools are great, but some older workers say the past was better. They think life was simpler because people did not always look at screens. It is interesting to see how things have changed.",
+        jpn: "昔は、ソフトウェアを作るのももっと難しかったです。プログラマーは便利なツールなしで長いコードを書きました。間違いがあると、それを見つけるのに何日も、何週間もかかりました。彼らは学ぶために大きな本を読みました。今では、インターネットを検索してとても速く答えを見つけることができます。現代のツールは素晴らしいですが、昔の方が良かったと言う年配の労働者もいます。人々がいつも画面を見ていなかったので、生活がもっとシンプルだったと考えています。物事がどのように変わったかを見るのは面白いです。"
+    }
         ],
         discussionTopics: [
             { titleEng: "Old Computers", titleJpn: "古いコンピューター", subtopics: [{ eng: "Large and heavy", jpn: "大きくて重い" }, { eng: "Slow speeds", jpn: "遅いスピード" }, { eng: "Saving on disks", jpn: "ディスクへの保存" }] },
@@ -1959,6 +2062,11 @@ pronunciation: {
         type: "transactional", 
         title: "Lesson 016: Reporting a Software Bug",
         goal: "Report a bug that occurred yesterday using the past tense and time adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(過去形と時の副詞を使って、昨日起きたバグを報告する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Three Sounds of '-ed'",
+    eng: "Practice the three different sounds for regular past tense verbs: /t/ (checked), /d/ (showed), and /ɪd/ (tested).",
+    jpn: "規則動詞の過去形の3つの異なる発音を練習しましょう：/t/（checked）、/d/（showed）、/ɪd/（tested）。"
+},
         vocab: [
             { eng: "Bug", jpn: "バグ / 不具合", exEng: "I found a bug in the code.", exJpn: "コードにバグを見つけました。" },
             { eng: "Report", jpn: "報告する / レポート", exEng: "Please report the problem to the manager.", exJpn: "マネージャーに問題を報告してください。" },
@@ -2113,10 +2221,24 @@ pronunciation: {
         type: "opinion", 
         title: "Lesson 017: The Worst IT Disasters",
         goal: "Share and discuss the worst professional IT disasters experienced using superlative adjectives and relative clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(最上級の形容詞と関係詞節を使って、これまでに経験した最悪のプロフェッショナルなITの惨事について共有し議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Chopping Superlatives",
+    eng: "Do not add an 'o' sound to the end of superlative adjectives. Chop the word off sharply at the 't' (e.g., worst, not wa-su-to).",
+    jpn: "最上級の形容詞の最後に「o」の音を足さないでください。「t」の音で単語を鋭く切り落とします（例：「ワースト」ではなく「worst」）。"
+},
         introArticle: [
-            { eng: "Technology makes our lives easier, but it can also cause terrible problems. When a computer system breaks, it can create a huge disaster for a company. Every IT worker has a story about the worst day of their office life. Sometimes, these problems happen because of a simple human mistake. For example, a developer might type one wrong letter in the code. This small mistake can delete the biggest database in the company. In seconds, thousands of important client files are gone. Fixing this kind of error takes many days of stressful work.", jpn: "テクノロジーは私たちの生活をより簡単にしますが、同時に恐ろしい問題を引き起こすこともあります。コンピューターシステムが壊れると、企業に大規模な惨事をもたらす可能性があります。すべてのITワーカーは、自分のオフィス生活で最悪の日についての物語を持っています。時々、これらの問題は単純な人為的ミスによって起こります。例えば、開発者がコードの中で間違った文字を1つタイプするかもしれません。この小さなミスが、社内で最大のデータベースを削除してしまう可能性があります。数秒で、何千もの重要なクライアントのファイルが消えてしまいます。この種のエラーを修正するには、何日ものストレスの多い作業が必要です。" },
-            { eng: "Other disasters happen because of bad weather or old hardware. A power outage during a strong storm can shut down the main server room. If the company does not have a backup generator, the whole network goes offline. Workers cannot send emails, and customers cannot use the website. This is often the most expensive disaster a business can face. They lose sales every minute the website is down. Also, old machines can simply break. A hard drive which holds the company's money records might suddenly stop spinning.", jpn: "他の惨事は、悪天候や古いハードウェアによって起こります。強い嵐の間の停電は、メインサーバールームをシャットダウンさせる可能性があります。もし会社にバックアップの発電機がなければ、ネットワーク全体がオフラインになります。労働者はメールを送れず、顧客はウェブサイトを使用できません。これはしばしば、ビジネスが直面する可能性のある最も高くつく惨事です。ウェブサイトがダウンしている毎分、彼らは売上を失います。また、古い機械は単に壊れることもあります。会社の金銭記録を保持しているハードドライブが突然回転を止めるかもしれません。" },
-            { eng: "Finally, security attacks are a very modern kind of disaster. Bad people try to steal private information or lock the company's files. When this happens, the IT security team must fight the attack immediately. It is a very scary situation. However, we can learn important lessons from these bad experiences. After a disaster, companies usually buy better machines and make stricter safety rules. They learn to make regular backups of their work. Sharing stories about our biggest mistakes helps us build stronger and safer systems for the future.", jpn: "最後に、セキュリティ攻撃は非常に現代的な種類の惨事です。悪い人々は個人情報を盗んだり、会社のファイルをロックしたりしようとします。これが起きた時、ITセキュリティチームは直ちに攻撃と戦わなければなりません。それはとても怖い状況です。しかし、私たちはこれらの悪い経験から重要な教訓を学ぶことができます。惨事の後、企業は通常、より良い機械を購入し、より厳格な安全ルールを作ります。彼らは仕事の定期的なバックアップをとることを学びます。私たちの最大の失敗についての物語を共有することは、私たちが将来のためにより強力で安全なシステムを構築するのに役立ちます。" }
+         {
+"eng": "Computers help us a lot, but they can also cause big problems. When a computer breaks, it is very bad for a company. Every IT worker remembers a very bad day at work. Sometimes, people make simple mistakes. For example, a worker types one wrong letter. This small mistake can delete many important files. The files disappear in one second. It takes many days of hard work to fix this problem.",
+"jpn": "コンピューターは私たちをとても助けてくれますが、大きな問題を引き起こすこともあります。コンピューターが壊れると、会社にとって非常に悪いことです。すべてのITワーカーは、仕事でのとても悪い日を覚えています。時々、人は単純なミスをします。例えば、従業員が間違った文字を1つ入力します。この小さなミスが、多くの重要なファイルを消してしまうことがあります。ファイルは1秒で消えます。この問題を直すには、何日も大変な仕事が必要です。"
+},
+{
+"eng": "Bad weather or old computers can also cause problems. A bad storm can stop the electricity. Then, the computer network goes offline. Office workers cannot send emails, and customers cannot use the website. The company loses a lot of money. Also, old computers can just break. A disk with the company's money records might stop working suddenly.",
+"jpn": "悪天候や古いコンピューターも問題を引き起こすことがあります。ひどい嵐で電気が止まることがあります。そして、コンピューターネットワークがオフラインになります。会社員はメールを送れず、顧客はウェブサイトを使えません。会社はたくさんのお金を失います。また、古いコンピューターはただ壊れることもあります。会社のお金の記録が入ったディスクが、突然動かなくなるかもしれません。"
+},
+{
+"eng": "Finally, computer attacks are a new problem. Bad people try to steal private information. When this happens, the IT team must stop them quickly. It is very scary. But, we can learn from these bad days. After a problem, companies buy better computers and make safer rules. They learn to save their work often. Talking about our mistakes helps us make better and safer computers for the future.",
+"jpn": "最後に、コンピューターへの攻撃は新しい問題です。悪い人々が個人情報を盗もうとします。これが起きた時、ITチームはすぐに彼らを止めなければなりません。それはとても怖いです。しかし、私たちはこれらの悪い日から学ぶことができます。問題の後、会社はより良いコンピューターを買い、より安全なルールを作ります。彼らは仕事のデータをよく保存する（バックアップする）ことを学びます。私たちのミスについて話すことは、将来のためにより良くて安全なコンピューターを作るのに役立ちます。"
+}
         ],
         discussionTopics: [
             { titleEng: "Human Mistakes", titleJpn: "人為的ミス", subtopics: [{ eng: "Typing the wrong code", jpn: "間違ったコードをタイプする" }, { eng: "Deleting a database", jpn: "データベースを削除する" }, { eng: "Forgetting to save", jpn: "保存するのを忘れる" }] },
@@ -2241,6 +2363,11 @@ pronunciation: {
         type: "transactional", 
         title: "Lesson 018: Reviewing a Past Project",
         goal: "Discuss a completed project and explain reasons using irregular past tense verbs, 'because of', and 'just'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不規則な過去形の動詞、「because of」、「just」を使って、完了したプロジェクトについて議論し、理由を説明する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'because of'",
+    eng: "Link the preposition 'because of' together smoothly so it sounds like one word (/bɪ.kʌ.zəv/).",
+    jpn: "前置詞の「because of」を滑らかに繋げ、1つの単語のように聞こえるように発音しましょう（/bɪ.kʌ.zəv/）。"
+},
         vocab: [
             { eng: "Project", jpn: "プロジェクト", exEng: "The new project is finally finished.", exJpn: "新しいプロジェクトがついに終わりました。" },
             { eng: "Launch", jpn: "立ち上げ / 発売", exEng: "The software launch was a success.", exJpn: "ソフトウェアの立ち上げ（発売）は成功でした。" },
@@ -2395,6 +2522,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 019: Learning from Past Mistakes",
         goal: "Discuss the importance of learning from past errors using past progressive tense and indefinite pronouns. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(過去進行形と不定代名詞を使って、過去の失敗から学ぶことの重要性について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Intonation in Sequencing",
+    eng: "When using 'before' or 'after' in the middle of a sentence, pause slightly and keep your intonation flat or rising, then let it fall at the end of the sentence.",
+    jpn: "文の途中で「before」や「after」を使う時は、少しポーズを置き、イントネーションを平坦にするか上げてから、文の最後で下げましょう。"
+},
         introArticle: [
             { eng: "Making a mistake is a normal part of office life. No one is perfect. In the past, people often hid their mistakes because they were afraid. They thought the boss would be angry or they would lose their job. Today, smart teams know that mistakes are good teachers. When someone breaks the code or deletes a file, the team can learn from it. Sharing our mistakes helps everyone improve their skills. If we talk about our errors, we can stop the same problems in the future.", jpn: "ミスをすることはオフィス生活の普通の一部です。完璧な人は誰もいません。過去には、人々は恐れていたためによく自分のミスを隠しました。彼らは上司が怒るか、仕事を失うと考えたのです。今日、賢いチームはミスが良い教師であることを知っています。誰かがコードを壊したりファイルを削除したりした時、チームはそこから学ぶことができます。私たちのミスを共有することは、全員がスキルを向上させるのに役立ちます。もし私たちが自分のエラーについて話せば、将来同じ問題を防ぐことができます。" },
             { eng: "Some mistakes happen because people are working too fast. For example, a worker who is constantly checking their phone might send an email to the wrong client. Other mistakes happen because of bad communication. A developer might write the wrong code because they did not understand the manager's plan. When these things happen, it is important to take a deep breath. You must tell your team immediately. Before you try to fix the problem yourself, you should ask for help.", jpn: "いくつかのミスは、人々が速く働きすぎているために起こります。例えば、常に携帯電話をチェックしている労働者は、間違ったクライアントにメールを送ってしまうかもしれません。他のミスは悪いコミュニケーションのせいで起こります。開発者はマネージャーの計画を理解していなかったために、間違ったコードを書いてしまうかもしれません。これらのことが起きた時は、深呼吸をすることが重要です。すぐにチームに伝えなければなりません。自分自身で問題を直そうとする前に、助けを求めるべきです。" },
@@ -2471,12 +2603,12 @@ examples: [
                 ] 
             }
         ],
-        expressions: [
-            { eng: "In my experience...", jpn: "私の経験では...", exampleEng: "In my experience, human mistakes are the most dangerous.", exampleJpn: "私の経験では、人為的ミスが最も危険です。" },
-            { eng: "To tell the truth...", jpn: "実を言うと...", exampleEng: "To tell the truth, I was very afraid of my boss.", exampleJpn: "実を言うと、私は上司をとても恐れていました。" },
-            { eng: "As a result...", jpn: "その結果...", exampleEng: "We shared our mistakes. As a result, the team improved.", exampleJpn: "私たちはミスを共有しました。その結果、チームは向上しました。" },
-            { eng: "For instance...", jpn: "例えば...", exampleEng: "Bad communication causes errors. For instance, sending the wrong file.", exampleJpn: "悪いコミュニケーションはエラーを引き起こします。例えば、間違ったファイルを送ることです。" },
-            { eng: "Ultimately...", jpn: "最終的には...", exampleEng: "Ultimately, we must work together to succeed.", exampleJpn: "最終的には、私たちは成功するために一緒に働かなければなりません。" }
+expressions: [
+            { eng: "For me...", jpn: "私にとっては...", exampleEng: "For me, human mistakes are the most dangerous.", exampleJpn: "私にとっては、人為的ミスが最も危険です。" },
+            { eng: "Actually...", jpn: "実は...", exampleEng: "Actually, I was very afraid of my boss.", exampleJpn: "実は、私は上司をとても恐れていました。" },
+            { eng: "So...", jpn: "だから...", exampleEng: "We shared our mistakes. So, the team improved.", exampleJpn: "私たちはミスを共有しました。だから、チームは向上しました。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "Bad communication causes errors. For example, sending the wrong file.", exampleJpn: "悪いコミュニケーションはエラーを引き起こします。例えば、間違ったファイルを送ることです。" },
+            { eng: "In the end...", jpn: "最後には... / 結局...", exampleEng: "In the end, we must work together to succeed.", exampleJpn: "最後には、私たちは成功するために一緒に働かなければなりません。" }
         ],
         homework: {
             vocab: [
@@ -2523,6 +2655,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 020: Case Study - The Lost Database",
         goal: "Investigate a deleted database problem from different staff viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なるスタッフの観点から削除されたデータベースの問題を調査し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Pausing for 'Which'",
+    eng: "When adding extra information with 'which', pause slightly before the comma and lower your voice pitch slightly for the extra details.",
+    jpn: "「which」を使って追加情報を加える時は、カンマの前で少しポーズを置き、追加情報の部分では声のトーンを少し下げましょう。"
+},
         vocab: [
             { eng: "Database", jpn: "データベース", exEng: "We keep all client names in the database.", exJpn: "すべてのクライアント名をデータベースに保存しています。" },
             { eng: "Delete", jpn: "削除する", exEng: "Do not delete that folder.", exJpn: "そのフォルダーを削除しないでください。" },
@@ -2539,12 +2676,30 @@ examples: [
             { eng: "Panic", jpn: "パニックになる", exEng: "Please do not panic.", exJpn: "パニックにならないでください。" },
             { eng: "Recover", jpn: "復元する", exEng: "We can recover the old files.", exJpn: "私たちは古いファイルを復元できます。" }
         ],
-        situation: { eng: "A huge problem happened at our company this morning. The engineers found that the main database is completely empty. This database is the heart of the company. It holds all the user information, client names, and the code for our new software. Without this data, the company cannot do any business today. The boss is very angry. He asked to see the backup files immediately. However, the IT team found another terrible thing. The backup servers are also empty. The company lost many months of hard work, and nobody knows how to fix it.\n\nThe managers are in a panic. They know this is a big emergency, but they do not know what happened. Was it a computer error? Did a worker make a mistake? Was it a security attack from a bad person outside the company? To solve this mystery, you must act as the lead investigator. You will listen to four different workers. They are a Data Engineer, a Security Officer, a Help Desk worker, and a Project Manager. Each person will describe a different part of the disaster. You must read their complaints carefully to understand the full situation. You must find all the true causes by connecting their stories. Your final goal is to build a smart plan to recover the data, improve security, and help the clients. Please read the words from the four workers below to begin.", jpn: "今朝、私たちの会社で巨大な問題が発生しました。エンジニアたちが、メインのデータベースが完全に空になっていることを発見しました。このデータベースは会社の心臓部です。すべてのユーザー情報、クライアント名、そして新しいソフトウェアのコードが保持されています。このデータなしでは、会社は今日いかなるビジネスも行うことができません。上司はとても怒っています。彼はすぐにバックアップファイルを見せるよう要求しました。しかし、ITチームは別の恐ろしい発見をしました。バックアップサーバーも空だったのです。会社は何ヶ月もの懸命な作業を失い、誰もそれをどう直せばいいのかわかりません。\n\nマネージャーたちはパニックに陥っています。これが重大な緊急事態であることはわかっていますが、何が起きたのかはわかりません。コンピューターのエラーだったのでしょうか？労働者がミスをしたのでしょうか？社外の悪い人からのセキュリティ攻撃だったのでしょうか？この謎を解くために、あなたは主任調査官として行動しなければなりません。あなたは4人の異なる労働者の話を聞きます。彼らはデータエンジニア、セキュリティオフィサー、ヘルプデスクの作業員、そしてプロジェクトマネージャーです。それぞれが、惨事の異なる部分について説明します。全体状況を理解するために、彼らの不満を注意深く読まなければなりません。彼らの話を結びつけることで、すべての本当の原因を見つけなければなりません。あなたの最終的な目標は、データを復元し、セキュリティを向上させ、クライアントを助けるための賢明な計画を構築することです。始めるために、以下の4人の労働者の言葉を読んでください。" },
-        people: [
-            { name: "Person 1: Alex (Data Engineer)", eng: "This is a terrible data problem. Someone deleted the main database, which was holding all our client names. I checked the server this morning, and everything was gone. We have nothing left on the computers. I also checked the backup system, which runs every night. The backup system copied the empty database over the old files. Because of this, both the main server and the backup server are totally empty. I cannot work because I have no data. I do not know how to bring the files back.", jpn: "これはひどいデータの問題です。誰かがメインデータベースを削除しました。それはすべてのクライアント名を保持していたものです。今朝サーバーを確認したところ、すべてが消えていました。コンピューターには何も残っていません。毎晩実行されるバックアップシステムも確認しました。バックアップシステムは、空のデータベースを古いファイルの上にコピー（上書き）してしまいました。このために、メインサーバーもバックアップサーバーも完全に空っぽです。データがないので、私は働くことができません。どうやってファイルを元に戻せばいいのかわかりません。" },
-            { name: "Person 2: Sarah (Security Officer)", eng: "No one checked the security logs last night. I looked at the logs today, and I saw a big problem. Something is wrong with the access system. An unknown computer logged into our network at 2 AM. The access rules are too weak. Anyone can log in if they know the simple admin password. We did not change the password for a whole year. Our security is terrible. Someone needs to change the password right now to stop this bad person.", jpn: "昨夜、誰もセキュリティログを確認しませんでした。今日ログを見たところ、大きな問題が見つかりました。アクセスシステムに何か問題があります。午前2時に見知らぬコンピューターが私たちのネットワークにログインしました。アクセスルールが弱すぎます。シンプルな管理者パスワードを知っていれば、誰でもログインできてしまいます。私たちは丸1年間パスワードを変更しませんでした。私たちのセキュリティはひどいものです。この悪い人を止めるために、誰かが今すぐパスワードを変更する必要があります。" },
-            { name: "Person 3: Mike (Help Desk)", eng: "Everyone is calling us right now. The phones are ringing constantly. Customers are trying to use the website, but it is broken. They are very angry and confused. We can do nothing to help the users because the support tools are also offline. I have no answers to give them. It is very stressful to answer the phone and just say 'I don't know' to every angry person. I am very tired of saying sorry to the clients all day.", jpn: "今、みんなが私たちに電話をかけてきています。電話が絶え間なく鳴っています。顧客はウェブサイトを使おうとしていますが、壊れています。彼らはとても怒っており、混乱しています。サポートツールもオフラインなので、私たちはユーザーを助けるために何もすることができません。私には彼らに与える答えがありません。電話に出て、怒っている人全員にただ『わかりません』と言うのはとてもストレスがたまります。一日中クライアントにごめんなさいと言うのにはとても疲れました。" },
-            { name: "Person 4: Emily (Project Manager)", eng: "The deadline for the new software release is tomorrow. My team worked for six months on this code. Now, the files are missing. We have nothing to show the client. The client is coming to our office tomorrow morning for a big meeting. I cannot tell them that we lost all their work. My team is extremely sad and worried about their jobs. We need a miracle. We cannot finish the project today because we do not have the files.", jpn: "新しいソフトウェアのリリース締め切りは明日です。私のチームはこのコードに6ヶ月間取り組みました。今、ファイルがありません。クライアントに見せるものが何もありません。クライアントは明日の朝、大きな会議のために私たちのオフィスに来ます。彼らの仕事をすべてなくしてしまったとは言えません。私のチームは極度に悲しんでおり、自分たちの仕事について心配しています。私たちには奇跡が必要です。ファイルがないので、今日プロジェクトを終わらせることはできません。" }
+        situation: { "eng": "We have a big problem at our company today. The main computer system has no data. It is empty. This system is very important. It has all our user names, client names, and new computer code. Without this data, we cannot work. The boss is very angry. He wanted the backup files quickly. But the backup system is empty, too. We lost months of hard work. Nobody knows how to fix it.\n\nThe managers are afraid. What happened? Was it a computer problem? Did a worker make a mistake? Was it a bad person? You must find the answer. You will listen to four workers: a Data Engineer, a Security Officer, a Help Desk Worker, and a Project Manager. Read their words carefully. Find the real problem. Your goal is to make a good plan. You must get the data back, make the computers safe, and help the clients.",
+    "jpn": "今日、会社で大きな問題があります。メインのコンピューターシステムにデータがありません。空っぽです。このシステムはとても大切です。ユーザー名、クライアント名、新しいコードが入っています。このデータがないと、働けません。上司はとても怒っています。彼はすぐにバックアップのファイルを見たがりました。しかし、バックアップシステムも空です。何ヶ月もの大変な仕事を失いました。直し方が誰もわかりません。\n\nマネージャーたちは恐れています。何が起きたのでしょうか？コンピューターの問題でしょうか？働き手のミスでしょうか？悪い人のせいでしょうか？あなたは答えを見つけなければなりません。4人の働き手の話を聞きます。データエンジニア、セキュリティオフィサー、ヘルプデスク、プロジェクトマネージャーです。彼らの言葉をよく読んでください。本当の問題を見つけてください。あなたの目標は良い計画を立てることです。データを取り戻し、コンピューターを安全にし、クライアントを助けなければなりません。"
+  },
+  "people": [
+    {
+      "name": "Person 1: Alex (Data Engineer)",
+      "eng": "This is a very bad problem. Someone deleted all the data. I looked at the computer this morning, and everything was gone. I looked at the backup system, too. It runs every night. But it copied the empty data over the old files. Now, both systems are empty. I cannot work because I have no data. I do not know how to get the files back.",
+      "jpn": "これはとても悪い問題です。誰かがすべてのデータを消しました。今朝コンピューターを見ましたが、すべて消えていました。バックアップシステムも見ました。それは毎晩動きます。しかし、古いファイルの上に空のデータをコピーしてしまいました。今、両方のシステムが空です。データがないので、働けません。ファイルを取り戻す方法がわかりません。"
+    },
+    {
+      "name": "Person 2: Sarah (Security Officer)",
+      "eng": "Nobody checked the computer security last night. I looked today, and I saw a big problem. A computer we do not know logged in at 2 AM. Our security is very weak. Anyone can log in with our simple password. We did not change this password for a year. Security is very bad. We must change the password right now to stop this bad person.",
+      "jpn": "昨夜は誰もコンピューターのセキュリティを確認しませんでした。今日私が見ると、大きな問題がありました。知らないコンピューターが午前2時にログインしました。私たちのセキュリティはとても弱いです。簡単なパスワードで誰でもログインできます。1年間このパスワードを変えませんでした。セキュリティはとても悪いです。この悪い人を止めるために、今すぐパスワードを変えなければなりません。"
+    },
+    {
+      "name": "Person 3: Mike (Help Desk)",
+      "eng": "Everyone is calling us today. The phones are ringing all the time. Customers want to use the website, but it is broken. They are very angry. We cannot help them because our computers do not work. I have no answers for the customers. It is very hard to answer the phone and say 'I don't know' to angry people. I am very tired of saying sorry.",
+      "jpn": "今日はみんなが私たちに電話をかけてきます。電話はずっと鳴っています。顧客はウェブサイトを使いたいのですが、壊れています。彼らはとても怒っています。私たちのコンピューターも動かないので、彼らを助けられません。顧客に答えることができません。電話に出て、怒っている人たちに「わかりません」と言うのはとても大変です。ごめんなさいと言うのにとても疲れました。"
+    },
+    {
+      "name": "Person 4: Emily (Project Manager)",
+      "eng": "We must finish the new computer project tomorrow. My team worked for six months on it. Now, the files are gone. We have nothing to show the client. The client is coming to our office tomorrow morning for a big meeting. I cannot tell the client we lost their work. My team is very sad and worried about their jobs. We cannot finish the project today because we do not have the files.",
+      "jpn": "明日、新しいコンピューターのプロジェクトを終わらせなければなりません。私のチームはそれに6ヶ月間取り組みました。今、ファイルがありません。クライアントに見せるものがありません。クライアントは明日の朝、大きな会議のためにオフィスに来ます。彼らの仕事をなくしたとは言えません。チームはとても悲しんでいて、仕事の心配をしています。ファイルがないので、今日プロジェクトを終わらせることはできません。"
+    }
         ],
         grammarPoints: [
             { 
@@ -2586,13 +2741,13 @@ examples: [
             { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
-        ],
+expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
+                ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
             vocab: [
@@ -2639,6 +2794,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 021: Speaking Test - An Incident Report",
         goal: "Give an incident report for a resolved tech issue using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、解決した技術的な問題についての障害レポート（インシデントレポート）を発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Phrasing and Thought Groups",
+    eng: "Break long explanatory sentences into smaller 'thought groups'. Pause briefly between these groups so your listener can easily understand the problem.",
+    jpn: "長い説明の文は、小さな「意味のまとまり」に分割しましょう。聞き手が問題を簡単に理解できるように、これらのまとまりの間で短くポーズを置きます。"
+},
         vocab: [
             { eng: "Incident", jpn: "出来事 / インシデント", exEng: "We wrote a report about the incident.", exJpn: "私たちはその出来事についてのレポートを書きました。" },
             { eng: "Report", jpn: "報告 / 報告する", exEng: "Please send me the final report.", exJpn: "最終報告書を私に送ってください。" },
@@ -2664,9 +2824,9 @@ examples: [
                 "Explain why fixing this problem was important"
             ] 
         },
-        exampleSpeech: { 
-            eng: "Today, I want to talk about a serious tech problem I fixed. The problem was a completely broken company website. Our main website went offline, and customers could not buy our products.\n\nThis problem happened last Tuesday morning. I came into the office, and my boss looked very worried. First, I checked our main server. The server was running, so that was not the problem. Next, I checked the website code. I found that a new staff member changed some code by accident. They deleted one important file. Because of this small mistake, the whole site crashed.\n\nFixing this problem was very important because the website is our biggest store. Every minute the site is offline, our company loses money. Also, an offline website looks very bad to our customers. I found the deleted file in the backup system and copied it back. After I did this, the website came back online immediately.\n\nIn my opinion, this incident was a good lesson. It taught us that we must be very careful with our code. As a result, we made a new rule to protect the website files.", 
-            jpn: "本日は、私が直した深刻な技術的（テック）な問題についてお話ししたいと思います。問題は、会社のウェブサイトが完全に壊れたことでした。私たちのメインのウェブサイトがオフラインになり、お客様が私たちの製品を買うことができなくなりました。\n\nこの問題は先週の火曜日の朝に起こりました。私がオフィスに入ると、上司はとても心配そうにしていました。まず、私はメインサーバーを確認しました。サーバーは動いていたので、それは問題ではありませんでした。次に、ウェブサイトのコードを確認しました。新しいスタッフが誤っていくつかのコードを変更していたことを見つけました。彼らは1つの重要なファイルを削除していました。この小さなミスのために、サイト全体がクラッシュしたのです。\n\nウェブサイトは私たちの最大の店舗であるため、この問題を修正することは非常に重要でした。サイトがオフラインになっている毎分、私たちの会社はお金を失います。また、オフラインのウェブサイトはお客様にとって非常に見栄えが悪いです。私はバックアップシステムで削除されたファイルを見つけ、それをコピーして戻しました。これを行った後、ウェブサイトはすぐにオンラインに戻りました。\n\n私の意見では、この出来事は良い教訓でした。それは私たちがコードに非常に注意しなければならないということを教えてくれました。結果として、私たちはウェブサイトのファイルを保護するための新しいルールを作りました。" 
+exampleSpeech: { 
+            eng: "Today, I will talk about a big computer problem I fixed. The company website was broken. Customers could not buy things.\n\nThis happened last Tuesday morning. I went to the office. My boss was worried. First, I checked the server. It was fine. Next, I checked the code. A new worker made a mistake. They deleted an important file. Because of this, the website stopped working.\n\nFixing this was very important. The website is our biggest store. When it is broken, we lose money. I found the old file and put it back. After that, the website worked again right away.\n\nI think this was a good lesson. We must be careful. Now, we have a new rule to keep the files safe.", 
+            jpn: "今日は、私が直した大きなコンピュータの問題について話します。会社のウェブサイトが壊れました。お客さんは物を買うことができませんでした。\n\nこれは先週の火曜日の朝に起きました。会社に行くと、上司は心配していました。まず、サーバーを見ました。サーバーは大丈夫でした。次に、コードを見ました。新しい人がミスをしました。大切なファイルを消してしまったのです。それで、ウェブサイトが止まりました。\n\nウェブサイトは一番大きなお店なので、直すことは大切でした。ウェブサイトが止まると、会社はお金を失います。私は古いファイルを見つけて、元に戻しました。その後、ウェブサイトはすぐにまた動きました。\n\nこれは良い勉強になったと思います。私たちは気をつけなければなりません。今、ファイルを安全にするための新しいルールがあります。" 
         },
         homework: {
             vocab: [
@@ -2723,11 +2883,25 @@ examples: [
         type: "opinion", 
         title: "Lesson 022: Travel Rules and Customs",
         goal: "Discuss travel rules and public customs using negative commands and obligation verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(否定の命令文や義務を表す動詞を使って、旅行のルールや公共の習慣について議論する。)</span>",
-        introArticle: [
-            { eng: "Traveling to new places is very exciting. When you travel, you can see beautiful buildings and eat delicious food. However, traveling also means following many rules. Every country and every city has different customs. When you visit a new place, you must learn these rules. For example, in many Asian countries, you have to take off your shoes before you enter a house. In public places, there are also strict rules to keep everyone safe. If you do not follow the rules, you might have a bad experience or pay a fine.", jpn: "新しい場所への旅行はとてもエキサイティングです。旅行をすると、美しい建物を見たり、美味しい食べ物を食べたりすることができます。しかし、旅行は多くのルールに従うことも意味します。すべての国やすべての都市には異なる習慣があります。新しい場所を訪れるときは、これらのルールを学ばなければなりません。例えば、多くのアジアの国では、家に入る前に靴を脱がなければなりません。公共の場所にも、全員の安全を守るための厳格なルールがあります。ルールに従わないと、嫌な経験をしたり、罰金を払ったりするかもしれません。" },
-            { eng: "Transportation rules are very important. When you go to an airport, security is very strict. The officers will tell you, \"Don't bring large bottles of water onto the airplane.\" You must listen to them. On trains in Japan, the rules are also very clear. You mustn't talk loudly on your mobile phone. You should put your phone on silent mode. This rule keeps the train quiet and peaceful for all the passengers. Also, you mustn't eat hot, smelly food on a crowded local train. People want to enjoy a clean and comfortable ride.", jpn: "交通機関のルールは非常に重要です。空港に行くと、セキュリティはとても厳しいです。係員はあなたに「飛行機に大きな水のボトルを持ち込まないでください」と言うでしょう。あなたは彼らの言うことを聞かなければなりません。日本の電車でも、ルールは非常に明確です。携帯電話で大声で話してはいけません。電話はマナーモード（サイレントモード）にするべきです。このルールは、すべての乗客のために電車を静かで平和に保ちます。また、混雑した各駅停車の電車で、温かくて匂いの強い食べ物を食べてはいけません。人々は清潔で快適な乗車を楽しみたいのです。" },
-            { eng: "Hotels and museums have rules, too. When you stay at a hotel, you mustn't smoke in a non-smoking room. If you smoke, the hotel will ask you for a lot of money. When you visit a famous museum, you often see signs that say, \"Don't take photos.\" The bright flashes from cameras can damage the old paintings. Following these rules shows respect for the local culture and the other visitors. You can enjoy your trip much more when you are polite. Good manners make traveling a wonderful experience for everyone.", jpn: "ホテルや博物館にもルールがあります。ホテルに滞在するとき、禁煙ルームでタバコを吸ってはいけません。もしタバコを吸うと、ホテルはあなたにたくさんのお金を請求します。有名な博物館を訪れると、「写真を撮らないでください」と書かれた標識をよく見かけます。カメラからの明るいフラッシュは古い絵画を傷つける可能性があります。これらのルールに従うことは、地元の文化や他の訪問者に対する敬意を示します。礼儀正しくいれば、旅行をずっと楽しむことができます。良いマナーは、旅行を全員にとって素晴らしい経験にします。" }
-        ],
+pronunciation: {
+    title: "Pronunciation: The Silent 'T' in Mustn't",
+    eng: "The first 't' in the word 'mustn't' is completely silent. Pronounce it as /mʌsnt/.",
+    jpn: "「mustn't」という単語の最初の「t」は完全に無音です。/mʌsnt/（マスント）と発音しましょう。"
+},
+introArticle: [
+    { 
+        eng: "Traveling is fun. You can see beautiful places and eat good food. But, you must follow rules. Every country has different customs. You must learn them. For example, in Asia, you must take off your shoes in a house. Public places have rules, too. If you do not follow them, you can have a bad time or pay money.", 
+        jpn: "旅行は楽しいです。美しい場所を見たり、おいしい食べ物を食べたりできます。しかし、ルールを守らなければなりません。国ごとに異なる習慣があります。それを学ばなければなりません。例えばアジアでは、家の中で靴を脱がなければなりません。公共の場所にもルールがあります。ルールを守らないと、嫌な思いをしたり、お金を払ったりすることがあります。" 
+    },
+    { 
+        eng: "Rules for travel are important. At the airport, security is strict. You must not bring large water bottles on the plane. In Japan, train rules are clear. You must not talk on your phone. You should make your phone silent. This keeps the train quiet. Also, do not eat hot food on a crowded train. People want a clean and comfortable ride.", 
+        jpn: "旅行のルールは大切です。空港のセキュリティは厳しいです。飛行機に大きな水のボトルを持ち込んではいけません。日本では電車のルールが明確です。電話で話してはいけません。電話は音が出ないようにするべきです。これで電車は静かになります。また、混んでいる電車で温かい食べ物を食べてはいけません。人々は清潔で快適な移動を望んでいます。" 
+    },
+    { 
+        eng: "Hotels and museums also have rules. You must not smoke in a non-smoking room. If you do, you must pay a lot of money. At museums, signs often say, 'Do not take photos.' Camera lights can hurt old paintings. Following rules shows respect to the culture and other people. Good manners make your trip great.", 
+        jpn: "ホテルや博物館にもルールがあります。禁煙の部屋でタバコを吸ってはいけません。もし吸ったら、たくさんのお金を払わなければなりません。博物館では「写真を撮らないで」という標識をよく見ます。カメラの光は古い絵を傷つけることがあります。ルールを守ることは、文化や他の人への敬意を示します。良いマナーで旅行が素晴らしいものになります。" 
+    }
+],
         discussionTopics: [
             { titleEng: "Airport Rules", titleJpn: "空港のルール", subtopics: [{ eng: "Security checks", jpn: "セキュリティチェック" }, { eng: "Water bottles", jpn: "水のボトル" }, { eng: "Passport control", jpn: "パスポートコントロール（入国審査）" }] },
             { titleEng: "Train Manners", titleJpn: "電車のマナー", subtopics: [{ eng: "Silent mode", jpn: "マナーモード" }, { eng: "Talking loudly", jpn: "大声で話す" }, { eng: "Eating food", jpn: "食べ物を食べる" }] },
@@ -2851,6 +3025,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 023: Hotel Check-in",
         goal: "Ask about hotel rules, facilities, and schedules using 'can't', time prepositions, and 'when'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「can't」、時間の前置詞、「when」を使って、ホテルのルール、施設、スケジュールについて尋ねる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Can vs. Can't",
+    eng: "When you say 'can', the vowel is weak and fast (/kən/). When you say 'can't', the vowel is strong and clear, and ends with a sharp stop (/kænt/).",
+    jpn: "「can」と言う時は、母音は弱く速く発音します（/kən/）。「can't」と言う時は、母音を強くはっきりと発音し、最後は鋭く止めます（/kænt/）。"
+},
         vocab: [
             { eng: "Reservation", jpn: "予約", exEng: "I have a reservation for two nights.", exJpn: "2泊の予約があります。" },
             { eng: "Passport", jpn: "パスポート", exEng: "Please show me your passport.", exJpn: "パスポートを見せてください。" },
@@ -3005,6 +3184,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 024: Travel Preparations",
         goal: "Discuss travel preparations and frequency using 'have got to' and definite frequency adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「have got to」と明確な頻度の副詞を使って、旅行の準備と頻度について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Reducing 'Have got to'",
+    eng: "In natural spoken English, 'have got to' is spoken quickly and blends together. Practice blending it as 'got_to' or even 'gotta'.",
+    jpn: "自然な口語英語では、「have got to」は速く発音され、音が繋がります。「got_to」、あるいは「gotta」のように繋げて発音する練習をしましょう。"
+},
         introArticle: [
             { eng: "Preparing for a trip takes a lot of time and effort. Everyone loves the feeling of going on a vacation, but the planning part can be stressful. First, you have got to choose a destination. Some people like to visit the beach, while others prefer exploring busy cities. After you choose a place, you have got to buy your tickets. Buying plane tickets early is usually much cheaper. Everyone wants to save money on travel. It is a good idea to check flight prices daily to find the best discount.", jpn: "旅行の準備には多くの時間と労力がかかります。誰もが休暇に出かける気分が大好きですが、計画する部分はストレスになることがあります。まず、目的地を選ばなければなりません。ビーチを訪れるのが好きな人もいれば、忙しい都市を探索するのを好む人もいます。場所を選んだ後、チケットを買わなければなりません。早く飛行機のチケットを買うことは通常はるかに安いです。誰もが旅行でお金を節約したいと思っています。最高の割引を見つけるために、毎日フライトの価格を確認するのは良いアイデアです。" },
             { eng: "Packing your bags is another big job. You have got to check the weather in your destination before you pack. If you go to a cold country, you must bring heavy coats and warm sweaters. If you visit a tropical island, you only need light clothes. Many families go on a big vacation yearly. Because it is a special event, everyone packs too many things. Your suitcase becomes very heavy. You should try to pack only the items you really need. Carrying a light bag makes traveling much easier.", jpn: "荷造りももう一つの大きな仕事です。荷造りをする前に、目的地の天気を確認しなければなりません。寒い国に行くなら、重いコートと暖かいセーターを持っていかなければなりません。南の島を訪れるなら、軽い服だけが必要です。多くの家族が毎年大きな休暇に出かけます。特別なイベントなので、みんな物を詰め込みすぎます。あなたのスーツケースはとても重くなります。本当に必要なアイテムだけを詰めるように努めるべきです。軽いバッグを持ち運ぶと、旅行はずっと簡単になります。" },
@@ -3133,6 +3317,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 025: Train Station Problems",
         goal: "Get advice and solve a travel problem using 'should' and 'if' conditionals. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「should」と「if」の条件文を使って、旅行の問題を解決しアドバイスをもらう。)</span>",
+pronunciation: {
+    title: "Pronunciation: The Silent 'L' in Should",
+    eng: "Just like in 'could', the 'L' in 'should' and 'shouldn't' is completely silent. Practice saying /ʃʊd/.",
+    jpn: "「could」の時と同じように、「should」や「shouldn't」の「L」は完全に無音です。/ʃʊd/（シュド）と発音する練習をしましょう。"
+},
         vocab: [
             { eng: "Train station", jpn: "駅", exEng: "I will meet you at the train station.", exJpn: "駅で会いましょう。" },
             { eng: "Ticket", jpn: "切符 / チケット", exEng: "Do you have your train ticket?", exJpn: "電車の切符は持っていますか？" },
@@ -3283,11 +3472,25 @@ examples: [
         type: "opinion", 
         title: "Lesson 026: Airlines vs Trains",
         goal: "Compare travel methods and discuss preferences using polite requests and purpose clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(丁寧な依頼や目的を表す節を使って、旅行の手段を比較し好みについて議論する。)</span>",
-        introArticle: [
-            { eng: "When people want to travel to a different city, they have to choose how to get there. Today, travelers have many great options. The two most popular choices for long trips are budget airlines and bullet trains. Budget airlines are very cheap. Many young people use airplanes to travel across the country because the tickets do not cost much. However, airports are usually far from the center of the city. You have to take a bus or a taxi to reach the airport. This takes a lot of extra time. Also, airport security lines are often very long and stressful.", jpn: "違う都市へ旅行したい時、人々はどうやってそこへ行くかを選ばなければなりません。今日、旅行者には多くの素晴らしい選択肢があります。長旅で最も人気のある2つの選択肢は、格安航空会社（LCC）と新幹線です。格安航空会社はとても安いです。チケットにあまりお金がかからないため、多くの若者が国中を旅行するのに飛行機を使います。しかし、空港は通常、市の中心部から遠く離れています。空港に着くためにバスやタクシーに乗らなければなりません。これには多くの余分な時間がかかります。また、空港のセキュリティの列はしばしば非常に長く、ストレスがたまります。" },
-            { eng: "In comparison, bullet trains are very fast and convenient. A bullet train station is usually right in the middle of the city. You can buy a ticket, walk onto the train, and sit down immediately. You do not have to wait in long security lines. Many business workers take the bullet train to save time. The seats are very comfortable, and you can see the beautiful countryside from the window. However, bullet train tickets are often very expensive. You might ask, \"Could I find a cheaper train ticket?\" Usually, the answer is no. You pay for the speed and convenience.", jpn: "それに比べて、新幹線は非常に速くて便利です。新幹線の駅は通常、街のど真ん中にあります。チケットを買い、電車に乗り込み、すぐに座ることができます。長いセキュリティの列で待つ必要はありません。多くのビジネスパーソンが時間を節約するために新幹線に乗ります。座席はとても快適で、窓から美しい田舎の景色を見ることができます。しかし、新幹線のチケットはしばしば非常に高価です。「もっと安い電車のチケットを見つけられませんか？」と尋ねるかもしれませんが、通常、答えはノーです。スピードと便利さにお金を払っているのです。" },
-            { eng: "Both airlines and trains have different rules for luggage. On a budget airline, you have to pay extra money to bring a large suitcase. They measure your bags very carefully. On a train, you can usually bring large bags for free. Which option is the best? This depends on your time and your money. If you want to save money, you should choose a budget airline. If you want a relaxing and fast trip, you should choose the bullet train. Knowing these differences will help you plan the perfect journey for your next holiday.", jpn: "航空会社も電車も、手荷物に関して異なるルールを持っています。格安航空会社では、大きなスーツケースを持ち込むために追加料金を払わなければなりません。彼らはバッグを非常に慎重に測ります。電車では、通常大きなバッグを無料で持ち込むことができます。どちらの選択肢が最高でしょうか？これはあなたの時間とお金によります。お金を節約したいなら、格安航空会社を選ぶべきです。リラックスして速い旅を望むなら、新幹線を選ぶべきです。これらの違いを知ることは、次の休日に向けた完璧な旅を計画するのに役立ちます。" }
-        ],
+pronunciation: {
+    title: "Pronunciation: Linking 'Could I'",
+    eng: "When asking polite questions, link the final 'd' in 'could' directly to the 'I'. Say it smoothly as one word: /kʊ.daɪ/ (Coo-die).",
+    jpn: "丁寧な質問をする時は、「could」の最後の「d」を直接「I」に繋げます。1つの単語のように滑らかに /kʊ.daɪ/（クダイ）と言いましょう。"
+},
+       introArticle: [
+    { 
+        eng: "When people travel to a new city, they must choose how to go. For long trips, cheap airplanes and fast trains are very popular. Cheap airplanes are good because they cost less money. Many young people use them to travel. But airports are usually far from the city. You must take a bus or taxi to get there. This takes a lot of time. Also, waiting at the airport can be stressful.", 
+        jpn: "人々が新しい都市に旅行するとき、どうやって行くか選ばなければなりません。長旅には、安い飛行機と速い電車がとても人気です。安い飛行機はお金があまりかからないので良いです。多くの若者が旅行にそれらを使います。しかし、空港は通常、街から遠いです。そこへ行くにはバスやタクシーに乗らなければなりません。これには多くの時間がかかります。また、空港で待つことはストレスになることがあります。" 
+    },
+    { 
+        eng: "Bullet trains are very fast and easy to use. The train station is usually in the center of the city. You can buy a ticket, get on the train, and sit down quickly. You do not have to wait a long time. Many workers take the train to save time. The seats are nice, and you can look at the beautiful country from the window. But train tickets are often expensive. You pay more for a fast and easy trip.", 
+        jpn: "新幹線はとても速くて使いやすいです。駅は通常、街の中心にあります。チケットを買い、電車に乗り、すぐに座ることができます。長い時間待つ必要はありません。多くの働く人々が時間を節約するために電車に乗ります。座席は良く、窓から美しい田舎の景色を見ることができます。しかし、電車のチケットはしばしば高いです。速くて簡単な旅のためにより多くのお金を払うのです。" 
+    },
+    { 
+        eng: "Planes and trains have different rules for bags. On a cheap airplane, you must pay extra money for a big bag. On a train, you can usually bring big bags for free. Which is the best choice? It depends on your time and money. If you want to save money, you should fly. If you want a fast and easy trip, you should take the train. Knowing this will help you plan your next holiday.", 
+        jpn: "飛行機と電車では、荷物のルールが異なります。安い飛行機では、大きなバッグに追加料金を払わなければなりません。電車では、通常大きなバッグを無料で持ち込むことができます。どちらが最良の選択でしょうか？それはあなたの時間とお金によります。お金を節約したいなら、飛行機に乗るべきです。速くて簡単な旅がしたいなら、電車に乗るべきです。これを知ることは、次の休日を計画するのに役立ちます。" 
+    }
+],
         discussionTopics: [
             { titleEng: "Budget Airlines", titleJpn: "格安航空会社", subtopics: [{ eng: "Cheap tickets", jpn: "安いチケット" }, { eng: "Long security lines", jpn: "長いセキュリティの列" }, { eng: "Far from the city", jpn: "都市から遠い" }] },
             { titleEng: "Bullet Trains", titleJpn: "新幹線", subtopics: [{ eng: "Very fast", jpn: "とても速い" }, { eng: "In the city center", jpn: "市の中心にある" }, { eng: "Expensive tickets", jpn: "高価なチケット" }] },
@@ -3411,6 +3614,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 027: Case Study - The Delayed Flight",
         goal: "Analyze a travel problem from different viewpoints using viewpoint adverbs and determiners. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(視点を表す副詞や限定詞を使って、異なる観点から旅行の問題を分析する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'of the'",
+    eng: "When using determiners like 'most of the' or 'all of the', link the words quickly and use a weak schwa sound for 'of': /moʊst-əv-ðə/.",
+    jpn: "「most of the」や「all of the」のような限定詞を使う時は、単語を素早く繋げ、「of」には弱い曖昧母音を使いましょう（/moʊst-əv-ðə/）。"
+},
         vocab: [
             { eng: "Delay", jpn: "遅れる / 遅延", exEng: "The flight is delayed by two hours.", exJpn: "フライトは2時間遅れています。" },
             { eng: "Gate", jpn: "搭乗口 / ゲート", exEng: "Please wait at gate 15.", exJpn: "15番ゲートでお待ちください。" },
@@ -3427,13 +3635,32 @@ examples: [
             { eng: "Wait", jpn: "待つ", exEng: "We have to wait here.", exJpn: "私たちはここで待たなければなりません。" },
             { eng: "Board", jpn: "搭乗する", exEng: "We will board the plane soon.", exJpn: "もうすぐ飛行機に搭乗します。" }
         ],
-        situation: { eng: "A massive problem is happening right now at the city's international airport. It is the middle of the busy summer holiday season, and thousands of people are trying to travel. However, a huge storm hit the area this morning. Because of the bad weather, the airport stopped all flights for three hours. Now, the storm is gone, but the schedule is completely broken. One specific flight, Budget Air Flight 101 to Okinawa, is delayed by seven hours. The passengers for this flight are stuck at Gate 25. The gate area is incredibly crowded, loud, and stressful. Everyone is tired, hungry, and angry. The airline staff at the desk are trying to help, but the computer system is very slow today. Passengers are shouting at the staff, and babies are crying. The airport manager is watching the situation from her office. She is very worried because the passengers might start a riot. She knows that a delayed flight is bad, but she does not understand why the people at Gate 25 are so furious. She needs to know the exact problems happening on the floor. To solve this travel disaster, you must act as the airport investigator. You will listen to four different people at Gate 25. You will hear from two passengers, a gate agent, and a baggage handler. Each person will explain a completely different part of the problem. You must read their complaints carefully. They will not give you the answers. You must find the true causes of this terrible situation by connecting their stories. Your final goal is to build a smart, step-by-step plan to calm the passengers, fix the gate problems, and make the flight depart safely. Please read the complaints below to begin.", jpn: "今、市の国際空港で巨大な問題が発生しています。忙しい夏休みシーズンの真っ只中で、何千人もの人々が旅行しようとしています。しかし、今朝巨大な嵐がこの地域を襲いました。悪天候のため、空港は3時間すべてのフライトを停止しました。今、嵐は去りましたが、スケジュールは完全に壊れています。ある特定のフライト、沖縄行きのバジェット・エア101便は7時間遅れています。このフライトの乗客は25番ゲートで立ち往生しています。ゲートエリアは信じられないほど混雑しており、うるさく、ストレスがたまります。誰もが疲れ、お腹を空かせ、怒っています。デスクの航空会社のスタッフは助けようとしていますが、今日のコンピューターシステムはとても遅いです。乗客はスタッフに向かって叫び、赤ちゃんは泣いています。空港のマネージャーはオフィスから状況を見ています。乗客が暴動を起こすかもしれないので、彼女はとても心配しています。彼女はフライトの遅延が悪いことだと知っていますが、なぜ25番ゲートの人々がこれほど激怒しているのか理解できません。彼女は現場で起きている正確な問題を知る必要があります。この旅行の惨事を解決するために、あなたは空港の調査員として行動しなければなりません。あなたは25番ゲートにいる4人の異なる人々の話を聞きます。2人の乗客、ゲートの係員、そして手荷物係から話を聞きます。それぞれが問題の全く異なる部分を説明します。あなたは彼らの不満を注意深く読まなければなりません。彼らはあなたに答えを与えません。彼らの話を結びつけることで、このひどい状況の本当の原因を見つけ出さなければなりません。あなたの最終的な目標は、乗客を落ち着かせ、ゲートの問題を修正し、フライトを安全に出発させるための賢明な、段階的な計画を構築することです。始めるために、以下の不満を読んでください。" },
+        situation: {
+eng: "There is a big problem at the airport today. It is the summer holiday, and many people want to travel. But, there was a big storm this morning. Because of the bad weather, no planes could fly for three hours. Now, the storm is over, but the schedule is broken. Budget Air Flight 101 to Okinawa is seven hours late. The passengers are waiting at Gate 25. The gate is very crowded and loud. People are tired, hungry, and angry. The airline staff want to help, but their computers are very slow. Passengers are shouting, and babies are crying. The airport manager is watching from her office. She is worried because the people are so angry. She needs to know exactly what is happening. You are an airport investigator. You must listen to four people at Gate 25: two passengers, one gate worker, and one baggage worker. They will tell you their problems. You must understand why things are so bad. Your goal is to make a plan to help the people and let the plane fly safely. Please read the stories below.",
+jpn: "今、市の国際空港で巨大な問題が発生しています。忙しい夏休みシーズンの真っ只中で、何千人もの人々が旅行しようとしています。しかし、今朝巨大な嵐がこの地域を襲いました。悪天候のため、空港は3時間すべてのフライトを停止しました。今、嵐は去りましたが、スケジュールは完全に壊れています。ある特定のフライト、沖縄行きのバジェット・エア101便は7時間遅れています。このフライトの乗客は25番ゲートで立ち往生しています。ゲートエリアは信じられないほど混雑しており、うるさく、ストレスがたまります。誰もが疲れ、お腹を空かせ、怒っています。デスクの航空会社のスタッフは助けようとしていますが、今日のコンピューターシステムはとても遅いです。乗客はスタッフに向かって叫び、赤ちゃんは泣いています。空港のマネージャーはオフィスから状況を見ています。乗客が暴動を起こすかもしれないので、彼女はとても心配しています。彼女はフライトの遅延が悪いことだと知っていますが、なぜ25番ゲートの人々がこれほど激怒しているのか理解できません。彼女は現場で起きている正確な問題を知る必要があります。この旅行の惨事を解決するために、あなたは空港の調査員として行動しなければなりません。あなたは25番ゲートにいる4人の異なる人々の話を聞きます。2人の乗客、ゲートの係員、そして手荷物係から話を聞きます。それぞれが問題の全く異なる部分を説明します。あなたは彼らの不満を注意深く読まなければなりません。彼らはあなたに答えを与えません。彼らの話を結びつけることで、このひどい状況の本当の原因を見つけ出さなければなりません。あなたの最終的な目標は、乗客を落ち着かせ、ゲートの問題を修正し、フライトを安全に出発させるための賢明な、段階的な計画を構築することです。始めるために、以下の不満を読んでください。"
+},
         people: [
-            { name: "Person 1: Tom (Passenger A)", eng: "I am extremely angry about this situation. I have a connection flight in Okinawa, and I am going to miss it. No one is telling us anything. All of the information screens are blank. Personally, I can wait for a few hours, but we need an update. The staff just look at their computers and ignore us. Some passengers are sitting on the dirty floor because there are not enough chairs. This airline is treating us like animals. We paid good money for these tickets, and we deserve respect.", jpn: "私はこの状況に極度に怒っています。沖縄で乗り継ぎ便があるのですが、それに乗り遅れそうです。誰も私たちに何も教えてくれません。すべての情報画面が真っ暗です。個人的には数時間待つことはできますが、最新情報が必要です。スタッフはただ自分たちのコンピューターを見て私たちを無視しています。十分な椅子がないため、一部の乗客は汚い床に座っています。この航空会社は私たちを動物のように扱っています。私たちはこれらのチケットに高いお金を払ったのですから、敬意をもって扱われるべきです。" },
-            { name: "Person 2: Maria (Passenger B)", eng: "Honestly, this is a nightmare. We have been waiting here for seven hours, and all of the restaurants near this gate are closed. We cannot buy any food or drinks. Most of the children are crying because they are hungry and thirsty. Usually, when a flight is delayed this long, the airline gives out free food vouchers or water. We received nothing. The air conditioning is also broken, so it is very hot. ", jpn: "正直言って、これは悪夢です。私たちはここで7時間も待っているのに、このゲート近くのレストランはすべて閉まっています。食べ物も飲み物も買うことができません。お腹が空いて喉が渇いているため、ほとんどの子供たちが泣いています。通常、フライトがこれほど長く遅れた場合、航空会社は無料の食事クーポンや水を配ります。私たちは何も受け取っていません。エアコンも壊れているので、とても暑いです。" },
-            { name: "Person 3: Sarah (Gate Agent)", eng: "I am trying my best, but I have no tools to help these people. The central airport system is completely down. Because of this, I cannot print new boarding passes or change anyone's connection flights. I want to give them information, but my computer screen is frozen. Also, the company phone line is busy, so I cannot call my manager to ask for food vouchers. Some of the passengers are shouting in my face. ", jpn: "私は最善を尽くしていますが、この人々を助けるためのツールがありません。中央の空港システムが完全にダウンしています。このため、新しい搭乗券を印刷したり、誰かの乗り継ぎ便を変更したりすることができません。彼らに情報を与えたいのですが、コンピューターの画面がフリーズしています。また、会社の電話回線が話し中で、マネージャーに電話して食事クーポンを頼むことができません。一部の乗客は私の顔に向かって叫んでいます。" },
-            { name: "Person 4: Ken (Baggage Handler)", eng: "There is a massive problem under the airport. Because of the storm, all the flights were changed. Now, there are thousands of bags mixed together. I am looking for the bags for Flight 101, but the barcodes are completely wet from the rain. The scanner cannot read them. Most of the luggage is going to the wrong airplane. Even if they board the plane now, the passengers will arrive in Okinawa with no bags. ", jpn: "空港の下で巨大な問題が起きています。嵐のせいで、すべてのフライトが変更されました。今、何千ものバッグが混ざり合っています。私は101便のバッグを探していますが、バーコードが雨で完全に濡れています。スキャナーでそれらを読み取ることができません。ほとんどの手荷物が間違った飛行機に向かっています。たとえ今彼らが飛行機に搭乗したとしても、乗客はバッグなしで沖縄に到着するでしょう。" }
-        ],
+{
+name: "Person 1: Tom (Passenger A)",
+eng: "I am very angry. I have another flight in Okinawa, and I will miss it. Nobody tells us anything. The TV screens have no information. I can wait for a few hours, but I need to know what is happening. The staff just look at their computers. Some people are sitting on the dirty floor because there are no chairs. The airline is very bad to us. We paid a lot of money, and we want respect.",
+jpn: "私はこの状況に極度に怒っています。沖縄で乗り継ぎ便があるのですが、それに乗り遅れそうです。誰も私たちに何も教えてくれません。すべての情報画面が真っ暗です。個人的には数時間待つことはできますが、最新情報が必要です。スタッフはただ自分たちのコンピューターを見て私たちを無視しています。十分な椅子がないため、一部の乗客は汚い床に座っています。この航空会社は私たちを動物のように扱っています。私たちはこれらのチケットに高いお金を払ったのですから、敬意をもって扱われるべきです。"
+},
+{
+name: "Person 2: Maria (Passenger B)",
+eng: "This is very bad. We are waiting here for seven hours, and all the restaurants are closed. We cannot buy food or water. Children are crying because they are hungry and thirsty. Usually, the airline gives free food or water when flights are late. We got nothing. The air conditioner is broken, so it is very hot.",
+jpn: "正直言って、これは悪夢です。私たちはここで7時間も待っているのに、このゲート近くのレストランはすべて閉まっています。食べ物も飲み物も買うことができません。お腹が空いて喉が渇いているため、ほとんどの子供たちが泣いています。通常、フライトがこれほど長く遅れた場合、航空会社は無料の食事クーポンや水を配ります。私たちは何も受け取っていません。エアコンも壊れているので、とても暑いです。"
+},
+{
+name: "Person 3: Sarah (Gate Agent)",
+eng: "I want to help, but I can't. The main airport computer is broken. I cannot print tickets or change flights. I want to tell them information, but my computer is stopped. The company phone is busy, so I cannot call my boss for food tickets. Some passengers are shouting at me.",
+jpn: "私は最善を尽くしていますが、この人々を助けるためのツールがありません。中央の空港システムが完全にダウンしています。このため、新しい搭乗券を印刷したり、誰かの乗り継ぎ便を変更したりすることができません。彼らに情報を与えたいのですが、コンピューターの画面がフリーズしています。また、会社の電話回線が話し中で、マネージャーに電話して食事クーポンを頼むことができません。一部の乗客は私の顔に向かって叫んでいます。"
+},
+{
+name: "Person 4: Ken (Baggage Handler)",
+eng: "There is a big problem with the bags. Because of the storm, all flights changed. Now, thousands of bags are mixed up. I am looking for the bags for Flight 101, but they are wet from the rain. The scanner cannot read the tags. Many bags are going to the wrong planes. If the passengers fly now, they will not have their bags in Okinawa.",
+jpn: "空港の下で巨大な問題が起きています。嵐のせいで、すべてのフライトが変更されました。今、何千ものバッグが混ざり合っています。私は101便のバッグを探していますが、バーコードが雨で完全に濡れています。スキャナーでそれらを読み取ることができません。ほとんどの手荷物が間違った飛行機に向かっています。たとえ今彼らが飛行機に搭乗したとしても、乗客はバッグなしで沖縄に到着するでしょう。"
+}
+],
         grammarPoints: [
             { 
                 point: "1. Adverbs: Expressing a viewpoint (視点を表す副詞: Personally, Honestly)", 
@@ -3475,11 +3702,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to the airport manager. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(空港のマネージャーに解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -3527,6 +3754,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 028: Speaking Test - A Great Trip",
         goal: "Describe a great trip or travel experience using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、素晴らしい旅行や旅の経験について描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Expressive Adjectives",
+    eng: "Use pitch and length to show emotion. When describing a great trip, stretch the vowels in positive adjectives (e.g., WOOON-derful, BEA-uuu-tiful).",
+    jpn: "声の高さと長さを使って感情を表現しましょう。素晴らしい旅行について描写する時は、肯定的な形容詞の母音を伸ばします（例：WOOON-derful, BEA-uuu-tiful）。"
+},
         vocab: [
             { eng: "Trip", jpn: "旅行 / 旅", exEng: "We had a great trip to London.", exJpn: "私たちはロンドンへの素晴らしい旅行をしました。" },
             { eng: "Experience", jpn: "経験 / 体験", exEng: "It was a wonderful travel experience.", exJpn: "それは素晴らしい旅行の経験でした。" },
@@ -3552,9 +3784,9 @@ examples: [
                 "Explain why this trip was a great experience"
             ] 
         },
-        exampleSpeech: { 
-            eng: "Today, I want to talk about a great travel experience. Two years ago, I went on a trip to Kyoto. I traveled there with my family during the spring holiday.\n\nWe stayed in Kyoto for three days. It was very beautiful. We visited many old temples and walked through the bamboo forest. The weather was perfect, so we took a lot of photos. In the evenings, we ate delicious Japanese food at a local restaurant. We also learned about the local culture. For example, we had to take off our shoes before entering the old buildings.\n\nThe main reason this trip was great is that it was very relaxing. Before the trip, I was very busy and tired from work. I had a lot of stress. However, walking in the quiet temples helped me relax. Also, spending time with my family made me very happy.\n\nIn my opinion, everyone should visit Kyoto in the spring. It is a beautiful city, and it gave me a wonderful memory that I will never forget.", 
-            jpn: "本日は、素晴らしい旅行の経験についてお話ししたいと思います。2年前、私は京都へ旅行に行きました。春休みの間に家族と一緒にそこへ旅行しました。\n\n私たちは京都に3日間滞在しました。とても美しかったです。私たちは多くの古いお寺を訪れ、竹林を歩きました。天気は完璧だったので、写真をたくさん撮りました。夕方には、地元のレストランで美味しい日本食を食べました。また、地元の文化についても学びました。例えば、古い建物に入る前には靴を脱がなければなりませんでした。\n\nこの旅行が素晴らしかった主な理由は、とてもリラックスできたからです。旅行の前、私は仕事でとても忙しく疲れていました。たくさんのストレスを抱えていました。しかし、静かなお寺を歩くことでリラックスできました。また、家族と一緒に時間を過ごすことで、私はとても幸せな気持ちになりました。\n\n私の意見では、誰もが春に京都を訪れるべきです。それは美しい都市であり、決して忘れることのない素晴らしい思い出を私に与えてくれました。" 
+exampleSpeech: { 
+            eng: "Today, I want to talk about a great trip. I went to Kyoto two years ago. I went with my family in the spring.\n\nWe stayed in Kyoto for three days. The city was very beautiful. We visited old temples and walked in a bamboo forest. The weather was very good, so we took many photos. In the evening, we ate delicious Japanese food. We also learned about Japanese culture. For example, we took off our shoes in old buildings.\n\nThe trip was great because I relaxed. Before the trip, I was very tired from work. Walking in the quiet temples helped me. I was also very happy with my family.\n\nI think everyone should visit Kyoto in the spring. It is a beautiful city. I will never forget this trip.", 
+            jpn: "今日は、素晴らしい旅行について話したいです。私は2年前に京都へ行きました。春に家族と一緒に行きました。\n\n私たちは京都に3日間滞在しました。町はとても美しかったです。私たちは古いお寺に行き、竹の森を歩きました。天気はとても良かったので、写真をたくさん撮りました。夜は、おいしい日本食を食べました。日本の文化についても学びました。例えば、古い建物では靴を脱ぎました。\n\n旅行は素晴らしかったです。なぜなら、リラックスできたからです。旅行の前、私は仕事でとても疲れていました。静かなお寺を歩くことは私の助けになりました。また、家族と一緒にいてとても幸せでした。\n\nみんな春に京都へ行くべきだと思います。美しい町です。私はこの旅行を絶対に忘れません。" 
         },
         homework: {
             vocab: [
@@ -3611,11 +3843,25 @@ examples: [
         type: "opinion", 
         title: "Lesson 029: Career Goals and Ambitions",
         goal: "Discuss career ambitions and future plans using 'be going to' and goal-setting verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>('be going to' と目標を設定する動詞を使って、キャリアの野心や将来の計画について議論する。)</span>",
-        introArticle: [
-            { eng: "Thinking about the future is an important part of any job. In the modern office, workers are always planning for their next step. When you start a new job, you have plenty of things to learn. You must understand the company rules and meet your new team. After a few years, many people want to grow. They want to get a promotion and become a manager. To do this, they aim to learn new skills. For example, learning how to speak English or how to use new computer software can help you get a better job. Setting clear goals is the secret to a successful career.", jpn: "将来について考えることは、どんな仕事においても重要な部分です。現代のオフィスでは、労働者は常に次のステップに向けて計画を立てています。新しい仕事を始める時、学ぶべきことがたくさん（plenty of）あります。会社のルールを理解し、新しいチームに会わなければなりません。数年後、多くの人が成長したいと考えます。彼らは昇進してマネージャーになりたいと思っています。これを行うために、彼らは新しいスキルを学ぶことを目指します。例えば、英語の話し方や新しいコンピューターソフトウェアの使い方を学ぶことは、より良い仕事を得るのに役立ちます。明確な目標を設定することが、成功するキャリアの秘訣です。" },
-            { eng: "Companies also have big goals for the future. A strong business is always looking for new ways to make money. Managers plan to open new offices in different cities. They are going to hire lots of new staff to help the company grow. When a company grows, it gives the workers plenty of chances to try new things. Some workers are going to travel to foreign countries for business. Others are going to lead big projects. If you work hard and share your ideas, the managers will notice you. You will have a bright future in the company.", jpn: "企業もまた、将来に向けた大きな目標を持っています。強いビジネスは常にお金を稼ぐための新しい方法を探しています。マネージャーたちは異なる都市に新しいオフィスを開くことを計画しています。彼らは会社の成長を助けるために、たくさんの（lots of）新しいスタッフを雇うつもりです。会社が成長すると、労働者に新しいことを試すたくさんのチャンスが与えられます。一部の労働者はビジネスで外国へ旅行する予定です。他の労働者は大きなプロジェクトを主導する予定です。一生懸命働き、自分のアイデアを共有すれば、マネージャーはあなたに気づくでしょう。あなたは会社で明るい未来を持つことになるでしょう。" },
-            { eng: "However, planning for the future can also be scary. Sometimes, things do not go as we expect. A project might fail, or the economy might become weak. Because of this, it is a good idea to have a backup plan. You should aim to save money and keep your skills fresh. If you lose your job, having lots of experience will help you find a new one quickly. You are going to face many challenges in your life, but a good plan will keep you safe. Always look forward and never stop learning.", jpn: "しかし、将来の計画を立てることは怖いことでもあります。時々、物事は私たちが期待するようには進みません。プロジェクトが失敗したり、経済が弱くなったりするかもしれません。このため、バックアッププラン（代替案）を持つことは良いアイデアです。お金を節約し、スキルを常に新鮮に保つことを目指すべきです。もし仕事を失っても、たくさんの経験を持っていれば、すぐに新しい仕事を見つけるのに役立ちます。人生で多くの課題に直面するでしょうが、良い計画はあなたを安全に保ちます。常に前を向き、決して学ぶことをやめないでください。" }
-        ],
+pronunciation: {
+    title: "Pronunciation: Reducing 'Going to'",
+    eng: "In spoken English, 'going to' is often reduced. Practice blending the words together quickly, changing 'going to' into 'gonna' (/gənə/).",
+    jpn: "口語英語では、「going to」はよく短縮されます。単語を素早く繋げ、「going to」を「gonna（/gənə/）」に変えて発音する練習をしましょう。"
+},
+introArticle: [
+    { 
+        "eng": "Thinking about the future is important at work. People always plan for their next job. When you start a new job, you have many things to learn. You must learn the company rules and meet your team. After a few years, many people want to become a manager. So, they learn new skills. For example, learning English or how to use a computer helps you get a better job. Having clear goals helps you succeed.", 
+        "jpn": "仕事において、将来について考えることは重要です。人々は常に次の仕事のための計画を立てます。新しい仕事を始める時、学ぶべきことがたくさんあります。会社のルールを学び、チームに会わなければなりません。数年後、多くの人はマネージャーになりたいと考えます。そのために、彼らは新しいスキルを学びます。例えば、英語やコンピューターの使い方を学ぶことは、より良い仕事を得るのに役立ちます。明確な目標を持つことは成功の助けになります。" 
+    },
+    { 
+        "eng": "Companies also have big goals for the future. Good companies always look for new ways to make money. Managers plan to open new offices in different cities. They are going to hire many new workers to help the company grow. When a company grows, workers get many chances to try new things. Some workers will travel to other countries for work. Other workers will lead big projects. If you work hard, managers will see your good work. You will have a good future in the company.", 
+        "jpn": "企業もまた、将来に向けた大きな目標を持っています。良い企業は常にお金を稼ぐための新しい方法を探しています。マネージャーたちは異なる都市に新しいオフィスを開くことを計画しています。彼らは会社の成長を助けるために、多くの新しい労働者を雇うつもりです。会社が成長すると、労働者は新しいことを試す多くのチャンスを得ます。一部の労働者は仕事で他の国へ旅行するでしょう。他の労働者は大きなプロジェクトを主導するでしょう。一生懸命働けば、マネージャーはあなたの良い働きに気づくでしょう。あなたは会社で良い未来を持つことになります。" 
+    },
+    { 
+        "eng": "But, planning for the future can also be scary. Sometimes, things go wrong. A project might stop, or business might be slow. Because of this, it is good to have a second plan. You should save money and learn new things. If you lose your job, your experience will help you find a new job fast. You will have problems in your life, but a good plan will help you. Always look forward and do not stop learning.", 
+        "jpn": "しかし、将来の計画を立てることは怖いことでもあります。時々、物事はうまくいきません。プロジェクトが止まったり、ビジネスが落ち込んだりするかもしれません。このため、2つ目の計画を持つことは良いことです。お金を節約し、新しいことを学ぶべきです。もし仕事を失っても、あなたの経験がすぐに新しい仕事を見つけるのに役立ちます。人生で問題に直面することもあるでしょうが、良い計画があなたを助けてくれます。常に前を向き、学ぶことをやめないでください。" 
+    }
+],
         discussionTopics: [
             { titleEng: "Setting Goals", titleJpn: "目標を設定する", subtopics: [{ eng: "Learning new skills", jpn: "新しいスキルを学ぶ" }, { eng: "Getting a promotion", jpn: "昇進する" }, { eng: "Saving money", jpn: "お金を節約する" }] },
             { titleEng: "Company Growth", titleJpn: "会社の成長", subtopics: [{ eng: "Opening new offices", jpn: "新しいオフィスの開設" }, { eng: "Hiring new staff", jpn: "新しいスタッフの採用" }, { eng: "Leading projects", jpn: "プロジェクトの主導" }] },
@@ -3739,6 +3985,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 030: Outlining Project Goals",
         goal: "Outline goals for a new project phase and assign tasks using the future tense and purpose clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(未来形と目的を表す節を使って、新しいプロジェクトフェーズの目標を概説し、タスクを割り当てる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Contractions with 'Will'",
+    eng: "In natural speech, we contract 'will' with pronouns. Practice the sharp 'L' sounds at the end of I'll, We'll, and They'll.",
+    jpn: "自然な会話では、「will」を代名詞と短縮します。I'll、We'll、They'll の最後にある鋭い「L」の音を練習しましょう。"
+},
         vocab: [
             { eng: "Project", jpn: "プロジェクト", exEng: "This new project is very big.", exJpn: "この新しいプロジェクトはとても大きいです。" },
             { eng: "Phase", jpn: "段階 / フェーズ", exEng: "We will start phase two tomorrow.", exJpn: "明日フェーズ2を開始します。" },
@@ -3893,11 +4144,25 @@ examples: [
         type: "opinion", 
         title: "Lesson 031: The Future of the Workplace",
         goal: "Discuss how the workplace will change with new technology using verbs of desire and adverbs of frequency. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(願望を表す動詞と頻度の副詞を使って、新しいテクノロジーによって職場がどう変わるかについて議論する。)</span>",
-        introArticle: [
-            { eng: "The modern office is changing very fast. If we look at the future of the workplace, technology is the biggest driver. Today, many people want to work from home. Remote work is very popular, but it is only the beginning. In the future, experts believe that Artificial Intelligence (AI) will do a lot of our daily tasks. AI can read emails, write basic reports, and organize schedules very quickly. Because of this, workers hope to spend less time on boring jobs. They would like to focus on creative tasks and big ideas.", jpn: "現代のオフィスは非常に速く変化しています。職場の未来を見ると、テクノロジーが最大の推進力です。今日、多くの人が家から働くことを望んでいます。リモートワークはとても人気ですが、それは始まりにすぎません。将来、専門家は人工知能（AI）が私たちの日常業務の多くを行うと信じています。AIはメールを読み、基本的な報告書を書き、スケジュールを非常に速く整理することができます。このため、労働者は退屈な仕事に費やす時間を減らすことを望んでいます。彼らは創造的なタスクや大きなアイデアに集中したいと考えています。" },
-            { eng: "Automation is another big change. In factories and warehouses, robots are already doing the heavy lifting. This keeps human workers safe. In the office, automation means computer programs will handle the data. However, some people are worried about these changes. They always ask, \"Will robots take my job?\" Most managers say no. They want to use technology to help their teams, not replace them. Humans will always be necessary to make complex decisions and build relationships with clients. A robot cannot smile and shake hands with a customer.", jpn: "自動化ももう一つの大きな変化です。工場や倉庫では、すでにロボットが重いものを持ち上げる作業を行っています。これにより人間の労働者は安全に保たれます。オフィスにおいて、自動化はコンピュータープログラムがデータを処理することを意味します。しかし、これらの変化について心配している人もいます。彼らは常に「ロボットは私の仕事を奪うのか？」と尋ねます。ほとんどのマネージャーはノーと言います。彼らはチームを助けるためにテクノロジーを使いたいのであり、置き換えたいわけではありません。複雑な決定を下し、クライアントとの関係を築くためには、人間が常に必要です。ロボットは顧客に微笑んで握手することはできません。" },
-            { eng: "The future workplace will also have different hours. Right now, most people work five days a week. In the future, many companies hope to try a four-day work week. If AI helps us finish our work faster, we do not need to sit in the office every day. We can spend more time with our families and enjoy our hobbies. Workers would love to have more free time. To succeed in the future, we must be flexible. We should always try to learn new tools and embrace the changes.", jpn: "未来の職場では、労働時間も異なるものになるでしょう。現在、ほとんどの人が週5日働いています。将来、多くの企業が週休3日制（週4日労働）を試すことを望んでいます。もしAIが仕事をより早く終わらせるのを助けてくれれば、私たちは毎日オフィスに座っている必要はありません。家族とより多くの時間を過ごし、趣味を楽しむことができます。労働者はもっと自由な時間を持ちたいと強く願うでしょう。将来成功するためには、私たちは柔軟でなければなりません。私たちは常に新しいツールを学び、変化を受け入れるよう努めるべきです。" }
-        ],
+pronunciation: {
+    title: "Pronunciation: Blending 'Want to'",
+    eng: "When 'want' and 'to' are together, the two 'T' sounds blend into one. Say 'wan-to' or reduce it completely to 'wanna'.",
+    jpn: "「want」と「to」が並ぶ時、2つの「T」の音は1つに混ざります。「wan-to」と言うか、完全に短縮して「wanna」と言いましょう。"
+},
+introArticle: [
+    { 
+        eng: "Offices are changing fast. Technology is making this happen. Today, many people want to work from home. In the future, Artificial Intelligence (AI) will do a lot of our work. AI can read emails, write simple reports, and plan our days quickly. Because of this, workers will not do boring jobs. They want to do more interesting and creative things.", 
+        jpn: "オフィスは急速に変化しています。テクノロジーがこれを引き起こしています。今日、多くの人が自宅で働くことを望んでいます。将来、人工知能（AI）が私たちの仕事の多くを行うでしょう。AIはメールを読み、簡単な報告書を書き、私たちの一日の計画を素早く立てることができます。このため、労働者は退屈な仕事をしないでしょう。彼らはもっと面白くて創造的なことをしたいと思っています。" 
+    },
+    { 
+        eng: "Machines are also doing more work now. In factories, robots lift heavy things. This keeps people safe. In offices, computer programs will work with numbers and information. But some people are worried. They ask, \"Will robots take my job?\" Most bosses say no. They want computers to help workers, not take their jobs. We will always need people to make hard choices and talk to customers. A robot cannot smile or shake hands.", 
+        jpn: "機械も現在、より多くの仕事をしています。工場では、ロボットが重いものを持ち上げます。これにより人々は安全に保たれます。オフィスでは、コンピュータープログラムが数字や情報を扱います。しかし、心配している人もいます。彼らは「ロボットは私の仕事を奪うのか？」と尋ねます。ほとんどの上司はノーと言います。彼らはコンピューターが労働者を助けることを望んでおり、仕事を奪うことを望んでいません。難しい選択をし、顧客と話すために、私たちは常に人を必要とします。ロボットは微笑んだり握手したりすることはできません。" 
+    },
+    { 
+        eng: "Work hours will also change. Now, most people work five days a week. In the future, many companies want people to work only four days. If AI helps us work faster, we do not need to be in the office every day. We can have more time for our family and hobbies. Workers want more free time. To do well in the future, we must learn to use new tools and be open to new changes.", 
+        jpn: "労働時間も変わるでしょう。現在、ほとんどの人が週に5日働いています。将来、多くの企業は人々に4日だけ働くことを望んでいます。もしAIが私たちがより早く働くのを助けてくれれば、私たちは毎日オフィスにいる必要はありません。家族や趣味のためにより多くの時間を持つことができます。労働者はもっと自由な時間を望んでいます。将来うまくやるためには、私たちは新しいツールを使うことを学び、新しい変化を受け入れなければなりません。" 
+    }
+],
         discussionTopics: [
             { titleEng: "Artificial Intelligence (AI)", titleJpn: "人工知能（AI）", subtopics: [{ eng: "Writing reports", jpn: "レポートを書く" }, { eng: "Organizing schedules", jpn: "スケジュールを整理する" }, { eng: "Helping workers", jpn: "労働者を助ける" }] },
             { titleEng: "Working from Home", titleJpn: "在宅勤務", subtopics: [{ eng: "Remote work", jpn: "リモートワーク" }, { eng: "Flexible hours", jpn: "柔軟な時間" }, { eng: "Using video calls", jpn: "ビデオ通話を使う" }] },
@@ -4021,6 +4286,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 032: Booking a Meeting Room",
         goal: "Book a meeting room and arrange event details using present continuous for future and polite offers. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(未来を表す現在進行形と丁寧な申し出を使って、会議室を予約しイベントの詳細を手配する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Shall I'",
+    eng: "Link the final 'L' in 'shall' directly into the 'I' to make your polite offers sound smooth and natural: /ʃæ.laɪ/ (Sha-lie).",
+    jpn: "丁寧な申し出を滑らかで自然に聞こえさせるために、「shall」の最後の「L」を直接「I」に繋げましょう：/ʃæ.laɪ/（シャライ）。"
+},
         vocab: [
             { eng: "Meeting", jpn: "会議 / ミーティング", exEng: "We have a meeting at 2 PM.", exJpn: "午後2時に会議があります。" },
             { eng: "Room", jpn: "部屋", exEng: "Please book the large room.", exJpn: "広い部屋を予約してください。" },
@@ -4175,11 +4445,25 @@ examples: [
         type: "opinion", 
         title: "Lesson 033: Global Business Travel",
         goal: "Discuss the future of business travel and global communication using adverbs and modals of certainty. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(確実性を表す副詞や法動詞を使って、出張やグローバルコミュニケーションの未来について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Syllable Reduction in 'Probably'",
+    eng: "While 'probably' is spelled with three syllables, natural speakers often drop the middle vowel. Practice saying it fast as two syllables: 'prob-ly'.",
+    jpn: "「probably」は3音節で綴られますが、ネイティブスピーカーはよく真ん中の母音を落とします。2音節で「prob-ly（プロブリー）」と速く言う練習をしましょう。"
+},
         introArticle: [
-            { eng: "Business travel is a huge part of the global economy. In the past, managers traveled to different countries every month. They flew on airplanes, stayed in expensive hotels, and had dinner with foreign clients. Meeting face-to-face was the only way to build strong trust. However, the world is changing. Today, many companies are asking a big question: 'Is business travel still necessary?' Because video calls are so easy and cheap, some people are sure that traditional business travel will disappear in the future.", jpn: "出張はグローバル経済の大きな部分を占めています。過去には、マネージャーたちは毎月異なる国へ旅行していました。彼らは飛行機に乗り、高価なホテルに滞在し、外国のクライアントと夕食をとりました。対面で会うことが、強い信頼を築く唯一の方法でした。しかし、世界は変化しています。今日、多くの企業が「出張はまだ必要なのか？」という大きな疑問を投げかけています。ビデオ通話が非常に簡単で安価なため、伝統的な出張は将来消滅すると確信している人もいます。" },
-            { eng: "Video software is definitely improving every year. Now, you can talk to a team in London and a client in New York on the same day. You do not have to leave your living room. This saves companies millions of dollars in flight tickets. It also gives workers a better life because they do not have to sleep in airports or feel jet lag. A video call is just like a real meeting, but without the physical stress. Many experts are sure that digital meetings will replace short business trips entirely.", jpn: "ビデオソフトウェアは間違いなく毎年向上しています。今では、ロンドンのチームとニューヨークのクライアントと同じ日に話すことができます。リビングルームから出る必要はありません。これにより、企業は航空券の費用を何百万ドルも節約できます。また、空港で寝たり時差ぼけを感じたりする必要がないため、労働者により良い生活を提供します。ビデオ通話は実際の会議とまるで同じですが、肉体的なストレスはありません。多くの専門家は、デジタル会議が短い出張を完全に置き換えると確信しています。" },
-            { eng: "However, not everyone agrees. Some business leaders say that a computer screen is not the same as a real handshake. You cannot have a friendly dinner or share a joke easily on a video call. These small human moments are very important for closing a big deal. Probably, the future will be a mix of both. Companies will definitely use video calls for simple updates. But for very important contracts, they will probably still send their best managers on an airplane. Human connection is still the strongest tool in business.", jpn: "しかし、誰もが同意するわけではありません。一部のビジネスリーダーは、コンピューターの画面は本当の握手と同じではないと言います。ビデオ通話では、和やかな夕食をとったり、冗談を簡単に共有したりすることはできません。これらの小さな人間的な瞬間は、大きな取引をまとめるために非常に重要です。おそらく、未来は両方の混合になるでしょう。企業は簡単な進捗報告には間違いなくビデオ通話を使用するでしょう。しかし非常に重要な契約のためには、おそらく依然として最高のマネージャーを飛行機で送るでしょう。人とのつながりは、依然としてビジネスにおいて最強のツールなのです。" }
-        ],
+  {
+    "eng": "Business travel is very important. In the past, business people traveled to other countries a lot. They flew on planes, stayed in nice hotels, and ate dinner with customers. Meeting in person was the best way to build trust. But the world is changing. Today, companies ask, 'Do we need business travel?' Video calls are easy and cheap. Because of this, some people think business travel will stop in the future.",
+    "jpn": "出張はとても重要です。昔、ビジネスパーソンはよく他の国へ行きました。彼らは飛行機に乗り、良いホテルに泊まり、顧客と夕食を食べました。直接会うことは、信頼を築くための最良の方法でした。しかし、世界は変わっています。今日、企業は「出張は必要か？」と問いかけています。ビデオ通話は簡単で安いです。そのため、将来、出張はなくなると考える人もいます。"
+  },
+  {
+    "eng": "Video software gets better every year. Now, you can talk to someone in London and New York on the same day. You do not have to leave your house. This saves companies a lot of money. It is also good for workers because they do not feel tired from travel. A video call is like a real meeting, but it is easier. Many people believe online meetings will replace short trips.",
+    "jpn": "ビデオソフトウェアは毎年良くなっています。今では、同じ日にロンドンやニューヨークにいる人と話すことができます。家を出る必要はありません。これにより、企業はたくさんのお金を節約できます。旅行で疲れることがないため、労働者にとっても良いことです。ビデオ通話は実際の会議に似ていますが、より簡単です。多くの人が、オンライン会議が短い旅行の代わりになると信じています。"
+  },
+  {
+    "eng": "But not everyone agrees. Some bosses say a computer screen is not the same as a real handshake. You cannot eat dinner together or laugh easily on a video call. These things are very important for big business. The future will probably be a mix of both. Companies will use video calls for simple meetings. But for very important business, people will still travel by plane. Meeting people is still very important in business.",
+    "jpn": "しかし、誰もが同意するわけではありません。一部のボスたちは、コンピューターの画面は本当の握手と同じではないと言います。ビデオ通話では一緒に夕食を食べたり、簡単に笑い合ったりすることはできません。これらのことは大きなビジネスにとって非常に重要です。未来はおそらく両方が混ざったものになるでしょう。企業は簡単な会議にビデオ通話を使うでしょう。しかし非常に重要なビジネスのためには、人々は依然として飛行機で旅行するでしょう。人と会うことは、ビジネスにおいて依然として非常に重要なのです。"
+  }
+],
         discussionTopics: [
             { titleEng: "Traditional Travel", titleJpn: "伝統的な旅行", subtopics: [{ eng: "Flying on airplanes", jpn: "飛行機に乗る" }, { eng: "Staying in hotels", jpn: "ホテルに滞在する" }, { eng: "Building strong trust", jpn: "強い信頼を築く" }] },
             { titleEng: "Video Meetings", titleJpn: "ビデオ会議", subtopics: [{ eng: "Easy and cheap", jpn: "簡単で安い" }, { eng: "Talking to anyone", jpn: "誰とでも話す" }, { eng: "Saving company money", jpn: "会社のお金を節約する" }] },
@@ -4303,6 +4587,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 034: Case Study - The Delayed Launch",
         goal: "Investigate a major project delay from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から大規模なプロジェクトの遅延を調査し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Won't vs. Want",
+    eng: "Make a clear 'O' shape with your lips for 'won't' (/woʊnt/). Ensure it sounds different from the flat 'ah' sound in 'want' (/wɑnt/).",
+    jpn: "「won't（/woʊnt/）」の時は、唇で明確な「O（オー）」の形を作りましょう。「want（/wɑnt/）」の平坦な「ア」の音とは違う音に聞こえるようにしてください。"
+},
         vocab: [
             { eng: "Launch", jpn: "立ち上げ / 発売", exEng: "The product launch is next month.", exJpn: "製品の発売は来月です。" },
             { eng: "Delay", jpn: "遅らせる / 遅れ", exEng: "There is a big delay in the schedule.", exJpn: "スケジュールに大きな遅れがあります。" },
@@ -4319,13 +4608,32 @@ examples: [
             { eng: "Add", jpn: "追加する", exEng: "They want to add a camera to the watch.", exJpn: "彼らは時計にカメラを追加したがっています。" },
             { eng: "Feature", jpn: "機能", exEng: "This watch has a great new feature.", exJpn: "この時計には素晴らしい新機能があります。" }
         ],
-        situation: { eng: "A huge problem is happening at our company. We are planning to launch a new smart watch next month. It is a very important project for our future. The bosses hoped to sell thousands of watches and make a lot of money. The watch is great because it connects to mobile phones and helps people stay healthy. However, the project is completely delayed. Nothing is ready on time. The CEO is very angry and worried. If we do not sell the watch next month, the company will lose a lot of money. The CEO wants to know why the project is failing so badly. He cannot sleep at night because he is so stressed.\n\nYou are the special project investigator. You must listen to four different workers. They are from the Marketing team, the Sales team, the Production factory, and the Design team. Everyone is complaining about different problems. The teams are not talking to each other. No one knows the full story. If you only look at the factory, you will miss the problems in the office. You must read their stories carefully. They will not give you the answers or tell you how to fix the project. They will only complain about their hard work, their angry bosses, and their daily stress. You must connect their words to find the true reasons for the delay. Your goal is to make a smart plan to fix the problems, help the teams work together, and finish the watch on time. Please read the complaints from the four workers below to begin your investigation.", jpn: "私たちの会社で巨大な問題が発生しています。来月、新しいスマートウォッチを発売する計画です。これは私たちの未来にとって非常に重要なプロジェクトです。上司たちは何千個もの時計を売り、たくさんのお金を稼ぐことを望んでいました。この時計は携帯電話に接続し、人々が健康を保つのに役立つため素晴らしいものです。しかし、プロジェクトは完全に遅れています。時間通りに準備できているものは何もありません。CEOはとても怒っており、心配しています。来月時計を売らなければ、会社はたくさんのお金を失うでしょう。CEOはなぜプロジェクトがこれほどひどく失敗しているのかを知りたがっています。彼はあまりにもストレスがたまっているため、夜も眠れません。\n\nあなたは特別なプロジェクト調査員です。4人の異なる労働者の話を聞かなければなりません。彼らはマーケティングチーム、営業チーム、生産工場、そしてデザインチームの出身です。誰もが異なる問題について不満を言っています。チーム同士は話し合っていません。誰も全体像を知りません。工場だけを見ていれば、オフィスの問題を見逃してしまいます。彼らの話を注意深く読まなければなりません。彼らはあなたに答えを与えたり、プロジェクトの修正方法を教えたりはしません。彼らは自分たちの懸命な作業、怒っている上司、そして日々のストレスについて不満を言うだけです。彼らの言葉を結びつけて、遅延の本当の理由を見つけ出さなければなりません。あなたの目標は、問題を修正し、チームが協力するのを助け、時間通りに時計を完成させるための賢明な計画を立てることです。調査を始めるために、以下の4人の労働者からの不満を読んでください。" },
-        people: [
-            { name: "Person 1: Emma (Marketing Team)", eng: "I am so tired of this project. My marketing team cannot do our jobs. We need to print posters and build the new website to show the watch to the world. However, the design team keeps changing the colors and the name of the watch every single week. We cannot print anything because the information is always wrong. We are just sitting in the office and waiting every day. We waste a lot of time. If they do not give us the final design today, we will miss our advertising deadline.", jpn: "私はこのプロジェクトにとても疲れています。私のマーケティングチームは仕事ができません。私たちはポスターを印刷し、時計を世界に見せるための新しいウェブサイトを構築する必要があります。しかし、デザインチームが毎週のように時計の色や名前を変更し続けています。情報が常に間違っているため、私たちは何も印刷することができません。私たちはただオフィスに座って毎日待っているだけです。多くの時間を無駄にしています。彼らが今日最終的なデザインをくれなければ、私たちは広告の締め切りに間に合わないでしょう。" },
-            { name: "Person 2: David (Sales Team)", eng: "My sales team is having a terrible week. Our big clients are calling us every day. They saw the early news and they want to buy the watch for their stores. However, we have absolutely no information to give them. We do not know the final price, and we do not know the real release date. When the clients ask questions, we just say 'I don't know'. We look very foolish and unprofessional. The clients are getting angry, and they might buy a different watch from another company.", jpn: "私の営業チームはひどい一週間を過ごしています。大きなクライアントが毎日電話をかけてきます。彼らは初期のニュースを見て、自分たちの店のためにその時計を買いたがっています。しかし、私たちには彼らに提供する情報が全くありません。最終的な価格も、実際の発売日も知りません。クライアントが質問をしてきても、私たちはただ『わかりません』と言うだけです。私たちはとても愚かでプロらしくなく見えます。クライアントは怒り始めており、他社の違う時計を買ってしまうかもしれません。" },
-            { name: "Person 3: Ken (Production Factory)", eng: "The factory is a complete disaster right now. We cannot build the watches because we do not have the right parts. We order small computer chips from another country, but the delivery is delayed. The shipping boats are late because of very bad weather on the ocean. My workers are just standing in the factory with nothing to do. Even if we get the parts tomorrow, we cannot build thousands of watches in one week. It is impossible. We need much more time to finish the work safely.", jpn: "現在、工場は完全に大惨事です。正しい部品がないため、私たちは時計を作ることができません。私たちは他の国から小さなコンピューターチップを注文していますが、配達が遅れています。海上の非常に悪い天候のせいで、輸送船が遅れているのです。私の労働者たちは、何もやることがなくただ工場に立っているだけです。たとえ明日部品を手に入れたとしても、1週間で何千個もの時計を作ることはできません。不可能です。安全に仕事を終わらせるためには、はるかに多くの時間が必要です。" },
-            { name: "Person 4: Lisa (Design Team)", eng: "I am so stressed, and my head hurts. The top managers are giving us too many new ideas. Every time we finish a drawing of the watch, the boss says, 'Please add a new camera' or 'Please make the screen bigger.' They always want to add more features to the watch. Because of this, we have to draw new designs every week. We have no time to finish the final picture. The managers need to stop changing their minds so we can finish our work and go home.", jpn: "私はとてもストレスがたまっていて、頭が痛いです。トップマネージャーたちが私たちに多すぎる新しいアイデアを与えてきます。私たちが時計の図面を仕上げるたびに、上司は『新しいカメラを追加して』とか『画面をもっと大きくして』と言います。彼らは常に時計により多くの機能を追加したがります。このため、私たちは毎週新しいデザインを描かなければなりません。最終的な絵を仕上げる時間がありません。私たちが仕事を終えて家に帰れるように、マネージャーたちは気が変わるのをやめる必要があります。" }
-        ],
+situation: { 
+  eng: "Our company has a big problem. We want to sell a new smart watch next month. This project is very important. The bosses want to sell many watches and make a lot of money. The watch is great. It connects to phones and helps people stay healthy. But the project is very late. Nothing is ready. The CEO is very angry and worried. If we do not sell the watch, the company will lose a lot of money. He wants to know why the project is failing. He cannot sleep because he is so stressed.\n\nYou are a special worker. You must listen to four people. They are from Marketing, Sales, the Factory, and Design. Everyone is unhappy. The teams do not talk to each other. No one knows everything. You must read their stories. They will not give you the answers. They will only talk about their hard work, angry bosses, and stress. You must find the real reasons for the delay. Your job is to make a good plan to fix the problems, help the teams work together, and finish the watch on time. Please read the stories below.", 
+  jpn: "私たちの会社で巨大な問題が発生しています。来月、新しいスマートウォッチを発売する計画です。これは私たちの未来にとって非常に重要なプロジェクトです。上司たちは何千個もの時計を売り、たくさんのお金を稼ぐことを望んでいました。この時計は携帯電話に接続し、人々が健康を保つのに役立つため素晴らしいものです。しかし、プロジェクトは完全に遅れています。時間通りに準備できているものは何もありません。CEOはとても怒っており、心配しています。来月時計を売らなければ、会社はたくさんのお金を失うでしょう。CEOはなぜプロジェクトがこれほどひどく失敗しているのかを知りたがっています。彼はあまりにもストレスがたまっているため、夜も眠れません。\n\nあなたは特別なプロジェクト調査員です。4人の異なる労働者の話を聞かなければなりません。彼らはマーケティングチーム、営業チーム、生産工場、そしてデザインチームの出身です。誰もが異なる問題について不満を言っています。チーム同士は話し合っていません。誰も全体像を知りません。工場だけを見ていれば、オフィスの問題を見逃してしまいます。彼らの話を注意深く読まなければなりません。彼らはあなたに答えを与えたり、プロジェクトの修正方法を教えたりはしません。彼らは自分たちの懸命な作業、怒っている上司、そして日々のストレスについて不満を言うだけです。彼らの言葉を結びつけて、遅延の本当の理由を見つけ出さなければなりません。あなたの目標は、問題を修正し、チームが協力するのを助け、時間通りに時計を完成させるための賢明な計画を立てることです。調査を始めるために、以下の4人の労働者からの不満を読んでください。" 
+},
+people: [
+  { 
+    name: "Person 1: Emma (Marketing Team)", 
+    eng: "I am very tired of this project. My marketing team cannot do our work. We need to make posters and a new website. But the design team changes the watch colors and name every week. We cannot print anything because the information is wrong. We just sit in the office and wait. We waste a lot of time. If they do not give us the final design today, we will be too late for our ads.", 
+    jpn: "私はこのプロジェクトにとても疲れています。私のマーケティングチームは仕事ができません。私たちはポスターを印刷し、時計を世界に見せるための新しいウェブサイトを構築する必要があります。しかし、デザインチームが毎週のように時計の色や名前を変更し続けています。情報が常に間違っているため、私たちは何も印刷することができません。私たちはただオフィスに座って毎日待っているだけです。多くの時間を無駄にしています。彼らが今日最終的なデザインをくれなければ、私たちは広告の締め切りに間に合わないでしょう。" 
+  },
+  { 
+    name: "Person 2: David (Sales Team)", 
+    eng: "My sales team is having a very bad week. Our big customers call us every day. They want to buy the watch for their shops. But we have no information. We do not know the price, and we do not know the date to sell it. When customers ask, we say 'I don't know'. We look stupid. The customers are getting angry. They might buy a different watch from another company.", 
+    jpn: "私の営業チームはひどい一週間を過ごしています。大きなクライアントが毎日電話をかけてきます。彼らは初期のニュースを見て、自分たちの店のためにその時計を買いたがっています。しかし、私たちには彼らに提供する情報が全くありません。最終的な価格も、実際の発売日も知りません。クライアントが質問をしてきても、私たちはただ『わかりません』と言うだけです。私たちはとても愚かでプロらしくなく見えます。クライアントは怒り始めており、他社の違う時計を買ってしまうかもしれません。" 
+  },
+  { 
+    name: "Person 3: Ken (Production Factory)", 
+    eng: "The factory is very bad right now. We cannot make the watches because we do not have the right parts. We buy small computer parts from another country, but they are late. The ships are late because the weather on the sea is very bad. My workers have no work to do. If we get the parts tomorrow, we still cannot make thousands of watches in one week. It is impossible. We need more time to finish the work safely.", 
+    jpn: "現在、工場は完全に大惨事です。正しい部品がないため、私たちは時計を作ることができません。私たちは他の国から小さなコンピューターチップを注文していますが、配達が遅れています。海上の非常に悪い天候のせいで、輸送船が遅れているのです。私の労働者たちは、何もやることがなくただ工場に立っているだけです。たとえ明日部品を手に入れたとしても、1週間で何千個もの時計を作ることはできません。不可能です。安全に仕事を終わらせるためには、はるかに多くの時間が必要です。" 
+  },
+  { 
+    name: "Person 4: Lisa (Design Team)", 
+    eng: "I am very stressed, and my head hurts. The managers give us too many new ideas. When we finish a picture of the watch, the boss says, 'Add a new camera' or 'Make the screen bigger.' They always want to add new things. Because of this, we must draw new designs every week. We have no time to finish the final picture. The managers must stop changing their minds. Then we can finish our work and go home.", 
+    jpn: "私はとてもストレスがたまっていて、頭が痛いです。トップマネージャーたちが私たちに多すぎる新しいアイデアを与えてきます。私たちが時計の図面を仕上げるたびに、上司は『新しいカメラを追加して』とか『画面をもっと大きくして』と言います。彼らは常に時計により多くの機能を追加したがります。このため、私たちは毎週新しいデザインを描かなければなりません。最終的な絵を仕上げる時間がありません。私たちが仕事を終えて家に帰れるように、マネージャーたちは気が変わるのをやめる必要があります。" 
+  }
+],
         grammarPoints: [
             { 
                 point: "1. Future Tense: Expressing negative future facts (未来の否定事実を表す: won't / will not)", 
@@ -4367,11 +4675,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -4419,6 +4727,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 035: Speaking Test - A Future Plan",
         goal: "Present a simple project roadmap or personal future plan using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、簡単なプロジェクトのロードマップや個人的な将来の計画を発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Pacing for Emphasis",
+    eng: "When you introduce your main goal, slow your speaking speed down completely. This makes your goal sound powerful and important.",
+    jpn: "主な目標を紹介する時は、話すスピードを完全に遅くしましょう。これにより、あなたの目標が力強く、重要なものに聞こえます。"
+},
         vocab: [
             { eng: "Future", jpn: "未来 / 将来", exEng: "We are planning for the future.", exJpn: "私たちは未来のための計画を立てています。" },
             { eng: "Goal", jpn: "目標", exEng: "My main goal is to save money.", exJpn: "私の主な目標はお金を節約することです。" },
@@ -4503,6 +4816,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 036: International Food Experiences",
         goal: "Discuss and share interesting international food experiences using the present perfect tense. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形を使って、興味深い国際的な食の経験について議論し共有する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Contracting 'Have' and 'Has'",
+    eng: "In the present perfect tense, the helping verbs 'have' and 'has' should be contracted. Practice saying I've, We've, He's, and She's.",
+    jpn: "現在完了形では、助動詞の「have」と「has」は短縮されるべきです。I've, We've, He's, She's と発音する練習をしましょう。"
+},
         introArticle: [
             { eng: "Food is a wonderful part of our daily lives. Every country in the world has its own special dishes and cooking styles. When you travel to a foreign country, trying the local food is a great experience. You can taste many new things that you cannot find at home. For example, you might try spicy curry in India, fresh fish in Japan, or sweet desserts in France. Many people love to talk about their food experiences. They ask their friends, 'Have you ever eaten crocodile meat?' or 'Have you ever tried real Italian pizza?' Trying new food opens your mind to different cultures and teaches you about the world.", jpn: "食べ物は私たちの日常生活の素晴らしい一部です。世界中のどの国にも、それぞれ独自の特別な料理や調理法があります。外国を旅行する時、地元の食べ物を試すことは素晴らしい経験です。家では見つけられない多くの新しいものを味わうことができます。例えば、インドでスパイシーなカレーを、日本で新鮮な魚を、あるいはフランスで甘いデザートを試すかもしれません。多くの人が自分の食の経験について話すのが大好きです。彼らは友人に「これまでにワニの肉を食べたことはありますか？」や「本物のイタリアンピザを試したことはありますか？」と尋ねます。新しい食べ物を試すことは、異文化に対して心を開き、世界について教えてくれます。" },
             { eng: "However, some people are afraid of new food. They have never eaten anything strange or different. They only eat food from their own country because it feels safe. This is okay, but they might miss some amazing flavors. If you eat the same meal every single day, your life becomes very boring. You should try to visit international restaurants in your city. You do not have to fly on an airplane to eat foreign food. You can find Mexican, Chinese, or Indian restaurants very easily in most big cities today. Eating at these places is like taking a small holiday.", jpn: "しかし、新しい食べ物を怖がる人もいます。彼らは奇妙なものや違うものを一度も食べたことがありません。安全だと感じるため、自分の国の食べ物しか食べません。これは大丈夫ですが、彼らはいくつかの素晴らしい風味を逃しているかもしれません。もし毎日全く同じ食事を食べていたら、人生はとても退屈になります。あなたの都市にある国際的なレストランを訪れてみるべきです。外国の食べ物を食べるために飛行機に乗る必要はありません。今日、ほとんどの大都市ではメキシコ料理、中国料理、インド料理のレストランをとても簡単に見つけることができます。これらの場所で食べることは、小さな休日をとるようなものです。" },
@@ -4631,6 +4949,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 037: Checking on a Meal",
         goal: "Check the status of a meal and order dessert using the present perfect tense and adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と副詞を使って、食事の状況を確認し、デザートを注文する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak 'Have' in Questions",
+    eng: "In questions like 'Have you finished?', the word 'Have' is usually spoken quickly and weakly (/həv/). Do not stress it.",
+    jpn: "「Have you finished?」のような質問では、「Have」は通常、速く弱く発音されます（/həv/）。強調しないようにしましょう。"
+},
         vocab: [
             { eng: "Finish", jpn: "終わらせる / 終える", exEng: "Did you finish your dinner?", exJpn: "夕食は終えましたか？" },
             { eng: "Already", jpn: "すでに / もう", exEng: "I have already paid the bill.", exJpn: "私はすでに請求書を支払いました。" },
@@ -4785,6 +5108,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 038: Restaurant Reviews",
         goal: "Review the best meals you have eaten using present perfect for unfinished time and adjective prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(未完了の時間（今年、今週など）を表す現在完了形と形容詞の前置詞を使って、これまでに食べた最高の食事をレビューする。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking Prepositions",
+    eng: "When an adjective ends in a consonant and the preposition starts with a vowel, link them smoothly (e.g., disappointed_in -> dis-a-poin-te-din).",
+    jpn: "形容詞が子音で終わり、前置詞が母音で始まる場合、それらを滑らかに繋げましょう（例：disappointed_in -> dis-a-poin-te-din）。"
+},
         introArticle: [
             { eng: "People love to talk about the best meals they have eaten. When you find a great restaurant, you want to share it with your family and friends. You might say, 'I have eaten at three nice places so far this month.' Writing a review on the internet is also very popular today. Customers can give stars to a restaurant. They write about the taste of the food, the price, and the kindness of the staff. Good reviews help the restaurant get more customers. Bad reviews can hurt the business very quickly, so owners read them carefully.", jpn: "人々は自分が食べた中で最高の食事について話すのが大好きです。素晴らしいレストランを見つけた時、あなたはそれを家族や友人と共有したいと思うでしょう。「今月はこれまでに3つの素敵な場所で食事をした」と言うかもしれません。今日、インターネットでレビュー（評価・口コミ）を書くことも非常に人気があります。客はレストランに星をつけることができます。彼らは食べ物の味、価格、そしてスタッフの親切さについて書きます。良いレビューはレストランがより多くの客を獲得するのに役立ちます。悪いレビューはビジネスを非常に早く傷つける可能性があるため、オーナーはそれらを注意深く読みます。" },
             { eng: "There are many things that make a meal perfect. The food must be delicious and fresh. However, the service is also very important. If the waiter is angry or slow, you will not enjoy your dinner. You will be disappointed with the restaurant. On the other hand, if the staff is friendly and fast, you will be very satisfied with your visit. A good chef also makes the food look beautiful on the plate. People love to take photos of beautiful food and show them to their friends online. A colorful plate makes the food taste even better.", jpn: "食事を完璧にするものはたくさんあります。食べ物は美味しくて新鮮でなければなりません。しかし、サービスも非常に重要です。もしウェイターが怒っていたり遅かったりしたら、あなたは夕食を楽しむことはできないでしょう。あなたはそのレストランにがっかりするでしょう。その一方で、スタッフがフレンドリーで迅速であれば、あなたの訪問に非常に満足するでしょう。良いシェフはまた、お皿の上の食べ物を美しく見せます。人々は美しい食べ物の写真を撮り、オンラインで友人に見せるのが大好きです。カラフルなお皿は、食べ物をさらに美味しく感じさせます。" },
@@ -4913,6 +5241,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 039: Waiting for a Table",
         goal: "Complain about waiting for a table using the present perfect tense and start/stop verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と開始/停止の動詞を使って、テーブル待ちについて苦情を言う。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak 'For' vs. Strong 'Since'",
+    eng: "When expressing time, 'for' is spoken quickly as a weak sound (/fər/), but 'since' is spoken clearly and strongly.",
+    jpn: "時間を表現する時、「for」は弱い音（/fər/）として速く発音されますが、「since」ははっきりと強く発音されます。"
+},
         vocab: [
             { eng: "Wait", jpn: "待つ", exEng: "We had to wait for twenty minutes.", exJpn: "私たちは20分待たなければなりませんでした。" },
             { eng: "Table", jpn: "テーブル / 机", exEng: "We need a table for four.", exJpn: "4人用のテーブルが必要です。" },
@@ -5067,6 +5400,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 040: Party Food and Catering",
         goal: "Discuss party planning and food options using 'go + -ing' and gerunds after prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「go + -ing」や前置詞の後の動名詞を使って、パーティーの計画や食べ物の選択肢について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Dropping the 'T' in 'Just'",
+    eng: "When 'just' comes before a consonant (like 'just finished'), native speakers often drop the 't' sound completely (jus' finished).",
+    jpn: "「just」が子音の前に来る時（「just finished」など）、ネイティブスピーカーはよく「t」の音を完全に落とします（jus' finished）。"
+},
         introArticle: [
             { eng: "Having a party with your friends is a lot of fun. When you plan a party, the most important thing is the food. Some people like to cook all the food by themselves. They go shopping for fresh vegetables, bread, and meat. They spend all day working in the kitchen. This is a lot of hard work, but the food is usually very delicious. If you cook for your friends, they will feel very special. Cooking your own recipes is a great way to show your love to your family and guests.", jpn: "友人とパーティーを開くのはとても楽しいです。パーティーを計画する時、最も重要なことは食べ物です。すべての食べ物を自分で料理するのが好きな人もいます。彼らは新鮮な野菜、パン、肉を買い（ショッピングに）行きます。彼らは一日中キッチンで働いて過ごします。これは多くの重労働ですが、食べ物はたいていとても美味しいです。もしあなたが友人のために料理をすれば、彼らはとても特別だと感じるでしょう。自分自身のレシピで料理することは、家族やゲストへの愛を示す素晴らしい方法です。" },
             { eng: "Other people do not like cooking. They prefer to order food from a catering company or a local restaurant. Buying hot pizza or fried chicken is very easy and fast. You do not have to wash many dirty plates or pots after the party ends. Also, many young people enjoy 'potluck' parties. In a potluck, every guest brings one dish to share with the group. This is a very cheap and fun way to eat. You can try many different types of food. Nobody has to complain about paying too much money for the party.", jpn: "料理が好きではない人もいます。彼らはケータリング会社や地元のレストランから食べ物を注文することを好みます。熱いピザやフライドチキンを買うのはとても簡単で速いです。パーティーが終わった後に多くの汚れた皿や鍋を洗う必要がありません。また、多くの若者が「持ち寄り（ポットラック）」パーティーを楽しみます。持ち寄りパーティーでは、各ゲストがグループで共有する料理を1品持ち寄ります。これはとても安くて楽しい食事の方法です。多くの異なる種類の食べ物を試すことができます。パーティーに多すぎるお金を払うことについて文句を言う人は誰もいません。" },
@@ -5195,6 +5533,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 041: Case Study - The Restaurant Disaster",
         goal: "Analyze a bad restaurant experience from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から悪いレストランでの経験を分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Blending Identical Consonants",
+    eng: "When one word ends with the same sound the next word starts with, say the sound only once (e.g., promised_to -> promis-to).",
+    jpn: "ある単語の終わりの音と次の単語の始まりの音が同じ場合、その音は1回だけ発音します（例：promised_to -> promis-to）。"
+},
         vocab: [
             { eng: "Reserve", jpn: "予約する", exEng: "I reserved a table for two.", exJpn: "2名用のテーブルを予約しました。" },
             { eng: "Expensive", jpn: "高価な", exEng: "This restaurant is very expensive.", exJpn: "このレストランはとても高価です。" },
@@ -5259,11 +5602,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -5311,6 +5654,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 042: Speaking Test - A Great Restaurant",
         goal: "Give a comprehensive review of your favorite restaurant using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、お気に入りのレストランの総合的なレビューを発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stressing Strong Adjectives",
+    eng: "When giving a review, stretch the vowel sounds in strong emotion adjectives to show enthusiasm (e.g., A-MAA-zing, PER-fect).",
+    jpn: "レビューをする時は、熱意を示すために強い感情を表す形容詞の母音を長く伸ばしましょう（例：A-MAA-zing, PER-fect）。"
+},
         vocab: [
             { eng: "Favorite", jpn: "お気に入りの", exEng: "This is my favorite cafe.", exJpn: "これは私のお気に入りのカフェです。" },
             { eng: "Place", jpn: "場所", exEng: "This is a good place to eat.", exJpn: "ここは食事をするのに良い場所です。" },
@@ -5395,6 +5743,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 043: Data and Storage",
         goal: "Discuss server capacity, hardware stock, and data amounts using determiners for high quantities. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(多い量を表す限定詞を使って、サーバーの容量、ハードウェアの在庫、データの量について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'A lot of'",
+    eng: "In natural speech, 'a lot of' is linked together and the 't' becomes a soft flap sound, sounding like 'uh-lot-tuh' (/ə lɑtəv/).",
+    jpn: "自然な会話では、「a lot of」は繋げて発音され、「t」は柔らかい弾き音になり、「アロッタ（/ə lɑtəv/）」のように聞こえます。"
+},
         introArticle: [
             { eng: "Today, computers and smart phones are a big part of our lives. We use a lot of data every single day. When you take photos, make videos, or download music, you need space to save them. Many people have a lot of files on their phones and computers. If you take too many pictures, your phone memory will become full. This is a big problem. You will have to delete old photos to make space for new ones. Because of this, people buy extra memory cards or pay for cloud storage. Cloud storage is a safe place on the internet to keep your files.", jpn: "今日、コンピューターとスマートフォンは私たちの生活の大きな部分を占めています。私たちは毎日たくさんのデータを使用します。写真を撮ったり、動画を作ったり、音楽をダウンロードしたりする時、それらを保存するスペースが必要です。多くの人が自分の電話やコンピューターにたくさんのファイルを持っています。写真を撮りすぎると、電話のメモリがいっぱいになってしまいます。これは大きな問題です。新しいもののためのスペースを作るために、古い写真を削除しなければならなくなります。このため、人々は追加のメモリーカードを買ったり、クラウドストレージにお金を払ったりします。クラウドストレージは、ファイルを保管するためのインターネット上の安全な場所です。" },
             { eng: "In the business world, companies use so much data. They keep records of their sales, their clients, and their projects. A large company has plenty of information to store. They cannot keep everything on one computer in the office. They have to buy massive servers to hold the data safely. If a company loses its data, it loses a lot of money and the trust of its clients. Therefore, managing data is a very important job for the IT department. They must always check that there is enough free space on the drives.", jpn: "ビジネスの世界では、企業は非常に多くのデータを使用します。彼らは売上、クライアント、そしてプロジェクトの記録を保管しています。大企業には保存すべき情報が十分に（たくさん）あります。オフィスの1台のコンピューターにすべてを保管することはできません。データを安全に保持するために、巨大なサーバーを購入しなければなりません。もし企業がデータを失えば、多くのお金とクライアントの信頼を失います。それゆえに、データを管理することはIT部門にとって非常に重要な仕事です。彼らはドライブに十分な空きスペースがあるか常に確認しなければなりません。" },
@@ -5523,6 +5876,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 044: Requesting More Storage",
         goal: "Request more cloud storage or budget from IT support using determiners for low amounts. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(少ない量を表す限定詞を使って、ITサポートにより多くのクラウドストレージや予算を要求する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The Flap 'T' in 'Little'",
+    eng: "In American English, the double 't' in 'little' sounds like a quick, soft 'd'. Practice saying 'a liddle space'.",
+    jpn: "アメリカ英語では、「little」の二重の「t」は速くて柔らかい「d」のように聞こえます。「a liddle space」と言う練習をしましょう。"
+},
         vocab: [
             { eng: "Cloud", jpn: "クラウド", exEng: "Save it to the company cloud.", exJpn: "それを会社のクラウドに保存してください。" },
             { eng: "Space", jpn: "スペース / 容量", exEng: "I need more space for my files.", exJpn: "ファイルのためにもっとスペースが必要です。" },
@@ -5675,6 +6033,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 045: Analyzing User Information",
         goal: "Discuss business metrics and user data using non-specific quantity determiners and viewpoint adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不特定多数の量を表す限定詞と視点を表す副詞を使って、ビジネスの指標やユーザーデータについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Viewpoint Adverb Intonation",
+    eng: "When starting a sentence with 'Personally' or 'Actually', use a rising intonation (↗) and pause slightly before finishing the sentence.",
+    jpn: "「Personally」や「Actually」で文を始める時は、上がり調子のイントネーション（↗）を使い、文を続ける前に少しポーズを置きましょう。"
+},
         introArticle: [
             { eng: "In modern business, knowing your customer is the key to success. Companies want to understand how people use their products. To do this, they collect user information. They look at numbers, charts, and graphs to see what is popular. For example, a software company might want to know how many times people open their app. They discover that most users open the app in the morning, but some users only open it at night. This kind of data helps the company make smart decisions. If they understand the habits of their customers, they can sell more products.", jpn: "現代のビジネスにおいて、顧客を知ることは成功の鍵です。企業は人々が自社の製品をどのように使用しているかを理解したいと考えています。これを行うために、彼らはユーザー情報を収集します。何が人気かを見るために、数字、チャート、グラフを見ます。例えば、ソフトウェア企業は人々がアプリを何回開くかを知りたがるかもしれません。彼らは、ほとんどのユーザーが朝にアプリを開くが、一部のユーザーは夜にしか開かないことを発見します。このようなデータは、企業が賢明な決定を下すのに役立ちます。顧客の習慣を理解すれば、より多くの製品を売ることができます。" },
             { eng: "Analyzing this information can bring surprising results. Actually, companies often learn that their original ideas were wrong. For instance, a clothing store might think that young people buy the most expensive shoes. However, when they look at the sales data, they find that older people buy them. Surprisingly, all age groups enjoy shopping online, not just young people. These facts change how businesses plan their future. They can stop making bad products and focus on the good ones. Data turns guessing into knowing.", jpn: "この情報を分析することは、驚くべき結果をもたらす可能性があります。実は（Actually）、企業は自分たちの最初のアイデアが間違っていたと知ることがよくあります。例えば、衣料品店は若者が最も高価な靴を買うと考えるかもしれません。しかし、売上データを見ると、年配の人々がそれらを買っていることがわかります。驚いたことに（Surprisingly）、若者だけでなくすべての年齢層がオンラインショッピングを楽しんでいます。これらの事実は、ビジネスが将来を計画する方法を変えます。彼らは悪い製品を作るのをやめ、良い製品に集中することができます。データは「推測」を「知ること」に変えるのです。" },
@@ -5804,6 +6167,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 046: Choosing Software",
         goal: "Select between two competing options using determiners for groups of two and comparative adjectives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(2つのグループを表す限定詞と比較級の形容詞を使って、競合する2つの選択肢から選ぶ。)</span>",
+pronunciation: {
+    title: "Pronunciation: Voiced vs. Unvoiced 'TH'",
+    eng: "Practice the difference between the 'TH' sounds. 'Both' is unvoiced (no vibration), while 'Neither' is voiced (vibrating).",
+    jpn: "「TH」の音の違いを練習しましょう。「Both」は無声音（振動しない）ですが、「Neither」は有声音（振動する）です。"
+},
         vocab: [
             { eng: "Choose", jpn: "選ぶ", exEng: "We must choose a new system.", exJpn: "新しいシステムを選ばなければなりません。" },
             { eng: "Option", jpn: "選択肢 / オプション", exEng: "Option A is very fast.", exJpn: "オプションAはとても速いです。" },
@@ -5958,6 +6326,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 047: Reviewing Business Numbers",
         goal: "Analyze and review business data metrics using specific quantity determiners and adjective comparisons. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(特定の量を表す限定詞と形容詞の比較を使って、ビジネスデータの指標を分析しレビューする。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak 'Than' in Comparisons",
+    eng: "When comparing, 'than' is never stressed. Say it quickly as a weak schwa sound (/ðən/): bet-ter_than.",
+    jpn: "比較する時、「than」は決して強調されません。弱い曖昧母音（/ðən/）として素早く言いましょう：bet-ter_than。"
+},
         introArticle: [
             { eng: "In the corporate world, numbers tell a story. Every month, managers have a special meeting to review business results. They look at all of the data to understand the health of the company. They check how many products they sold and how much money they spent. Understanding these numbers is very important. If a company does not know its numbers, it cannot grow. Most of the successful businesses today use detailed reports. These reports help leaders see clear patterns and make strong, confident decisions for the future.", jpn: "企業の世界では、数字が物語を語ります。毎月、マネージャーたちはビジネスの結果をレビューするための特別な会議を開きます。会社の健全性を理解するために、彼らはすべてのデータに目を通します。彼らは製品をいくつ売り、お金をいくら使ったかを確認します。これらの数字を理解することは非常に重要です。会社が自社の数字を知らなければ、成長することはできません。今日成功しているビジネスのほとんどは、詳細な報告書を使用しています。これらの報告書は、リーダーが明確なパターンを見出し、将来のために強力で自信に満ちた決定を下すのに役立ちます。" },
             { eng: "Comparing numbers is the most basic way to analyze a business. For example, a sales manager will compare the sales from this year to the sales from last year. They might say, \"This year is much better than last year.\" They also compare different products. They might discover that phone cases are more popular than phone chargers. By making these comparisons, the manager learns what the customers really want. If a product is not selling well, the company can stop making it. This stops the company from wasting money and time.", jpn: "数字を比較することは、ビジネスを分析するための最も基本的な方法です。例えば、営業マネージャーは今年の売上を昨年の売上と比較します。彼らは「今年は去年よりもはるかに良い」と言うかもしれません。彼らはまた、異なる製品を比較します。彼らは電話ケースが電話の充電器よりも人気があることを発見するかもしれません。これらの比較を行うことで、マネージャーは顧客が本当に求めているものを学びます。もし製品がよく売れていなければ、会社はそれを作るのをやめることができます。これにより、会社がお金と時間を無駄にするのを防ぎます。" },
@@ -6086,6 +6459,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 048: Case Study - The Budget Cuts",
         goal: "Investigate a company budget crisis from different department viewpoints and propose a fair solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる部門の観点から会社の予算危機を調査し、公平な解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emphasizing 'Not'",
+    eng: "When using 'not many' or 'not much', put strong vocal stress on the word 'NOT' to emphasize the lack of resources.",
+    jpn: "「not many」や「not much」を使う時は、「NOT」という単語に強いアクセントを置き、リソースが不足していることを強調しましょう。"
+},
         vocab: [
             { eng: "Budget", jpn: "予算", exEng: "We do not have a big budget.", exJpn: "私たちには大きな予算がありません。" },
             { eng: "Cut", jpn: "削減する / 切る", exEng: "The boss cut our budget.", exJpn: "上司が私たちの予算を削減しました。" },
@@ -6150,11 +6528,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -6202,6 +6580,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 049: Speaking Test - A Business Report",
         goal: "Present a simple business report or academic finding using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、簡単なビジネスレポートや学術的な発見を発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Clear Numbers (13 vs 30)",
+    eng: "When giving business reports, numbers must be clear. Stress the LAST syllable for teens (thir-TEEN) and the FIRST for tens (THIR-ty).",
+    jpn: "ビジネスレポートを行う時、数字は明確でなければなりません。10代の数字は最後の音節を強調し（thir-TEEN）、10の倍数は最初の音節を強調します（THIR-ty）。"
+},
         vocab: [
             { eng: "Report", jpn: "報告 / レポート", exEng: "Please send me the final report.", exJpn: "最終報告書を私に送ってください。" },
             { eng: "Business", jpn: "ビジネス / 会社", exEng: "Our business is growing fast.", exJpn: "私たちのビジネスは急速に成長しています。" },
@@ -6286,6 +6669,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 050: Following Instructions",
         goal: "Discuss how to follow rules and steps using negative commands and sequence markers. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(否定の命令文と順序を示すマーカーを使って、ルールや手順に従う方法について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The Stopped 'T' in 'Don't'",
+    eng: "When giving negative commands, cut the 't' in 'Don't' off sharply without releasing a puff of air (Don't touch).",
+    jpn: "否定の命令を出す時は、「Don't」の「t」で息を漏らさずに鋭く音を止めましょう（Don't touch）。"
+},
         introArticle: [
             { eng: "In our daily lives, we often have to learn new things. When you buy a new computer, build a new desk, or play a new game, you must follow instructions. Good instructions are very important. First, you should read the manual carefully. Next, you must collect all your tools. Finally, you can start your work. If you do not read the manual, you might make a big mistake. For example, building a desk without looking at the pictures is a bad idea. You will put the pieces in the wrong place, and the desk will break.", jpn: "私たちの日常生活において、私たちはしばしば新しいことを学ばなければなりません。新しいコンピューターを買ったり、新しい机を組み立てたり、新しいゲームをプレイしたりする時、あなたは指示（手順）に従わなければなりません。良い指示はとても重要です。まず、説明書を注意深く読むべきです。次に、すべての道具を集めなければなりません。最後に、作業を始めることができます。説明書を読まないと、大きなミスをするかもしれません。例えば、写真を見ずに机を組み立てるのは悪いアイデアです。部品を間違った場所に置いてしまい、机は壊れるでしょう。" },
             { eng: "Many people do not like reading long manuals. They think it takes too much time. They just open the box and start pushing buttons. When they make a mistake, they get angry. It is much better to take your time. There is always something to learn from a guide. Also, giving good instructions is a very useful skill. When you teach a new worker at your office, you must speak clearly. You should use simple words. If the steps are too hard, the new worker will feel sad and confused.", jpn: "多くの人は長い説明書を読むのが好きではありません。彼らは時間がかかりすぎると考えています。彼らはただ箱を開けてボタンを押し始めます。彼らはミスをした時、怒ります。ゆっくり時間をかける方がはるかに良いです。ガイドからは常に学ぶべき何かがあります。また、良い指示を出すことはとても役立つスキルです。オフィスで新しい労働者に教える時、あなたは明確に話さなければなりません。簡単な言葉を使うべきです。手順が難しすぎると、新しい労働者は悲しく、混乱した気分になります。" },
@@ -6414,6 +6802,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 051: Setting Up an Account",
         goal: "Guide a colleague through an email account setup using sequence markers and negative commands. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(順序を示すマーカーと否定の命令文を使って、同僚にメールアカウントの設定手順を案内する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Consonant Clusters in 'Next'",
+    eng: "The word 'Next' ends in three consonants (K-S-T). In fast speech before a pause, the 'T' is often dropped (Nex', type your name).",
+    jpn: "「Next」という単語は3つの子音（K-S-T）で終わります。ポーズの前の速い会話では、しばしば「T」が落とされます（Nex', type your name）。"
+},
         vocab: [
             { eng: "Account", jpn: "アカウント", exEng: "I made a new email account.", exJpn: "新しいメールアカウントを作りました。" },
             { eng: "Password", jpn: "パスワード", exEng: "Enter your password here.", exJpn: "ここにパスワードを入力してください。" },
@@ -6568,6 +6961,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 052: Bad Design and Interfaces",
         goal: "Critique poor UX design and difficult workflows using personal limits and opposition. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(個人的な限界や対立の表現を使って、不十分なUXデザインや難しいワークフローを批評する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'too' and 'for'",
+    eng: "When using 'too... for' (e.g., too difficult for me), emphasize 'too' and the adjective, and say 'for me' very quickly and weakly (/fərmi/).",
+    jpn: "「too... for」（例：too difficult for me）を使う時は、「too」と形容詞を強調し、「for me」は非常に速く弱く発音しましょう（/fərmi/）。"
+},
         introArticle: [
             { eng: "We use technology every day, but sometimes it makes us very angry. When you open a new smartphone app or a business software, it should be easy to use. However, many programs have terrible design. In the tech industry, this is called bad \"User Experience\" or UX. A good app is simple and beautiful. A bad app is confusing and ugly. For example, some websites have too many buttons. If the screen is crowded, you do not know where to click. This makes the work too difficult for most people. They feel lost and want to close the program immediately.", jpn: "私たちは毎日テクノロジーを使用しますが、時々それは私たちをとても怒らせます。新しいスマートフォンのアプリやビジネスソフトウェアを開いたとき、それは使いやすいものであるべきです。しかし、多くのプログラムはひどいデザインを持っています。テクノロジー業界では、これは悪い「ユーザーエクスペリエンス」またはUXと呼ばれます。良いアプリはシンプルで美しいです。悪いアプリは紛らわしくて醜いです。例えば、いくつかのウェブサイトにはボタンが多すぎます。画面が混雑していると、どこをクリックすればいいのかわかりません。これはほとんどの人にとって作業を難しすぎるものにします。彼らは途方に暮れ、すぐにプログラムを閉じたいと思います。" },
             { eng: "Small design choices can cause big problems. Think about the text on your screen. If the words are very small, you cannot read them. The text is small but important. Also, the colors must match well. If a designer puts yellow text on a white background, it hurts your eyes. Another common problem is hidden menus. Sometimes, you want to change your password or log out, but you cannot find the menu. The options are hidden behind strange icons. Designers often think their ideas are clever, but for a normal user, there is nothing good about a hidden button.", jpn: "小さなデザインの選択が大きな問題を引き起こすことがあります。画面上のテキストについて考えてみてください。もし言葉がとても小さければ、読むことができません。テキストは小さいですが重要です。また、色はよく調和していなければなりません。もしデザイナーが白い背景に黄色いテキストを置いたら、それはあなたの目を痛めます。もう一つのよくある問題は隠されたメニューです。時々、パスワードを変更したりログアウトしたりしたいのに、メニューが見つからないことがあります。選択肢は奇妙なアイコンの後ろに隠されています。デザイナーはよく自分のアイデアが賢いと考えますが、普通のユーザーにとって、隠されたボタンには良いことは何もありません。" },
@@ -6696,6 +7094,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 053: Fixing Network Problems",
         goal: "Walk a frustrated user through network fixes using sequencing clauses and 'bad at'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(順序を表す節や 'bad at' を使って、イライラしているユーザーにネットワークの修正手順を案内する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stopping the 'T' in 'Right'",
+    eng: "In the phrases 'right before' and 'right after', do not release the 't' sound in 'right'. Stop it sharply in your throat (righ' before).",
+    jpn: "「right before」と「right after」のフレーズでは、「right」の「t」の音を解放（息を吐き出す）しないでください。喉の奥で鋭く止めます（righ' before）。"
+},
         vocab: [
             { eng: "Network", jpn: "ネットワーク", exEng: "The network is very slow today.", exJpn: "今日のネットワークはとても遅いです。" },
             { eng: "Router", jpn: "ルーター", exEng: "Restart the Wi-Fi router.", exJpn: "Wi-Fiルーターを再起動してください。" },
@@ -6850,6 +7253,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 054: Learning New Tech Skills",
         goal: "Discuss how people learn new professional skills using adverbs of manner and activities. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(様態の副詞と活動を表す名詞を使って、人々がどのように新しい専門的スキルを学ぶかについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The '-ly' Suffix",
+    eng: "When adding '-ly' to an adjective (e.g., slowly, clearly), make sure the 'L' sound is clear and light. Do not swallow the sound.",
+    jpn: "形容詞に「-ly」を付ける時（例：slowly, clearly）は、「L」の音がはっきりと軽く聞こえるようにしてください。音を飲み込まないようにしましょう。"
+},
         introArticle: [
             { eng: "In the modern office, technology changes very fast. Employees must learn new skills constantly to stay useful. Learning is a continuous journey. Ten years ago, knowing how to type quickly and send emails was enough. Today, workers need to use complex project software, join virtual video meetings, and manage cloud databases. Some people learn these new tools easily. They play with the new software and figure it out themselves. Other people learn very slowly. They need a teacher to show them every step carefully.", jpn: "現代のオフィスでは、テクノロジーは非常に速く変化します。従業員は役に立ち続けるために絶えず新しいスキルを学ばなければなりません。学ぶことは継続的な旅です。10年前は、速くタイプする方法を知り、メールを送ることができれば十分でした。今日、労働者は複雑なプロジェクトソフトウェアを使い、バーチャルなビデオ会議に参加し、クラウドデータベースを管理する必要があります。これらの新しいツールを簡単に学ぶ人もいます。彼らは新しいソフトウェアをいじって、自分で理解します。とてもゆっくり学ぶ人もいます。彼らはすべてのステップを注意深く見せてくれる先生を必要とします。" },
             { eng: "Training is a big part of any business. When a company buys a new system, they usually offer training classes. In these classes, an expert explains the software clearly. A good teacher speaks slowly and answers questions politely. However, reading a manual is not always the best way to learn. Doing the action is usually better than reading about it. Practicing every day helps your brain remember the buttons. If you use a tool regularly, you will learn to do your job perfectly.", jpn: "トレーニング（研修）はどんなビジネスにおいても大きな部分を占めます。会社が新しいシステムを買った時、彼らはたいていトレーニングクラスを提供します。これらのクラスでは、専門家がソフトウェアを明確に説明します。良い先生はゆっくり話し、丁寧に質問に答えます。しかし、説明書を読むことが常に最良の学習方法というわけではありません。通常、行動を起こすこと（実際にやること）は、それについて読むことよりも優れています。毎日練習することは、あなたの脳がボタンを覚えるのを助けます。もしツールを定期的に使えば、自分の仕事を完璧にこなすことを学ぶでしょう。" },
@@ -6978,6 +7386,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 055: Case Study - The Angry Customers",
         goal: "Analyze a customer service crisis from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点からカスタマーサービスの危機を分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Intonation in 'If' Clauses",
+    eng: "When a sentence starts with 'If', your voice should rise at the comma (↗) and fall at the end of the sentence (↘).",
+    jpn: "文が「If」で始まる時、カンマのところで声を上げ（↗）、文の最後で声を下げます（↘）。"
+},
         vocab: [
             { eng: "Angry", jpn: "怒って", exEng: "The customer is very angry.", exJpn: "その客はとても怒っています。" },
             { eng: "Frustrated", jpn: "イライラして / 欲求不満の", exEng: "I am frustrated with this computer.", exJpn: "私はこのコンピューターにイライラしています。" },
@@ -7042,11 +7455,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -7094,6 +7507,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 056: Speaking Test - A Step-by-Step Guide",
         goal: "Deliver a clear step-by-step tutorial for a simple task using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、簡単なタスクのための明確な段階的チュートリアルを発表する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emphasizing Sequence Words",
+    eng: "When using 'First', 'Next', and 'Finally', put strong stress on these words and pause slightly to show a new step is starting.",
+    jpn: "「First」「Next」「Finally」を使う時は、これらの単語に強いアクセントを置き、新しいステップが始まることを示すために少しポーズを置きましょう。"
+},
         vocab: [
             { eng: "Tutorial", jpn: "チュートリアル / 指南書", exEng: "I watched a makeup tutorial.", exJpn: "メイクのチュートリアルを見ました。" },
             { eng: "Step", jpn: "ステップ / 手順", exEng: "Follow the steps carefully.", exJpn: "手順に注意深く従ってください。" },
@@ -7178,6 +7596,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 057: Company Departments",
         goal: "Discuss different office roles and responsibilities using 'who' clauses and adjective prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>('who' の節と形容詞の前置詞を使って、様々なオフィスの役割や責任について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Responsible for'",
+    eng: "In the phrase 'responsible for', the word 'for' becomes a weak schwa sound (/fər/). Say it quickly: re-SPON-si-ble_fər.",
+    jpn: "「responsible for」というフレーズでは、「for」という単語は弱い曖昧母音（/fər/）になります。速く発音しましょう：re-SPON-si-ble_fər。"
+},
         introArticle: [
             { eng: "In a large company, many people work together. To do a good job, the company divides people into different groups. These groups are called departments. Each department has a special job to do. For example, the sales department is responsible for selling products to customers. The HR (Human Resources) department is responsible for helping the staff and hiring new workers. When you join a new company, you must learn who does what. Knowing everyone's role makes your daily work much easier.", jpn: "大きな会社では、多くの人が一緒に働いています。良い仕事をするために、会社は人々を異なるグループに分けます。これらのグループは部門（部署）と呼ばれます。各部門には行うべき特別な仕事があります。例えば、営業部門は顧客に製品を売る責任があります。HR（人事）部門はスタッフを助け、新しい労働者を雇う責任があります。新しい会社に入った時、誰が何をしているかを学ばなければなりません。全員の役割を知ることで、日々の仕事がずっと簡単になります。" },
             { eng: "A good company is like a sports team. Everyone has a different position, but they all share the same goal. The IT department is the team that fixes computers. If your email is not working, you need to find a person who understands networks. The accounting team is the group that manages the money. They make sure everyone gets their salary on time. If one department stops working, the whole company will have a big problem. Good communication between departments is very important.", jpn: "良い会社はスポーツチームのようなものです。誰もが異なるポジションを持っていますが、彼らは皆同じ目標を共有しています。IT部門はコンピューターを直すチームです。もしメールが機能していないなら、あなたはネットワークを理解している人を見つける必要があります。経理チームはお金を管理するグループです。彼らは全員が時間通りに給料を受け取ることを確実にします。もし1つの部門が働くのをやめれば、会社全体が大きな問題を抱えることになります。部門間の良好なコミュニケーションは非常に重要です。" },
@@ -7306,6 +7729,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 058: Recommending a Colleague",
         goal: "Recommend a coworker for a task using shortened relative clauses and 'should'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(短縮された関係詞節と 'should' を使って、タスクに同僚を推薦する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Dropping Relative Pronouns",
+    eng: "When you drop 'who' or 'that' in a shortened clause (e.g., The person I met), link the noun directly to the pronoun: per-son_I.",
+    jpn: "短縮された節で「who」や「that」を省略する時（例：The person I met）、名詞を直接代名詞に繋げましょう：per-son_I。"
+},
         vocab: [
             { eng: "Recommend", jpn: "推薦する / 勧める", exEng: "Can you recommend a good book?", exJpn: "良い本を推薦してくれますか？" },
             { eng: "Colleague", jpn: "同僚", exEng: "My colleague helped me.", exJpn: "同僚が私を助けてくれました。" },
@@ -7460,6 +7888,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 059: Traits of a Good Leader",
         goal: "Discuss the traits of a good manager or leader using indefinite pronouns and viewpoint adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不定代名詞と視点を表す副詞を使って、良いマネージャーやリーダーの特徴について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stress in Indefinite Pronouns",
+    eng: "For words like 'someone' and 'everyone', the stress is always on the first syllable (SOME-one, EV-ery-one).",
+    jpn: "「someone」や「everyone」のような単語では、アクセントは常に最初の音節にあります（SOME-one, EV-ery-one）。"
+},
         introArticle: [
             { eng: "Everyone wants to have a good boss. In the business world, a manager is a very important person. A manager can make your job feel wonderful, or they can make your job feel like a nightmare. But what makes a good leader? First, a good leader is someone who listens. Many bad bosses just give commands and yell at their staff. They think they know everything. A good manager knows that they do not know everything. They ask their team for ideas and respect everyone's opinions. When workers feel heard, they work much harder.", jpn: "誰もが良い上司を持ちたいと思っています。ビジネスの世界において、マネージャーは非常に重要な人物です。マネージャーはあなたの仕事を素晴らしいものに感じさせることもできれば、悪夢のように感じさせることもできます。しかし、何が良いリーダーを作るのでしょうか？第一に、良いリーダーとは耳を傾ける人です。多くの悪い上司はただ命令を出し、スタッフを怒鳴ります。彼らは自分がすべてを知っていると思っています。良いマネージャーは、自分がすべてを知っているわけではないことを知っています。彼らはチームにアイデアを求め、全員の意見を尊重します。労働者は自分の意見を聞いてもらえていると感じた時、はるかに一生懸命働きます。" },
             { eng: "Communication is another big trait of a good leader. When a company changes a rule, the manager must explain it clearly. If the boss hides information, no one will trust them. A good leader is honest, even when the news is bad. Also, an office can be a stressful place. Workers need someone to talk to when they have a problem. A great manager is always ready to help. They do not get angry when someone makes a mistake. Instead, they say, 'Let's fix this together.' This creates a safe and peaceful environment.", jpn: "コミュニケーションも良いリーダーの大きな特徴です。会社がルールを変えた時、マネージャーはそれを明確に説明しなければなりません。もし上司が情報を隠せば、誰も彼らを信頼しないでしょう。良いリーダーは、たとえニュースが悪い時でも正直です。また、オフィスはストレスの多い場所になり得ます。労働者は問題を抱えた時、話す人を必要とします。素晴らしいマネージャーは常に助ける準備ができています。誰かがミスをした時、彼らは怒りません。代わりに、「一緒にこれを直そう」と言います。これが安全で平和な環境を作り出します。" },
@@ -7588,6 +8021,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 060: Explaining Office Terms",
         goal: "Define business terms for a new intern or client using 'that' clauses and similarity expressions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>('that' の節と類似性の表現を使って、新しいインターンやクライアントにビジネス用語を定義する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'The same as'",
+    eng: "In the phrase 'the same as', link the 'm' in 'same' directly to the 'a' in 'as': the say-mas.",
+    jpn: "「the same as」というフレーズでは、「same」の「m」を直接「as」の「a」に繋げましょう：the say-mas。"
+},
         vocab: [
             { eng: "Term", jpn: "用語 / 言葉", exEng: "What does this business term mean?", exJpn: "このビジネス用語はどういう意味ですか？" },
             { eng: "Intern", jpn: "インターン / 実習生", exEng: "The new intern is very smart.", exJpn: "新しいインターンはとても賢いです。" },
@@ -7742,6 +8180,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 061: Outsourcing Office Work",
         goal: "Discuss the benefits of outsourcing tasks using indefinite pronouns and possessive pronouns. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不定代名詞と所有代名詞を使って、タスクを外部委託することの利点について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emphasizing 'Nothing'",
+    eng: "When using 'nothing' to make a strong negative point, stress the first syllable heavily: NUTH-ing.",
+    jpn: "強い否定の要点を伝えるために「nothing」を使う時は、最初の音節に強いアクセントを置きましょう：NUTH-ing。"
+},
         introArticle: [
             { eng: "In a busy office, there is always something to do. Managers and workers have to finish a lot of daily tasks. Sometimes, a company has too much work and not enough people. When this happens, the staff feels very stressed. They cannot finish everything on time. To solve this problem, many modern companies use a business strategy called 'outsourcing'. Outsourcing means paying a different company or an outside worker to do some of the jobs. For example, a tech company might hire an outside cleaner to clean their building.", jpn: "忙しいオフィスでは、常にやるべき何かがあります。マネージャーと労働者は日々の多くのタスクをこなさなければなりません。時々、会社は仕事が多すぎて人が足りないことがあります。これが起きると、スタッフは非常にストレスを感じます。彼らはすべてを時間通りに終わらせることができません。この問題を解決するために、多くの現代の企業は「アウトソーシング（外部委託）」と呼ばれるビジネス戦略を使用します。アウトソーシングとは、いくつかの仕事をするために、別の会社や外部の労働者にお金を払うことを意味します。例えば、テクノロジー企業は建物を掃除するために外部の清掃業者を雇うかもしれません。" },
             { eng: "Companies outsource many different kinds of work. They might hire outside accountants to manage their money, or outside designers to make their website. This strategy has many great benefits. First, it is often cheaper. The company does not have to pay for a full-time employee's health insurance or buy them a new desk. Second, it allows the main staff to focus on their most important work. If the sales team does not have to worry about cleaning or computer errors, they can spend all their time finding new clients.", jpn: "企業は多くの異なる種類の仕事を外部委託します。彼らはお金を管理するために外部の会計士を雇ったり、ウェブサイトを作るために外部のデザイナーを雇ったりするかもしれません。この戦略には多くの素晴らしい利点があります。第一に、しばしばより安価です。会社はフルタイムの従業員の健康保険にお金を払ったり、新しい机を買ったりする必要がありません。第二に、メインのスタッフが最も重要な仕事に集中できるようになります。もし営業チームが掃除やコンピューターのエラーについて心配する必要がなければ、新しいクライアントを見つけることにすべての時間を費やすことができます。" },
@@ -7870,6 +8313,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 062: Case Study - The Terrible Contractor",
         goal: "Analyze a disastrous company event caused by an external contractor and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(外部の請負業者によって引き起こされた悲惨な会社のイベントを分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Vowel Sounds in 'Chose' and 'Refused'",
+    eng: "Practice the long vowel sounds. 'Chose' uses a long 'O' (/tʃoʊz/), and 'Refused' uses a long 'U' (/rɪˈfjuzd/).",
+    jpn: "長い母音の練習をしましょう。「Chose」は長い「O（オー）」（/tʃoʊz/）を使い、「Refused」は長い「U（ユー）」（/rɪˈfjuzd/）を使います。"
+},
         vocab: [
             { eng: "Contractor", jpn: "請負業者 / 契約業者", exEng: "We hired a contractor to fix the roof.", exJpn: "屋根を直すために請負業者を雇いました。" },
             { eng: "Event", jpn: "イベント / 行事", exEng: "The company event is on Friday.", exJpn: "会社のイベントは金曜日にあります。" },
@@ -7934,11 +8382,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -7986,6 +8434,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 063: Speaking Test - My Team",
         goal: "Describe the team you work or study with using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、一緒に働いている（または勉強している）チームについて描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Rhythm in the PREP Method",
+    eng: "When giving your Point, speak slowly. When giving your Reason and Example, speed up slightly. Slow down again for your final Point.",
+    jpn: "要点（Point）を述べる時はゆっくり話します。理由（Reason）と具体例（Example）を述べる時は少しスピードを上げます。最後の要点で再びスピードを落としましょう。"
+},
         vocab: [
             { eng: "Team", jpn: "チーム", exEng: "Our team is very strong.", exJpn: "私たちのチームはとても強いです。" },
             { eng: "Role", jpn: "役割", exEng: "What is your role here?", exJpn: "ここでのあなたの役割は何ですか？" },
@@ -8070,6 +8523,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 064: Staying Healthy at Work",
         goal: "Discuss healthy office habits using 'have to', 'need to', and 'should'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「have to」「need to」「should」を使って、健康的なオフィスの習慣について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Reducing 'Have to' and 'Need to'",
+    eng: "In natural speech, 'have to' sounds like 'haf-tuh', and 'need to' sounds like 'nee-duh'. Do not pronounce the sharp 'to'.",
+    jpn: "自然な会話では、「have to」は「haf-tuh（ハフタ）」のように聞こえ、「need to」は「nee-duh（ニーダ）」のように聞こえます。鋭い「to」を発音しないでください。"
+},
         introArticle: [
             { eng: "Working in an office can be bad for your health. Many people sit at a desk for eight or nine hours every day. When you sit for a long time, your back and neck will hurt. You have to take care of your body. It is very important to stand up and walk around the office. You should stretch your legs and arms every hour. Also, looking at a computer screen all day makes your eyes very tired. You need to rest your eyes by looking at a window or a plant.", jpn: "オフィスで働くことは健康に悪い場合があります。多くの人が毎日8時間か9時間、机に座っています。長時間座っていると、背中や首が痛くなります。自分の体を大切にしなければなりません。立ち上がってオフィスを歩き回ることはとても重要です。1時間ごとに足や腕を伸ばす（ストレッチする）べきです。また、一日中コンピューターの画面を見ていると、目がとても疲れます。窓や植物を見て目を休める必要があります。" },
             { eng: "Food is another big problem in the workplace. When workers feel stressed or busy, they often eat bad food. They eat chocolate, chips, and candy from the vending machine. Eating too much sugar makes you feel sleepy in the afternoon. You should bring healthy snacks from your house. For example, eating apples or nuts is a much better choice. Furthermore, people often forget to drink water. You have to drink a lot of water every day to keep your brain working fast. A tired brain makes many mistakes.", jpn: "食べ物も職場での大きな問題の一つです。労働者はストレスを感じたり忙しかったりすると、しばしば悪い食べ物を食べます。彼らは自動販売機のチョコレート、チップス、キャンディを食べます。砂糖を食べすぎると、午後に眠くなります。家から健康的な軽食を持ってくるべきです。例えば、リンゴやナッツを食べることははるかに良い選択です。さらに、人々はよく水を飲むのを忘れます。脳を速く働かせ続けるためには、毎日たくさんの水を飲まなければなりません。疲れた脳は多くのミスを犯します。" },
@@ -8198,6 +8656,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 065: Taking a Sick Day",
         goal: "Call in sick to work and explain symptoms using present simple, modals of obligation, and future tense. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在形、義務を表す法動詞、未来形を使って、職場に病欠の電話をかけ、症状を説明する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Contractions with 'Will'",
+    eng: "When making a promise (e.g., I will call you), use the contraction 'I'll' (/aɪl/) for a more natural flow.",
+    jpn: "約束をする時（例：I will call you）は、より自然な流れを作るために短縮形の「I'll（/aɪl/）」を使用しましょう。"
+},
         vocab: [
             { eng: "Sick", jpn: "病気の / 具合が悪い", exEng: "I feel very sick today.", exJpn: "今日はとても具合が悪いです。" },
             { eng: "Fever", jpn: "熱", exEng: "I have a high fever.", exJpn: "高熱があります。" },
@@ -8352,6 +8815,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 066: Stress and Relaxation",
         goal: "Discuss workplace stress and relaxation habits using gerunds as subjects and adjective prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(主語としての動名詞と形容詞の前置詞を使って、職場のストレスとリラックスの習慣について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Gerund Subjects",
+    eng: "When a sentence starts with an '-ing' gerund (e.g., Running is fun), pause slightly after the gerund to show it is the subject.",
+    jpn: "文が「-ing」の動名詞で始まる時（例：Running is fun）は、それが主語であることを示すために動名詞の後に少しポーズを置きましょう。"
+},
         introArticle: [
             { eng: "Modern life is very fast, and many people feel a lot of stress. Working in a busy office can be difficult. Employees are often worried about their deadlines or nervous about big presentations. Stress is a normal human feeling, but too much stress is dangerous. It can make you sick and tired. Therefore, finding a way to relax is extremely important. Resting is not a waste of time; it is a necessary part of a healthy life. Every worker needs to find a good balance between their job and their personal time.", jpn: "現代の生活はとても速く、多くの人が多くのストレスを感じています。忙しいオフィスで働くことは難しい場合があります。従業員はしばしば締め切りについて心配したり、大きなプレゼンテーションに緊張したりしています。ストレスは普通の人間の感情ですが、多すぎるストレスは危険です。それはあなたを病気にし、疲れさせる可能性があります。それゆえに、リラックスする方法を見つけることは極めて重要です。休むことは時間の無駄ではありません。健康的な生活の不可欠な一部です。すべての労働者は仕事と個人の時間の良いバランスを見つける必要があります。" },
             { eng: "There are many different ways to fight stress. For some people, doing physical exercise is the best method. Running in the park or swimming in a pool helps the body release tension. When you exercise, your brain makes happy chemicals. Other people prefer quiet activities. Reading a book, listening to soft music, or taking a hot bath can calm your mind. Cooking a delicious meal is also a great way to forget about office problems. You must find an activity that you are good at and that makes you smile.", jpn: "ストレスと戦うには多くの異なる方法があります。一部の人にとって、身体的な運動をすることは最良の方法です。公園で走ったりプールで泳いだりすることは、体が緊張を解き放つのに役立ちます。運動をすると、脳は幸せな化学物質を作ります。静かな活動を好む人もいます。本を読んだり、静かな音楽を聴いたり、温かいお風呂に入ったりすることは心を落ち着かせることができます。美味しい食事を作ることも、オフィスの問題を忘れるための素晴らしい方法です。あなたが得意で、あなたを笑顔にする活動を見つけなければなりません。" },
@@ -8480,6 +8948,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 067: Making a Doctor's Appointment",
         goal: "Book a medical appointment and explain symptoms using present continuous for future and prepositions of time. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(未来を表す現在進行形と時間の前置詞を使って、医療の予約を取り、症状を説明する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Would like to'",
+    eng: "Link the 'd' in 'would' to the 'l' in 'like', and reduce the 'to'. Say it smoothly as: wud-like-tuh.",
+    jpn: "「would」の「d」を「like」の「l」に繋げ、「to」を弱く発音します。滑らかに wud-like-tuh と言いましょう。"
+},
         vocab: [
             { eng: "Appointment", jpn: "予約 / アポイント", exEng: "I need to make an appointment.", exJpn: "予約を取る必要があります。" },
             { eng: "Doctor", jpn: "医者", exEng: "The doctor will see you soon.", exJpn: "医者がすぐにお診せします。" },
@@ -8632,6 +9105,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 068: Diet and Exercise",
         goal: "Discuss healthy eating and exercise routines using quantifiers, 'how often', and comparatives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(数量詞、「how often」、比較級を使って、健康的な食事や運動のルーティンについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emphasizing 'Too'",
+    eng: "When using 'too much' or 'too many', stretch the 'oo' sound in 'too' to emphasize that it is over the limit.",
+    jpn: "「too much」や「too many」を使う時は、限界を超えていることを強調するために「too」の「oo（ウー）」の音を長く伸ばしましょう。"
+},
         introArticle: [
             { eng: "Living a healthy life requires a good balance of diet and exercise. Today, many people eat too much fast food and do not move enough. Fast food is cheap and delicious, but it has a lot of fat and sugar. If you eat too many hamburgers or drink too much sweet soda, your body will become heavy and tired. Doctors say that a healthy diet is better than medicine. You should eat plenty of fresh vegetables, fruits, and good protein. Changing your diet is the first step to feeling stronger and happier.", jpn: "健康的な生活を送るには、食事と運動の良いバランスが必要です。今日、多くの人がファストフードを食べ過ぎており、十分に動いていません。ファストフードは安くて美味しいですが、多くの脂肪と砂糖を含んでいます。ハンバーガーを食べすぎたり、甘いソーダを飲みすぎたりすると、体は重く疲れやすくなります。医者は、健康的な食事は薬よりも優れていると言います。新鮮な野菜、果物、そして良質なタンパク質をたっぷり食べるべきです。食事を変えることが、より強く幸せに感じるための第一歩です。" },
             { eng: "Exercise is the second step to a healthy life. Many office workers ask, 'How often should I exercise?' The answer depends on your body, but walking for thirty minutes every day is a great start. You do not need to go to an expensive gym or lift heavy weights. Simple activities are often the best. For example, taking the stairs is healthier than taking the elevator. Riding a bicycle to work is much better than sitting in a crowded train. Moving your body regularly helps your heart and cleans your mind.", jpn: "運動は健康的な生活への第二のステップです。多くのオフィスワーカーが「どのくらいの頻度で運動すべきですか？」と尋ねます。答えはあなたの体によりますが、毎日30分間歩くことは素晴らしいスタートです。高価なジムに行ったり、重いウエイトを持ち上げたりする必要はありません。シンプルな活動がしばしば最良です。例えば、階段を使うことはエレベーターを使うことよりも健康的です。自転車で通勤することは、満員電車に座っているよりもはるかに良いです。定期的に体を動かすことは心臓を助け、心をきれいにします。" },
@@ -8760,6 +9238,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 069: Case Study - The Unhealthy Workplace",
         goal: "Analyze an unhealthy office environment from different employee viewpoints and propose a wellness plan. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる従業員の観点から不健康なオフィス環境を分析し、健康プランを提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The 'F' and 'V' in 'For' and 'Have'",
+    eng: "In the phrase 'have worked for', practice the clear 'V' sound in 'have' and the soft 'F' sound in 'for'.",
+    jpn: "「have worked for」というフレーズで、「have」の明確な「V」の音と、「for」の柔らかい「F」の音を練習しましょう。"
+},
         vocab: [
             { eng: "Unhealthy", jpn: "不健康な", exEng: "This environment is very unhealthy.", exJpn: "この環境はとても不健康です。" },
             { eng: "Call center", jpn: "コールセンター", exEng: "I work in a busy call center.", exJpn: "私は忙しいコールセンターで働いています。" },
@@ -8824,11 +9307,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -8876,6 +9359,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 070: Speaking Test - A Healthy Change",
         goal: "Describe a healthy change you made in your life using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、自分の生活の中で起こした健康的な変化について描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Storytelling Intonation",
+    eng: "When sharing a personal experience, use a varied intonation pattern. Don't speak in a flat, robotic tone. Let your voice rise and fall with your emotions.",
+    jpn: "個人的な経験を共有する時は、変化に富んだイントネーションのパターンを使いましょう。平坦でロボットのようなトーンで話さないでください。感情に合わせて声を上げ下げしましょう。"
+},
         vocab: [
             { eng: "Healthy", jpn: "健康的な", exEng: "I want to be a healthy person.", exJpn: "私は健康的な人になりたいです。" },
             { eng: "Change", jpn: "変化 / 変える", exEng: "I made a big change in my life.", exJpn: "私は人生で大きな変化を起こしました。" },
@@ -8960,6 +9448,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 071: Choosing a Place to Live",
         goal: "Discuss housing preferences using adjectives with 'enough' and 'too'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(形容詞とともに「enough」と「too」を使って、住居の好みについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Enough'",
+    eng: "Link the final consonant of the adjective directly into the word 'enough'. Practice saying 'big_enough' and 'hot_enough' smoothly.",
+    jpn: "形容詞の最後の子音を直接「enough」に繋げましょう。「big_enough」や「hot_enough」と滑らかに言う練習をします。"
+},
         introArticle: [
             { eng: "Choosing a place to live is a very important decision. Everyone wants a safe and comfortable home. When you look for an apartment, you have to think about many things. First, you must decide between the city and the countryside. Living in the city is very convenient. You are close to train stations, supermarkets, and your office. However, city apartments are often too small and very expensive. Many people feel that the city is too noisy at night.", jpn: "住む場所を選ぶことは非常に重要な決断です。誰もが安全で快適な家を望んでいます。アパートを探す時は、多くのことについて考えなければなりません。まず、都市と田舎のどちらかを選ばなければなりません。都市に住むことはとても便利です。駅、スーパーマーケット、そしてオフィスに近いです。しかし、都市のアパートはしばしば小さすぎて非常に高価です。多くの人が、都市は夜うるさすぎると感じています。" },
             { eng: "On the other hand, the countryside is quiet and peaceful. Houses in the country are usually big enough for a large family. You can have a beautiful garden and keep a pet. But living far from the city has bad points, too. You might need to buy a car because there are not enough trains. Your morning commute will take a long time. You must balance your budget and your lifestyle. If you love nature, the country is perfect. If you love busy streets and cafes, the city is better.", jpn: "その一方で、田舎は静かで平和です。田舎の家はたいてい大家族にとって十分な大きさです。美しい庭を持ち、ペットを飼うことができます。しかし、都市から遠く離れて住むことには悪い点もあります。十分な電車がないため、車を買う必要があるかもしれません。朝の通勤には長い時間がかかるでしょう。予算とライフスタイルのバランスをとらなければなりません。自然が好きなら田舎が完璧です。忙しい通りやカフェが好きなら、都市の方が良いです。" },
@@ -9088,6 +9581,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 072: Renting an Apartment",
         goal: "Ask about apartment features, rules, and rent using 'How much', 'Is there', and 'Can'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「How much」「Is there」「Can」を使って、アパートの特徴、ルール、家賃について尋ねる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Question Intonation",
+    eng: "Make your voice go UP for Yes/No questions (e.g., Is there a balcony? ↗) and DOWN for 'W' questions (e.g., How much is the rent? ↘).",
+    jpn: "Yes/Noで答える質問では声を上げ（例：Is there a balcony? ↗）、「W」で始まる質問では声を下げましょう（例：How much is the rent? ↘）。"
+},
         vocab: [
             { eng: "Apartment", jpn: "アパート / マンション", exEng: "I am looking for a new apartment.", exJpn: "私は新しいアパートを探しています。" },
             { eng: "Rent", jpn: "家賃", exEng: "How much is the rent?", exJpn: "家賃はいくらですか？" },
@@ -9242,6 +9740,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 073: Home Chores & Organization",
         goal: "Discuss household chores and organization using frequency adverbs and verbs of obligation. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(頻度を表す副詞や義務を表す動詞を使って、家事や整理整頓について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Reducing 'Don't have to'",
+    eng: "In natural speech, drop the 'T' in 'don't' and change 'have to' into 'haf-tuh'. Practice saying 'I don't haf-tuh cook'.",
+    jpn: "自然な会話では、「don't」の「T」を落とし、「have to」を「haf-tuh（ハフタ）」に変えます。「I don't haf-tuh cook」と言う練習をしましょう。"
+},
         introArticle: [
             { eng: "Keeping a house clean is a big job. Everyone wants to live in a beautiful and tidy home. However, cleaning takes a lot of time. In a busy family, people have to share the household chores. A chore is a regular job like washing dishes, taking out the garbage, or doing the laundry. If one person does all the chores, they will become very tired and angry. Families should make a schedule. For example, the father can cook dinner, and the children can wash the dishes. When everyone helps, the house stays clean and the family stays happy.", jpn: "家をきれいに保つことは大仕事です。誰もが美しく整頓された家に住みたいと思っています。しかし、掃除には多くの時間がかかります。忙しい家族では、人々は家事（household chores）を分担しなければなりません。家事（chore）とは、皿洗い、ゴミ出し、洗濯などの定期的な仕事のことです。もし1人がすべての家事をやったら、その人はとても疲れ、怒ってしまうでしょう。家族はスケジュールを作るべきです。例えば、父親が夕食を作り、子供たちが皿を洗うことができます。全員が助け合えば、家はきれいなままで、家族も幸せなままでいられます。" },
             { eng: "Organization is just as important as cleaning. Many people buy too many things. They buy new clothes, books, and gadgets. Soon, their house is full of boxes and bags. Finding your keys or your phone in a messy room is very difficult. To fix this problem, you need to throw away old things. If you have not used a shirt for a year, you don't have to keep it. You should give it to a friend or throw it in the garbage. When you put away your things in the correct place, your room feels much bigger and more relaxing.", jpn: "整理整頓は掃除と同じくらい重要です。多くの人が多すぎる物を買います。新しい服、本、そしてガジェット（便利な小物）を買います。すぐに彼らの家は箱や袋でいっぱいになります。散らかった部屋で鍵や携帯電話を見つけるのはとても難しいです。この問題を解決するには、古いものを捨てなければなりません（throw away）。もし1年間着ていないシャツがあるなら、それを持ち続ける必要はありません（don't have to）。友人に譲るか、ゴミ箱に捨てるべきです。正しい場所に物を片付ける（put away）と、部屋はずっと広く、よりリラックスできるように感じられます。" },
@@ -9370,6 +9873,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 074: Reporting a Housing Problem",
         goal: "Report a broken item in an apartment using 'need to' and past continuous tense. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「need to」と過去進行形を使って、アパートの壊れた設備を報告する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The '-ing' Sound",
+    eng: "When saying verbs with '-ing' (like leaking, making), let the sound ring in your nose. Do not add a hard 'G' sound at the end.",
+    jpn: "「-ing」のつく動詞（leaking, makingなど）を言う時は、鼻に音を響かせます。最後に硬い「G（グ）」の音を足さないでください。"
+},
         vocab: [
             { eng: "Problem", jpn: "問題", exEng: "I have a problem in my room.", exJpn: "私の部屋に問題があります。" },
             { eng: "Broken", jpn: "壊れた", exEng: "The window is broken.", exJpn: "窓が壊れています。" },
@@ -9524,6 +10032,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 075: Neighbors and Community",
         goal: "Discuss living with neighbors and community rules using gerunds and modals of advice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(動名詞とアドバイスの法動詞を使って、隣人との生活や地域のルールについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The Sharp Stop in 'Shouldn't'",
+    eng: "Make a sharp stop in your throat at the end of 'shouldn't'. Do not add an extra vowel sound like 'shouldn't-to'.",
+    jpn: "「shouldn't」の最後は喉の奥で鋭く止めましょう。「shouldn't-to（シュドントゥ）」のように余分な母音を足さないでください。"
+},
         introArticle: [
             { eng: "Living in a city means living very close to other people. In a large apartment building, you have many neighbors. Having good neighbors makes your life very happy. A good neighbor is a person who is quiet, polite, and friendly. When you meet them in the hall, they smile and say hello. If you go on a trip, a good neighbor might watch your house or collect your mail. Building a strong community is important. When people know each other, they feel safe and comfortable in their homes.", jpn: "都市に住むということは、他の人々のすぐ近くに住むことを意味します。大きなアパートの建物では、あなたには多くの隣人がいます。良い隣人を持つことは、あなたの生活をとても幸せにします。良い隣人とは、静かで、礼儀正しく、親しみやすい人のことです。廊下で彼らに会うと、彼らは微笑んで挨拶します。もしあなたが旅行に行ったら、良い隣人はあなたの家を見守ったり、郵便物を集めたりしてくれるかもしれません。強いコミュニティを築くことは重要です。人々がお互いを知っていれば、彼らは自分の家で安全で快適に感じます。" },
             { eng: "However, living close to others can also cause problems. Bad neighbors can make your daily life very stressful. The biggest problem in apartment buildings is noise. Listening to loud music at night or having noisy parties will make the other people very angry. If your neighbor is too loud, you should not yell at them. Yelling only makes the problem worse. Instead, you should leave a polite note or talk to the building manager. You shouldn't hit the walls because that is very rude.", jpn: "しかし、他の人の近くに住むことは問題を引き起こすこともあります。悪い隣人はあなたの日々の生活をとてもストレスの多いものにする可能性があります。アパートの建物における最大の問題は騒音です。夜に大音量の音楽を聴いたり、騒がしいパーティーを開いたりすることは、他の人々をとても怒らせます。もし隣人がうるさすぎても、彼らを怒鳴るべきではありません。怒鳴ることは問題をさらに悪化させるだけです。代わりに、丁寧なメモを残すか、建物の管理人に話すべきです。壁を叩くべきではありません、それはとても無礼だからです。" },
@@ -9652,6 +10165,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 076: Case Study - The Noisy Apartment",
         goal: "Analyze living disputes in an apartment building from different tenant viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる住人の観点からアパートの居住トラブルを分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The 'V' Sound in Present Perfect",
+    eng: "Bite your bottom lip gently to make a clear 'V' sound in 'have'. Practice saying 'I have lived here' smoothly.",
+    jpn: "下唇を軽く噛んで、「have」の明確な「V」の音を出しましょう。「I have lived here」と滑らかに言う練習をします。"
+},
         vocab: [
             { eng: "Apartment", jpn: "アパート / マンション", exEng: "I live in a new apartment.", exJpn: "私は新しいアパートに住んでいます。" },
             { eng: "Tenant", jpn: "住人 / 借家人", exEng: "The tenant pays rent every month.", exJpn: "住人は毎月家賃を払います。" },
@@ -9716,11 +10234,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to the landlord. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(大家に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -9768,6 +10286,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 077: Speaking Test - A Great Home",
         goal: "Describe a great home or apartment using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、素晴らしい家やアパートについて描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Highlighting Adjectives",
+    eng: "When describing a place, put extra vocal power and length on your positive adjectives (e.g., very BRIIIGHT, so CON-VEEE-nient).",
+    jpn: "場所を描写する時は、肯定的な形容詞に声の力と長さを加えましょう（例：very BRIIIGHT, so CON-VEEE-nient）。"
+},
         vocab: [
             { eng: "Home", jpn: "家 / 自宅", exEng: "I love my new home.", exJpn: "私は新しい家が大好きです。" },
             { eng: "Apartment", jpn: "アパート", exEng: "The apartment is very large.", exJpn: "そのアパートはとても大きいです。" },
@@ -9852,6 +10375,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 078: Movies and Streaming",
         goal: "Discuss watching movies and TV shows using preference verbs, 'because', and 'too'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(好みの動詞、「because」、「too」を使って、映画やテレビ番組を見ることについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Because it is'",
+    eng: "Link the words together smoothly so they sound like one long word: /bɪ-kʌ-zɪ-tɪz/ (be-cuz-it-is).",
+    jpn: "単語を滑らかに繋げて、1つの長い単語のように聞こえるようにしましょう：/bɪ-kʌ-zɪ-tɪz/（ビカズィティズ）。"
+},
         introArticle: [
             { eng: "In the modern world, everyone needs time to relax. After a long week of work or school, people want to forget their stress. One of the most popular hobbies is watching movies and TV shows. In the past, people always went to the cinema to watch a new movie. Going to the cinema is a very special experience. The screen is massive, and the sound is incredibly loud. You can eat warm popcorn and share the excitement with a room full of people. Many people enjoy watching action movies or scary movies on a big screen.", jpn: "現代の世界では、誰もがリラックスする時間を必要としています。仕事や学校の長い一週間の後、人々はストレスを忘れたいと思っています。最も人気のある趣味の一つは、映画やテレビ番組を見ることです。過去には、人々は新しい映画を見るために必ず映画館に行きました。映画館に行くことはとても特別な経験です。画面は巨大で、音は信じられないほど大きいです。温かいポップコーンを食べ、人でいっぱいの部屋で興奮を共有することができます。多くの人が大きな画面でアクション映画や怖い映画を見るのを楽しんでいます。" },
             { eng: "However, going to the cinema has some bad points. Movie tickets are often too expensive for a family. Also, the drinks and snacks cost a lot of money. Because of this, many people prefer to use streaming services at home. With a smart TV or a computer, you can watch thousands of movies for a very cheap monthly price. You do not have to leave your house. You can wear comfortable clothes, pause the movie to go to the bathroom, and talk loudly with your family.", jpn: "しかし、映画館に行くことにはいくつかの悪い点があります。映画のチケットは家族にとっては高すぎることがよくあります。また、飲み物や軽食にもたくさんのお金がかかります。このため、多くの人が家でストリーミングサービスを使うことを好みます。スマートテレビやコンピューターがあれば、とても安い月額料金で何千本もの映画を見ることができます。家から出る必要はありません。快適な服を着て、トイレに行くために映画を一時停止し、家族と大声で話すことができます。" },
@@ -9980,6 +10508,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 079: Buying Event Tickets",
         goal: "Buy event tickets and ask about seating using 'would like to', 'are there', and 'will'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「would like to」「are there」「will」を使って、イベントのチケットを買い座席について尋ねる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Contracting 'I will'",
+    eng: "When making a quick decision, contract 'I will' to 'I'll' (/aɪl/). Touch the tip of your tongue to the roof of your mouth for the 'L'.",
+    jpn: "素早く決定を下す時は、「I will」を「I'll（/aɪl/）」に短縮しましょう。「L」の音を出すために、舌の先を上あごに当てます。"
+},
         vocab: [
             { eng: "Ticket", jpn: "チケット / 切符", exEng: "I need two tickets for the movie.", exJpn: "映画のチケットが2枚必要です。" },
             { eng: "Concert", jpn: "コンサート", exEng: "The rock concert was very loud.", exJpn: "そのロックコンサートはとてもうるさかったです。" },
@@ -10134,6 +10667,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 080: Sports and Fitness",
         goal: "Discuss playing sports and staying active using comparative adverbs and 'good at'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(比較級の副詞と「good at」を使って、スポーツをすることや活動的でいることについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Good at' and 'Bad at'",
+    eng: "Link the final 'D' directly into the 'A' of 'at'. Say it quickly as one word: goo-dat, ba-dat.",
+    jpn: "最後の「D」を「at」の「A」に直接繋げましょう。1つの単語のように速く言います：goo-dat, ba-dat。"
+},
         introArticle: [
             { eng: "Sports and fitness are important parts of a healthy lifestyle. In many countries, people love both playing sports and watching them on television. Playing a sport is a great way to stay active and make new friends. When you join a local team, you can meet people who share your interests. Some people are very good at sports. They run very fast and jump very high. Other people are bad at sports, but they still enjoy playing for fun. You do not have to be a professional athlete to enjoy a weekend game of tennis or soccer.", jpn: "スポーツとフィットネスは健康的なライフスタイルの重要な要素です。多くの国で、人々はスポーツをプレイすることも、テレビで見ることも大好きです。スポーツをすることは、活動的で（アクティブに）あり続け、新しい友達を作る素晴らしい方法です。地元のチームに参加すると、興味を共有する人々に会うことができます。スポーツがとても得意な人もいます。彼らはとても速く走り、とても高く跳びます。スポーツが苦手な人もいますが、それでも楽しみのためにプレイするのを楽しんでいます。週末のテニスやサッカーの試合を楽しむために、プロのアスリートである必要はありません。" },
             { eng: "Watching sports is also a massive entertainment industry. Millions of fans buy tickets to visit large stadiums. They wear the colors of their favorite team and cheer loudly. Fans love to compare the players. They argue about who can throw the ball farther or who can run faster. When a game is very close, the stadium is incredibly exciting. However, watching sports on the sofa does not make your body healthy. If you only watch sports and never play them, your muscles will become weak. It is important to find a balance between resting and moving.", jpn: "スポーツ観戦もまた巨大なエンターテインメント産業です。何百万人ものファンが大きなスタジアムを訪れるためにチケットを買います。彼らはお気に入りのチームの色を身につけ、大声で応援します。ファンは選手たちを比較するのが大好きです。誰がより遠くにボールを投げられるか、誰がより速く走れるかについて議論します。試合が接戦（very close）の時、スタジアムは信じられないほどエキサイティングです。しかし、ソファでスポーツを見ることはあなたの体を健康にはしません。もしスポーツを見るだけで決してプレイしなければ、あなたの筋肉は弱くなってしまうでしょう。休むことと動くことのバランスを見つけることが重要です。" },
@@ -10262,6 +10800,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 081: Joining a Sports Club",
         goal: "Ask questions to join a local club using 'have to', 'can', and 'every'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「have to」「can」「every」を使って、地元のクラブに参加するための質問をする。)</span>",
+pronunciation: {
+    title: "Pronunciation: Two Syllables in 'Every'",
+    eng: "The word 'every' only has two syllables, not three. Do not pronounce the middle 'e'. Say EV-ry, not eh-veh-ry.",
+    jpn: "「every」という単語は3音節ではなく2音節しかありません。真ん中の「e」を発音しないでください。エヴェリーではなく、EV-ry（エヴリー）と言いましょう。"
+},
         vocab: [
             { eng: "Club", jpn: "クラブ / 部活", exEng: "I want to join the tennis club.", exJpn: "テニスクラブに参加したいです。" },
             { eng: "Join", jpn: "参加する / 加わる", exEng: "Can I join your team?", exJpn: "あなたのチームに加わってもいいですか？" },
@@ -10416,6 +10959,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 082: Creative Hobbies",
         goal: "Discuss creative hobbies and expressing emotions using 'like + infinitive' and adverbs of manner. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「like + 不定詞」と様態の副詞を使って、創造的な趣味や感情の表現について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Like to'",
+    eng: "When saying 'like to', hold the 'K' sound in the back of your throat and move straight into the 'T' sound. Reduce 'to' to a weak 'tuh'.",
+    jpn: "「like to」と言う時は、喉の奥で「K」の音を保持し、そのまま「T」の音に移行します。「to」を弱い「tuh（タ）」の音に短縮しましょう。"
+},
         introArticle: [
             { eng: "Having a hobby is very important for a balanced life. While some people like to play sports, other people prefer creative hobbies. Creative hobbies include painting, playing a musical instrument, or taking photos. In our busy daily lives, we follow many strict rules at the office. We have to wear formal clothes and speak politely to our bosses. However, when you do a creative hobby, there are no rules. You can paint a blue tree or play a song loudly. Creative hobbies give us complete freedom to be ourselves.", jpn: "趣味を持つことは、バランスの取れた生活にとって非常に重要です。スポーツをするのが好きな人がいる一方で、創造的な趣味を好む人もいます。創造的な趣味には、絵を描くこと、楽器を演奏すること、写真を撮ることなどが含まれます。私たちの忙しい日常生活において、私たちはオフィスで多くの厳しいルールに従っています。フォーマルな服を着て、上司には丁寧に話さなければなりません。しかし、創造的な趣味をする時、ルールはありません。青い木を描いたり、大音量で歌を演奏したりできます。創造的な趣味は、私たちに自分らしくいるための完全な自由を与えてくれます。" },
             { eng: "Many people use art and music to express their feelings. If you have a bad day at work, you might feel stressed and angry. Instead of yelling at your family, you can sit down and play the guitar. Playing an instrument beautifully helps release the tension in your body. When you paint a picture, you can show your emotions using colors. Bright yellow shows happiness, while dark blue shows sadness. You do not need to be a professional artist to enjoy this. The goal is not to make money; the goal is to calm your mind.", jpn: "多くの人が自分の感情を表現するためにアートや音楽を使います。もし職場で嫌な一日を過ごしたら、ストレスを感じて怒るかもしれません。家族を怒鳴る代わりに、座ってギターを弾くことができます。楽器を美しく演奏することは、体の中の緊張を解き放つ助けになります。絵を描く時、色を使って自分の感情を示すことができます。明るい黄色は幸福を示し、暗い青は悲しみを示します。これを楽しむためにプロのアーティストである必要はありません。目標はお金を稼ぐことではなく、心を落ち着かせることです。" },
@@ -10544,6 +11092,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 083: Case Study - The Ruined Festival",
         goal: "Analyze a disastrous entertainment event from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から悲惨なエンターテインメントイベントを分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak 'Were'",
+    eng: "In the past continuous, the word 'were' is unstressed. Say it very quickly and weakly as /wər/ before the main '-ing' verb.",
+    jpn: "過去進行形では、「were」という単語は強調されません。メインの「-ing」動詞の前に、/wər/ として非常に速く弱く言いましょう。"
+},
         vocab: [
             { eng: "Festival", jpn: "フェスティバル / お祭り", exEng: "The music festival is this weekend.", exJpn: "音楽フェスティバルは今週末です。" },
             { eng: "Stage", jpn: "ステージ / 舞台", exEng: "The band is on the stage.", exJpn: "バンドがステージにいます。" },
@@ -10608,11 +11161,11 @@ examples: [
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
         expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to the mayor. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(町長に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -10660,6 +11213,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 084: Speaking Test - A Great Hobby",
         goal: "Describe a hobby or an event you attended using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、趣味や参加したイベントについて描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Expressing Excitement",
+    eng: "When talking about your favorite hobby, raise the pitch of your voice slightly to show your real interest and excitement.",
+    jpn: "お気に入りの趣味について話す時は、本当の興味と興奮を示すために声のトーン（ピッチ）を少し上げましょう。"
+},
         vocab: [
             { eng: "Hobby", jpn: "趣味", exEng: "Reading is my favorite hobby.", exJpn: "読書は私のお気に入りの趣味です。" },
             { eng: "Event", jpn: "イベント / 行事", exEng: "The sports event was exciting.", exJpn: "そのスポーツイベントはエキサイティングでした。" },
@@ -10744,6 +11302,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 085: Following the News",
         goal: "Discuss reading the news and staying informed using past continuous and conjunctions like 'although'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(過去進行形や「although」などの接続詞を使って、ニュースを読むことや情報を得ることについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Intonation with 'Although'",
+    eng: "When starting with 'Although', your voice should go UP at the comma, and then DOWN at the end of the sentence.",
+    jpn: "「Although」で始める時、カンマのところで声を上げ、文の最後で声を下げましょう。"
+},
         introArticle: [
             { eng: "Reading the news is an important part of our daily lives. In the past, people bought paper newspapers and read them on the train. Today, almost everyone reads the news on their smart phones. It is very fast and easy. When a big event happens, you can learn about it immediately. For example, I was reading an article on my phone when I saw the breaking news. Many people check the news app in the morning while they drink their coffee. Knowing what is happening in the world makes you a smart citizen.", jpn: "ニュースを読むことは私たちの日常生活の重要な一部です。過去には、人々は紙の新聞を買い、電車の中で読んでいました。今日、ほぼすべての人がスマートフォンでニュースを読みます。とても速くて簡単です。大きな出来事が起きた時、すぐにそれについて知ることができます。例えば、私が携帯電話で記事を読んでいた時、ニュース速報を見ました。多くの人がコーヒーを飲みながら朝にニュースアプリをチェックします。世界で何が起きているかを知ることは、あなたを賢い市民にします。" },
             { eng: "Although reading the news is good, it can also be very stressful. If you read too many bad stories, you might feel sad or worried. The news often talks about terrible accidents, money problems, and natural disasters. Because of this, it is healthy to take a break from the news sometimes. You should put down the phone and enjoy a quiet moment. Maybe you can read a funny story or a sports article instead of the serious political news. Protecting your mind is just as important as knowing the facts.", jpn: "ニュースを読むことは良いことですが（Although...）、同時にとてもストレスになることもあります。悪い話を読みすぎると、悲しくなったり心配になったりするかもしれません。ニュースはしばしば、ひどい事故、お金の問題、自然災害について語ります。このため、時々ニュースから離れて休憩をとることは健康的です。携帯電話を置いて、静かな時間を楽しむべきです。深刻な政治ニュースの代わりに、もしかすると（Maybe）面白い話やスポーツの記事を読むのもいいかもしれません。心を守ることは、事実を知ることと同じくらい重要です。" },
@@ -10872,6 +11435,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 086: Asking about a News Story",
         goal: "Ask about and discuss a recent news story using the present perfect and past simple. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と過去形を使って、最近のニュースについて尋ね、議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Have you'",
+    eng: "In questions like 'Have you heard?', link the 'V' sound smoothly into the 'Y' sound. Say /Hæv-you/ as one connected unit.",
+    jpn: "「Have you heard?」のような質問では、「V」の音を「Y」の音に滑らかに繋げましょう。/Hæv-you/（ハヴュー）と1つの繋がった単位として言います。"
+},
         vocab: [
             { eng: "Hear", jpn: "聞く", exEng: "Did you hear the news?", exJpn: "そのニュースを聞きましたか？" },
             { eng: "News", jpn: "ニュース", exEng: "I read the local news.", exJpn: "地元のニュースを読みます。" },
@@ -11026,6 +11594,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 087: Social Media Habits",
         goal: "Discuss social media use and limits using quantifiers and zero conditional clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(数量詞とゼロ条件文を使って、ソーシャルメディアの使用と制限について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Zero Conditional Rhythm",
+    eng: "In an 'If' sentence, group the words before the comma together, pause slightly, and then state the result clearly.",
+    jpn: "「If」の文では、カンマの前の単語をまとめ、少しポーズを置いてから、結果をはっきりと述べましょう。"
+},
         introArticle: [
             { eng: "Social media is a massive part of our modern lives. People use apps to share photos, videos, and short messages with their friends. It is a very fun way to stay connected. If you live far away from your family, you can see their pictures every day. Many young people spend time looking at funny videos on the train. It makes a long commute much more enjoyable. You can also follow famous actors and musicians to see what they are doing. Social media brings the whole world into your pocket.", jpn: "ソーシャルメディアは私たちの現代の生活の巨大な一部です。人々は友人たちと写真、動画、短いメッセージを共有するためにアプリを使います。それはつながりを保つためのとても楽しい方法です。もしあなたが家族から遠く離れて住んでいても（If...）、毎日彼らの写真を見ることができます。多くの若者が電車の中で面白い動画を見るのに時間を費やします。それは長い通勤をはるかに楽しいものにします。また、有名な俳優やミュージシャンをフォローして、彼らが何をしているかを見ることもできます。ソーシャルメディアは世界全体をあなたのポケットの中にもたらします。" },
             { eng: "However, there are some bad points about social media. Many people spend too much time looking at their screens. If I am bored, I check my phone immediately. This is a very bad habit. Sometimes, people look at social media for three hours and forget to do their homework. There are too many distractions on these apps. If you look at happy photos of other people all day, you might feel sad about your own life. It is important to remember that people only post their best moments, not their real, boring lives.", jpn: "しかし、ソーシャルメディアにはいくつかの悪い点があります。多くの人が画面を見ることに時間を費やしすぎます（too much time）。もし私が退屈なら（If...）、すぐに携帯電話をチェックします。これはとても悪い習慣です。時々、人々は3時間もソーシャルメディアを見て、宿題をするのを忘れてしまいます。これらのアプリには気が散るもの（気をそらすもの）が多すぎます（too many）。もしあなたが一日中他の人の幸せそうな写真を見ていたら、自分の人生について悲しく感じるかもしれません。人々は自分の本当の退屈な生活ではなく、最高の瞬間だけを投稿しているということを覚えておくことが重要です。" },
@@ -11154,6 +11727,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 088: Discussing an Article",
         goal: "Discuss a news article or viral post using reported speech and adjective prepositions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(間接話法と形容詞の前置詞を使って、ニュース記事や話題の投稿について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Reducing 'that'",
+    eng: "In phrases like 'said that' or 'the video that', the word 'that' is usually unstressed. Pronounce it quickly and weakly as /ðət/ (thut).",
+    jpn: "「said that」や「the video that」のようなフレーズでは、「that」は通常強調されません。/ðət/（ザットではなくザッ）と素早く弱く発音しましょう。"
+},
         vocab: [
             { eng: "Article", jpn: "記事", exEng: "Did you read the article?", exJpn: "その記事を読みましたか？" },
             { eng: "Video", jpn: "ビデオ / 動画", exEng: "I watched a funny video.", exJpn: "面白い動画を見ました。" },
@@ -11308,6 +11886,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 089: Trusting the News",
         goal: "Discuss fake news and trusting information using first conditionals and modals of advice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(第1条件文とアドバイスの法動詞を使って、フェイクニュースと情報の信頼性について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Conditional Intonation",
+    eng: "In a First Conditional sentence, your voice should rise at the end of the 'If' clause (↗), and fall at the end of the result clause (↘).",
+    jpn: "第1条件文では、「If」の節の終わりで声を上げ（↗）、結果の節の終わりで声を下げます（↘）。"
+},
         introArticle: [
             { eng: "In the digital age, information travels very fast. Anyone can write an article and put it on the internet. Because of this, we have a big problem called \"fake news.\" Fake news is a story that is not true. Some people create fake news to make money from advertisements, and others do it to trick people. If you read a crazy story on a blog, you will probably believe it at first. The pictures look real, and the text sounds serious. However, we must be careful. We cannot trust everything we read online.", jpn: "デジタル時代において、情報は非常に速く伝わります。誰でも記事を書いてインターネットに載せることができます。このため、私たちには「フェイクニュース」と呼ばれる大きな問題があります。フェイクニュースとは、真実ではない話のことです。広告からお金を稼ぐためにフェイクニュースを作る人もいれば、人々を騙すためにそれを行う人もいます。もしブログでクレイジーな話を読んだら（If...）、最初はおそらくそれを信じるでしょう（will...）。写真は本物のように見え、テキストは深刻そうに聞こえます。しかし、私たちは注意しなければなりません。オンラインで読むものすべてを信頼することはできません。" },
             { eng: "How can we stop fake news? First, you should always check the source. You should look for a famous and trusted news company. If a website looks strange or uses angry language, you shouldn't share the article with your friends. If you share fake news, your friends will believe the lie. You have to use your brain and think critically. You can ask yourself, \"Does this story make sense?\" If a story says a dog can speak English, it is definitely fake news. A smart reader always checks a second website to confirm the facts.", jpn: "私たちはどうすればフェイクニュースを止めることができるでしょうか？まず、常に情報源（ソース）を確認すべきです。有名で信頼できるニュース会社を探すべきです。もしウェブサイトが奇妙に見えたり怒ったような言葉を使っていたら、その記事を友人と共有すべきではありません。もしフェイクニュースを共有すれば、あなたの友人はその嘘を信じるでしょう。頭を使って批判的に考えなければなりません。「この話は理にかなっているか？」と自問することができます。もしある話が、犬が英語を話せると言っていたら、それは間違いなくフェイクニュースです。賢い読者は常に事実を確認するために2つ目のウェブサイトをチェックします。" },
@@ -11436,6 +12019,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 090: Case Study - The Bad PR Disaster",
         goal: "Analyze a corporate social media disaster from different viewpoints and propose a crisis plan. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から企業のソーシャルメディアの惨事を分析し、危機対応計画を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'because of'",
+    eng: "Link the words 'because' and 'of' together smoothly so they sound like one continuous word: /bɪˈkʌ.zəv/ (be-cuz-uv).",
+    jpn: "「because」と「of」の単語を滑らかに繋げ、1つの連続した単語のように聞こえるようにしましょう：/bɪˈkʌ.zəv/（ビカズヴ）。"
+},
         vocab: [
             { eng: "Disaster", jpn: "大失敗 / 大惨事", exEng: "The video was a PR disaster.", exJpn: "その動画はPR（広報）の大惨事でした。" },
             { eng: "Advertisement", jpn: "広告", exEng: "We made a new advertisement.", exJpn: "私たちは新しい広告を作りました。" },
@@ -11499,12 +12087,12 @@ examples: [
             { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+      expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -11552,6 +12140,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 091: Speaking Test - A Memorable News Event",
         goal: "Describe a memorable news event or media story using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、記憶に残るニュースの出来事やメディアのストーリーについて描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emotional Phrasing",
+    eng: "When describing a memorable event, stretch the vowel sounds in emotional adjectives like 'shoooocked' or 'surpriiiiised' to show your true feelings.",
+    jpn: "記憶に残る出来事を描写する時は、本当の感情を示すために「shoooocked」や「surpriiiiised」のような感情的な形容詞の母音を長く伸ばしましょう。"
+},
         vocab: [
             { eng: "News", jpn: "ニュース / 知らせ", exEng: "I watch the evening news.", exJpn: "私は夕方のニュースを見ます。" },
             { eng: "Event", jpn: "出来事 / イベント", exEng: "It was a big global event.", exJpn: "それは大きな世界的な出来事でした。" },
@@ -11636,6 +12229,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 092: Meeting New People",
         goal: "Discuss socializing and making friends using present perfect for experiences and adverbs of manner. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(経験を表す現在完了形と様態の副詞を使って、社交や友達作りについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Have you ever'",
+    eng: "Link the words smoothly without stopping: /hæv_yu_evər/ (Hav-you-ever). Make sure your intonation rises at the end of the question.",
+    jpn: "途切れることなく滑らかに単語を繋げましょう：/hæv_yu_evər/（ハヴューエヴァー）。質問の最後でイントネーションを上げるのを確認してください。"
+},
         introArticle: [
             { eng: "Meeting new people is a very important part of life. When you start a new school or join a new company, you have to talk to strangers. For some people, making new friends is very easy. They speak loudly and confidently. They can walk up to anyone and start a fun conversation. However, for other people, talking to strangers is a scary experience. They feel nervous and speak quietly. They worry that they will say the wrong thing or make a bad mistake. Building confidence takes a lot of time and practice.", jpn: "新しい人々と出会うことは人生の非常に重要な一部です。新しい学校を始めたり、新しい会社に入ったりした時、あなたは知らない人（見知らぬ人）と話さなければなりません。一部の人にとって、新しい友達を作ることはとても簡単です。彼らは大きな声で自信を持って話します。誰にでも歩み寄り、楽しい会話を始めることができます。しかし、他の人にとって、見知らぬ人と話すことは怖い経験です。彼らは緊張し、静かに話します。間違ったことを言ったり、悪いミスをしたりするのではないかと心配します。自信を築くには多くの時間と練習が必要です。" },
             { eng: "There are many great places to meet new people. Joining a local sports club or an art class is a fantastic idea. When you share a hobby with someone, it is much easier to talk to them. You already have something in common. You can ask them, 'Have you ever played this game before?' or 'How often do you come here?' These simple questions are the best way to open a friendly conversation. Sharing food is also a wonderful way to connect. Many people make strong friendships while eating lunch together at the office.", jpn: "新しい人々に出会うための素晴らしい場所はたくさんあります。地元のスポーツクラブやアートクラスに参加するのは素晴らしいアイデアです。誰かと趣味を共有していると、その人と話すのがはるかに簡単になります。すでに共通の話題があるからです。「これまでにこのゲームをしたことがありますか？」や「どのくらいの頻度でここに来ますか？」と尋ねることができます。これらのシンプルな質問は、親しみやすい会話を開くための最良の方法です。食べ物を共有することもつながるための素晴らしい方法です。多くの人が、オフィスで一緒に昼食を食べている間に強い友情を築きます。" },
@@ -11764,6 +12362,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 093: Inviting a Coworker",
         goal: "Invite a colleague to an event and accept or decline politely using 'would like to' and 'because'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「would like to」と「because」を使って、同僚をイベントに招待し、丁寧に承諾または辞退する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Reducing 'to' in 'would like to'",
+    eng: "When saying 'I would like to', reduce the word 'to' into a weak schwa sound (/tə/). Say it smoothly: I wud-like-tuh.",
+    jpn: "「I would like to」と言う時、「to」の単語を弱い曖昧母音（/tə/）に短縮します。滑らかに I wud-like-tuh と言いましょう。"
+},
         vocab: [
             { eng: "Invite", jpn: "招待する / 誘う", exEng: "I will invite him to the party.", exJpn: "彼をパーティーに招待します。" },
             { eng: "Party", jpn: "パーティー", exEng: "We are having a dinner party.", exJpn: "私たちはディナーパーティーを開きます。" },
@@ -11918,6 +12521,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 094: Giving Gifts",
         goal: "Discuss buying and giving gifts using relative clauses ('which/that') and comparatives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(関係詞節（'which/that'）と比較級を使って、贈り物を買ったり贈ったりすることについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stressing 'more' in Comparatives",
+    eng: "When using long comparatives (e.g., more valuable than), place strong stress on the word 'MORE' and leave 'than' weak (/ðən/).",
+    jpn: "長い比較級（例：more valuable than）を使う時は、「MORE」の単語に強いアクセントを置き、「than」は弱く（/ðən/）発音しましょう。"
+},
         introArticle: [
             { eng: "Giving gifts is a wonderful tradition in every culture around the world. We give presents to our family, friends, and coworkers to celebrate special events. Birthdays, weddings, and graduations are all perfect times to give a gift. When you give a nice gift, it shows the person that you care about them. However, finding the perfect present is often a difficult task. You want to buy a gift that the person will really use and enjoy. A good gift brings a smile to their face.", jpn: "贈り物をすることは、世界中のあらゆる文化において素晴らしい伝統です。私たちは家族、友人、そして同僚に特別なイベントを祝うためにプレゼントを贈ります。誕生日、結婚式、卒業式はすべて、贈り物をするのに完璧な時です。素敵な贈り物をすると、それは相手にあなたが気にかけていることを示します。しかし、完璧なプレゼントを見つけることはしばしば難しいタスクです。あなたはその人が実際に使って楽しんでくれる贈り物を買いたいと思っています。良い贈り物は彼らの顔に笑顔をもたらします。" },
             { eng: "There are many different types of gifts you can choose. Some people buy expensive items like watches or jewelry. These are gifts which look beautiful and cost a lot of money. Other people prefer to buy practical gifts. A practical gift is something that helps a person in their daily life, like a new coffee cup or a warm sweater. Many people think that a practical gift is better than an expensive gift. If a gift is useful, the person will remember you every time they use it.", jpn: "あなたが選ぶことができる贈り物の種類はたくさんあります。時計や宝石のような高価なアイテムを買う人もいます。これらは美しく見え、たくさんのお金がかかる（which...）贈り物です。他の人々は実用的な贈り物を買うことを好みます。実用的な贈り物とは、新しいコーヒーカップや暖かいセーターのように、日々の生活で人を助ける（that...）もののことです。多くの人が、実用的な贈り物は高価な贈り物よりも優れていると考えています。もし贈り物が役に立つなら、その人はそれを使うたびにあなたのことを思い出すでしょう。" },
@@ -12046,6 +12654,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 095: Reserving a Restaurant",
         goal: "Call a restaurant to book a table for a group using 'need to', 'Can I', and specific numbers. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「need to」「Can I」と具体的な数字を使って、グループのためにレストランに電話してテーブルを予約する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Linking 'Can I' and Clear Numbers",
+    eng: "Link 'Can_I' smoothly (/kə.naɪ/). Make sure you pronounce numbers very clearly so the restaurant staff understands the exact time and group size.",
+    jpn: "「Can_I」を滑らかに繋げます（/kə.naɪ/）。レストランのスタッフが正確な時間と人数を理解できるように、数字を非常に明確に発音するようにしてください。"
+},
         vocab: [
             { eng: "Reserve", jpn: "予約する", exEng: "I want to reserve a table.", exJpn: "テーブルを予約したいです。" },
             { eng: "Reservation", jpn: "予約", exEng: "I have a reservation for tonight.", exJpn: "今夜の予約があります。" },
@@ -12200,6 +12813,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 096: Volunteering and Community",
         goal: "Discuss helping the community using zero conditionals and adverbs of frequency. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(ゼロ条件文と頻度の副詞を使って、地域社会への貢献について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stressing Frequency Adverbs",
+    eng: "When using adverbs like 'usually' and 'often', emphasize the first syllable (U-sually, OF-ten) to make the frequency of the action clear.",
+    jpn: "「usually」や「often」のような副詞を使う時は、行動の頻度を明確にするために最初の音節を強調しましょう（U-sually, OF-ten）。"
+},
         introArticle: [
             { eng: "Living in a good town is important for a happy life. However, a town does not become great by itself. The people who live there must work together to build a strong community. One of the best ways to do this is by volunteering. Volunteering means doing work for free to help other people. Many young people and adults volunteer in their free time. If you have time on the weekend, you can help clean the local park. Picking up garbage is a simple job, but it makes the park beautiful and safe for children to play.", jpn: "良い町に住むことは幸せな人生のために重要です。しかし、町はそれ自体で（勝手に）素晴らしくなるわけではありません。そこに住む人々が協力して強いコミュニティを築かなければなりません。これを行うための最良の方法の一つが、ボランティア活動（volunteering）です。ボランティア活動とは、他の人を助けるために無給で働くことを意味します。多くの若者や大人が自由な時間にボランティアをしています。もし週末に時間があれば（If...）、地元の公園をきれいにするのを手伝うことができます。ゴミを拾うことはシンプルな仕事ですが、それは公園を子供たちが遊ぶための美しく安全な場所にします。" },
             { eng: "There are many different types of volunteer work. Some people usually visit the hospital to talk to sick patients. A friendly conversation can make a lonely person smile. Other people often help at animal shelters. They feed the dogs and cats that do not have a home. Helping animals is a very rewarding experience. Also, many towns have charity events. A charity event collects money for people who need help, like poor families or old people. If you volunteer at a charity event, you will meet many kind and friendly neighbors.", jpn: "ボランティア活動には多くの異なる種類があります。たいてい病院を訪れて病気の患者と話す人もいます。親しみやすい会話は、孤独な人を笑顔にすることができます。動物保護施設（アニマルシェルター）でよく手伝う人もいます。彼らは家がない犬や猫に餌をやります。動物を助けることはとてもやりがいのある経験です。また、多くの町でチャリティイベントがあります。チャリティイベントは、貧しい家族や老人など、助けを必要としている人々のためにお金を集めます。もしチャリティイベントでボランティアをすれば（If...）、多くの親切でフレンドリーな隣人に出会うでしょう。" },
@@ -12328,6 +12946,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 097: Case Study - The Charity Dinner",
         goal: "Analyze a broken charity event from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から破綻したチャリティイベントを分析し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Emphasizing 'Too'",
+    eng: "When using 'too' to express a negative excess (e.g., too cold, too crowded), stretch the 'oo' sound heavily to show your frustration.",
+    jpn: "否定的な過剰さを表現するために「too」を使う時（例：too cold, too crowded）は、フラストレーションを示すために「too」の「ウー」の音を強く伸ばしましょう。"
+},
         vocab: [
             { eng: "Charity", jpn: "チャリティ / 慈善", exEng: "We are raising money for charity.", exJpn: "私たちはチャリティのためにお金を集めています。" },
             { eng: "Event", jpn: "イベント", exEng: "The dinner event is tonight.", exJpn: "ディナーイベントは今夜です。" },
@@ -12391,12 +13014,12 @@ examples: [
             { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to the CEO. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(CEOに解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -12444,6 +13067,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 098: Speaking Test - A Special Event",
         goal: "Describe a special event or party you attended using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、あなたが参加した特別なイベントやパーティーについて描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Enthusiastic Intonation",
+    eng: "When describing a party or celebration, use a higher pitch and a brighter tone of voice to express joy and excitement.",
+    jpn: "パーティーやお祝い事について描写する時は、喜びや興奮を表現するために、声のピッチ（高さ）を上げ、明るいトーンを使いましょう。"
+},
         vocab: [
             { eng: "Event", jpn: "イベント / 行事", exEng: "The sports event was very fun.", exJpn: "そのスポーツイベントはとても楽しかったです。" },
             { eng: "Party", jpn: "パーティー", exEng: "We had a big birthday party.", exJpn: "私たちは大きな誕生日パーティーを開きました。" },
@@ -12528,6 +13156,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 099: Work-Life Balance",
         goal: "Discuss work-life balance and stress management using adverbs of frequency and preference verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(頻度を表す副詞と好みを表す動詞を使って、ワークライフバランスとストレス管理について議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Blending 'Enjoy + ing'",
+    eng: "When using a preference verb followed by a gerund, link the sounds smoothly (e.g., enjoy_eating, like_doing) without a robotic pause between them.",
+    jpn: "好みを表す動詞の後に動名詞を続ける時は、間にロボットのようなポーズを入れず、音を滑らかに繋げましょう（例：enjoy_eating, like_doing）。"
+},
         introArticle: [
             { eng: "Finding a good work-life balance is a very common goal today. In the past, many people believed that working long hours was the only way to be successful. They stayed in the office until late at night and rarely saw their families. Today, people understand that this is a bad idea. If you work too much, your body and mind become very tired. You will feel stressed and angry. A good balance means you have enough time to do your job well, but you also have plenty of time to rest and enjoy your personal life.", jpn: "良いワークライフバランスを見つけることは、今日とても一般的な目標です。過去には、多くの人が長時間働くことが成功するための唯一の方法だと信じていました。彼らは夜遅くまでオフィスに残り、家族に会うことはめったにありませんでした。今日、人々はこれが悪いアイデアだと理解しています。働きすぎると、体と心がとても疲れてしまいます。ストレスを感じ、怒りっぽくなるでしょう。良いバランスとは、仕事をうまくこなす十分な時間がありつつ、休んで私生活を楽しむためのたっぷりの時間もあることを意味します。" },
             { eng: "Many young workers actively try to change their daily routines. They want to leave the office at 5 PM every day. They enjoy spending their evenings doing fun hobbies or eating dinner with their friends. When you leave your work at the office, you give your brain a chance to relax. Some companies are also changing their rules to help their staff. They allow people to work from home two or three days a week. This flexible schedule saves a lot of time because people do not have to commute on crowded trains.", jpn: "多くの若い労働者は、日々のルーティンを積極的に変えようとしています。彼らは毎日午後5時にオフィスを出たいと思っています。彼らは夕方に楽しい趣味をしたり、友人と夕食を食べたりして過ごすことを楽しみます。仕事をオフィスに置いて帰ると、脳にリラックスするチャンスを与えることができます。一部の企業も、スタッフを助けるためにルールを変えています。彼らは人々が週に2、3日家から働くことを許可しています。この柔軟なスケジュールは、人々が満員電車で通勤する必要がないため、多くの時間を節約します。" },
@@ -12656,6 +13289,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 100: Requesting Time Off",
         goal: "Request a holiday from a manager using polite requests, reason clauses, and future promises. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(丁寧な依頼、理由を表す節、未来の約束を使って、マネージャーに休暇を申請する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Polite Pitch for Requests",
+    eng: "When asking your manager for time off, use a slightly softer and higher pitch. This makes 'I would like to' sound much more polite and respectful.",
+    jpn: "マネージャーに休みを申請する時は、少し柔らかく高めのピッチ（声の高さ）を使いましょう。これにより「I would like to」がはるかに丁寧で敬意のあるように聞こえます。"
+},
         vocab: [
             { eng: "Holiday", jpn: "休日 / 休暇", exEng: "I am going on a summer holiday.", exJpn: "私は夏休みに行きます。" },
             { eng: "Vacation", jpn: "休暇", exEng: "We need a long vacation.", exJpn: "私たちは長い休暇が必要です。" },
@@ -12810,6 +13448,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 101: Learning Foreign Languages",
         goal: "Discuss learning English and other languages using comparatives, superlatives, and purpose clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(比較級、最上級、および目的を表す節を使って、英語や他の言語を学ぶことについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Weak 'to' for Purpose",
+    eng: "In a purpose clause (e.g., to pass the test), the word 'to' is unstressed. Say it very quickly as a weak /tə/ (tuh).",
+    jpn: "目的を表す節（例：to pass the test）では、「to」という単語は強調されません。弱い /tə/（タ）として非常に速く言いましょう。"
+},
         introArticle: [
             { eng: "Learning a foreign language is one of the most useful skills in the world. Today, English is the most popular language for global business and travel. If you can speak English, you can talk to people from many different countries. Many students study hard to pass language tests. They want to get a high score to enter a good university or find a great job. However, learning a language is not just about passing a test. It is a wonderful way to understand different cultures and make new friends around the world.", jpn: "外国語を学ぶことは、世界で最も役立つスキルの1つです。今日、英語はグローバルなビジネスや旅行において最も人気のある言語です。もし英語が話せれば、多くの異なる国の人々と話すことができます。多くの学生が語学テストに合格するために一生懸命勉強します。彼らは良い大学に入ったり素晴らしい仕事を見つけたりするために、高いスコアを取りたいと思っています。しかし、言語を学ぶことは単にテストに合格することだけではありません。それは異なる文化を理解し、世界中に新しい友達を作るための素晴らしい方法なのです。" },
             { eng: "Everyone has a different way to study. Some people think reading thick grammar books is the best method. Others say that listening to music or watching movies is easier than reading books. When you watch a movie in English, you can learn how real people speak. Actually, many language experts agree that speaking is more important than reading. You should try to find a language partner to practice with every week. Making mistakes is a normal part of the process. If you practice speaking regularly, your brain will remember the words much faster.", jpn: "誰もが異なる勉強方法を持っています。分厚い文法書を読むのが最高の方法だと考える人もいます。音楽を聴いたり映画を見たりする方が本を読むよりも簡単だと言う人もいます。英語で映画を見ると、現実の人々がどのように話すかを学ぶことができます。実は、多くの言語の専門家は、話すことは読むことよりも重要であると同意しています。毎週一緒に練習する言語パートナーを見つけるよう努めるべきです。ミスをすることはプロセスの普通の一部です。定期的に話す練習をすれば、脳ははるかに速く単語を覚えるでしょう。" },
@@ -12938,6 +13581,11 @@ examples: [
         type: "transactional", 
         title: "Lesson 102: Making Travel Arrangements",
         goal: "Book a flight and ask about luggage rules using 'Can I', 'How much', and 'have to'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「Can I」「How much」「have to」を使って、フライトを予約し手荷物のルールについて尋ねる。)</span>",
+pronunciation: {
+    title: "Pronunciation: Falling Intonation for 'How much'",
+    eng: "Questions starting with 'Wh' or 'How' require a falling intonation at the end. Practice saying 'How much is the rent? ↘'.",
+    jpn: "「Wh」や「How」で始まる質問は、最後でイントネーションを下げる必要があります。「How much is the rent? ↘」と言う練習をしましょう。"
+},
         vocab: [
             { eng: "Flight", jpn: "フライト / 便", exEng: "I need to book a flight.", exJpn: "フライトを予約する必要があります。" },
             { eng: "Ticket", jpn: "チケット / 航空券", exEng: "Here is your electronic ticket.", exJpn: "こちらがあなたの電子チケットです。" },
@@ -13092,6 +13740,11 @@ examples: [
         type: "opinion", 
         title: "Lesson 103: Life in the Future",
         goal: "Discuss future life changes and technology using 'will', 'be going to', and first conditionals. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「will」、「be going to」、第1条件文を使って、将来の生活の変化やテクノロジーについて議論する。)</span>",
+pronunciation: {
+    title: "Pronunciation: The 'L' Sound in 'Will'",
+    eng: "To pronounce 'will' clearly, make sure the tip of your tongue touches the roof of your mouth behind your front teeth for the 'L' sound.",
+    jpn: "「will」を明確に発音するために、「L」の音を出す時に舌の先が前歯の後ろの上あごにしっかり触れるようにしてください。"
+},
         introArticle: [
             { eng: "The world is changing very quickly, and the future will be full of surprises. Many people wonder what their daily lives will look like in twenty or thirty years. Experts predict that technology will completely change our cities, our homes, and our jobs. One of the biggest changes will be in transportation. In the future, people are not going to drive their own cars. We will have self-driving cars that use artificial intelligence. You will just tell the car where you want to go, and you can sleep or read a book while the car drives safely. This will save people a lot of time and reduce terrible traffic accidents.", jpn: "世界は非常に速く変化しており、未来は驚きでいっぱいになるでしょう。多くの人が、20年後や30年後の自分たちの日常生活がどのようになっているだろうかと思っています。専門家たちは、テクノロジーが私たちの都市、家、そして仕事を完全に変えるだろうと予測しています。最大の変化の一つは交通機関にあるでしょう。将来、人々は自分自身の車を運転しないでしょう。私たちは人工知能を使う自動運転車を持つことになります。あなたはただ車に行きたい場所を告げるだけで、車が安全に運転している間に眠ったり本を読んだりすることができます。これは人々の多くの時間を節約し、ひどい交通事故を減らすでしょう。" },
             { eng: "Our homes are also going to become much smarter. We already have smart speakers that can turn on the lights or play music. In the future, houses will do everything for us. The refrigerator will know when you have no milk, and it will order it from the supermarket automatically. If you are cold, the house will change the temperature before you even ask. Some people think this is wonderful. They are excited about the future. However, other people are worried. They feel that if computers do everything, humans will become lazy and forget how to do basic tasks.", jpn: "私たちの家もまた、はるかにスマート（高機能）になる予定です。私たちはすでに、電気をつけたり音楽を流したりできるスマートスピーカーを持っています。将来、家は私たちのためにすべてをやってくれるでしょう。冷蔵庫は牛乳がなくなったことを知り、自動的にスーパーからそれを注文します。もしあなたが寒いと感じたら、あなたが頼む前に家が温度を変えてくれます。これを素晴らしいと考える人もいます。彼らは未来にワクワクしています。しかし、他の人々は心配しています。もしコンピューターがすべてをやってしまったら、人間は怠惰になり、基本的なタスクのやり方を忘れてしまうと感じているのです。" },
@@ -13220,6 +13873,11 @@ examples: [
         type: "casestudy", 
         title: "Lesson 104: Case Study - The Office Relocation",
         goal: "Investigate a disastrous office relocation from different viewpoints and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(異なる観点から悲惨なオフィスの移転を調査し、解決策を提案する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Stressing Indefinite Pronouns",
+    eng: "To express absolute frustration, put heavy vocal stress on the first syllable of indefinite pronouns: NO-thing is ready, EV-ery-one is angry.",
+    jpn: "絶対的な不満を表現するために、不定代名詞の最初の音節に強いアクセントを置きましょう：NO-thing is ready, EV-ery-one is angry。"
+},
         vocab: [
             { eng: "Relocation", jpn: "移転 / 引っ越し", exEng: "The office relocation is next week.", exJpn: "オフィスの移転は来週です。" },
             { eng: "Move", jpn: "引っ越す / 動かす", exEng: "We must move to a new building.", exJpn: "私たちは新しい建物に引っ越さなければなりません。" },
@@ -13283,12 +13941,12 @@ examples: [
             { eng: "What are the different causes of the problem?", jpn: "問題の様々な原因は何ですか？" },
             { eng: "What are some potential solutions to the problem?", jpn: "問題に対する考えられる解決策は何ですか？" }
         ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
+   expressions: [
+            { eng: "The main problem is...", jpn: "主な問題は...", exampleEng: "The main problem is that there is too much trash in the ocean.", exampleJpn: "主な問題は、海にゴミが多すぎることです。" },
+            { eng: "This is because...", jpn: "これは〜だからです...", exampleEng: "This is because people use too much plastic.", exampleJpn: "これは、人々がプラスチックを使いすぎるからです。" },
+            { eng: "For example...", jpn: "例えば...", exampleEng: "For example, many people throw away plastic bottles every day.", exampleJpn: "例えば、多くの人が毎日ペットボトルを捨てています。" },
+            { eng: "We should...", jpn: "私たちは〜するべきです...", exampleEng: "We should use reusable bags and bottles.", exampleJpn: "私たちはエコバッグやマイボトルを使うべきです。" },
+            { eng: "So, I think...", jpn: "だから、私は〜だと思います...", exampleEng: "So, I think this will help protect the environment.", exampleJpn: "だから、これが環境を守るのに役立つと思います。" }
         ],
         roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
@@ -13336,6 +13994,11 @@ examples: [
         type: "speakingtest", 
         title: "Lesson 105: Speaking Test - A Big Achievement",
         goal: "Describe a big personal or professional achievement using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、個人的または職業上の大きな達成について描写する。)</span>",
+pronunciation: {
+    title: "Pronunciation: Pausing for Impact",
+    eng: "When delivering the final 'Point' of your PREP speech, insert a brief pause just before your most important word to build anticipation and impact.",
+    jpn: "PREP法のスピーチで最後の「要点（Point）」を述べる時、期待感とインパクトを高めるために、最も重要な単語の直前で短いポーズを入れましょう。"
+},
         vocab: [
             { eng: "Achievement", jpn: "達成 / 業績", exEng: "Graduating was a big achievement.", exJpn: "卒業したことは大きな達成でした。" },
             { eng: "Goal", jpn: "目標", exEng: "I reached my final goal.", exJpn: "私は最終目標に到達しました。" },
