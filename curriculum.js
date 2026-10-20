@@ -171,24 +171,24 @@ expressions: [
         ],
         "dialogue": [
             { "speaker": "Manager", "eng": "Good morning. Do you have a minute to talk?", "jpn": "おはようございます。少し話す時間はありますか？" },
-            { "speaker": "Staff", "eng": "Good morning. Yes, I am free right now.", "jpn": "おはようございます。はい、今は空いています。" },
-            { "speaker": "Manager", "eng": "Great. <span class='swappable'>Can you give me an update</span> on the new project?", "jpn": "素晴らしい。新しいプロジェクトの進捗を教えてもらえますか？" },
-            { "speaker": "Staff", "eng": "Sure. I am working on the database <i class='grammar-target'>now</i>.", "jpn": "もちろんです。私は今、データベースの作業をしています。" },
-            { "speaker": "Manager", "eng": "How is it going? Are there any big problems?", "jpn": "調子はどうですか？何か大きな問題はありますか？" },
+            { "speaker": "Staff", "eng": "Yes, I am free right now.", "jpn": "はい、今は空いています。" },
+            { "speaker": "Manager", "eng": "You're working on the ABC project, right?", "jpn": "あなたはABCプロジェクトに取り組んでいるんですよね？" },
+            { "speaker": "Staff", "eng": "Yup.", "jpn": "そうです" },
+            { "speaker": "Manager", "eng": "How is it going?", "jpn": "調子はどうですか" },
             { "speaker": "Staff", "eng": "<span class='swappable'>Everything is going according to plan</span>. <i class='grammar-target'>I will finish the main task today</i>.", "jpn": "すべて計画通りに進んでいます。今日中にメインのタスクを終わらせます。" },
-            { "speaker": "Manager", "eng": "That is good to hear. Are there any blockers for your work?", "jpn": "それを聞いて安心しました。作業の障害（ブロッカー）はありますか？" },
+            { "speaker": "Manager", "eng": "That is good to hear. <span class='swappable'>Are there any blockers for your work?</span>", "jpn": "それを聞いて安心しました。作業の障害（ブロッカー）はありますか？" },
             { "speaker": "Staff", "eng": "Yes. <span class='swappable'>We need more people</span> for the testing phase.", "jpn": "はい。テスト工程でもっと人が必要です。" },
-            { "speaker": "Manager", "eng": "I understand. I'll see what I can do. .", "jpn": "わかりました。できることをやってみます。" },
-            { "speaker": "Staff", "eng": "Thanks. Do you have time to discuss it tomorrow?", "jpn": "ありがとう。明日、それについて話し合う時間はありますか？" },
+            { "speaker": "Manager", "eng": "I understand. <span class='swappable'>I'll see what I can do.</span> .", "jpn": "わかりました。できることをやってみます。" },
+            { "speaker": "Staff", "eng": "Thanks. Do you have time to discuss the next phase <i class='grammar-target'>tomorrow?</i>", "jpn": "ありがとう。明日、次の段階について話し合う時間はありますか" },
             { "speaker": "Manager", "eng": "I'm busy tomorrow morning because <i class='grammar-target'>I'm meeting a client </i>, but I have time tomorrow afternoon.", "jpn": "明日の朝はクライアントとの打ち合わせがあるので忙しいですが、午後は時間があります。" },
             { "speaker": "Staff", "eng": "Understood. Let's meet tomorrow afternoon then.", "jpn": "承知しました。それじゃあ、明日の午後、会いましょう。" }
         ],
         "dialogueStructure": [
             "Greet + Ask if they are free <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 空いているか尋ねる)</span>",
-            "> Greet + Say you are free <span class='jpn-text'>(挨拶 ＋ 空いていると伝える)</span>",
-            "Ask for an update <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(進捗を尋ねる)</span>",
-            "> State current action + Time adverb <span class='jpn-text'>(現在のアクションを述べる ＋ 時の副詞)</span>",
-            "Ask about problems <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(問題について尋ねる)</span>",
+            "> Say you are free <span class='jpn-text'>(空いていると伝える)</span>",
+            "Confirm what project they are working on <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(彼らがどのプロジェクトに取り組んでいるかを確認する)</span>",
+            "> Say the information is correct <span class='jpn-text'>(その情報が正しいとしましょう)</span>",
+            "Ask for a status update <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(進捗状況を確認する)</span>",
             "> Say the project is going well + Future prediction <span class='jpn-text'>(プロジェクトが順調であることを伝える ＋ 未来の予測)</span>",
             "Ask if there are blockers <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(障害がないか尋ねる)</span>",
             "> Answer that you don't have enough of something <span class='jpn-text'>(何かが足りないと答える)</span>",
@@ -199,19 +199,19 @@ expressions: [
         ],
         "expressions": [
             { 
-                "category": "1. Asking for an update (進捗を尋ねる)", 
-                "options": [
-                    { "eng": "Can you give me an update?", "jpn": "進捗を教えてもらえますか？" },
-                    { "eng": "What is your status?", "jpn": "あなたのステータスはどうなっていますか？" },
-                    { "eng": "How is the progress?", "jpn": "進捗はどうですか？" }
-                ] 
-            },
-            { 
-                "category": "2. Saying the project is going well (プロジェクトが順調であることを伝える)", 
+               "category": "1. Saying the project is going well (プロジェクトが順調であることを伝える)", 
                 "options": [
                     { "eng": "Everything is going according to plan.", "jpn": "すべて計画通りに進んでいます。" },
                     { "eng": "It is going well.", "jpn": "順調です。" },
                     { "eng": "We are making good progress.", "jpn": "私たちは順調に進捗しています。" }
+                ] 
+            },
+            { 
+                "category": "2. Asking about issues (問題について尋ねる)", 
+                "options": [
+                    { "eng": "Is anything holding you up?", "jpn": "何か滞っていることはありますか？" },
+                    { "eng": "Are you stuck on anything?", "jpn": "何か行き詰まっていることはありますか？" },
+                    { "eng": "Are there any obstacles or issues?", "jpn": "障害となるものはありますでしょうか？" }
                 ] 
             },
             { 
@@ -220,6 +220,14 @@ expressions: [
                     { "eng": "We need more people.", "jpn": "もっと人が必要です。" },
                     { "eng": "We don't have enough time.", "jpn": "時間が足りません。" },
                     { "eng": "We are short on resources.", "jpn": "リソースが不足しています。" }
+                ] 
+              },
+            { 
+                "category": "4. Say you will try to help (「手伝うように努めます」と言う)", 
+                "options": [
+                    { "eng": "I'll see what I can do.", "jpn": "できることをやってみます。" },
+                    { "eng": "Let me see what I can do.", "jpn": "できることをやってみます。" },
+                    { "eng": "I will look into it.", "jpn": "善処いたします。" }
                 ] 
             }
         ],
