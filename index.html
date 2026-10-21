@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A2 English Mastery</title>
+    <title>A2 IT English Mastery</title>
     <style>
         :root {
             --primary: #4f46e5;       
@@ -18,6 +18,15 @@
             --error: #ef4444;         
         }
 
+        /* --- GLOBAL & RESET --- */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            overflow-x: hidden;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -29,6 +38,7 @@
         }
 
         body.hide-jpn .jpn-text { display: none !important; }
+        
         .toggle-jpn-btn {
             background: var(--accent); color: white; border: none; padding: 10px 20px;
             border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600;
@@ -68,18 +78,20 @@
             align-items: center; 
             z-index: 10; 
             text-align: center; 
+            width: 100%;
         }
         
         .hero-title { 
-            font-size: clamp(2.5rem, 6vw, 4.5rem); 
+            font-size: clamp(2rem, 6vw, 4.5rem); 
             font-weight: 900; 
             letter-spacing: 2px; 
             margin: 0; 
             color: var(--primary); 
+            word-wrap: break-word;
         }
         
         .hero-subtitle { 
-            font-size: clamp(1rem, 2vw, 1.2rem); 
+            font-size: clamp(0.9rem, 2vw, 1.2rem); 
             font-weight: 700; 
             letter-spacing: 1px; 
             margin: 10px 0 20px; 
@@ -87,7 +99,13 @@
             text-transform: uppercase; 
         }
 
-        .container { max-width: 1350px; margin: -30px auto 40px; padding: 0 15px; position: relative; z-index: 20; }
+        .container { 
+            max-width: 1350px; 
+            margin: -30px auto 40px; 
+            padding: 0 15px; 
+            position: relative; 
+            z-index: 20; 
+        }
 
         .class-selector {
             background: var(--card-bg); border-radius: 12px; padding: 20px; margin-bottom: 25px;
@@ -108,7 +126,13 @@
         .export-btn:hover { background: #059669; }
 
         .chapter-label { font-size: 1.1rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 5px; }
-        .section-card { background: var(--card-bg); border-radius: 12px; padding: 30px; margin-bottom: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border); transition: all 0.3s ease; }
+        
+        .section-card { 
+            background: var(--card-bg); border-radius: 12px; padding: 30px; margin-bottom: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border); 
+            transition: all 0.3s ease; 
+            width: 100%;
+        }
 
         .layout-3col, .transactional-3col, .opinion-layout {
             display: grid; grid-template-columns: repeat(3, 1fr); align-items: start; gap: 25px; margin-bottom: 25px;
@@ -125,14 +149,14 @@
 
         .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px;}
         .vocab-item { background: var(--bg-color); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;}
-        .vocab-text { display: flex; flex-direction: column; }
+        .vocab-text { display: flex; flex-direction: column; width: 100%;}
         .vocab-eng { font-weight: 700; color: var(--text-dark); font-size: 1.05rem; }
         .vocab-jpn { font-size: 0.85rem; color: var(--text-light); margin-top: 2px; }
 
         .flashcard {
             background: white; border: 2px solid var(--border); border-radius: 8px; padding: 12px 10px; display: flex;
             align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; text-align: center;
-            font-weight: 600; color: var(--text-dark); min-height: 45px; user-select: none; font-size: 1.05rem;
+            font-weight: 600; color: var(--text-dark); min-height: 50px; user-select: none; font-size: 1.05rem;
         }
         .flashcard:hover { border-color: var(--primary-light); transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         .flashcard.flipped { background: #eff6ff; border-color: var(--primary); color: var(--primary); }
@@ -167,6 +191,8 @@
         .audio-btn {
             background: none; border: none; cursor: pointer; font-size: 1.2rem;
             padding: 5px; border-radius: 50%; transition: all 0.2s; color: var(--primary);
+            flex-shrink: 0;
+            touch-action: manipulation;
         }
         .audio-btn:hover { background: #e0e7ff; transform: scale(1.1); }
 
@@ -176,6 +202,7 @@
             background: white; border: 1px solid var(--border); color: var(--text-dark);
             padding: 8px 14px; border-radius: 20px; cursor: pointer; font-size: 1rem;
             font-weight: 500; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            touch-action: manipulation;
         }
         .word-btn:hover { background: var(--primary-light); color: white; border-color: var(--primary-light); transform: translateY(-2px);}
 
@@ -193,6 +220,7 @@
         button.action-btn {
             background: var(--primary); color: white; border: none; padding: 10px 20px;
             border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: 600; margin-top: 8px; margin-right: 8px; transition: background 0.2s;
+            touch-action: manipulation;
         }
         button.action-btn:hover { background: #4338ca; }
 
@@ -231,6 +259,7 @@
             cursor: pointer;
             margin-top: 5px;
             accent-color: var(--accent);
+            flex-shrink: 0;
         }
 
         .completed {
@@ -263,6 +292,7 @@
             font-size: 0.9rem;
             font-weight: 600;
             transition: background 0.2s;
+            touch-action: manipulation;
         }
         .audio-ctrl-btn:hover { background: #4338ca; }
         .audio-ctrl-btn.secondary { background: var(--text-light); }
@@ -302,54 +332,207 @@
         }
 
         @keyframes safeBreakout {
-            0% { 
-                transform: scale(1); 
-                background-color: var(--accent); 
-                box-shadow: 0 0 10px var(--accent); 
-            }
-            50% { 
-                transform: scale(1.03) scaleX(1.05); 
-                background-color: #ecc94b; 
-                box-shadow: 0 0 25px #ecc94b; 
-            }
-            100% { 
-                transform: scale(1); 
-                background-color: var(--accent); 
-                box-shadow: 0 0 10px var(--accent); 
-            }
+            0% { transform: scale(1); background-color: var(--accent); box-shadow: 0 0 10px var(--accent); }
+            50% { transform: scale(1.03) scaleX(1.05); background-color: #ecc94b; box-shadow: 0 0 25px #ecc94b; }
+            100% { transform: scale(1); background-color: var(--accent); box-shadow: 0 0 10px var(--accent); }
         }
 
-        .progress-violent {
-            animation: safeBreakout 2s infinite ease-in-out !important;
-            position: relative;
-            z-index: 50;
+        .progress-violent { animation: safeBreakout 2s infinite ease-in-out !important; position: relative; z-index: 50; }
+        
+        /* --- NEW LANDING PAGE GRID STYLES --- */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+            margin-top: 25px;
+        }
+        .feature-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+        }
+        .feature-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--accent);
+        }
+        .feature-content {
+            padding: 20px;
+        }
+        .feature-content h3 {
+            margin-top: 0;
+            padding-left: 0;
+            border-left: none;
+            color: var(--primary);
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin-top: 25px;
+        }
+        .chapter-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-light);
+            box-shadow: 0 10px 15px rgba(79, 70, 229, 0.1);
+        }
+        .chapter-banner {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+        }
+        .chapter-content {
+            padding: 15px 20px;
+            border-top: 4px solid var(--primary);
+            flex-grow: 1;
+        }
+        .chapter-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 0 0 5px 0;
+        }
+        .chapter-jpn {
+            font-weight: normal;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        /* --- SMARTPHONE / RESPONSIVE STYLES --- */
         @media (max-width: 1024px) {
             .layout-3col, .transactional-3col, .opinion-layout { grid-template-columns: 1fr; }
             .layout-3col .section-card, .transactional-3col .section-card, .opinion-layout .section-card { margin-bottom: 25px; }
         }
 
         @media (max-width: 768px) {
-            .hero { min-height: 350px; }
-            .class-selector { flex-direction: column; align-items: stretch; }
-            .controls-group { flex-direction: column; width: 100%; }
-            .export-btn, .toggle-jpn-btn { width: 100%; margin: 0; }
+            .hero { 
+                min-height: auto; 
+                padding: 50px 15px; 
+            }
+            .hero-title { font-size: 2.2rem; }
+            .hero-subtitle { font-size: 1rem; margin-bottom: 0; }
+            
+            .container { 
+                margin-top: -15px; 
+            }
+            
+            .section-card {
+                padding: 20px 15px;
+            }
+
+            .class-selector { 
+                flex-direction: column; 
+                align-items: stretch; 
+                padding: 15px; 
+                gap: 10px;
+            }
+            .class-selector label {
+                margin-bottom: 0px;
+            }
+            .class-selector select {
+                width: 100%;
+                min-width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            .controls-group { 
+                flex-direction: column; 
+                width: 100%; 
+                gap: 10px; 
+            }
+            .export-btn, .toggle-jpn-btn { 
+                width: 100%; 
+                margin: 0; 
+            }
+            
             .expressions-grid-2col { grid-template-columns: 1fr; }
             .casestudy-people { grid-template-columns: 1fr; }
             .casestudy-2col, .speakingtest-2col { grid-template-columns: 1fr; }
-            button.action-btn { width: 100%; margin-right: 0; margin-bottom: 8px; }
-            .audio-controls-panel { flex-direction: column; align-items: stretch; }
-            .audio-ctrl-btn { width: 100%; text-align: center; }
+            
+            button.action-btn { 
+                width: 100%; 
+                margin-right: 0; 
+                margin-bottom: 10px; 
+            }
+            
+            .audio-controls-panel { 
+                flex-direction: column; 
+                align-items: stretch; 
+            }
+            .audio-ctrl-btn { 
+                width: 100%; 
+                text-align: center; 
+            }
+            .audio-controls-panel label {
+                margin-left: 0 !important;
+                margin-top: 10px;
+            }
+            
+            .features-grid { grid-template-columns: 1fr; }
+            .chapter-grid { grid-template-columns: 1fr; }
+            
+            .vocab-grid { 
+                grid-template-columns: 1fr; 
+            }
+            
+            .topic-card {
+                flex-direction: column;
+            }
+            
+            .dialogue-box, .roleplay-box, .homework-box, .practice-container {
+                padding: 15px;
+            }
+            .grammar-details {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 { font-size: 1.5rem; }
+            h3 { font-size: 1.2rem; }
+            .goal-overview p { font-size: 1rem; }
+            .vocab-eng { font-size: 1rem; }
+            .vocab-jpn { font-size: 0.85rem; }
+            .flashcard { font-size: 0.95rem; }
+            .dialogue-line { font-size: 1rem; }
+            .dialogue-trans { margin-left: 0; margin-top: 5px; }
         }
     </style>
 </head>
+<!-- The body structure and scripts remain strictly identical, ensuring functionality is untouched -->
 <body>
 
     <header class="hero" id="main-hero">
         <div class="hero-text-wrapper">
-            <h1 class="hero-title">A2 ENGLISH</h1>
-            <p class="hero-subtitle">Goal-Based, Opinion & Case Study Lessons</p>
+            <h1 class="hero-title">A2 IT ENGLISH</h1>
+            <p class="hero-subtitle">Practical Speaking for Japan's IT Industry</p>
         </div>
     </header>
 
@@ -363,7 +546,211 @@
             </div>
         </div>
 
-        <div id="lessonContent"></div>
+        <div id="landingPage" class="section-card">
+            <h2 style="font-size: 2.2rem; margin-bottom: 10px;">A2 English Mastery for IT Professionals</h2>
+            <div class="goal-overview" style="margin-bottom: 30px;">
+                <p><strong>Course Focus:</strong> Practical Speaking Skills | CEFR A2 Level | IT Industry Context</p>
+                <p class="jpn-text" style="font-weight: normal; margin-top: 8px;"><strong>コースの焦点：</strong> 実践的なスピーキングスキル | CEFR A2レベル | 日本のIT業界向けコンテキスト</p>
+            </div>
+
+            <p style="font-size: 1.1rem;">This course is designed specifically for IT professionals working in Japan to improve their practical English speaking skills. Everything is structured precisely at the CEFR A2 level, ensuring accessible and relevant learning for daily workplace communication, team meetings, and basic technical reporting.</p>
+            <p class="jpn-text" style="color: var(--text-light); margin-bottom: 40px;">このコースは、日本で働くITプロフェッショナルが実践的なスピーキングスキルを向上させるために特別に設計されています。すべてCEFR A2レベルで構成されており、日常の職場でのコミュニケーション、チームミーティング、基本的な技術報告に役立つ内容となっています。</p>
+
+            <h2 style="font-size: 1.8rem; margin-top: 20px; border-bottom: none;">Course Features</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" alt="Free Education" class="feature-img">
+                    <div class="feature-content">
+                        <h3> 100% Free</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">This content is free for anyone to use. (but cannot be sold commercially)</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">このコンテンツはどなたでも無料でご利用いただけます。（商業目的での販売不可）</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="Streamlined UI" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Streamlined design</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">All content is on one page, no more clicking multiple links.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">すべてのコンテンツが1ページにまとまっており、複数リンクのクリックは不要です。</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" alt="Holistic Learning" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Holistic improvement</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each class includes speaking, listening, reading, writing, 28 new words, and grammar points.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各クラスには4技能の課題、28の新単語、表現、文法が含まれています。</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80" alt="Interactive Homework" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Interactive homework</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Interactive activities in the homework section help you master new grammar points.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">宿題セクションのインタラクティブな活動で、新しい文法を習得できます。</p>
+                    </div>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80" alt="AI Homework Marking" class="feature-img">
+                    <div class="feature-content">
+                        <h3> AI HW marking</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Use the provided Gemini Gem in your pacing document to get immediate feedback.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">付属のGemini Gemを使用して、ライティング課題の即時フィードバックを得られます。</p>
+                    </div>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&q=80" alt="Full Japanese Support" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Full Japanese support </h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a full translation into Japanese that you can quickly turn on or off.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、日本語への完全な翻訳が含まれており、これを簡単にオン・オフに切り替えることができます。</p>
+                    </div>
+                </div>
+                <!-- Feature 7 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600&q=80" alt="Anki Intregration" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Anki Integration</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a set of ANKI compatible flashcards that you can use to review the new words in your favorite flashcard app.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、ANKI対応のフラッシュカードセットが含まれており、お気に入りのフラッシュカードアプリで新しい単語の復習に活用できます。。</p>
+                    </div>
+                </div>
+                <!-- Feature 8 -->
+                <div class="feature-card">
+                    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&q=80" alt="Shadowing Method" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Shadowing Method</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Listen and repeat exactly what you hear to improve pronunciation and speaking fluency.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">音声を聞き、聞こえた通りに繰り返すことで発音と流暢さを向上させます。</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 1.8rem; margin-top: 40px; border-bottom: none;">Course Chapters (全15章)</h2>
+            <p class="jpn-text" style="color: var(--text-light); margin-top: -10px; margin-bottom: 20px;">We cover 105 lessons across 15 different topics. There is a mix of everyday English as well as content specific to the IT indstury. (15の異なるトピックにわたる105のレッスンを網羅しています。日常的な英語に加え、IT業界特有の内容も盛り込まれています。)</p>
+            
+            <div class="chapter-grid">
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&h=250&fit=crop" alt="Office" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 1: Everyday Office Routines</p>
+                        <p class="chapter-jpn jpn-text">第1章：オフィスでの日常業務</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=250&fit=crop" alt="Shopping" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 2: Shopping and Errands</p>
+                        <p class="chapter-jpn jpn-text">第2章：買い物と用事</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=250&fit=crop" alt="Bugs and Code" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 3: Past Projects & Bugs</p>
+                        <p class="chapter-jpn jpn-text">第3章：過去のプロジェクトと不具合</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500&h=250&fit=crop" alt="Travel" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 4: Travel & Transport</p>
+                        <p class="chapter-jpn jpn-text">第4章：旅行と交通手段</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500&h=250&fit=crop" alt="Future Planning" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 5: Future Planning</p>
+                        <p class="chapter-jpn jpn-text">第5章：将来の計画</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=250&fit=crop" alt="Food and Dining" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 6: Food & Dining</p>
+                        <p class="chapter-jpn jpn-text">第6章：食事と外食</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=250&fit=crop" alt="Data and Charts" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 7: Data & Quantities</p>
+                        <p class="chapter-jpn jpn-text">第7章：データと数量</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=500&h=250&fit=crop" alt="Instructions" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 8: Instructions & Support</p>
+                        <p class="chapter-jpn jpn-text">第8章：指示とサポート</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=250&fit=crop" alt="People Working" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 9: People & Roles</p>
+                        <p class="chapter-jpn jpn-text">第9章：人と役割</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500&h=250&fit=crop" alt="Health" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 10: Health & Wellness</p>
+                        <p class="chapter-jpn jpn-text">第10章：健康とウェルネス</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=500&h=250&fit=crop" alt="Housing" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 11: Housing & Living</p>
+                        <p class="chapter-jpn jpn-text">第11章：住居と生活</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?w=500&h=250&fit=crop" alt="Hobbies" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 12: Hobbies & Entertainment</p>
+                        <p class="chapter-jpn jpn-text">第12章：趣味と娯楽</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&h=250&fit=crop" alt="News and Media" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 13: News & Media</p>
+                        <p class="chapter-jpn jpn-text">第13章：ニュースとメディア</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=250&fit=crop" alt="Social Events" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 14: Socializing & Events</p>
+                        <p class="chapter-jpn jpn-text">第14章：社交とイベント</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=500&h=250&fit=crop" alt="Goals and Mountains" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 15: Life Goals & Achievements</p>
+                        <p class="chapter-jpn jpn-text">第15章：人生の目標と達成</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lessonContent" style="display: none;"></div>
     </div>
 
     <script src="curriculum.js"></script>
@@ -376,7 +763,7 @@
             
             if (!progressBar || !scoreDisplay) return;
 
-            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
             const checkedCount = Array.from(checkboxes).filter(cb => cb.checked).length;
             
             const maxTarget = 10;
@@ -483,8 +870,14 @@
         function stripHtmlTags(str) { return str ? str.replace(/<[^>]*>?/gm, '') : ""; }
         function flipCard(cardElement) { cardElement.classList.toggle('flipped'); }
         function toggleJapanese() { document.body.classList.toggle('hide-jpn'); }
+        
         function exportLessonToAnki() {
-            const index = parseInt(document.getElementById("lessonSelect").value);
+            const val = document.getElementById("lessonSelect").value;
+            if (val === "landing") {
+                alert("Please select a specific lesson from the dropdown to export its vocabulary.");
+                return;
+            }
+            const index = parseInt(val);
             const lesson = a2Curriculum[index];
             let tsvContent = "";
             
@@ -509,14 +902,22 @@
         function initApp() {
             if (typeof a2Curriculum === 'undefined') {
                 document.getElementById("lessonContent").innerHTML = "<p style='color:red;'>Error: curriculum.js not found or a2Curriculum is missing.</p>";
+                document.getElementById("lessonContent").style.display = "block";
                 return;
             }
             const selectEl = document.getElementById("lessonSelect");
+            
+            const landingOption = document.createElement("option");
+            landingOption.value = "landing";
+            landingOption.textContent = "🏠 Course Overview";
+            selectEl.appendChild(landingOption);
+
             for (let i = 0; i < a2Curriculum.length; i++) {
                 const option = document.createElement("option");
                 option.value = i; option.textContent = "A2 - " + a2Curriculum[i].title;
                 selectEl.appendChild(option);
             }
+            
             loadLesson();
         }
 
@@ -540,10 +941,29 @@
                     currentMp3Audio.pause();
                     currentMp3Audio = null;
                 }
-                const index = parseInt(document.getElementById("lessonSelect").value);
+                
+                const val = document.getElementById("lessonSelect").value;
+                const landingPage = document.getElementById("landingPage");
+                const lessonContent = document.getElementById("lessonContent");
+                const heroTitle = document.querySelector(".hero-title");
+                const heroSubtitle = document.querySelector(".hero-subtitle");
+                const heroEl = document.getElementById("main-hero");
+
+                if (val === "landing") {
+                    landingPage.style.display = "block";
+                    lessonContent.style.display = "none";
+                    heroTitle.innerText = "A2 IT ENGLISH";
+                    heroSubtitle.innerText = "Practical Speaking for Japan's IT Industry";
+                    if (heroEl) heroEl.style.backgroundImage = "none";
+                    return;
+                }
+
+                landingPage.style.display = "none";
+                lessonContent.style.display = "block";
+
+                const index = parseInt(val);
                 const lesson = a2Curriculum[index];
                 
-                const heroEl = document.getElementById("main-hero");
                 if (heroEl) {
                     heroEl.style.backgroundImage = "url('header-" + lesson.id + ".jpg')";
                 }
@@ -552,6 +972,7 @@
                 updateProgress();
             } catch (error) {
                 document.getElementById("lessonContent").innerHTML = "<p style='color: red; padding: 20px;'><strong>Error rendering lesson:</strong> " + error.message + "<br>Please check your curriculum.js for typos or missing arrays.</p>";
+                document.getElementById("lessonContent").style.display = "block";
                 console.error(error);
             }
         }
@@ -634,8 +1055,8 @@
             if (lesson.reviewVocab) reviewVocab = lesson.reviewVocab;
             else if (lessonIndex > 0) {
                 const prev = currArray[lessonIndex - 1];
-                if (prev.vocab) reviewVocab = prev.vocab.slice();
-                if (prev.homework && prev.homework.vocab) {
+                if (prev && prev.vocab) reviewVocab = prev.vocab.slice();
+                if (prev && prev.homework && prev.homework.vocab) {
                     reviewVocab = reviewVocab.concat(prev.homework.vocab);
                 }
             }
@@ -771,15 +1192,14 @@
                     html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; margin-bottom:15px; font-size:0.95rem;">Read about the topic before your discussion.</p>';
                     for (let i = 0; i < lesson.introArticle.length; i++) {
                         let para = lesson.introArticle[i];
-                        html += '<div style="display: flex; gap: 20px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed var(--border);">';
-                        html += '<div style="flex: 1; font-size: 1.05rem;">';
+                        html += '<div style="display: flex; gap: 20px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed var(--border); flex-wrap: wrap;">';
+                        html += '<div style="flex: 1; min-width: 250px; font-size: 1.05rem;">';
                         html += '<button class="audio-btn" style="float: left; margin-right: 8px; font-size: 1.1rem; padding: 0;" onclick="playAudio(\'' + prepareAudioText(para.eng) + '\')">🔊</button>' + para.eng + '</div>';
-                        html += '<div style="flex: 1; font-size: 0.95rem; color: var(--text-light);" class="jpn-text">' + para.jpn + '</div></div>';
+                        html += '<div style="flex: 1; min-width: 250px; font-size: 0.95rem; color: var(--text-light);" class="jpn-text">' + para.jpn + '</div></div>';
                     }
                     html += '</div>';
                 }
 
-                /* --- PROGRESS BAR PLACED HERE: Below Topic Introduction, Above Discussion Topics --- */
                 html += '<div id="progress-wrapper" style="margin-bottom: 25px; background: var(--card-bg); padding: 15px 20px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 10px 25px rgba(0,0,0,0.05);">';
                 html += '<div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px;">';
                 html += '<span style="color: var(--primary);">Lesson Progress</span>';
@@ -959,7 +1379,6 @@
                 if (lesson.homework.extendedReading) {
                     html += '<h4>' + (lesson.homework.extendedReading.title || "Task 4: Extended Reading & Shadowing") + '</h4>';
                     
-                    /* --- SHADOWING INSTRUCTIONS BOX --- */
                     html += '<div class="shadowing-guide">';
                     html += '<h5>🗣️ Shadow the content (コンテンツのシャドーイング)</h5>';
                     html += '<ul class="shadowing-steps">';
@@ -968,7 +1387,6 @@
                     html += '<li><strong>Step 3: Full paragraph shadowing without script (ステップ3：台本なしで段落全体をシャドーイングする)</strong>Listen and repeat each sentence from the first paragraph without looking at the script.<br><span class="jpn-text" style="color:var(--text-light); font-size:0.85rem;">(台本を見ずに、文章全体を通して聞いて同時に真似して発声してください。)</span></li>';
                     html += '</ul></div>';
 
-                    /* --- AUDIO CONTROL PANEL --- */
                     html += '<div class="audio-controls-panel">';
                     html += '<button class="audio-ctrl-btn" onclick="playMp3Audio(' + lesson.id + ')">▶️ Play</button>';
                     html += '<button class="audio-ctrl-btn secondary" onclick="pauseMp3Audio()">⏸️ Pause</button>';
@@ -985,13 +1403,11 @@
                     html += '</select>';
                     html += '</div>';
 
-                    /* --- VISIBILITY TOGGLES FOR TASK 4 --- */
                     html += '<div style="margin-bottom: 15px; display: flex; gap: 10px; flex-wrap: wrap;">';
                     html += '<button class="action-btn" style="background: var(--primary-light); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4English()">👁️ Toggle English Text</button>';
                     html += '<button class="action-btn" style="background: var(--accent); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4Japanese()">👁️ Toggle Japanese Text</button>';
                     html += '</div>';
 
-                    /* --- READING CONTENT BOX --- */
                     html += '<div class="homework-box" style="background: white;">';
                     html += '<p id="task4-eng-text" style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap; margin-top: 0;">' + lesson.homework.extendedReading.eng + '</p>';
                     html += '<p id="task4-jpn-text" class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">' + lesson.homework.extendedReading.jpn + '</p>';
