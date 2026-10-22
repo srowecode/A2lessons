@@ -1455,7 +1455,7 @@ pronunciation: {
         dialogue: [
             { speaker: "Clerk", eng: "Hello, how can I help you today?", jpn: "こんにちは、本日はどのようなご用件でしょうか？" },
             { speaker: "Customer", eng: "Hi. <span class='swappable'>I want to return this coffee machine.</span>", jpn: "こんにちは。このコーヒーマシンを返品したいです。" },
-            { speaker: "Clerk", eng: "I am sorry to hear that. What is the problem with it?", jpn: "それは残念です。それの何が問題ですか？" },
+            { speaker: "Clerk", eng: "I am sorry to hear that. <span class='swappable'>What is the problem with it?</span>", jpn: "それは残念です。それの何が問題ですか？" },
             { speaker: "Customer", eng: "<i class='grammar-target'>I bought it yesterday</i>, but <span class='swappable'>it is broken. It does not turn on.</span>", jpn: "昨日買ったのですが、壊れています。電源が入りません。" },
             { speaker: "Clerk", eng: "I apologize for the trouble. Do you have the receipt?", jpn: "ご迷惑をおかけして申し訳ありません。レシートはお持ちですか？" },
             { speaker: "Customer", eng: "Yes, here is the receipt and the box.", jpn: "はい、こちらがレシートと箱です。" },
@@ -1489,8 +1489,16 @@ pronunciation: {
                     { eng: "I need to return this.", jpn: "これを返品する必要があります。" }
                 ] 
             },
-            { 
-                category: "2. Explaining the problem (問題を説明する)", 
+   { 
+                category: "2. Asking about the problem (問題について尋ねる)", 
+                options: [
+                    { eng: "What seems to be the problem?", jpn: "何が問題なのでしょうか？" },
+                    { eng: "What's wrong with it?", jpn: "それのどこが悪いんですか？" },
+                    { eng: "Why do you want to return it?", jpn: "なぜ返品したいのですか？" }
+                ] 
+            },          
+  { 
+                category: "3. Explaining the problem (問題を説明する)", 
                 options: [
                     { eng: "It won't turn on.", jpn: "電源が入らない。" },
                     { eng: "It's missing some parts.", jpn: "部品がいくつか欠けています。" },
@@ -1498,7 +1506,7 @@ pronunciation: {
                 ] 
             },
             { 
-                category: "3. Choosing a refund (返金を選ぶ)", 
+                category: "4. Choosing a refund (返金を選ぶ)", 
                 options: [
                     { eng: "I'll just get the refund, thanks. ", jpn: "返金で大丈夫です。" },
                     { eng: "Can I get a refund?", jpn: "返金してもらえますか？" },
@@ -1884,8 +1892,8 @@ pronunciation: {
             bulletPoints: [
                 "Say what the store is", 
                 "Say where the store is located", 
-                "Explain why you like this store", 
-                "Give an example of something you bought there"
+                "Give an example of something you bought there", 
+                "Explain why you like this store"
             ] 
         },
         exampleSpeech: { 
@@ -2111,11 +2119,11 @@ pronunciation: {
             { eng: "Result", jpn: "結果", exEng: "Please tell me the test result.", exJpn: "テスト結果を教えてください。" }
         ],
         dialogue: [
-            { speaker: "Developer A", eng: "Hi. Do you have a minute? I need to talk to you.", jpn: "こんにちは。ちょっといいですか？お話しする必要があります。" },
-            { speaker: "QA Tester B", eng: "Sure. <span class='swappable'>What happened?</span>", jpn: "もちろん。何があったのですか？" },
-            { speaker: "Developer A", eng: "The new app <i class='grammar-target'>stopped</i> working <i class='grammar-target'>yesterday</i>.", jpn: "新しいアプリが昨日、動かなくなりました。" },
+            { speaker: "Developer A", eng: "Hi. Do you have a minute? I <i class='grammar-target'>need to </i>talk to you.", jpn: "こんにちは。ちょっといいですか？お話しする必要があります。" },
+            { speaker: "QA Tester B", eng: "Sure. <span class='swappable'>What's up?</span>", jpn: "もちろん。どうしたの？" },
+            { speaker: "Developer A", eng: "<span class='swappable'>The new app <i class='grammar-target'>stopped</i> working yesterday.</span>", jpn: "新しいアプリが昨日、動かなくなりました。" },
             { speaker: "QA Tester B", eng: "Really? Did you test it <i class='grammar-target'>yourself</i>?", jpn: "本当ですか？あなた自身でテストしましたか？" },
-            { speaker: "Developer A", eng: "Yes, <span class='swappable'>I <i class='grammar-target'>checked</i> it <i class='grammar-target'>last night</i>.", jpn: "はい、昨夜確認しました。" },
+            { speaker: "Developer A", eng: "Yes, <span class='swappable'>I <i class='grammar-target'>checked</i> it last night.", jpn: "はい、昨夜確認しました。" },
             { speaker: "QA Tester B", eng: "What did the screen show?", jpn: "画面には何が表示されましたか？" },
             { speaker: "Developer A", eng: "<span class='swappable'>It <i class='grammar-target'>showed</i> a black error screen.</span>", jpn: "黒いエラー画面が表示されました。" },
             { speaker: "QA Tester B", eng: "Did the app fix <i class='grammar-target'>itself</i>?", jpn: "アプリは自然に（それ自体で）直りましたか？" },
@@ -2126,10 +2134,10 @@ pronunciation: {
         ],
         dialogueStructure: [
             "Greet + Ask for time to talk <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 話す時間を求める)</span>",
-            "> Agree + Ask what happened <span class='jpn-text'>(同意する ＋ 何が起きたか尋ねる)</span>",
-            "State the problem + Time adverb <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(問題を述べる ＋ 時の副詞)</span>",
+            "> Agree + Ask for the topic <span class='jpn-text'>(同意する ＋ トピックを尋ねる)</span>",
+            "State the problem <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(問題を述べる)</span>",
             "> React + Ask about testing <span class='jpn-text'>(反応する ＋ テストについて尋ねる)</span>",
-            "Confirm the test + Time adverb <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(テストを確認する ＋ 時の副詞)</span>",
+            "Confirm the test <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(テストを確認する)</span>",
             "> Ask for details <span class='jpn-text'>(詳細を尋ねる)</span>",
             "Explain the error screen <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(エラー画面について説明する)</span>",
             "> Ask if the problem resolved <span class='jpn-text'>(問題が解決したか尋ねる)</span>",
@@ -2142,13 +2150,21 @@ pronunciation: {
             { 
                 category: "1. Asking what the topic of conversatio  is (会話の話題が何なのかを尋ねる)", 
                 options: [
-                    { eng: "What's up?", jpn: "何か用？" },
+                    { eng: "What would you like to talk about?", jpn: "どんなことについてお話ししましょうか？" },
                     { eng: "What do you need?", jpn: "ご用件は何でしょうか？" },
                     { eng: "How can I help?", jpn: "何かお手伝いできることはありますか？" }
                 ] 
             },
-            { 
-                category: "2. Reporting what you saw (目撃したことを報告する)", 
+ { 
+                category: "2. Saying something isn't working correctly (「何かが正しく機能していない」と言うこと)", 
+                options: [
+                    { eng: "The website is playing up.", jpn: "ウェブサイトがうまく動いていません。" },
+                    { eng: "The website isn't working correctly.", jpn: "ウェブサイトが正常に動作していません。" },
+                    { eng: "The website is acting strange.", jpn: "このウェブサイトが何かおかしい。" }
+                ] 
+            },           
+ { 
+                category: "3. Reporting what you saw (目撃したことを報告する)", 
                 options: [
                     { eng: "All I saw was a black error screen.", jpn: "目に入ったのは、真っ黒なエラー画面だけだった." },
                     { eng: "The screen displayed an error message.", jpn: "画面にエラーメッセージが表示された。" },
@@ -2156,7 +2172,7 @@ pronunciation: {
                 ] 
             },
             { 
-                category: "3. Saying you will try to solve a problem 「問題を解決するよう努める」と言うこと", 
+                category: "4. Saying you will try to solve a problem 「問題を解決するよう努める」と言うこと", 
                 options: [
                     { eng: "I'll see what I can do.", jpn: "できることをやってみます。" },
                     { eng: "I have a look at it.", jpn: "ちょっと見てみます。" },
@@ -2165,39 +2181,39 @@ pronunciation: {
             }
         ],
         grammarPoints: [
-            { 
-                point: "1. Past Tense: Regular Verbs (規則動詞の過去形)", 
-                hint: "Add '-ed' to the end of regular verbs.", 
-                shortExample: "It showed a black error screen.", 
-                explanation: "In the dialogue, the developer says 'stopped', 'checked', and 'showed'. We use the past tense to talk about actions that are completely finished. For regular verbs, we add '-ed' to the end of the word.", 
-                explanationJpn: "対話の中で、開発者は「stopped」「checked」「showed」と言っています。完全に終了した行動について話す時は過去形を使います。規則動詞の場合、単語の最後に「-ed」を付けます。", 
-                examples: [
-                    { eng: "I checked the code yesterday.", jpn: "昨日コードを確認しました。" }, 
-                    { eng: "The system stopped working.", jpn: "システムが動くのを止めました。" }
-                ] 
+       { 
+    point: "1. Past Tense: Regular Verbs (規則動詞の過去形)", 
+    hint: "Add '-ed' to the end of regular verbs.", 
+    shortExample: "It showed a black error screen.", 
+    explanation: "In the dialogue, the developer says 'stopped', 'checked', and 'showed'. We use the past tense to talk about actions that are completely finished. For regular verbs, we add '-ed' to the end of the word. The pronunciation of '-ed' changes depending on the last sound of the verb: it sounds like /d/ after voiced sounds (e.g., used), /t/ after unvoiced sounds (e.g., kicked), and /id/ after a T or D sound (e.g., visited). Here are 20 popular A2 level regular past tense verbs: asked, called, changed, cleaned, closed, finished, helped, liked, lived, looked, moved, opened, played, started, talked, tried, used, wanted, watched, and worked.", 
+    explanationJpn: "対話の中で、開発者は「stopped」「checked」「showed」と言っています。完全に終了した行動について話す時は過去形を使います。規則動詞の場合、単語の最後に「-ed」を付けます。「-ed」の発音は動詞の最後の音によって変わります。有声音の後では/d/（例：used）、無声音の後では/t/（例：kicked）、TやDの音の後では/id/（例：visited）と発音されます。よく使われるA2レベルの規則動詞の過去形20個はこちらです：asked（尋ねた）, called（呼んだ/電話した）, changed（変えた）, cleaned（掃除した）, closed（閉めた）, finished（終えた）, helped（手伝った）, liked（好きだった）, lived（住んでいた）, looked（見た）, moved（動いた/引っ越した）, opened（開けた）, played（遊んだ）, started（始めた）, talked（話した）, tried（試した）, used（使った）, wanted（欲しかった/〜したかった）, watched（見た）, worked（働いた）。", 
+    examples: [
+        { eng: "I checked the code yesterday.", jpn: "昨日コードを確認しました。" }, 
+        { eng: "The system stopped working.", jpn: "システムが動くのを止めました。" }
+    ]
             },
-            { 
-                point: "2. Adverbs: Points in Time (時の副詞: yesterday / last night)", 
-                hint: "Use words like 'yesterday' or 'last night' at the end of the sentence.", 
-                shortExample: "I checked it last night.", 
-                explanation: "The developer says the app stopped working 'yesterday' and they checked it 'last night'. We use time adverbs to say exactly when a past action happened. These words usually go at the end of the sentence.", 
-                explanationJpn: "開発者は、アプリが「yesterday（昨日）」動かなくなり、「last night（昨夜）」確認したと言っています。過去の行動がいつ起きたかを正確に伝えるために時の副詞を使います。これらの単語は通常、文末に置きます。", 
-                examples: [
-                    { eng: "We found the bug yesterday.", jpn: "私たちは昨日バグを見つけました。" }, 
-                    { eng: "I worked late last night.", jpn: "私は昨夜遅くまで働きました。" }
-                ] 
-            },
-            { 
-                point: "3. Pronouns: Reflexive Pronouns (再帰代名詞)", 
-                hint: "Use words like 'yourself' or 'itself' to emphasize who did the action.", 
-                shortExample: "Did you test it yourself?", 
-                explanation: "The tester asks 'Did you test it yourself?' and 'Did the app fix itself?'. We use reflexive pronouns to show that the subject did the action alone, or that the action happened to the subject.", 
-                explanationJpn: "テスターは「Did you test it yourself?（あなた自身でテストしましたか？）」と「Did the app fix itself?（アプリはそれ自体で直りましたか？）」と尋ねています。主語が単独で行動したこと、または行動が主語自身に起きたことを示すために再帰代名詞を使います。", 
-                examples: [
-                    { eng: "I fixed the computer myself.", jpn: "私自身でコンピューターを直しました。" }, 
-                    { eng: "The machine turned itself off.", jpn: "機械がそれ自体で電源を切りました。" }
-                ] 
-            }
+   { 
+    point: "2. Expressing necessity (必要性を表現する)", 
+    hint: "We can use (need to) followed by a verb to show necessity.", 
+    shortExample: "I need to talk to you.", 
+    explanation: "We use 'need to' followed by a base verb to express that an action is necessary or required. It is commonly used to state what must be done to solve a problem or complete a task.", 
+    explanationJpn: "ある行動が必要である、または求められていることを表現するために、「need to」の後に動詞の原形を続けて使います。問題解決やタスク完了のために、何をしなければならないかを述べる際によく使われます。", 
+    examples: [
+        { eng: "We need to fix this bug immediately.", jpn: "このバグをすぐに修正する必要があります。" }, 
+        { eng: "I need to test the new feature before the release.", jpn: "リリースの前に新機能のテストをする必要があります。" }
+    ] 
+},
+           { 
+    point: "3. Pronouns: Reflexive & Emphatic Pronouns (再帰代名詞と強調用法)", 
+    hint: "Use words ending in '-self' or '-selves' to show the action reflects back to the subject or to emphasize who did it.", 
+    shortExample: "I hurt myself. / I fixed it myself.", 
+    explanation: "There are two main ways to use '-self' pronouns. 1) Reflexive: Used when the subject and the object are the same person or thing (e.g., 'I hurt myself'). The action reflects back to the subject. 2) Emphatic: Used to emphasize that the subject did the action alone without any help (e.g., 'I fixed it by myself' or 'I fixed it myself'). If you remove an emphatic pronoun, the sentence still makes sense.", 
+    explanationJpn: "「-self」で終わる代名詞には、主に2つの使い方があります。1) 再帰用法: 主語と目的語が同じ人や物である場合に使われます（例：「I hurt myself.（自分自身を傷つけた/怪我をした）」）。行動が主語に返ってきます。2) 強調用法: 主語が他の人の助けを借りずに単独で行動したことを強調するために使われます（例：「I fixed it (by) myself.（私自身でそれを直した）」）。強調用法の場合、この代名詞を文から外しても文法的な意味は通じます。", 
+    examples: [
+        { eng: "She cut herself while cooking. (Reflexive)", jpn: "彼女は料理中に手を切ってしまった。（再帰用法）" }, 
+        { eng: "The developer wrote the code himself. (Emphatic)", jpn: "その開発者は彼自身でコードを書いた。（強調用法）" }
+    ] 
+}
         ],
         roleplay: {
             a: "You are a Developer. Tell the QA Tester that the new website crashed yesterday. Say you tested it yourself last night. Explain that it showed a blank page. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは開発者です。QAテスターに、新しいウェブサイトが昨日クラッシュしたと伝えてください。昨夜、自分自身でテストしたと言ってください。空白のページが表示されたと説明してください。)</span>",
@@ -2418,10 +2434,10 @@ pronunciation: {
             { speaker: "Worker", eng: "We lost</i> two days <i class='grammar-target'>because of</i> a network error.", jpn: "ネットワークエラーのせいで2日間を失いました。" },
             { speaker: "Manager", eng: "I see. Did the team fix it <i class='grammar-target'>quickly?</i>", jpn: "なるほど。チームはそれを素早く直しましたか？" },
             { speaker: "Worker", eng: "Yes, they did</i> a great job. They found</i> a simple solution.", jpn: "はい、彼らは素晴らしい仕事をしました。シンプルな解決策を見つけました。" },
-            { speaker: "Manager", eng: "<span class='swappable'>Good stuff!</span>. What did the client say?", jpn: "それは良いですね。クライアントは何と言っていましたか？" },
+            { speaker: "Manager", eng: "<span class='swappable'>Good stuff!</span> What did the client say?", jpn: "それは良いですね。クライアントは何と言っていましたか？" },
             { speaker: "Worker", eng: "I <i class='grammar-target'>just</i> spoke to the client. <span class='swappable'>They love the new design.</span>", jpn: "ちょうどクライアントと話しました。彼らは新しいデザインを気に入っています。" },
             { speaker: "Manager", eng: "Excellent. Did we stay under the budget?", jpn: "素晴らしい。予算内に収まりましたか？" },
-            { speaker: "Worker", eng: "We spent</i> a little extra money <i class='grammar-target'>because of</i> the overtime.", jpn: "残業のせいで、少し余分にお金を使いました。" },
+            { speaker: "Worker", eng: "<span class='swappable'>We spent</i> a little extra money </span><i class='grammar-target'>because of</i> the overtime.", jpn: "残業のせいで、少し余分にお金を使いました。" },
             { speaker: "Manager", eng: "That is okay. We made</i> a great product.", jpn: "それは大丈夫です。私たちは素晴らしい製品を作りました。" },
             { speaker: "Worker", eng: "Thank you. I will write the final report now.", jpn: "ありがとうございます。今から最終報告書を書きます。" }
         ],
@@ -2444,7 +2460,7 @@ pronunciation: {
                 category: "1. Asking about the status of a finished poject (プロジェクトの結果を述べる)", 
                 options: [
                     { eng: "How did the project go?", jpn: "プロジェクトはどのように進みましたか？" },
-                    { eng: "How was the proejct?", jpn: "プロジェクトはどうでしたか？" },
+                    { eng: "How was the project?", jpn: "プロジェクトはどうでしたか？" },
                     { eng: "How did the project turn out?", jpn: "そのプロジェクトは、どうなったのですか？" }
                 ] 
             },
@@ -2456,14 +2472,25 @@ pronunciation: {
                     { eng: "I’m pleased to hear that.", jpn: "それは嬉しいですね。" }
                 ] 
             },
-            { 
-                category: "3. Reporting what someone said (誰かの発言を伝える)", 
+{ 
+                category: "3. Reporting what someone said (誰かの発言を伝える))", 
                 options: [
-                    { eng: "They said [We love it!]. ", jpn: "「すごく気に入ったよ！」って言ってたよ。" },
+                   { eng: "They said [We love it!]. ", jpn: "「すごく気に入ったよ！」って言ってたよ。" },
                     { eng: "They said that they love it.", jpn: "彼らは「すごく気に入った」と言っていました。" },
                     { eng: "They told me that they love it.", jpn: "彼らは、それが大好きだと言ってくれました。" }
                 ] 
+            },
+
+            { 
+                category: "4. Saying you went over budget (予算を超えたと言うこと)", 
+                options: [
+                    { eng: "We went a little over budget. ", jpn: "予算を少しオーバーしてしまいました。" },
+                    { eng: "We ran a bit over budget.", jpn: "予算を少しオーバーしてしまいました。" },
+                    { eng: "We spent a bit more than planned.", jpn: "予定より少し多く使ってしまった。。" }
+                ] 
+
             }
+
         ],
         grammarPoints: [
             { 
