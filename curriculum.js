@@ -348,8 +348,8 @@ introArticle: [
             { eng: "3. Is communication harder on video calls?", jpn: "3. ビデオ通話でのコミュニケーションはより難しいですか？" },
             { eng: "4. Is commuting worse in the summer?", jpn: "4. 夏の通勤はより最悪ですか？" },
             { eng: "5. Do you think eating at a restaurant is more expensive than cooking at home?", jpn: "5. レストランで食べることは、家で料理するよりも高価だと思いますか？" },
-            { eng: "6. Is your office noisy but exciting?", jpn: "6. あなたのオフィスは騒がしいですが刺激的ですか？" },
-            { eng: "7. Which working style do you prefer?", jpn: "7. どの働き方のスタイルを好みますか？" },
+            { eng: "6. What are the pros and cons of working in an office?", jpn: "6. オフィスで働くことには、どのようなメリットとデメリットがありますか？" },
+            { eng: "7. Which working style do you prefer; traditional, hybrid, or fully remote?", jpn: "7. 伝統的な働き方、ハイブリッド型、完全リモート型、どの働き方がお好みですか？" },
             { eng: "8. Is a hybrid system more balanced than a strict office schedule?", jpn: "8. ハイブリッドシステムは、厳格なオフィススケジュールよりもバランスが取れていますか？" },
             { eng: "9. Is asking for help easier in person?", jpn: "9. 対面で助けを求める方が簡単ですか？" },
             { eng: "10. What is a hard but interesting task you do at work?", jpn: "10. あなたが職場でしている、難しいけれど面白いタスクは何ですか？" }
@@ -3110,7 +3110,7 @@ pronunciation: {
             { speaker: "Guest", eng: "Great. Do you have a pool?", jpn: "素晴らしい。プールはありますか？" },
             { speaker: "Clerk", eng: "Yes, the pool on the roof is open <i class='grammar-target'>until</i> 9 PM.", jpn: "はい、屋上のプールは午後9時まで開いています。" },
             { speaker: "Guest", eng: "That is good to know. Are there any pool rules?", jpn: "それを知れてよかったです。プールのルールは何かありますか？" },
-            { speaker: "Clerk", eng: "Yes. <i class='grammar-target'>When</i> you use the pool, you must wear a swimming cap.", jpn: "はい。プールを利用する時は、水泳帽を被らなければなりません。" },
+            { speaker: "Clerk", eng: "Yes. <span class='swappable'><i class='grammar-target'>When</i> you use the pool, you must wear a swimming cap.</span>", jpn: "はい。プールを利用する時は、水泳帽を被らなければなりません。" },
             { speaker: "Guest", eng: "Okay. Can I go to my room now?", jpn: "わかりました。もう部屋に行ってもいいですか？" },
             { speaker: "Clerk", eng: "Yes. Here is your key. Enjoy your stay.", jpn: "はい。こちらが鍵です。ご滞在をお楽しみください。" }
         ],
@@ -3124,7 +3124,7 @@ pronunciation: {
             "React + Ask about a facility <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(反応する ＋ 施設について尋ねる)</span>",
             "> Confirm + State closing time using 'until' <span class='jpn-text'>(確認する ＋ 'until' を使って閉まる時間を述べる)</span>",
             "React positively + Ask for rules <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(肯定的に反応する ＋ ルールを尋ねる)</span>",
-            "> Explain a facility rule using 'when' <span class='jpn-text'>('when' を使って施設のルールを説明する)</span>",
+            "> Explain a facility rule <span class='jpn-text'>('施設のルールを説明する)</span>",
             "Acknowledge + Ask for permission to go <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 行く許可を求める)</span>",
             "> Give the key + Wish a good stay <span class='jpn-text'>(鍵を渡す ＋ 良い滞在を祈る)</span>"
         ],
@@ -3134,7 +3134,7 @@ pronunciation: {
                 options: [
                     { eng: "I have a reservation.", jpn: "予約しています。" },
                     { eng: "I booked a room.", jpn: "部屋を予約しました。" },
-                    { eng: "My name is on the list.", jpn: "リストに私の名前があります。" }
+                    { eng: "I reserved a room.", jpn: "部屋を予約しました。" }
                 ] 
             },
             { 
@@ -3152,8 +3152,17 @@ pronunciation: {
                     { eng: "When does breakfast start?", jpn: "朝食はいつから始まりますか？" },
                     { eng: "When is breakfast until?", jpn: "朝食はいつまで提供されていますか？" }
                 ] 
+            },
+     { 
+                category: "4. Expressing rules (ルールの表現)", 
+                options: [
+                    { eng: "Please make sure to wear a swimming cap.", jpn: "必ず水泳帽を着用してください。" },
+                    { eng: "You can't use the pool unless you wear a swimming cap.", jpn: "水泳帽をかぶらないと、プールは利用できません。" },
+                    { eng: "You can't use the pool without a swimming cap.", jpn: "水泳帽を着用しないと、プールは利用できません。" }
+                ] 
             }
         ],
+
         grammarPoints: [
             { 
                 point: "1. Modal Verbs: Expressing Prohibition (禁止を表す: can't)", 
@@ -3365,17 +3374,17 @@ pronunciation: {
             }
         }
     },
-    {
+     {
         id: 25, 
         chapter: "Chapter 4: Travel & Transport", 
         type: "transactional", 
         title: "Lesson 025: Train Station Problems",
-        goal: "Get advice and solve a travel problem using 'should' and 'if' conditionals. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(「should」と「if」の条件文を使って、旅行の問題を解決しアドバイスをもらう。)</span>",
-pronunciation: {
-    title: "Pronunciation: The Silent 'L' in Should",
-    eng: "Just like in 'could', the 'L' in 'should' and 'shouldn't' is completely silent. Practice saying /ʃʊd/.",
-    jpn: "「could」の時と同じように、「should」や「shouldn't」の「L」は完全に無音です。/ʃʊd/（シュド）と発音する練習をしましょう。"
-},
+        goal: "Solve a travel problem using 'should' and 'lack of necessity' . <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>「should」と「必要性の欠如」を用いて、旅行に関する問題を解く 。)</span>",
+        pronunciation: {
+            title: "Pronunciation: The Silent 'L' in Should",
+            eng: "Just like in 'could', the 'L' in 'should' and 'shouldn't' is completely silent. Practice saying /ʃʊd/.",
+            jpn: "「could」の時と同じように、「should」や「shouldn't」の「L」は完全に無音です。/ʃʊd/（シュド）と発音する練習をしましょう。"
+        },
         vocab: [
             { eng: "Train station", jpn: "駅", exEng: "I will meet you at the train station.", exJpn: "駅で会いましょう。" },
             { eng: "Ticket", jpn: "切符 / チケット", exEng: "Do you have your train ticket?", exJpn: "電車の切符は持っていますか？" },
@@ -3393,40 +3402,49 @@ pronunciation: {
             { eng: "Trip", jpn: "旅行 / 旅", exEng: "Have a safe trip!", exJpn: "安全な旅を！（気をつけて）" }
         ],
         dialogue: [
-            { speaker: "Passenger", eng: "Excuse me. I missed my train to Tokyo.", jpn: "すみません。東京行きの電車に乗り遅れました。" },
-            { speaker: "Clerk", eng: "I see. You <i class='grammar-target'>shouldn't</i> worry.</span> The next train leaves in ten minutes from the same platform so <span class='swappable'>just wait there.</span>", jpn: "なるほど。心配しないでください。次の電車は10分後に同じホームから出発するので、そこで待っていてください" },
-            { speaker: "Passenger", eng: "Oh, that is good. Do I need a new ticket?", jpn: "ああ、それは良かったです。新しい切符は必要ですか？" },
-            { speaker: "Clerk", eng: "No, <span class='swappable'>you don't need to </i> buy a new ticket</span>.", jpn: "いいえ、新しいチケットを買う必要はありません。" },
+            { speaker: "Passenger", eng: "Excuse me. I think I missed my train.", jpn: "すみません。電車に乗り遅れたと思います。" },
+            { speaker: "Clerk", eng: "Which train <i class='grammar-target'>were you planning </i>to take?", jpn: "どの電車に乗る予定でしたか？" },
+            { speaker: "Passenger", eng: "\"The 9:15 to Central.\"", jpn: "9時15分発の中央駅行きです。" },
+            { speaker: "Clerk", eng: "Yeah, <span class='swappable'>that train has already departed.</span> But you <i class='grammar-target'>don't need to </i> worry. The next train leaves in ten minutes from the same platform so <span class='swappable'>just wait there.</span>", jpn: "ええ、その電車はすでに出発しました。でも心配する必要はありません。次の電車が10分後に同じホームから出発するので、そこで待っていてください。" },
+            { speaker: "Passenger", eng: "Oh, that's good. Do I need a new ticket?", jpn: "ああ、それは良かったです。新しい切符は必要ですか？" },
+            { speaker: "Clerk", eng: "No, <span class='swappable'>you don't need to buy a new ticket</span>.", jpn: "いいえ、新しい切符を買う必要はありません。" },
             { speaker: "Passenger", eng: "Will the next train be crowded?", jpn: "次の電車は混んでいますか？" },
             { speaker: "Clerk", eng: "It is a weekday, so <span class='swappable'>it <i class='grammar-target'>should</i> be quite empty.</span>", jpn: "平日ですので、かなり空いているはずです。" },
-            { speaker: "Passenger", eng: "Great. Can I use this credit card?", jpn: "素晴らしい。このクレジットカードは使えますか？" },
-            { speaker: "Clerk", eng: "<i class='grammar-target'>If</i> you use the red machine, <i class='grammar-target'>you can pay</i> with a card.", jpn: "赤い機械を使えば、カードで支払うことができます。" },
-            { speaker: "Passenger", eng: "Okay, I understand. Thank you for your help.", jpn: "わかりました、理解しました。助けていただきありがとうございます。" },
-            { speaker: "Clerk", eng: "You are welcome. Have a safe trip.", jpn: "どういたしまして。安全な旅を。" }
+            { speaker: "Passenger", eng: "Okay, I understand. Thank you for your help.", jpn: "わかりました。助けていただきありがとうございます。" },
+            { speaker: "Clerk", eng: "You are welcome. Have a safe trip.", jpn: "どういたしまして。お気をつけて。" }
         ],
         dialogueStructure: [
-            "Get attention + State the problem <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(注意を引く ＋ 問題を述べる)</span>",
-            "> Give negative advice + State next option <span class='jpn-text'>(否定的なアドバイスをする ＋ 次の選択肢を述べる)</span>",
+            "Get attention + State a problem <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(注意を引く ＋ 問題を述べる)</span>",
+            "> Ask about a past plan <span class='jpn-text'>(過去の予定について尋ねる)</span>",
+            "State the past plan <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(過去の予定を述べる)</span>",
+            "> Express lack of necessity + State next option <span class='jpn-text'>(必要がないことを伝える ＋ 次の選択肢を述べる)</span>",
             "React + Ask a question about requirements <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(反応する ＋ 必要なことについて質問する)</span>",
-            "> Say something isn't required <span class='jpn-text'>('「～は必要ない」と言う)</span>",
+            "> Say something isn't required <span class='jpn-text'>(「～は必要ない」と言う)</span>",
             "Ask a question about the future condition <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(将来の状況について質問する)</span>",
             "> State an expectation using 'should' <span class='jpn-text'>('should' を使って予想を述べる)</span>",
-            "React + Ask about a payment method <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(反応する ＋ 支払い方法について尋ねる)</span>",
-            "> Explain using a conditional clause ('If... can') <span class='jpn-text'>(条件節 'If... can' を使って説明する)</span>",
             "Acknowledge + Thank the clerk <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 店員にお礼を言う)</span>",
             "> Reply to thanks + Wish a good trip <span class='jpn-text'>(お礼に返答する ＋ 良い旅を祈る)</span>"
         ],
         expressions: [
-            { 
-                category: "1. Giving simple advice (アドバイスを求める)", 
+ { 
+                category: "1. Saying a train has left (「電車が出発した」と言う)", 
                 options: [
-                    { eng: "Just wait there", jpn: "そこで待っていてください" },
+                    { eng: "That train has already left.", jpn: "その列車はもう発車してしまった。" },
+                    { eng: "I'm afraid that train's already gone", jpn: "残念ながら、その電車はもう発車してしまったようです。" },
+                    { eng: "That one has already pulled out of the station.", jpn: "あれはすでに駅を出てしまいました。。" }
+                ] 
+            },
+           
+ { 
+                category: "2. Giving simple advice (アドバイスを求める)", 
+                options: [
+                    { eng: "Please wait right there.", jpn: "そのままそこでお待ちください" },
                     { eng: "All you need to do is wait there.", jpn: "あとはそこで待っていればよいだけです。" },
                     { eng: "You can just wait there.", jpn: "そこで待っていてください。" }
                 ] 
             },
             { 
-                category: "2. Expressing a lack of necessity (必要性がないことを示す)", 
+                category: "3. Expressing a lack of necessity (必要性がないことを示す)", 
                 options: [
                     { eng: "Buying a new ticket isn't necessary.", jpn: "新しいチケットを購入する必要はありません。" },
                     { eng: "You don't have to buy a new ticket.", jpn: "新しいチケットを購入する必要はありません。" },
@@ -3434,7 +3452,7 @@ pronunciation: {
                 ] 
             },
             { 
-                category: "3. Expressing expectations (予想を表現する)", 
+                category: "4. Expressing expectations (予想を表現する)", 
                 options: [
                     { eng: "It should be quite empty.", jpn: "かなり空いているはずです。" },
                     { eng: "It ought to be quite empty.", jpn: "かなり空いているはずです。" },
@@ -3444,14 +3462,14 @@ pronunciation: {
         ],
         grammarPoints: [
             { 
-                point: "1. Modal Verbs: Giving Advice (アドバイスをする: should / shouldn't)", 
-                hint: "Use 'should' to give a good idea, and 'shouldn't' to say something is a bad idea.", 
-                shortExample: "You should go to Tokyo.", 
-                explanation: "We use 'should' to give advice or our opinion on what is the best thing to do. In the dialogue, the clerk says 'You shouldn't worry' (it is a bad idea to worry) and 'You should buy a new ticket' (it is a good idea).", 
-                explanationJpn: "何をするのが最善かについてのアドバイスや意見を言うために「should」を使います。対話の中で、店員は「You shouldn't worry（心配すべきではありません＝心配するのは良くない）」と「You should buy a new ticket（新しい切符を買うべきです＝それが良いアイデアだ）」と言っています。", 
+                point: "1. Expressing Lack of Necessity (必要がないことを表す: don't need to / don't have to)", 
+                hint: "Use 'don't need to' or 'don't have to' to say that an action is not required.", 
+                shortExample: "You don't need to worry.", 
+                explanation: "We use 'don't need to' and 'don't have to' to express that something is not necessary. In the dialogue, the clerk tells the passenger 'you don't need to worry' and 'you don't need to buy a new ticket' because they can just take the next train.", 
+                explanationJpn: "ある行動が必須ではない（〜する必要がない）ことを表現するために「don't need to」や「don't have to」を使います。対話の中で、駅員は乗客に「心配する必要はありません（you don't need to worry）」「新しい切符を買う必要はありません（you don't need to buy a new ticket）」と伝えています。ただ次の電車に乗ればいいからです。", 
                 examples: [
-                    { eng: "You should go to Tokyo.", jpn: "東京に行くべきです。" }, 
-                    { eng: "You shouldn't eat that.", jpn: "それを食べるべきではありません。" }
+                    { eng: "You don't need to buy a new ticket.", jpn: "新しい切符を買う必要はありません。" }, 
+                    { eng: "We don't have to leave yet.", jpn: "まだ出発する必要はありません。" }
                 ] 
             },
             { 
@@ -3466,20 +3484,20 @@ pronunciation: {
                 ] 
             },
             { 
-                point: "3. Clauses: Expressing Conditions (条件を表現する: If + can)", 
-                hint: "Use 'If' + present tense, followed by 'can' for future possibility.", 
-                shortExample: "If you buy a ticket, you can ride.", 
-                explanation: "We can express future conditions by using 'can' in the result clause when using 'If'. The clerk says 'If you use the red machine, you can pay with a card.' This shows that the ability to pay depends on using the correct machine.", 
-                explanationJpn: "「If（もし〜なら）」を使う際、結果の節に「can」を使って将来の条件（可能性）を表現することができます。店員は「赤い機械を使えば、カードで支払うことができます」と言っています。これは、支払う能力が正しい機械を使うことにかかっていることを示しています。", 
+                point: "3. Past Progressive: Cancelled Plans (過去進行形による取り消された予定: were planning to)", 
+                hint: "Use 'was/were planning to' to talk about an intention or plan that didn't happen or was changed.", 
+                shortExample: "Which train were you planning to take?", 
+                explanation: "We use the past progressive form of 'plan' (was/were planning to) to talk about an intention we had in the past, which often implies that the plan didn't happen or changed. In the dialogue, the clerk asks 'Which train were you planning to take?' because the passenger's original plan was interrupted when they missed the train.", 
+                explanationJpn: "過去にあった意図や予定について話す時、「plan」の過去進行形（was/were planning to）を使います。これは多くの場合、その予定が実現しなかった、または変更されたことをほのめかします。対話の中で、駅員は「どの電車に乗る予定でしたか？（Which train were you planning to take?）」と尋ねていますが、これは乗客が電車に乗り遅れたことで本来の予定が中断されたためです。", 
                 examples: [
-                    { eng: "If you go to Korea, you can eat kimbab every day.", jpn: "もし韓国に行けば、毎日キンパを食べることができます。" }, 
-                    { eng: "If you buy a sofa, you can relax more.", jpn: "もしソファを買えば、もっとリラックスできます。" }
+                    { eng: "Which train were you planning to take?", jpn: "どの電車に乗る予定でしたか？" }, 
+                    { eng: "I was planning to go to the party, but I got sick.", jpn: "パーティーに行く予定でしたが、病気になってしまいました。" }
                 ] 
             }
         ],
         roleplay: {
-            a: "You are a Passenger. Tell the clerk you lost your ticket. Ask if you need to buy a new one. Ask if the next train will be crowded. Ask if you can pay with a credit card. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは乗客です。店員に切符をなくしたと伝えてください。新しいものを買う必要があるか尋ねてください。次の電車は混んでいるか尋ねてください。クレジットカードで支払えるか尋ねてください。)</span>",
-            b: "You are a Station Clerk. Use 'shouldn't' to tell them not to worry. Use 'should' to tell them to buy a new ticket. Tell them it 'should' be empty because it is late. Use an 'If... can' sentence to tell them they can use a card if they go to the ticket window. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは駅員です。「shouldn't」を使って心配しないように伝えてください。「should」を使って新しい切符を買うように言ってください。遅い時間なので空いている「はずだ（should）」と伝えてください。「If... can」の文を使って、窓口に行けばカードが使えると伝えてください。)</span>"
+            a: "You are a Passenger. Tell the clerk you missed your train. Find out when the next train comes and where you need to wait. Ask if the next train will be crowded.  <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは乗客です。係員に電車に乗り遅れたことを伝えてください。次の電車がいつ来るか、どこで待てばよいかを確認してください。次の電車は混むかどうかを尋ねてください。)</span>",
+            b: "You are a Station Clerk. Answer the passengers questions. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは駅員です。乗客の質問に答えてください。)</span>"
         },
         homework: {
             vocab: [
@@ -3498,20 +3516,23 @@ pronunciation: {
                 { eng: "Arrive", jpn: "到着する", exEng: "The train will arrive soon.", exJpn: "電車はもうすぐ到着します。" },
                 { eng: "Depart", jpn: "出発する", exEng: "When does the bus depart?", exJpn: "バスはいつ出発しますか？" }
             ],
-            writingTask: { promptEng: "Write a short paragraph giving advice to a friend who is visiting your city for the first time. Use 'should' for good advice, 'shouldn't' for a bad idea, and an 'If... can' clause for a condition.", promptJpn: "あなたの都市を初めて訪れる友人にアドバイスをする短い段落を書いてください。良いアドバイスには「should」、悪いアイデアには「shouldn't」を使い、条件を表すために「If... can」の節を使用してください。" },
+            writingTask: { 
+                promptEng: "Write a short paragraph about a time your travel plans changed. Describe what you were planning to do using 'was planning to', express an expectation about your new plan using 'should', and state something you didn't need to do using 'didn't need to' or 'didn't have to'.", 
+                promptJpn: "旅行の予定が変更になった時のことについて、短い段落を書いてください。本来の予定を「was planning to」を使って説明し、新しい予定に関する予想を「should」を使って表し、する必要がなかったことを「didn't need to」または「didn't have to」を使って述べてください。" 
+            },
             clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
-            clickingGamesDesc: "Translate the 10 sentences to practice giving advice, expressing expectations, and conditional clauses.",
+            clickingGamesDesc: "Translate the 10 sentences to practice expressing lack of necessity, expectations, and cancelled plans.",
             clickingGames: [
-                { prompt: "東京に行くべきです。", target: "You should go to Tokyo.", words: ["You", "should", "go", "to", "Tokyo."] },
-                { prompt: "もっと一生懸命勉強すべきです。", target: "You should probably study harder.", words: ["You", "should", "probably", "study", "harder."] },
-                { prompt: "盗むべきではありません！", target: "You shouldn't steal!", words: ["You", "shouldn't", "steal!"] },
-                { prompt: "それを食べるべきではありません。", target: "You shouldn't eat that.", words: ["You", "shouldn't", "eat", "that."] },
-                { prompt: "どこに行くべきですか？", target: "Where should I go?", words: ["Where", "should", "I", "go?"] },
-                { prompt: "彼は英語が得意なので、これを読めるはずです。", target: "His English is good so he should be able to read this.", words: ["His", "English", "is", "good", "so", "he", "should", "be", "able", "to", "read", "this."] },
-                { prompt: "彼は10分前に出発したので、今は電車に乗っているはずです。", target: "Mark left 10 minutes ago so he should be on the train now.", words: ["Mark", "left", "10", "minutes", "ago", "so", "he", "should", "be", "on", "the", "train", "now."] },
-                { prompt: "もしスマートフォンを手に入れれば、インターネットにアクセスできます。", target: "If you get a smartphone, you can access the internet.", words: ["If", "you", "get", "a", "smartphone,", "you", "can", "access", "the", "internet."] },
-                { prompt: "もしソファを買えば、もっとリラックスできます。", target: "If you buy a sofa, you can relax more.", words: ["If", "you", "buy", "a", "sofa,", "you", "can", "relax", "more."] },
-                { prompt: "もしドラムスティックを買えば、ドラムを始められます。", target: "If you buy drumsticks, you can start learning the drums.", words: ["If", "you", "buy", "drumsticks,", "you", "can", "start", "learning", "the", "drums."] }
+                { prompt: "心配する必要はありません。", target: "You don't need to worry.", words: ["You", "don't", "need", "to", "worry."] },
+                { prompt: "新しい切符を買う必要はありません。", target: "You don't need to buy a new ticket.", words: ["You", "don't", "need", "to", "buy", "a", "new", "ticket."] },
+                { prompt: "私たちは急ぐ必要はありません。", target: "We don't have to hurry.", words: ["We", "don't", "have", "to", "hurry."] },
+                { prompt: "今日は働く必要はありません。", target: "I don't have to work today.", words: ["I", "don't", "have", "to", "work", "today."] },
+                { prompt: "彼は一生懸命勉強したので、テストに合格するはずです。", target: "He studied hard so he should pass the test.", words: ["He", "studied", "hard", "so", "he", "should", "pass", "the", "test."] },
+                { prompt: "平日ですので、かなり空いているはずです。", target: "It is a weekday, so it should be quite empty.", words: ["It", "is", "a", "weekday,", "so", "it", "should", "be", "quite", "empty."] },
+                { prompt: "彼女は10分前に出発したので、今は電車に乗っているはずです。", target: "She left 10 minutes ago so she should be on the train now.", words: ["She", "left", "10", "minutes", "ago", "so", "she", "should", "be", "on", "the", "train", "now."] },
+                { prompt: "どの電車に乗る予定でしたか？", target: "Which train were you planning to take?", words: ["Which", "train", "were", "you", "planning", "to", "take?"] },
+                { prompt: "東京に行く予定でしたが、電車に乗り遅れました。", target: "I was planning to go to Tokyo, but I missed my train.", words: ["I", "was", "planning", "to", "go", "to", "Tokyo,", "but", "I", "missed", "my", "train."] },
+                { prompt: "パーティーに行く予定でしたが、病気になってしまいました。", target: "I was planning to go to the party, but I got sick.", words: ["I", "was", "planning", "to", "go", "to", "the", "party,", "but", "I", "got", "sick."] }
             ],
             extendedReading: {
                 title: "Task 4: Extended Reading (Navigating Train Stations)",
@@ -4033,7 +4054,7 @@ introArticle: [
             }
         }
     },
-    {
+  {
         id: 30, 
         chapter: "Chapter 5: Future Planning", 
         type: "transactional", 
@@ -4064,8 +4085,8 @@ pronunciation: {
             { speaker: "Manager", eng: "Hello. Do you have time to talk about the new project?", jpn: "こんにちは。新しいプロジェクトについて話す時間はありますか？" },
             { speaker: "Staff", eng: "Yes, I am free now. What is the plan?", jpn: "はい、今は空いています。計画は何ですか？" },
             { speaker: "Manager", eng: "<span class='swappable'>We <i class='grammar-target'>will start</i> phase two</span> next week.", jpn: "来週、フェーズ2を開始します。" },
-            { speaker: "Staff", eng: "That is great. What is my first task?", jpn: "それは素晴らしいですね。私の最初のタスクは何ですか？" },
-            { speaker: "Manager", eng: "I want you to research the market <i class='grammar-target'>to find</i> new clients.", jpn: "新しいクライアントを見つけるために、市場を調査してほしいです。" },
+            { speaker: "Staff", eng: "That's great. What is my first task?", jpn: "それは素晴らしいですね。私の最初のタスクは何ですか？" },
+            { speaker: "Manager", eng: "<span class='swappable'>I want you to research the market</span> <i class='grammar-target'>to find</i> new clients.", jpn: "新しいクライアントを見つけるために、市場を調査してほしいです。" },
             { speaker: "Staff", eng: "Understood. <span class='swappable'>I <i class='grammar-target'>will finish</i> the research on Friday.</span>", jpn: "承知しました。金曜日に調査を終わらせます。" },
             { speaker: "Manager", eng: "Excellent. Will you need any help?", jpn: "素晴らしい。何か助けは必要ですか？" },
             { speaker: "Staff", eng: "I <i class='grammar-target'>might</i> need some help with the data.", jpn: "データに関して少し助けが必要かもしれません。" },
@@ -4098,15 +4119,24 @@ pronunciation: {
                 ] 
             },
             { 
-                category: "2. Promising completion (完了を約束する)", 
+                category: "2. Saying what you want people to do (相手にどうしてほしいかを伝える)", 
+                options: [
+                    { eng: "I'd like you to research the market", jpn: "市場調査をしてほしい。" },
+                    { eng: "Could you research the market", jpn: "市場調査を行っていただけませんか？" },
+                    { eng: "Please research the market", jpn: "市場調査を行ってください。" }
+                ] 
+            },
+{ 
+                category: "3. Promising completion (完了を約束する)", 
                 options: [
                     { eng: "I will finish the research on Friday.", jpn: "金曜日に調査を終わらせます。" },
                     { eng: "I will complete the task tomorrow.", jpn: "明日タスクを完了させます。" },
                     { eng: "I will get it done this week.", jpn: "今週中にそれを終わらせます。" }
                 ] 
             },
+
             { 
-                category: "3. Offering assistance (助けを申し出る)", 
+                category: "4. Offering assistance (助けを申し出る)", 
                 options: [
                     { eng: "I will ask Sarah to assist you.", jpn: "サラにあなたを手伝うよう頼みます。" },
                     { eng: "I will get Sarah to help you.", jpn: "サラに手伝ってもらいます。" },
@@ -4334,7 +4364,7 @@ introArticle: [
             }
         }
     },
-    {
+   {
         id: 32, 
         chapter: "Chapter 5: Future Planning", 
         type: "transactional", 
@@ -4371,8 +4401,8 @@ pronunciation: {
             { speaker: "Manager", eng: "That is a wonderful idea. Please order enough for five people.", jpn: "それは素晴らしいアイデアです。5人分十分に注文してください。" },
             { speaker: "Assistant", eng: "I will do that right now. Do we have a projector in <i class='grammar-target'>that</i> room?", jpn: "今すぐそうします。あの部屋にはプロジェクターはありますか？" },
             { speaker: "Manager", eng: "Yes, there is a projector. Can you test it?", jpn: "はい、プロジェクターはあります。テストしてくれますか？" },
-            { speaker: "Assistant", eng: "Yes, <span class='swappable'>I will set it up for you</span> on Monday morning.", jpn: "はい、月曜日の朝に私が準備（セットアップ）します。" },
-            { speaker: "Manager", eng: "You are very helpful. Thank you.", jpn: "あなたはとても助けになります。ありがとう。" },
+            { speaker: "Assistant", eng: "Yes, I will set it up for you on Monday morning.", jpn: "はい、月曜日の朝に私が準備（セットアップ）します。" },
+            { speaker: "Manager", eng: "<span class='swappable'>You're very helpful. Thank you.</span>", jpn: "あなたはとても助けになります。ありがとう。" },
             { speaker: "Assistant", eng: "No problem. I hope the meeting goes well.", jpn: "問題ありません。会議がうまくいくことを願っています。" }
         ],
         dialogueStructure: [
@@ -4409,9 +4439,17 @@ pronunciation: {
             { 
                 category: "3. Making polite offers (丁寧な申し出をする)", 
                 options: [
-                    { eng: "Shall I order some coffee?", jpn: "コーヒーを注文しましょうか？" },
+                    { eng: "I can order some coffee, if you'd like.", jpn: "よかったら、コーヒーを注文しましょうか？" },
                     { eng: "Would you like me to order food?", jpn: "食べ物を注文しましょうか？" },
-                    { eng: "Shall I set up the room?", jpn: "部屋の準備をしましょうか？" }
+                    { eng: "Need me to order some coffee", jpn: "「コーヒー注文しとこうか？」" }
+                ] 
+            },
+ { 
+                category: "4. Saying someone is helpful (「その人は親切だ」と言うこと)", 
+                options: [
+                  { eng: "You're a lifesaver.", jpn: "命の恩人だよ。" },
+{ eng: "What would I do without you?", jpn: "あなたがいなかったらどうしてたかな。" },
+{ eng: "You're a huge help.", jpn: "すごく助かるよ。" }
                 ] 
             }
         ],
@@ -4492,8 +4530,7 @@ pronunciation: {
                 jpn: "ビジネスの世界では、クライアントをホスト（接待・対応）することは非常に重要なイベントです。クライアントがあなたのオフィスを訪れる時、あなたは素晴らしい印象を与えたいと思うでしょう。成功した会議は、あなたの会社がプロフェッショナルで、整理されており、礼儀正しいことをクライアントに示します。これを達成するために、チームは慎重に準備しなければなりません。会議の計画は単に部屋を選ぶことではなく、多くの小さな詳細を管理することなのです。\n\n通常、マネージャーとアシスタントが協力して訪問の準備をします。まず、彼らはオフィスカレンダーを確認し、清潔で静かな会議室を予約しなければなりません。もしクライアントが遠方から来る場合、彼らはおそらく疲れて喉が渇いているでしょう。優秀なアシスタントは常に飲み物の手配を申し出ます。彼らはマネージャーに「コーヒーと軽食を注文しましょうか？」と尋ねるかもしれません。温かいコーヒーとクッキーの小さなプレートを提供することは、クライアントに歓迎されリラックスしていると感じさせます。このシンプルで礼儀正しいジェスチャーが、非常に前向きな雰囲気で会議をスタートさせることができます。\n\n次に、チームは部屋の設備を確認しなければなりません。現代の会議では、コンピューター、スクリーン、そしてプロジェクターが常に必要です。クライアントが見ている時にプロジェクターが動かなければ、会社は馬鹿げて見えます。それゆえに、アシスタントは会議の前日にテクノロジーをテストしなければなりません。最後に、誰かが正面玄関の近くで待機し、笑顔で訪問者に挨拶しなければなりません。温かいコーヒー、動くスクリーン、そして親しみやすい顔など、自分のためにすべてが準備されているのを見た時、クライアントはあなたの会社を信頼するでしょう。良い準備は常に良いビジネスにつながります。"
             }
         }
-    },
-    {
+    },    {
         id: 33, 
         chapter: "Chapter 5: Future Planning", 
         type: "opinion", 
@@ -4997,17 +5034,17 @@ pronunciation: {
             }
         }
     },
-    {
+ {
         id: 37, 
         chapter: "Chapter 6: Food & Dining", 
         type: "transactional", 
         title: "Lesson 037: Checking on a Meal",
         goal: "Check the status of a meal and order dessert using the present perfect tense and adverbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と副詞を使って、食事の状況を確認し、デザートを注文する。)</span>",
-pronunciation: {
-    title: "Pronunciation: Weak 'Have' in Questions",
-    eng: "In questions like 'Have you finished?', the word 'Have' is usually spoken quickly and weakly (/həv/). Do not stress it.",
-    jpn: "「Have you finished?」のような質問では、「Have」は通常、速く弱く発音されます（/həv/）。強調しないようにしましょう。"
-},
+        pronunciation: {
+            title: "Pronunciation: Weak 'Have' in Questions",
+            eng: "In questions like 'Have you decided?', the word 'Have' is usually spoken quickly and weakly (/həv/). Do not stress it.",
+            jpn: "「Have you decided?」のような質問では、「Have」は通常、速く弱く発音されます（/həv/）。強調しないようにしましょう。"
+        },
         vocab: [
             { eng: "Finish", jpn: "終わらせる / 終える", exEng: "Did you finish your dinner?", exJpn: "夕食は終えましたか？" },
             { eng: "Already", jpn: "すでに / もう", exEng: "I have already paid the bill.", exJpn: "私はすでに請求書を支払いました。" },
@@ -5024,57 +5061,59 @@ pronunciation: {
             { eng: "Bill", jpn: "お会計 / 請求書", exEng: "Can we have the bill, please?", exJpn: "お会計をお願いできますか？" },
             { eng: "Pay", jpn: "支払う", exEng: "I will pay with my credit card.", exJpn: "クレジットカードで支払います。" }
         ],
-        dialogue: [
-            { speaker: "Waiter", eng: "Hello. <i class='grammar-target'>Have you finished</i> your meal <i class='grammar-target'>yet</i>?", jpn: "こんにちは。お食事はもうお済みですか？" },
-            { speaker: "Customer", eng: "Yes, <span class='swappable'><i class='grammar-target'>I have already finished</i></span> my meal. It was delicious.", jpn: "はい、私はすでに食事を終えました。美味しかったです。" },
-            { speaker: "Waiter", eng: "That is good to hear. Shall I take your empty plate?", jpn: "それを聞いて嬉しいです。空いたお皿をお下げしましょうか？" },
+dialogue: [
+            { speaker: "Waiter", eng: "Hello. How is your meal?", jpn: "こんにちは。お食事はいかがですか？" },
+            { speaker: "Customer", eng: "<span class='swappable'>It is delicious, thank you.</span>", jpn: "美味しいです、ありがとう。" },
+            { speaker: "Waiter", eng: "Shall I take your empty plate?", jpn: "空いたお皿をお下げしましょうか？" },
             { speaker: "Customer", eng: "Yes, please. But my friend is <i class='grammar-target'>still</i> eating his salad.", jpn: "はい、お願いします。でも、私の友人はまだサラダを食べています。" },
-            { speaker: "Waiter", eng: "No problem. <span class='swappable'><i class='grammar-target'>Have you decided on</i> a dessert <i class='grammar-target'>yet</i>?</span>", jpn: "問題ありません。デザートはもうお決まりですか？" },
-            { speaker: "Customer", eng: "<span class='swappable'><i class='grammar-target'>I have not looked at</i> the menu <i class='grammar-target'>yet</i>.</span> Can you bring it?", jpn: "まだメニューを見ていません。持ってきてもらえますか？" },
-            { speaker: "Waiter", eng: "Of course. I will bring the dessert menu right now.", jpn: "もちろんです。今すぐデザートメニューをお持ちします。" },
-            { speaker: "Customer", eng: "Thank you. I want to stop eating soon because I am full.", jpn: "ありがとう。お腹がいっぱいなので、もうすぐ食べるのをやめたいです。" },
-            { speaker: "Waiter", eng: "Take your time. Please tell me when you are ready to order.", jpn: "ごゆっくりどうぞ。ご注文の準備ができたら教えてください。" },
-            { speaker: "Customer", eng: "Okay, I will call you when we are ready.", jpn: "わかりました、準備ができたら呼びます。" },
-            { speaker: "Waiter", eng: "Thank you very much. I will be right here.", jpn: "誠にありがとうございます。すぐここにおります。" },
-            { speaker: "Customer", eng: "Thank you for your good service.", jpn: "良いサービスをありがとう。" }
+            { speaker: "Waiter", eng: "<span class='swappable'>No problem. Take your time. </span><i class='grammar-target'>Have you decided on</i> a dessert <i class='grammar-target'>yet</i>?</span>", jpn: "問題ありません。ごゆっくりどうぞ。デザートはもうお決まりですか？" },
+            { speaker: "Customer", eng: "<i class='grammar-target'>I have not looked at</i> the menu <i class='grammar-target'>yet</i>.</span> Can you bring it?", jpn: "まだメニューを見ていません。持ってきてもらえますか？" },
+            { speaker: "Waiter", eng: "<span class='swappable'>Of course.</span> I will bring the dessert menu right now.", jpn: "もちろんです。今すぐデザートメニューをお持ちします。" },
+            { speaker: "Customer", eng: "Thank you. <span class='swappable'>And could we also get some more water?</span>", jpn: "ありがとう。それから、お水ももう少しいただけますか？" },
+            { speaker: "Waiter", eng: "<span class='swappable'>Certainly.</span> I will bring the water and the menu right away.", jpn: "かしこまりました。お水とメニューをすぐにお持ちします。" }
         ],
         dialogueStructure: [
-            "Greet + Ask if the meal is finished using 'yet' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 'yet' を使って食事が終わったか尋ねる)</span>",
-            "> Confirm using 'already' + Give a compliment <span class='jpn-text'>('already' を使って確認する ＋ 褒め言葉を言う)</span>",
-            "Acknowledge + Offer to take the plate <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 皿を下げることを申し出る)</span>",
+            "Greet + Ask about the meal <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 食事について尋ねる)</span>",
+            "> Answer positively <span class='jpn-text'>(肯定的に答える)</span>",
+             "Offer to take the plate <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(皿を下げることを申し出る)</span>",
             "> Accept + State ongoing action using 'still' <span class='jpn-text'>(受け入れる ＋ 'still' を使って継続中の動作を述べる)</span>",
-            "Acknowledge + Ask about dessert using 'yet' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 'yet' を使ってデザートについて尋ねる)</span>",
+            "Reassure + Ask about dessert using 'yet' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(安心させる ＋ 'yet' を使ってデザートについて尋ねる)</span>",
             "> Answer negatively using 'yet' + Make a request <span class='jpn-text'>('yet' を使って否定で答える ＋ お願いをする)</span>",
             "Agree + State immediate action <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(同意する ＋ すぐに行う行動を述べる)</span>",
-            "> Thank the waiter + State a personal limit <span class='jpn-text'>(ウェイターにお礼を言う ＋ 個人的な限界を述べる)</span>",
-            "Reassure the customer + Give an instruction <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(客を安心させる ＋ 指示を出す)</span>",
-            "> Agree + State a future action <span class='jpn-text'>(同意する ＋ 未来の行動を述べる)</span>",
-            "Thank the customer + State your location <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(客にお礼を言う ＋ 自分の場所を述べる)</span>",
-            "> Thank the waiter for their service <span class='jpn-text'>(ウェイターのサービスにお礼を言う)</span>"
+            "> Thank the waiter + Make an additional request <span class='jpn-text'>(ウェイターにお礼を言う ＋ 追加のお願いをする)</span>",
+            "Agree + State immediate action <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(同意する ＋ すぐに行う行動を述べる)</span>"
         ],
         expressions: [
-            { 
-                category: "1. Stating finished actions (完了したアクションを述べる)", 
+         { 
+                category: "1. Saying something tastes good (おいしいと言うこと)", 
                 options: [
-                    { eng: "I have already finished my meal.", jpn: "すでに食事を終えました。" },
-                    { eng: "I have already eaten enough.", jpn: "すでに十分に食べました。" },
-                    { eng: "We have already paid the bill.", jpn: "私たちはすでに会計を済ませました。" }
+                    { eng: "Everything is great, thank you.", jpn: "すべて美味しいです、ありがとう。" },
+                    { eng: "It tastes amazing, thank you.", jpn: "驚くほど美味しいです、ありがとう。" },
+                    { eng: "Very good, thank you.", jpn: "とても美味しいです、ありがとう。" }
                 ] 
             },
-            { 
-                category: "2. Asking about decisions (決定について尋ねる)", 
+     { 
+                category: "2. Saying you will give a customer more time (客に時間を与えると言うこと)", 
                 options: [
-                    { eng: "Have you decided on a dessert yet?", jpn: "デザートはもうお決まりですか？" },
-                    { eng: "Have you looked at the menu yet?", jpn: "メニューはもうご覧になりましたか？" },
-                    { eng: "Have you chosen your drink yet?", jpn: "飲み物はもうお選びになりましたか？" }
-                ] 
+                    { eng: "Of course. Whenever you're ready.", jpn: "もちろんです。ご準備ができたときにいつでもどうぞ。" },
+                    { eng: "Not a problem at all. Please don't rush.", jpn: "全く問題ありません。どうか急がないでください。" },
+                    { eng: "Sure thing. I'll give you a few more minutes.", jpn: "かしこまりました。もう少しお待ちしますね。" }
+                ]
+            },
+          { 
+                category: "3. Asking for water (水を頼む)", 
+                options: [
+                    { eng: "We'd love some more water when you have a moment.", jpn: "お時間があるときに、もう少しお水をいただけますか？" },
+                    { eng: "Could we get a refill on our water, please?", jpn: "お水のおかわりをいただけますか？" },
+                    { eng: "Can we get some water for the table?", jpn: "このテーブルにお水をもらえますか？" }
+                ]
             },
             { 
-                category: "3. Stating unfinished actions (未完了のアクションを述べる)", 
+                category: "4. Agreeing (同意・承諾)", 
                 options: [
-                    { eng: "I have not looked at the menu yet.", jpn: "まだメニューを見ていません。" },
-                    { eng: "I have not decided yet.", jpn: "まだ決めていません。" },
-                    { eng: "We have not ordered yet.", jpn: "私たちはまだ注文していません。" }
+                    { eng: "Sure", jpn: "もちろんです" },
+                    { eng: "Certainly", jpn: "かしこまりました / 承知いたしました" },
+                    { eng: "As you wish", jpn: "ご希望の通りに / 仰せの通りに" }
                 ] 
             }
         ],
@@ -5114,8 +5153,8 @@ pronunciation: {
             }
         ],
         roleplay: {
-            a: "You are a Waiter. Ask the customer if they have finished their meal 'yet'. Ask to take their plate. Ask if they have chosen a dessert 'yet'. Tell them to take their time. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはウェイターです。客に「もう（yet）」食事が終わったか尋ねてください。皿を下げることを求めてください。「もう（yet）」デザートを選んだか尋ねてください。ゆっくり決めてくださいと伝えてください。)</span>",
-            b: "You are a Customer. Say you have 'already' finished your meal. Say your friend is 'still' eating. Say you have not decided on a dessert 'yet', and ask the waiter to bring the menu. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは客です。「すでに（already）」食事を終えたと言ってください。友人が「まだ（still）」食べていると言ってください。「まだ（yet）」デザートを決めていないと言い、ウェイターにメニューを持ってくるように頼んでください。)</span>"
+            a: "You are a Waiter. Ask the customer how their meal is. Ask to take their plate. Ask if they have chosen a dessert 'yet'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはウェイターです。客に食事はいかがですかと尋ねてください。皿を下げることを提案してください。「もう（yet）」デザートを選んだか尋ねてください。)</span>",
+            b: "You are a Customer. Say your meal is delicious. Say your friend is 'still' eating. Say you have not decided on a dessert 'yet', and ask the waiter to bring the menu and more water. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはお客様です。食事が「おいしい」と言ってください。友人が「まだ」食べていると言ってください。「まだ」デザートを決めていないと言って、ウェイターにメニューと水をもう一杯持ってきてくれるよう頼んでください。)</span>"
         },
         homework: {
             vocab: [
@@ -5289,17 +5328,18 @@ pronunciation: {
             }
         }
     },
-    {
+
+{
         id: 39, 
         chapter: "Chapter 6: Food & Dining", 
         type: "transactional", 
         title: "Lesson 039: Waiting for a Table",
-        goal: "Complain about waiting for a table using the present perfect tense and start/stop verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と開始/停止の動詞を使って、テーブル待ちについて苦情を言う。)</span>",
-pronunciation: {
-    title: "Pronunciation: Weak 'For' vs. Strong 'Since'",
-    eng: "When expressing time, 'for' is spoken quickly as a weak sound (/fər/), but 'since' is spoken clearly and strongly.",
-    jpn: "時間を表現する時、「for」は弱い音（/fər/）として速く発音されますが、「since」ははっきりと強く発音されます。"
-},
+        goal: "Check on a table reservation using the present perfect tense and start/stop verbs. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(現在完了形と開始/停止の動詞を使って、テーブル待ちについて尋ねる。)</span>",
+        pronunciation: {
+            title: "Pronunciation: Weak 'For' vs. Strong 'Since'",
+            eng: "When expressing time, 'for' is spoken quickly as a weak sound (/fər/), but 'since' is spoken clearly and strongly.",
+            jpn: "時間を表現する時、「for」は弱い音（/fər/）として速く発音されますが、「since」ははっきりと強く発音されます。"
+        },
         vocab: [
             { eng: "Wait", jpn: "待つ", exEng: "We had to wait for twenty minutes.", exJpn: "私たちは20分待たなければなりませんでした。" },
             { eng: "Table", jpn: "テーブル / 机", exEng: "We need a table for four.", exJpn: "4人用のテーブルが必要です。" },
@@ -5317,38 +5357,38 @@ pronunciation: {
             { eng: "Ready", jpn: "準備ができた", exEng: "Your table is ready.", exJpn: "あなたのテーブルの準備ができました。" }
         ],
         dialogue: [
-            { speaker: "Customer", eng: "Excuse me. <span class='swappable'><i class='grammar-target'>I have waited</i> for a table <i class='grammar-target'>for</i> one hour.</span>", jpn: "すみません。私はテーブルを1時間待ち続けています。" },
-            { speaker: "Host", eng: "I am very sorry, sir. We are extremely busy tonight.", jpn: "大変申し訳ございません。今夜は非常に混み合っております。" },
-            { speaker: "Customer", eng: "I know, but <span class='swappable'><i class='grammar-target'>I have been</i> here <i class='grammar-target'>since</i> 7 PM.</span>", jpn: "わかっていますが、私は午後7時からずっとここにいるのです。" },
-            { speaker: "Host", eng: "I apologize. Many guests have not finished their meals yet.", jpn: "謝罪いたします。多くのお客様がまだお食事を終えておられないのです。" },
-            { speaker: "Customer", eng: "My family is very hungry. Are there any empty tables?", jpn: "家族がとてもお腹を空かせています。空いているテーブルはありますか？" },
-            { speaker: "Host", eng: "There are no empty tables inside. We only have seats outside.", jpn: "店内には空いているテーブルはございません。外のお席しかございません。" },
-            { speaker: "Customer", eng: "But it is cold outside. We <i class='grammar-target'>began to wait</i> a long time ago.", jpn: "でも外は寒いです。私たちは随分前から待ち始めました。" },
-            { speaker: "Host", eng: "I understand. A large group will <i class='grammar-target'>stop eating</i> very soon.", jpn: "わかります。大人数のグループがもうすぐ食事を終えます（食べるのをやめます）。" },
+            { speaker: "Customer", eng: "Excuse me, I just wanted to check on our reservation. <span class='swappable'><i class='grammar-target'>We have waited</i> for a table <i class='grammar-target'>for</i> almost an hour.</span>", jpn: "すみません、予約の確認をしたかったのですが。私たちはテーブルを1時間近く待ち続けています。" },
+            { speaker: "Host", eng: "I am so sorry for the long wait. We are extremely busy tonight.", jpn: "長くお待たせして大変申し訳ございません。今夜は非常に混み合っております。" },
+            { speaker: "Customer", eng: "I understand, but <span class='swappable'><i class='grammar-target'>we have been</i> here <i class='grammar-target'>since</i> 7 PM.</span> My kids are getting quite hungry.", jpn: "わかりますが、私たちは午後7時からずっとここにいるのです。子供たちがかなりお腹を空かせてきまして。" },
+            { speaker: "Host", eng: "I completely understand. Many guests are taking their time, so the tables are not opening up fast.", jpn: "お気持ちはよくわかります。多くのお客様がゆっくりお過ごしのため、なかなかテーブルが空かないのです。" },
+            { speaker: "Customer", eng: "Are there any other options? We <i class='grammar-target'>began to wait</i> a long time ago.", jpn: "他に何か選択肢はありますか？私たちは随分前から待ち始めましたので。" },
+            { speaker: "Host", eng: "We do have some seats outside, if you don't mind the cool weather.", jpn: "涼しい天候がお気にならなければ、外のお席もいくつかございます。" },
+            { speaker: "Customer", eng: "Outside might be a bit too cold for us. Is there anything inside?", jpn: "外は私たちには少し寒すぎるかもしれません。店内には何もありませんか？" },
+            { speaker: "Host", eng: "Let me check... Ah, a large group inside will <i class='grammar-target'>stop eating</i> very soon.", jpn: "確認させてください... ああ、店内の大人数のグループがもうすぐ食事を終えます（食べるのをやめます）。" },
             { speaker: "Customer", eng: "<span class='swappable'>How much longer do we have to wait?</span>", jpn: "あとどれくらい待たなければなりませんか？" },
-            { speaker: "Host", eng: "It will take about ten more minutes. Please sit here.", jpn: "あと10分ほどかかります。こちらにお座りください。" },
-            { speaker: "Customer", eng: "Okay, we will wait for ten more minutes.", jpn: "わかりました、あと10分待ちます。" },
-            { speaker: "Host", eng: "Thank you for your patience. I will call your name soon.", jpn: "お待ちいただきありがとうございます。もうすぐお名前をお呼びします。" }
+            { speaker: "Host", eng: "It should only take about ten more minutes. Please have a seat right here.", jpn: "あと10分ほどでご案内できるはずです。こちらの席でお待ちください。" },
+            { speaker: "Customer", eng: "Okay, thank you for checking. We will wait.", jpn: "わかりました、確認してくれてありがとう。待ちます。" },
+            { speaker: "Host", eng: "Thank you for your patience. I will call your name the moment it is ready.", jpn: "お待ちいただきありがとうございます。準備ができ次第すぐにお名前をお呼びします。" }
         ],
         dialogueStructure: [
-            "Get attention + State a complaint using 'for' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(注意を引く ＋ 'for' を使って苦情を述べる)</span>",
+            "Get attention + State the situation using 'for' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(注意を引く ＋ 'for' を使って状況を述べる)</span>",
             "> Apologize + State the reason <span class='jpn-text'>(謝罪する ＋ 理由を述べる)</span>",
-            "Acknowledge + State a complaint using 'since' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 'since' を使って苦情を述べる)</span>",
-            "> Apologize + Give extra detail <span class='jpn-text'>(謝罪する ＋ 追加の詳細を述べる)</span>",
-            "State your feeling + Ask for an option <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(自分の感情を述べる ＋ 選択肢を尋ねる)</span>",
-            "> Explain the available option <span class='jpn-text'>(利用可能な選択肢を説明する)</span>",
-            "Reject the option + Use a 'start' verb <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(選択肢を拒否する ＋ 'start' 系の動詞を使う)</span>",
-            "> Show empathy + Use a 'stop' verb <span class='jpn-text'>(共感を示す ＋ 'stop' 系の動詞を使う)</span>",
+            "Acknowledge + Give extra detail using 'since' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 'since' を使って追加の詳細を述べる)</span>",
+            "> Show empathy + Explain the situation <span class='jpn-text'>(共感を示す ＋ 状況を説明する)</span>",
+            "Ask for options + Use a 'start' verb <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(選択肢を尋ねる ＋ 'start' 系の動詞を使う)</span>",
+            "> Offer an alternative option <span class='jpn-text'>(代替の選択肢を提案する)</span>",
+            "Politely decline + Ask about inside <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(丁寧に断る ＋ 店内について尋ねる)</span>",
+            "> Check + Use a 'stop' verb <span class='jpn-text'>(確認する ＋ 'stop' 系の動詞を使う)</span>",
             "Ask about the timeline <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(スケジュールについて尋ねる)</span>",
             "> State the timeline + Give an instruction <span class='jpn-text'>(スケジュールを述べる ＋ 指示を出す)</span>",
-            "Agree to wait <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(待つことに同意する)</span>",
-            "> Thank the customer + Promise future action <span class='jpn-text'>(客にお礼を言う ＋ 将来の行動を約束する)</span>"
+            "Thank the host + Agree to wait <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(案内係にお礼を言う ＋ 待つことに同意する)</span>",
+            "> Thank the customer + Promise immediate action <span class='jpn-text'>(客にお礼を言う ＋ すぐの行動を約束する)</span>"
         ],
         expressions: [
             { 
                 category: "1. Stating how long you waited (どれくらい待ったか述べる)", 
                 options: [
-                    { eng: "I have waited for a table for one hour.", jpn: "テーブルを1時間待ち続けています。" },
+                    { eng: "We have waited for a table for almost an hour.", jpn: "私たちはテーブルを1時間近く待ち続けています。" },
                     { eng: "I have been in line for forty minutes.", jpn: "40分間列に並んでいます。" },
                     { eng: "I have been here since 7 PM.", jpn: "午後7時からずっとここにいます。" }
                 ] 
@@ -5364,7 +5404,7 @@ pronunciation: {
             { 
                 category: "3. Showing empathy as staff (スタッフとして共感を示す)", 
                 options: [
-                    { eng: "I understand your frustration.", jpn: "ご不満は理解できます。" },
+                    { eng: "I completely understand your frustration.", jpn: "ご不満は完全にお察しします。" },
                     { eng: "I am very sorry for the wait.", jpn: "お待たせして大変申し訳ありません。" },
                     { eng: "Thank you for your patience.", jpn: "お待ちいただきありがとうございます。" }
                 ] 
@@ -5378,7 +5418,7 @@ pronunciation: {
                 explanation: "We can use the present perfect to express an ongoing state. In this situation, the action started in the past and continues until the present. We use 'for' when we talk about an amount of time (e.g., 2 hours, 10 minutes).", 
                 explanationJpn: "現在完了形を使って、継続している状態を表現することができます。この状況では、アクションは過去に始まり、現在まで続いています。時間の量（例：2時間、10分間）について話すときは「for」を使用します。", 
                 examples: [
-                    { eng: "I have waited for a table for one hour.", jpn: "私はテーブルを1時間待ち続けています。" }, 
+                    { eng: "We have waited for a table for one hour.", jpn: "私たちはテーブルを1時間待ち続けています。" }, 
                     { eng: "They haven't watched TV for 10 hours.", jpn: "彼らは10時間テレビを見ていません。" }
                 ] 
             },
@@ -5389,7 +5429,7 @@ pronunciation: {
                 explanation: "Just like 'for', we use 'since' with the present perfect to express an ongoing state. However, we use 'since' when we talk about a specific starting point in time (e.g., yesterday, 7 PM, Monday).", 
                 explanationJpn: "「for」と同じように、現在完了形とともに「since」を使って継続している状態を表現します。ただし、「since」は特定の開始時点（例：昨日、午後7時、月曜日）について話すときに使用します。", 
                 examples: [
-                    { eng: "I have been here since 7 PM.", jpn: "私は午後7時からずっとここにいます。" }, 
+                    { eng: "We have been here since 7 PM.", jpn: "私たちは午後7時からずっとここにいます。" }, 
                     { eng: "He hasn't drunk alcohol since Monday.", jpn: "彼は月曜日からお酒を飲んでいません。" }
                 ] 
             },
@@ -5406,8 +5446,8 @@ pronunciation: {
             }
         ],
         roleplay: {
-            a: "You are an angry Customer. Tell the host you have waited 'for' thirty minutes. Tell them you have been here 'since' 6 PM. Say you 'began to wait' a long time ago. Ask how much longer it will take. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは怒っている客です。案内係に「30分間（for）」待っていると伝えてください。「午後6時から（since）」ここにいると伝えてください。随分前から「待ち始めた（began to wait）」と言ってください。あとどれくらいかかるか尋ねてください。)</span>",
-            b: "You are the Host. Apologize for the delay. Say that many people have not finished eating. Tell the customer that a family will 'stop eating' soon. Tell them to wait ten more minutes. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは案内係です。遅延について謝罪してください。多くの人がまだ食べ終わっていないと言ってください。客に、ある家族がもうすぐ「食べるのをやめる（stop eating）」と伝えてください。あと10分待つように言ってください。)</span>"
+            a: "You are a Customer. Politely tell the host you have waited 'for' an hour. Tell them you have been here 'since' 7 PM. Say you 'began to wait' a long time ago. Ask how much longer it will take. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは客です。案内係に「1時間（for）」待っていると丁寧に伝えてください。「午後7時から（since）」ここにいると伝えてください。随分前から「待ち始めた（began to wait）」と言ってください。あとどれくらいかかるか尋ねてください。)</span>",
+            b: "You are the Host. Apologize for the delay. Say that many people are taking their time. Tell the customer that a group will 'stop eating' soon. Tell them to wait ten more minutes. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは案内係です。遅延について謝罪してください。多くの人がゆっくり過ごしていると言ってください。客に、あるグループがもうすぐ「食べるのをやめる（stop eating）」と伝えてください。あと10分待つように言ってください。)</span>"
         },
         homework: {
             vocab: [
