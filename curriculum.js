@@ -485,11 +485,11 @@ pronunciation: {
             { speaker: "Support", eng: "I see. Many people are calling us about this today.", jpn: "なるほど。今日は多くの方がこの件で私たちに電話してきています。" },
             { speaker: "Colleague", eng: "What happened? Is it a big issue?", jpn: "何が起きたの？大きな問題ですか？" },
             { speaker: "Support", eng: "I am sorry. <span class='swappable'>The website is down  <i class='grammar-target'>because </i>there is a server error.</span>", jpn: "申し訳ありません。サーバーエラーが発生しているため、ウェブサイトが利用できません。" },
-            { speaker: "Colleague", eng: "<span class='swappable'>That's terrible.</span> I have a lot of work to do.", jpn: "それはひどいですね。やるべき仕事がたくさんあるのですが。" },
+            { speaker: "Colleague", eng: "<span class='swappable'>That's not good.</span> I have a lot of work to do.", jpn: "それはひどいですね。やるべき仕事がたくさんあるのですが。" },
             { speaker: "Support", eng: "I understand your frustration. We are fixing the server now.", jpn: "ご不満は理解できます。今、サーバーを修理しています。" },
             { speaker: "Colleague", eng: "Okay. When will it work again?", jpn: "わかりました。いつまた使えるようになりますか？" },
             { speaker: "Support", eng: "We are checking it. <i class='grammar-target'>However</i>, it will take maybe 10 to 30 minutes.", jpn: "現在確認中です。しかしながら、おそらく10分から30分ほどかかるでしょう" },
-            { speaker: "Colleague", eng: "OKay. Thanks.", jpn: "了解。ありがとう。" }
+            { speaker: "Colleague", eng: "Okay. Thanks.", jpn: "了解。ありがとう。" }
         ],
         dialogueStructure: [
             "Greet + Ask if they are there <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(挨拶 ＋ 相手がいるか尋ねる)</span>",
@@ -533,8 +533,8 @@ pronunciation: {
             { 
                 category: "4. Reacting to bad news (悪い知らせに反応する)", 
                 options: [
-                    { eng: "That's great.", jpn: "それは参ったね。…" },
-                    { eng: "That's not good.", jpn: "それは良くないですね。" },
+                    { eng: "That's a pain.", jpn: "それは参ったね。…" },
+                    { eng: "That's not great.", jpn: "それは良くないですね。" },
                     { eng: "That's going to be a problem.", jpn: "それは困りましたね。" }
                 ] 
             }
@@ -4397,7 +4397,7 @@ pronunciation: {
             { speaker: "Manager", eng: "Yes. <span class='swappable'>Can you book the large room</span> from 2 PM to 4 PM?", jpn: "はい。午後2時から4時まで広い部屋を予約してくれますか？" },
             { speaker: "Assistant", eng: "Let me check. Yes, <i class='grammar-target'>that</i> room is available.", jpn: "確認させてください。はい、あの（その）部屋は空いています。" },
             { speaker: "Manager", eng: "Thank you. <i class='grammar-target'>The client is coming</i> from a long distance.", jpn: "ありがとう。クライアントは遠くから来ます（来る予定です）。" },
-            { speaker: "Assistant", eng: "<span class='swappable'><i class='grammar-target'>Shall I order</i> some coffee and snacks</span> for the meeting?", jpn: "会議のためにコーヒーと軽食を注文しましょうか？" },
+            { speaker: "Assistant", eng: "<span class='swappable'><i class='grammar-target'>Shall I order</i> some coffee and snacks for the meeting?</span>", jpn: "会議のためにコーヒーと軽食を注文しましょうか？" },
             { speaker: "Manager", eng: "That is a wonderful idea. Please order enough for five people.", jpn: "それは素晴らしいアイデアです。5人分十分に注文してください。" },
             { speaker: "Assistant", eng: "I will do that right now. Do we have a projector in <i class='grammar-target'>that</i> room?", jpn: "今すぐそうします。あの部屋にはプロジェクターはありますか？" },
             { speaker: "Manager", eng: "Yes, there is a projector. Can you test it?", jpn: "はい、プロジェクターはあります。テストしてくれますか？" },
@@ -4441,7 +4441,7 @@ pronunciation: {
                 options: [
                     { eng: "I can order some coffee, if you'd like.", jpn: "よかったら、コーヒーを注文しましょうか？" },
                     { eng: "Would you like me to order food?", jpn: "食べ物を注文しましょうか？" },
-                    { eng: "Need me to order some coffee", jpn: "「コーヒー注文しとこうか？」" }
+                    { eng: "Need me to order some coffee?", jpn: "「コーヒー注文しとこうか？」" }
                 ] 
             },
  { 
@@ -5357,81 +5357,91 @@ pronunciation: {
             { eng: "Ready", jpn: "準備ができた", exEng: "Your table is ready.", exJpn: "あなたのテーブルの準備ができました。" }
         ],
         dialogue: [
-            { speaker: "Customer", eng: "Excuse me, I just wanted to check on our reservation. <span class='swappable'><i class='grammar-target'>We have waited</i> for a table <i class='grammar-target'>for</i> almost an hour.</span>", jpn: "すみません、予約の確認をしたかったのですが。私たちはテーブルを1時間近く待ち続けています。" },
+            { speaker: "Customer", eng: "Excuse me, I just wanted to check on our reservation.", jpn: "すみません、予約の確認をしたかったのですが。" },
             { speaker: "Host", eng: "I am so sorry for the long wait. We are extremely busy tonight.", jpn: "長くお待たせして大変申し訳ございません。今夜は非常に混み合っております。" },
             { speaker: "Customer", eng: "I understand, but <span class='swappable'><i class='grammar-target'>we have been</i> here <i class='grammar-target'>since</i> 7 PM.</span> My kids are getting quite hungry.", jpn: "わかりますが、私たちは午後7時からずっとここにいるのです。子供たちがかなりお腹を空かせてきまして。" },
             { speaker: "Host", eng: "I completely understand. Many guests are taking their time, so the tables are not opening up fast.", jpn: "お気持ちはよくわかります。多くのお客様がゆっくりお過ごしのため、なかなかテーブルが空かないのです。" },
-            { speaker: "Customer", eng: "Are there any other options? We <i class='grammar-target'>began to wait</i> a long time ago.", jpn: "他に何か選択肢はありますか？私たちは随分前から待ち始めましたので。" },
-            { speaker: "Host", eng: "We do have some seats outside, if you don't mind the cool weather.", jpn: "涼しい天候がお気にならなければ、外のお席もいくつかございます。" },
+            { speaker: "Customer", eng: "Are there any other options?", jpn: "他に何か選択肢はありますか？" },
+            { speaker: "Host", eng: "<span class='swappable'>We do have some seats outside,</span> if you don't mind the cool weather.", jpn: "涼しい天候がお気にならなければ、外のお席もいくつかございます。" },
             { speaker: "Customer", eng: "Outside might be a bit too cold for us. Is there anything inside?", jpn: "外は私たちには少し寒すぎるかもしれません。店内には何もありませんか？" },
             { speaker: "Host", eng: "Let me check... Ah, a large group inside will <i class='grammar-target'>stop eating</i> very soon.", jpn: "確認させてください... ああ、店内の大人数のグループがもうすぐ食事を終えます（食べるのをやめます）。" },
-            { speaker: "Customer", eng: "<span class='swappable'>How much longer do we have to wait?</span>", jpn: "あとどれくらい待たなければなりませんか？" },
+            { speaker: "Customer", eng: "So, <span class='swappable'>how much longer do we have to wait?</span>", jpn: "あとどれくらい待たなければなりませんか？" },
             { speaker: "Host", eng: "It should only take about ten more minutes. Please have a seat right here.", jpn: "あと10分ほどでご案内できるはずです。こちらの席でお待ちください。" },
-            { speaker: "Customer", eng: "Okay, thank you for checking. We will wait.", jpn: "わかりました、確認してくれてありがとう。待ちます。" },
-            { speaker: "Host", eng: "Thank you for your patience. I will call your name the moment it is ready.", jpn: "お待ちいただきありがとうございます。準備ができ次第すぐにお名前をお呼びします。" }
+            { speaker: "Customer", eng: "Okay, thank you for checking. ", jpn: "わかりました、確認してくれてありがとう。" },
+            { speaker: "Host", eng: "<span class='swappable'>Thank you for your patience.</span> I will call your name the moment it is ready.", jpn: "お待ちいただきありがとうございます。準備ができ次第すぐにお名前をお呼びします。" }
         ],
         dialogueStructure: [
-            "Get attention + State the situation using 'for' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(注意を引く ＋ 'for' を使って状況を述べる)</span>",
+            "Say you want to check on your reservation  <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(たとえば、予約の状況を確認したい場合を想定しましょう)</span>",
             "> Apologize + State the reason <span class='jpn-text'>(謝罪する ＋ 理由を述べる)</span>",
-            "Acknowledge + Give extra detail using 'since' <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(応じる ＋ 'since' を使って追加の詳細を述べる)</span>",
+            "Acknowledge + Say the length of your waiting time <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(待ち時間の長さを教える)</span>",
             "> Show empathy + Explain the situation <span class='jpn-text'>(共感を示す ＋ 状況を説明する)</span>",
-            "Ask for options + Use a 'start' verb <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(選択肢を尋ねる ＋ 'start' 系の動詞を使う)</span>",
+            "Ask for options <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(選択肢を尋ねる</span>",
             "> Offer an alternative option <span class='jpn-text'>(代替の選択肢を提案する)</span>",
             "Politely decline + Ask about inside <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(丁寧に断る ＋ 店内について尋ねる)</span>",
-            "> Check + Use a 'stop' verb <span class='jpn-text'>(確認する ＋ 'stop' 系の動詞を使う)</span>",
+            "> Say a group will stop eating soon <span class='jpn-text'>(あるグループがもうすぐ食事を終えることになるとしよう)</span>",
             "Ask about the timeline <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(スケジュールについて尋ねる)</span>",
             "> State the timeline + Give an instruction <span class='jpn-text'>(スケジュールを述べる ＋ 指示を出す)</span>",
-            "Thank the host + Agree to wait <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(案内係にお礼を言う ＋ 待つことに同意する)</span>",
+            "Thank the host <span class='jpn-text' style='font-weight: normal; color: var(--text-light);'>(案内係にお礼を言う </span>",
             "> Thank the customer + Promise immediate action <span class='jpn-text'>(客にお礼を言う ＋ すぐの行動を約束する)</span>"
         ],
         expressions: [
             { 
                 category: "1. Stating how long you waited (どれくらい待ったか述べる)", 
                 options: [
-                    { eng: "We have waited for a table for almost an hour.", jpn: "私たちはテーブルを1時間近く待ち続けています。" },
+                    { eng: "I have been waiting for ages.", jpn: "もうずいぶん待っているんだ。" },
                     { eng: "I have been in line for forty minutes.", jpn: "40分間列に並んでいます。" },
                     { eng: "I have been here since 7 PM.", jpn: "午後7時からずっとここにいます。" }
                 ] 
             },
             { 
-                category: "2. Asking about the timeline (時間・スケジュールについて尋ねる)", 
+                category: "2. Giving options (選択肢の提示)", 
                 options: [
-                    { eng: "How much longer do we have to wait?", jpn: "あとどれくらい待たなければなりませんか？" },
-                    { eng: "When will a table be ready?", jpn: "いつテーブルの準備ができますか？" },
-                    { eng: "How many minutes until we can sit?", jpn: "座れるまであと何分ですか？" }
+                    { eng: "We could seat you outside.", jpn: "屋外のお席をご用意することも可能です。" },
+                    { eng: "I can offer you a spot outside, if you'd like.", jpn: "もしよろしければ、外のお席をご用意できますよ。" },
+                    { eng: "We have some availability in our outdoor section.", jpn: "屋外コーナーには、まだ若干の空きがございます。" }
                 ] 
             },
-            { 
-                category: "3. Showing empathy as staff (スタッフとして共感を示す)", 
+{ 
+                category: "3. Asking about the timeline (時間・スケジュールについて尋ねる)", 
                 options: [
-                    { eng: "I completely understand your frustration.", jpn: "ご不満は完全にお察しします。" },
-                    { eng: "I am very sorry for the wait.", jpn: "お待たせして大変申し訳ありません。" },
-                    { eng: "Thank you for your patience.", jpn: "お待ちいただきありがとうございます。" }
+                    { eng: "What is the estimated wait time now?", jpn: "現在の待ち時間の目安はどのくらいですか？" },
+                    { eng: "When will a table be ready?", jpn: "いつテーブルの準備ができますか？" },
+                    { eng: "Roughly how long until we get a table", jpn: "席が空くまでだいたいどれくらいかかりますか？" }
+                ] 
+            },
+
+            { 
+                category: "4. Showing empathy as staff (スタッフとして共感を示す)", 
+                options: [
+                    { eng: "Thanks for bearing with me.", jpn: "お付き合いいただき、ありがとうございます。" },
+                    { eng: "I am very sorry for the wait.", jpn: "お待たせして申し訳ありません。" },
+                    { eng: "Thanks so much for waiting!", jpn: "お待たせして申し訳ありませんでした！。" }
                 ] 
             }
         ],
         grammarPoints: [
-            { 
-                point: "1. Present Perfect: Expressing an ongoing state with 'for' (期間を表す 'for' を伴う継続状態)", 
-                hint: "Use 'have + past participle' + 'for' + a time period.", 
-                shortExample: "I have not eaten for 2 days.", 
-                explanation: "We can use the present perfect to express an ongoing state. In this situation, the action started in the past and continues until the present. We use 'for' when we talk about an amount of time (e.g., 2 hours, 10 minutes).", 
-                explanationJpn: "現在完了形を使って、継続している状態を表現することができます。この状況では、アクションは過去に始まり、現在まで続いています。時間の量（例：2時間、10分間）について話すときは「for」を使用します。", 
-                examples: [
-                    { eng: "We have waited for a table for one hour.", jpn: "私たちはテーブルを1時間待ち続けています。" }, 
-                    { eng: "They haven't watched TV for 10 hours.", jpn: "彼らは10時間テレビを見ていません。" }
-                ] 
+{
+  "point": "1. Present Perfect with 'for' and 'since': Ongoing states with stative verbs (「for」と「since」を伴う現在完了形：状態動詞の継続)",
+  "hint": "Use 'have/has + past participle (especially been)' + 'for' (duration) or 'since' (starting point).",
+  "shortExample": "I have been here for 2 days. / She has known him since 2020.",
+  "explanation": "We use the present perfect with 'for' and 'since' to express an ongoing state that started in the past and continues to the present. This structure is primarily used with stative verbs (verbs that describe a state rather than an action), especially the verb 'be'. We use 'for' to describe a duration of time (e.g., 2 hours, 10 years) and 'since' to mark a specific starting point in time (e.g., yesterday, 2010).",
+  "explanationJpn": "「for」や「since」を伴う現在完了形は、過去に始まり現在まで続いている状態を表現するために使われます。この文法は主に、動作ではなく状態を表す「状態動詞」（特にbe動詞）と共に使われます。「for」は期間（例：2時間、10年間）と共に、「since」は特定の開始時点（例：昨日、2010年）と共に使います。",
+  "examples": [
+    { "eng": "He has been sick for three days.", "jpn": "彼は3日間ずっと具合が悪いです。" },
+    { "eng": "They have been married since 2015.", "jpn": "彼らは2015年から結婚しています。" },
+    { "eng": "I haven't known her for very long.", "jpn": "私は彼女のことをあまり長くは知っていません。" }
+  ]
             },
-            { 
-                point: "2. Present Perfect: Expressing an ongoing state with 'since' (起点を表す 'since' を伴う継続状態)", 
-                hint: "Use 'have + past participle' + 'since' + a specific point in time.", 
-                shortExample: "I have not seen you since yesterday.", 
-                explanation: "Just like 'for', we use 'since' with the present perfect to express an ongoing state. However, we use 'since' when we talk about a specific starting point in time (e.g., yesterday, 7 PM, Monday).", 
-                explanationJpn: "「for」と同じように、現在完了形とともに「since」を使って継続している状態を表現します。ただし、「since」は特定の開始時点（例：昨日、午後7時、月曜日）について話すときに使用します。", 
-                examples: [
-                    { eng: "We have been here since 7 PM.", jpn: "私たちは午後7時からずっとここにいます。" }, 
-                    { eng: "He hasn't drunk alcohol since Monday.", jpn: "彼は月曜日からお酒を飲んでいません。" }
-                ] 
+   {
+  "point": "2. Present Perfect Progressive: Ongoing actions with dynamic verbs (動的動詞を伴う現在完了進行形)",
+  "hint": "Use 'have/has been + verb-ing' + 'for' or 'since'.",
+  "shortExample": "I have been working since 9 AM.",
+  "explanation": "We use the present perfect progressive (continuous) with dynamic verbs (action verbs like work, run, or study) to describe an action that started in the past and is still continuing right now. We often use 'for' or 'since' to show how long the action has been happening.",
+  "explanationJpn": "現在完了進行形は、過去に始まり現在も続いている動作を表現するために、動的動詞（work, run, studyなどの動作を表す動詞）と共に使われます。動作がどのくらい続いているかを示すために、よく「for」や「since」を使用します。",
+  "examples": [
+    { "eng": "We have been waiting for the bus for an hour.", "jpn": "私たちは1時間ずっとバスを待っています。" },
+    { "eng": "She has been studying English since 2020.", "jpn": "彼女は2020年からずっと英語を勉強しています。" }
+  ]
             },
             { 
                 point: "3. Verbs: Starting and stopping actions (開始と停止を表す動詞)", 
@@ -5446,7 +5456,7 @@ pronunciation: {
             }
         ],
         roleplay: {
-            a: "You are a Customer. Politely tell the host you have waited 'for' an hour. Tell them you have been here 'since' 7 PM. Say you 'began to wait' a long time ago. Ask how much longer it will take. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは客です。案内係に「1時間（for）」待っていると丁寧に伝えてください。「午後7時から（since）」ここにいると伝えてください。随分前から「待ち始めた（began to wait）」と言ってください。あとどれくらいかかるか尋ねてください。)</span>",
+            a: "You are a Customer. Politely tell the host you have waited a long time. Ask how much longer it will take. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはお客様です。ホストに、長い間待たされたことを丁寧に伝えましょう。あとどれくらいかかるか尋ねてください。)</span>",
             b: "You are the Host. Apologize for the delay. Say that many people are taking their time. Tell the customer that a group will 'stop eating' soon. Tell them to wait ten more minutes. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは案内係です。遅延について謝罪してください。多くの人がゆっくり過ごしていると言ってください。客に、あるグループがもうすぐ「食べるのをやめる（stop eating）」と伝えてください。あと10分待つように言ってください。)</span>"
         },
         homework: {
@@ -5466,7 +5476,7 @@ pronunciation: {
                 { eng: "Frustration", jpn: "不満 / フラストレーション", exEng: "I understand your frustration.", exJpn: "ご不満は理解できます。" },
                 { eng: "Experience", jpn: "経験", exEng: "We want you to have a good experience.", exJpn: "私たちはあなたに良い経験をしてほしいと望んでいます。" }
             ],
-            writingTask: { promptEng: "Write a short paragraph about a time you waited a long time for something. Use the present perfect with 'for' (e.g., I have waited for two hours) and 'since' (e.g., since 3 PM). Also use a start/stop verb.", promptJpn: "何かのために長い時間待った時のことについて、短い段落を書いてください。「for」を伴う現在完了形（例：I have waited for two hours）と、「since」を伴う現在完了形（例：since 3 PM）を使用してください。また、開始/停止の動詞も使用してください。" },
+            writingTask: { promptEng: "Write a short paragraph about a time you waited a long time for something.", promptJpn: "何かのために長い時間待った時のことについて、短い段落を書いてください。" },
             clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
             clickingGamesDesc: "Translate the 10 sentences to practice ongoing states ('for'/'since') and start/stop verbs.",
             clickingGames: [
@@ -5578,9 +5588,9 @@ pronunciation: {
         expressions: [
             { eng: "In my opinion...", jpn: "私の意見では...", exampleEng: "In my opinion, potluck parties are the best.", exampleJpn: "私の意見では、持ち寄りパーティーが最高です。" },
             { eng: "To be honest...", jpn: "正直に言うと...", exampleEng: "To be honest, I hate cooking.", exampleJpn: "正直に言うと、私は料理が嫌いです。" },
-            { eng: "For instance...", jpn: "例えば...", exampleEng: "We can order food. For instance, pizza or chicken.", exampleJpn: "私たちは食べ物を注文できます。例えば、ピザやチキンです。" },
-            { eng: "As a result...", jpn: "その結果...", exampleEng: "I ordered pizza. As a result, I didn't wash any plates.", exampleJpn: "私はピザを注文しました。その結果、私はお皿を1枚も洗いませんでした。" },
-            { eng: "Ultimately...", jpn: "最終的には...", exampleEng: "Ultimately, the food is the most important part.", exampleJpn: "最終的には、食べ物が最も重要な部分です。" }
+     { eng: "For example...", jpn: "例えば...", exampleEng: "We can order food. For example, pizza or chicken.", exampleJpn: "私たちは食べ物を注文できます。例えば、ピザやチキンです。" },
+            { eng: "So...", jpn: "だから...", exampleEng: "I ordered pizza. So, I didn't wash any plates.", exampleJpn: "私はピザを注文しました。だから、私はお皿を1枚も洗いませんでした。" },
+            { eng: "In the end...", jpn: "結局...", exampleEng: "In the end, the food is the most important part.", exampleJpn: "結局、食べ物が最も重要な部分です。" }
         ],
         homework: {
             vocab: [
@@ -5994,7 +6004,7 @@ pronunciation: {
         dialogue: [
             { speaker: "Worker", eng: "Hi, IT Support. I need your help. I cannot save my files.", jpn: "こんにちは、ITサポート。助けが必要です。ファイルを保存できません。" },
             { speaker: "IT Support", eng: "Hello. What is the problem? Did you get an error message?", jpn: "こんにちは。何が問題ですか？エラーメッセージは出ましたか？" },
-            { speaker: "Worker", eng: "Yes. It says my cloud folder is full. I have <i class='grammar-target'>only</i> <i class='grammar-target'>a few</i> megabytes <span class='swappable'>left</span>.", jpn: "はい。クラウドフォルダーがいっぱいだと表示されています。数メガバイトしか残っていません。" },
+            { speaker: "Worker", eng: "Yes. It says my cloud folder is full. <span class='swappable'>I have <i class='grammar-target'>only</i> <i class='grammar-target'>a few</i> megabytes left</span>.", jpn: "はい。クラウドフォルダーがいっぱいだと表示されています。数メガバイトしか残っていません。" },
             { speaker: "IT Support", eng: "I see. You use a lot of space for your videos.", jpn: "なるほど。あなたは動画のためにたくさんのスペースを使っていますね。" },
             { speaker: "Worker", eng: "I need those videos <i class='grammar-target'>to finish</i> my project today.", jpn: "今日プロジェクトを終わらせるために、それらの動画が必要なのです。" },
             { speaker: "IT Support", eng: "Okay. <span class='swappable'>I can give you <i class='grammar-target'>a little</i> more space</span> right now.", jpn: "わかりました。今すぐ少しだけスペースを増やしてあげることができます。" },
@@ -6021,13 +6031,21 @@ pronunciation: {
             { 
                 category: "1. Stating remaining amounts (残りの量を述べる)", 
                 options: [
-                    { eng: "I have a few megabytes left.", jpn: "数メガバイト残っています。" },
-                    { eng: "I have a little space remaining.", jpn: "少しスペースが残っています。" },
-                    { eng: "There is not much room left.", jpn: "あまり空き（スペース）が残っていません。" }
+                    { eng: "I'm down to my last gigabyte.", jpn: "残り1ギガバイトしかありません。" },
+                    { eng: "I only have a little space remaining.", jpn: "残りのスペースはほんの少ししかありません。" },
+                    { eng: "There is no room left.", jpn: "空きがもうありません。" }
                 ] 
             },
             { 
                 category: "2. Offering limited help (限られた助けを提供する)", 
+                options: [
+                    { eng: "I can bump up your storage a little.", jpn: "ストレージを少しだけ増やせますよ。" },
+                    { eng: "I can add a bit of storage.", jpn: "少しのストレージを追加できます。" },
+                    { eng: "I can increase the limit slightly.", jpn: "制限をわずかに増やすことができます。" }
+                ] 
+            },
+      { 
+                category: "3. Offering limited help (限られた助けを提供する)", 
                 options: [
                     { eng: "I can give you a little more space.", jpn: "少しだけスペースを増やしてあげられます。" },
                     { eng: "I can add a bit of storage.", jpn: "少しのストレージを追加できます。" },
@@ -6035,7 +6053,7 @@ pronunciation: {
                 ] 
             },
             { 
-                category: "3. Giving instructions for efficiency (効率化のための指示を出す)", 
+                category: "4. Giving instructions for efficiency (効率化のための指示を出す)", 
                 options: [
                     { eng: "Please delete old files.", jpn: "古いファイルを削除してください。" },
                     { eng: "Please clean up your folder.", jpn: "フォルダーを整理してください。" },
