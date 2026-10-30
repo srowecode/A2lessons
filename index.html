@@ -793,7 +793,6 @@
             
             if (el) {
                 if (checkbox.checked) {
-                    // Hide completely if it's a transactional or opinion (discussion) lesson
                     if (lesson && (lesson.type === 'transactional' || lesson.type === 'opinion')) {
                         el.classList.add('completed-hidden');
                     } else {
@@ -807,7 +806,6 @@
             updateProgress();
         }
 
-        // New function to restore all hidden/completed checkboxes and reset progress
         function restoreCheckboxes() {
             const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = false);
@@ -1073,7 +1071,62 @@
 
         function renderLesson(lesson, lessonIndex, currArray) {
             const container = document.getElementById("lessonContent");
-            let html = '<div class="chapter-label">' + lesson.chapter + '</div>';
+            
+            let specificAdvice = "";
+            let specificAdviceJpn = "";
+            
+            if (lesson.type === "transactional") {
+                specificAdvice = "Think about how you could apply this roleplay situation to your own life by adding extra personal details!";
+                specificAdviceJpn = "個人的な詳細を加えて、このロールプレイの状況を自分の生活にどのように応用できるか考えてみましょう！";
+            } else if (lesson.type === "opinion") {
+                specificAdvice = "Try to brainstorm a few interesting questions you can ask your classmates or teacher during the discussion!";
+                specificAdviceJpn = "ディスカッション中にクラスメイトや先生に聞ける面白い質問をいくつか考えてみましょう！";
+            } else if (lesson.type === "casestudy") {
+                specificAdvice = "Read through the information first to get a good grasp of the problem. If you can, try to think of or research similar real-world precedents!";
+                specificAdviceJpn = "まず情報を最後まで読んで、問題をしっかりと把握しましょう。可能であれば、似たような現実世界の事例を考えたり調べたりしてみてください！";
+            } else if (lesson.type === "speakingtest" || lesson.type === "speech") {
+                specificAdvice = "Look back at the grammar, vocabulary, and expressions you've studied in previous lessons and see which ones you can weave into your speech!";
+                specificAdviceJpn = "これまでのレッスンで学んだ文法、語彙、表現を振り返り、スピーチに組み込めるものがないか確認してみましょう！";
+            }
+
+            let html = '<div class="prep-advice-card" style="background: #f0f9ff; border-left: 5px solid #38bdf8; padding: 20px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #bae6fd; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">';
+            html += '<h4 style="margin-top: 0; color: #0284c7; font-size: 1.15rem; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">💡 How to prepare for this lesson <span class="jpn-text" style="font-size: 0.95rem; font-weight: normal; color: #0369a1;">(このレッスンの準備方法)</span></h4>';
+            
+            // General Advice - English
+            html += '<p style="margin: 0 0 10px 0; font-size: 1rem; color: var(--text-dark);">To prepare for your lesson, we highly recommend the <strong onclick="const el = document.getElementById(\'flipped-expl-' + lesson.id + '\'); el.style.display = el.style.display === \'none\' ? \'block\' : \'none\';" style="color: var(--primary); cursor: pointer; text-decoration: underline; text-underline-offset: 3px;">flipped learning approach</strong>! Before the lesson begins, we recommend that you:</p>';
+            html += '<ol style="margin: 0 0 10px 0; padding-left: 20px; font-size: 1rem; color: var(--text-dark);">';
+            html += '<li>Read the content of the lesson using the Japanese translation.</li>';
+            html += '<li>Complete the homework tasks.</li>';
+            html += '</ol>';
+            html += '<p style="margin: 0 0 10px 0; font-size: 1rem; color: var(--text-dark);">By doing this, you\'ll be able to speak much more during class and build stronger, longer-lasting memories.</p>';
+
+            // General Advice - Japanese
+            html += '<div class="jpn-text" style="margin: 0 0 15px 0; font-size: 0.9rem; color: var(--text-light); border-top: 1px dashed #bae6fd; padding-top: 10px;">';
+            html += '<p style="margin: 0 0 5px 0;">レッスンに備えて、<strong onclick="const el = document.getElementById(\'flipped-expl-' + lesson.id + '\'); el.style.display = el.style.display === \'none\' ? \'block\' : \'none\';" style="color: var(--primary); cursor: pointer; text-decoration: underline; text-underline-offset: 3px;">反転授業（フリップト・ラーニング）</strong>のアプローチを強くお勧めします！レッスンが始まる前に、以下のことを行うことをお勧めします：</p>';
+            html += '<ol style="margin: 0 0 5px 0; padding-left: 20px;">';
+            html += '<li>日本語訳を使ってレッスンの内容を読む。</li>';
+            html += '<li>宿題のタスクを完了する。</li>';
+            html += '</ol>';
+            html += '<p style="margin: 0;">これにより、クラス中でより多く発言でき、より強固で長期的な記憶を築くことができます。</p>';
+            html += '</div>';
+
+            // Hidden explanation for Flipped Learning (Tech vibe)
+            html += '<div id="flipped-expl-' + lesson.id + '" style="display: none; background: #ffffff; border: 2px solid #7dd3fc; border-radius: 8px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">';
+            html += '<p style="margin: 0 0 10px 0; font-weight: bold; color: #0284c7; font-size: 1.05rem;">👨‍💻 エンジニア向け解説：なぜ反転授業（フリップト・ラーニング）なのか？</p>';
+            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">お疲れ様です！フリップト・ラーニングって聞いたことありますか？これ、開発現場にいる人なら絶対しっくりくると思うんですけど、要するに<strong>「APIドキュメントや仕様書は非同期で事前に読んでおいて、同期ミーティング（授業）の時間はハンズオンの実装とディスカッションに全振りしようぜ」</strong>っていうアプローチなんですよね。</p>';
+            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">従来の学校の授業だと「教室でインプット（講義）して、家でアウトプット（宿題）」だったのを「反転」させて、<strong>「家でインプット（事前の仕込み）して、教室でアウトプット（スピーキング）」</strong>にする仕組みです。</p>';
+            html += '<p class="jpn-text" style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">語学、特にスピーキング力を爆速で上げるにはこれがマジで効きます。せっかくの講師との貴重なセッション時間を、一人でもできる単語や文法のインプットに使うのってコスパ悪いじゃないですか。事前に知識を頭に入れておけば、レッスン中はひたすら<strong>「口を動かしてエラー（言い間違い）を出して、その場でデバッグ（修正）する」</strong>っていうアジャイルな実践サイクルに集中できるんです。事前の仕込みをバッチリやって、本番でガンガンアウトプットしていきましょう！</p>';
+            html += '</div>';
+
+            if (specificAdvice !== "") {
+                html += '<div style="background: #e0f2fe; padding: 12px; border-radius: 6px;">';
+                html += '<p style="margin: 0; font-size: 0.95rem; color: #0369a1; font-weight: 600;">✨ Pro Tip: ' + specificAdvice + '</p>';
+                html += '<p class="jpn-text" style="margin: 5px 0 0 0; font-size: 0.85rem; color: #0284c7;">' + specificAdviceJpn + '</p>';
+                html += '</div>';
+            }
+            html += '</div>';
+
+            html += '<div class="chapter-label">' + lesson.chapter + '</div>';
             html += '<h2>' + lesson.title + '</h2>';
             html += '<div class="goal-overview"><p><strong>Goal (目標):</strong> ' + lesson.goal + '</p></div>';
 
