@@ -26,13 +26,61 @@ introArticle: [
                 jpn: "チームワークもオフィス生活の大きな部分です。チームはたいてい一緒に仕事を確認します。新しいスタッフが新しいことを学ぶのを助けるのが好きです。しかし、自分の仕事を終わらせることは仕事の半分にすぎません。一日の終わりに、良い働き手はいつもメモを書いてコンピューターの電源を切ります。明日の仕事を計画すると、次の日がずっと楽になります。良いルーティンは、働き手を速く、幸せにし、仕事を上手にしてくれます。" 
             }
         ],
-        discussionTopics: [
-            { titleEng: "Morning Routines", titleJpn: "朝のルーティン", subtopics: [{ eng: "Checking emails", jpn: "メールの確認" }, { eng: "Stand-up meetings", jpn: "スタンドアップミーティング" }, { eng: "Coffee breaks", jpn: "コーヒー休憩" }] },
-            { titleEng: "Work Environments", titleJpn: "職場環境", subtopics: [{ eng: "Quiet rooms", jpn: "静かな部屋" }, { eng: "Dual monitors", jpn: "デュアルモニター" }, { eng: "Dark mode", jpn: "ダークモード" }] },
-            { titleEng: "Focus Habits", titleJpn: "集中の習慣", subtopics: [{ eng: "Using headphones", jpn: "ヘッドホンの使用" }, { eng: "Turning off chat", jpn: "チャットをオフにする" }, { eng: "Short breaks", jpn: "短い休憩" }] },
-            { titleEng: "Team Collaboration", titleJpn: "チームコラボレーション", subtopics: [{ eng: "Pair work", jpn: "ペアワーク" }, { eng: "Document reviews", jpn: "ドキュメントレビュー" }, { eng: "Mentoring", jpn: "メンタリング（指導）" }] },
-            { titleEng: "Learning New Tech", titleJpn: "新しい技術の学習", subtopics: [{ eng: "Reading guides", jpn: "ガイドを読む" }, { eng: "Testing software", jpn: "ソフトウェアのテスト" }, { eng: "Watching tutorials", jpn: "チュートリアルを見る" }] },
-            { titleEng: "End of Day", titleJpn: "一日の終わり", subtopics: [{ eng: "Writing notes", jpn: "メモを書く" }, { eng: "Closing tabs", jpn: "タブを閉じる" }, { eng: "Planning tomorrow", jpn: "明日を計画する" }] }
+      discussionTopics: [
+            { 
+                titleEng: "Morning Routines", 
+                titleJpn: "朝のルーティン", 
+                subtopics: [{ eng: "Checking emails", jpn: "メールの確認" }, { eng: "Stand-up meetings", jpn: "スタンドアップミーティング" }, { eng: "Coffee breaks", jpn: "コーヒー休憩" }],
+                article: {
+                    eng: "Many companies use stand-up meetings in the morning. A stand-up meeting is a very short meeting. Workers stand in a circle and talk for ten or fifteen minutes. They do not sit down. There are many good points about this routine. First, it is very fast. It does not waste time. Second, everyone knows what the team is doing. Workers share their daily goals. However, there are also some bad points. Some people do not like talking in front of a group. Also, if the team is very big, standing up for a long time is tiring. In conclusion, a short morning meeting is a great way to start the day, but it must be fast.",
+                    jpn: "多くの企業が朝にスタンドアップミーティングを取り入れています。スタンドアップミーティングは非常に短い会議です。働く人たちは円になって立ち、10分か15分話します。彼らは座りません。このルーティンには良い点がたくさんあります。第一に、とても速いです。時間を無駄にしません。第二に、チームが何をしているかを全員が知ることができます。労働者は毎日の目標を共有します。しかし、いくつかの悪い点もあります。グループの前で話すのが好きではない人もいます。また、チームがとても大きい場合、長く立っているのは疲れます。結論として、短い朝の会議は一日を始める素晴らしい方法ですが、手短にする必要があります。"
+                }
+            },
+            { 
+                titleEng: "Work Environments", 
+                titleJpn: "職場環境", 
+                subtopics: [{ eng: "Quiet rooms", jpn: "静かな部屋" }, { eng: "Dual monitors", jpn: "デュアルモニター" }, { eng: "Dark mode", jpn: "ダークモード" }],
+                article: {
+                    eng: "The design of an office changes how people work. Today, open offices are very popular. In an open office, there are no walls between desks. The good point is that communication is easy. Workers can talk to their team quickly. However, open offices are often very noisy. Phones ring, and people talk loudly. Because of this noise, many workers cannot focus on their tasks. Some companies now build quiet rooms. A quiet room is a small space with walls and a door. Workers go there when they need to think deeply or write a big report. Both environments are useful. A mix of open spaces and quiet rooms is the best idea for a modern office.",
+                    jpn: "オフィスのデザインは人々の働き方を変えます。今日、オープンオフィスはとても人気があります。オープンオフィスには、机の間に壁がありません。良い点は、コミュニケーションが簡単なことです。労働者はチームとすぐに話すことができます。しかし、オープンオフィスはしばしばとても騒がしいです。電話が鳴り、人々が大声で話します。この騒音のために、多くの労働者がタスクに集中できません。現在、一部の企業は静かな部屋を作っています。静かな部屋は、壁とドアがある小さな空間です。深く考えたり、大きなレポートを書いたりする必要があるとき、労働者はそこへ行きます。両方の環境が役に立ちます。オープンスペースと静かな部屋を混ぜるのが、現代のオフィスにとって最高のアイデアです。"
+                }
+            },
+            { 
+                titleEng: "Focus Habits", 
+                titleJpn: "集中の習慣", 
+                subtopics: [{ eng: "Using headphones", jpn: "ヘッドホンの使用" }, { eng: "Turning off chat", jpn: "チャットをオフにする" }, { eng: "Short breaks", jpn: "短い休憩" }],
+                article: {
+                    eng: "Focus is very important for office workers. In a busy office, noise is a big problem. To stop the noise, many workers wear large headphones. Using headphones has many benefits. First, it blocks the sound of talking and ringing phones. Workers can listen to soft music and look only at their computer screens. Second, headphones send a clear message to other people. They mean, \"I am busy right now. Please do not talk to me.\" This helps workers finish their tasks on time. However, wearing headphones all day can be bad. It stops teamwork. If someone needs urgent help, it is hard to ask a person with headphones. It is important to find a good balance.",
+                    jpn: "オフィスワーカーにとって集中はとても重要です。忙しいオフィスでは、騒音が大きな問題です。騒音を防ぐため、多くの労働者が大きなヘッドホンをつけます。ヘッドホンの使用には多くの利点があります。第一に、話し声や電話の鳴る音を遮断します。労働者は静かな音楽を聴き、コンピューターの画面だけを見ることができます。第二に、ヘッドホンは他の人に明確なメッセージを送ります。それは「私は今忙しいです。話しかけないでください」という意味です。これは労働者が時間通りにタスクを終えるのに役立ちます。しかし、一日中ヘッドホンをつけるのは悪いこともあります。チームワークを止めてしまいます。誰かが緊急の助けを必要としている時、ヘッドホンをしている人に頼むのは難しいです。良いバランスを見つけることが重要です。"
+                }
+            },
+            { 
+                titleEng: "Team Collaboration", 
+                titleJpn: "チームコラボレーション", 
+                subtopics: [{ eng: "Pair work", jpn: "ペアワーク" }, { eng: "Document reviews", jpn: "ドキュメントレビュー" }, { eng: "Mentoring", jpn: "メンタリング（指導）" }],
+                article: {
+                    eng: "Pair work is a popular way to collaborate in IT companies. In pair work, two workers share one computer. One person types on the keyboard, and the other person watches and helps them think. There are many pros, or good points, to this style. Two brains are better than one. They can find mistakes quickly and solve difficult problems fast. It is also a great way for new workers to learn from older workers. However, there are some cons, or bad points. Pair work takes a lot of energy. Talking and thinking together for many hours is very tiring. Also, some people prefer to work alone in a quiet place. Pair work is great, but workers also need time to work by themselves.",
+                    jpn: "ペアワークはIT企業で協力するための人気のある方法です。ペアワークでは、2人の労働者が1つのコンピューターを共有します。1人がキーボードでタイプし、もう1人が見て考えるのを手伝います。このスタイルには多くのプロ（良い点）があります。2つの脳は1つよりも優れています。彼らは間違いをすぐに見つけ、難しい問題を速く解決できます。また、新しい労働者が年配の労働者から学ぶための素晴らしい方法でもあります。しかし、いくつかのコン（悪い点）もあります。ペアワークは多くのエネルギーを必要とします。何時間も一緒に話し、考えることはとても疲れます。また、静かな場所で一人で働くことを好む人もいます。ペアワークは素晴らしいですが、労働者には一人で働く時間も必要です。"
+                }
+            },
+            { 
+                titleEng: "Learning New Tech", 
+                titleJpn: "新しい技術の学習", 
+                subtopics: [{ eng: "Reading guides", jpn: "ガイドを読む" }, { eng: "Testing software", jpn: "ソフトウェアのテスト" }, { eng: "Watching tutorials", jpn: "チュートリアルを見る" }],
+                article: {
+                    eng: "Technology changes every day, so IT workers must always learn new skills. There are two common ways to learn: reading guides and watching video tutorials. Reading a guide is a traditional way to learn. A guide has all the details and rules. You can read it slowly and search for specific words. But, reading long pages can be boring and difficult. Today, many people prefer watching video tutorials. Videos show real examples. You can see a person using the software on the screen. It is easy to pause the video and copy their actions. The bad point is that you cannot always find a video for your specific problem. Both methods are useful, but video tutorials are usually faster for beginners.",
+                    jpn: "テクノロジーは毎日変化するため、IT労働者は常に新しいスキルを学ばなければなりません。学ぶための一般的な方法には、ガイドを読むことと、ビデオチュートリアルを見ることの2つがあります。ガイドを読むのは伝統的な学習方法です。ガイドにはすべての詳細とルールが書かれています。ゆっくり読んで、特定の言葉を検索することができます。しかし、長いページを読むのは退屈で難しいこともあります。今日、多くの人がビデオチュートリアルを見ることを好みます。ビデオは実際の例を示してくれます。画面上で人がソフトウェアを使っているのを見ることができます。ビデオを一時停止して、その行動を真似するのは簡単です。悪い点は、自分の特定の問題に対するビデオを常に見つけられるとは限らないことです。両方の方法が役立ちますが、通常、初心者にはビデオチュートリアルの方が速いです。"
+                }
+            },
+            { 
+                titleEng: "End of Day", 
+                titleJpn: "一日の終わり", 
+                subtopics: [{ eng: "Writing notes", jpn: "メモを書く" }, { eng: "Closing tabs", jpn: "タブを閉じる" }, { eng: "Planning tomorrow", jpn: "明日を計画する" }],
+                article: {
+                    eng: "The last fifteen minutes of the work day are very important. Many successful workers use this time to plan for tomorrow. Making a plan has many benefits. First, it helps you organize your thoughts. You can write a short list of the most important tasks for the next morning. When you arrive at the office the next day, you know exactly what to do. You do not waste time thinking. Second, writing a plan reduces stress. If you leave your tasks on a paper on your desk, you do not have to think about work at home. You can relax with your family. Planning tomorrow only takes a few minutes, but it makes the next day much more productive and peaceful.",
+                    jpn: "仕事の日の最後の15分間はとても重要です。多くの成功している労働者は、この時間を使って明日の計画を立てます。計画を立てることには多くの利点があります。第一に、考えを整理するのに役立ちます。次の日の朝のための最も重要なタスクの短いリストを書くことができます。次の日オフィスに着いたとき、何をすべきか正確にわかります。考えて時間を無駄にすることがありません。第二に、計画を書くことはストレスを減らします。タスクを机の上の紙に残しておけば、家で仕事について考える必要はありません。家族とリラックスできます。明日の計画を立てるのは数分しかかかりませんが、次の日をはるかに生産的で穏やかなものにしてくれます。"
+                }
+            }
         ],
         questions: [
             { eng: "1. Do you always start work early in the morning?", jpn: "1. いつも朝早く仕事を始めますか？" },
@@ -360,12 +408,42 @@ introArticle: [
             { eng: "Commute", jpn: "通勤 / 通勤する", exEng: "My morning commute takes one hour.", exJpn: "私の朝の通勤は1時間かかります。" },
             { eng: "Crowded", jpn: "混雑した", exEng: "The train was very crowded today.", exJpn: "今日の電車はとても混んでいました。" },
             { eng: "Comfortable", jpn: "快適な", exEng: "My home chair is very comfortable.", exJpn: "家の椅子はとても快適です。" },
-            { eng: "Better", jpn: "より良い", exEng: "This plan is better than the old one.", exJpn: "この計画は古いものよりも良いです。" },
-            { eng: "Worse", jpn: "より悪い / よりひどい", exEng: "The traffic is worse in the evening.", exJpn: "夕方は交通渋滞がよりひどいです。" },
-            { eng: "Easier", jpn: "より簡単な", exEng: "Using the app is easier than calling.", exJpn: "電話するよりもアプリを使う方が簡単です。" },
-            { eng: "Harder", jpn: "より難しい", exEng: "This coding bug is harder to fix.", exJpn: "このコーディングのバグは修正するのがより難しいです。" },
-            { eng: "Fast", jpn: "速い", exEng: "The office internet is very fast.", exJpn: "オフィスのインターネットはとても速いです。" },
-            { eng: "Slow", jpn: "遅い", exEng: "My home computer is a bit slow.", exJpn: "自宅のコンピューターは少し遅いです。" },
+            { 
+    "eng": "Message", 
+    "jpn": "メッセージ", 
+    "exEng": "Please send me a message later.", 
+    "exJpn": "後で私にメッセージを送ってください。" 
+  },
+            { 
+    "eng": "Screen", 
+    "jpn": "画面", 
+    "exEng": "My laptop has a small screen.", 
+    "exJpn": "私のノートパソコンは画面が小さいです。" 
+  },
+           { 
+    "eng": "Online", 
+    "jpn": "オンラインの / ネット上の", 
+    "exEng": "I have an online meeting this morning.", 
+    "exJpn": "今朝はオンライン会議があります。" 
+  },
+           { 
+    "eng": "Laptop", 
+    "jpn": "ノートパソコン", 
+    "exEng": "I use my laptop on the sofa.", 
+    "exJpn": "私はソファの上でノートパソコンを使います。" 
+  },
+            { 
+    "eng": "Break", 
+    "jpn": "休憩", 
+    "exEng": "It is important to take a short break.", 
+    "exJpn": "短い休憩をとることは大切です。" 
+  },
+            { 
+    "eng": "Desk", 
+    "jpn": "机", 
+    "exEng": "I work at a small desk in my bedroom.", 
+    "exJpn": "私は寝室の小さな机で仕事をします。" 
+  },
             { eng: "Flexible", jpn: "柔軟な", exEng: "Remote work gives you a flexible schedule.", exJpn: "リモートワークは柔軟なスケジュールを与えてくれます。" },
             { eng: "Expensive", jpn: "高価な", exEng: "Eating near the office is expensive.", exJpn: "オフィスの近くで食べるのは高価です。" },
             { eng: "Lonely", jpn: "孤独な", exEng: "Working alone can feel lonely.", exJpn: "一人で働くことは孤独に感じることがあります。" }
@@ -414,19 +492,49 @@ introArticle: [
         ],
         homework: {
             vocab: [
-                { eng: "Rigid", jpn: "厳格な / 柔軟性のない", exEng: "The old schedule is too rigid.", exJpn: "古いスケジュールは厳格すぎます。" },
+                { 
+    "eng": "Save", 
+    "jpn": "保存する", 
+    "exEng": "Please save your work often.", 
+    "exJpn": "こまめに作業を保存してください。" 
+  },
                 { eng: "Traditional", jpn: "伝統的な / 従来の", exEng: "We work in a traditional office.", exJpn: "私たちは伝統的なオフィスで働いています。" },
                 { eng: "Equipment", jpn: "機器 / 設備", exEng: "The office has good equipment.", exJpn: "オフィスには良い機器があります。" },
                 { eng: "Chair", jpn: "椅子", exEng: "My office chair supports my back.", exJpn: "私のオフィスの椅子は背中をサポートしてくれます。" },
-                { eng: "Desk", jpn: "机", exEng: "I like having a clean desk.", exJpn: "きれいな机を持つのが好きです。" },
+        { 
+    "eng": "Room", 
+    "jpn": "部屋", 
+    "exEng": "My living room is my office now.", 
+    "exJpn": "今、私の居間がオフィスです。" 
+  },
                 { eng: "Space", jpn: "空間 / スペース", exEng: "We need more space for meetings.", exJpn: "会議のためのもっと多くのスペースが必要です。" },
-                { eng: "Separate", jpn: "分ける / 切り離す", exEng: "Keep your personal life separate from work.", exJpn: "私生活を仕事から分けてください。" },
-                { eng: "Isolate", jpn: "孤立させる", exEng: "Remote workers can feel isolated.", exJpn: "リモートワーカーは孤立していると感じることがあります。" },
+               { 
+    "eng": "Share", 
+    "jpn": "共有する", 
+    "exEng": "I will share my screen with you now.", 
+    "exJpn": "今からあなたと画面を共有します。" 
+  },
+               { 
+    "eng": "Print", 
+    "jpn": "印刷する", 
+    "exEng": "I cannot print this file at home.", 
+    "exJpn": "家ではこのファイルを印刷できません。" 
+  },
                 { eng: "Connect", jpn: "つながる / 接続する", exEng: "It is important to connect with your team.", exJpn: "チームとつながることは重要です。" },
-                { eng: "Collaborative", jpn: "協力的な", exEng: "We have a highly collaborative team.", exJpn: "私たちには非常に協力的なチームがあります。" },
+             { 
+    "eng": "Paper", 
+    "jpn": "紙", 
+    "exEng": "I need to buy more paper for the printer.", 
+    "exJpn": "プリンター用にもっと紙を買う必要があります。" 
+  },
                 { eng: "Hybrid", jpn: "ハイブリッド / 混合", exEng: "A hybrid system is very balanced.", exJpn: "ハイブリッドシステムはとてもバランスが取れています。" },
                 { eng: "Benefit", jpn: "利点 / メリット", exEng: "What is the benefit of this plan?", exJpn: "この計画の利点は何ですか？" },
-                { eng: "Balanced", jpn: "バランスの取れた", exEng: "A balanced life makes you happy.", exJpn: "バランスの取れた生活はあなたを幸せにします。" },
+               { 
+    "eng": "Note", 
+    "jpn": "メモ", 
+    "exEng": "I write notes during the meeting.", 
+    "exJpn": "私は会議中にメモを書きます。" 
+  },
                 { eng: "Compare", jpn: "比較する", exEng: "Let's compare the two options.", exJpn: "2つの選択肢を比較しましょう。" }
             ],
             writingTask: { promptEng: "Write a short paragraph answering this question: Which do you prefer, remote work or office work? Please use a comparative adjective (+er), a long comparative adjective (more + adj), and the structure 'adj + but + adj'.", promptJpn: "「リモートワークとオフィスワーク、どちらが好きですか？」という質問に答える短い段落を書いてください。比較級の形容詞（+er）、長い比較級の形容詞（more + adj）、そして「形容詞 + but + 形容詞」の構造を使用してください。" },
@@ -471,7 +579,12 @@ pronunciation: {
             { eng: "Wait", jpn: "待つ", exEng: "Please wait a moment.", exJpn: "少々お待ちください。" },
             { eng: "Issue", jpn: "問題 / 課題", exEng: "We are aware of the issue.", exJpn: "私たちはその問題を認識しています。" },
             { eng: "Connection", jpn: "接続", exEng: "My internet connection is bad.", exJpn: "私のインターネット接続は悪いです。" },
-            { eng: "Slow", jpn: "遅い", exEng: "The download is very slow.", exJpn: "ダウンロードがとても遅いです。" },
+         { 
+    "eng": "Wrong", 
+    "jpn": "間違っている / おかしい", 
+    "exEng": "Something is wrong with this file.", 
+    "exJpn": "このファイルは何かおかしいです。" 
+  },
             { eng: "Report", jpn: "報告する / レポート", exEng: "Did you report the error?", exJpn: "エラーを報告しましたか？" },
             { eng: "Client", jpn: "クライアント / 顧客", exEng: "The client is waiting for the file.", exJpn: "クライアントがファイルを待っています。" },
             { eng: "Apologize", jpn: "謝罪する", exEng: "I apologize for the delay.", exJpn: "遅れについて謝罪します。" },
@@ -581,7 +694,12 @@ pronunciation: {
         homework: {
             vocab: [
                 { eng: "Offline", jpn: "オフライン", exEng: "The server is offline right now.", exJpn: "サーバーは現在オフラインです。" },
-                { eng: "Online", jpn: "オンライン", exEng: "The system is back online.", exJpn: "システムはオンラインに復旧しました。" },
+             { 
+    "eng": "Work", 
+    "jpn": "動く / 機能する", 
+    "exEng": "My camera does not work today.", 
+    "exJpn": "今日、私のカメラが動きません。" 
+  },
                 { eng: "Backup", jpn: "バックアップ", exEng: "We have a backup of the data.", exJpn: "データのバックアップがあります。" },
                 { eng: "Recover", jpn: "回復する / 復旧する", exEng: "We can recover the lost files.", exJpn: "失われたファイルを復旧できます。" },
                 { eng: "Investigate", jpn: "調査する", exEng: "I will investigate the error.", exJpn: "エラーを調査します。" },
@@ -617,148 +735,256 @@ pronunciation: {
             }
         }
     },
-    {
-        id: 5, 
-        chapter: "Chapter 1: Everyday Office Routines", 
-        type: "opinion", 
-        title: "Lesson 005: Ideas for the Future",
-        goal: "Discuss future ideas, brainstorm options, and express strong opinions using superlative adjectives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(将来のアイデアについて議論し、選択肢をブレインストーミングし、最上級の形容詞を使って強い意見を表現する。)</span>",
-pronunciation: {
-    title: "Pronunciation: Syllable Stress",
-    eng: "adding 'est' or 'most' never changes the original stress of the base adjective SMARt > SMAR-test.",
-    jpn: "「est」や「most」を付けても、基本となる形容詞の元の強勢が変わることはありません。"
-},
-introArticle: [
-            { 
-                eng: "Business will change a lot in the future. Computers and AI are very smart now. We use fast internet and smart phones to work quickly. Because of this, many companies want to grow. They make new things to sell. They open new offices and find new workers. A growing company is very busy.", 
-                jpn: "ビジネスは将来大きく変わります。コンピューターやAIは今、とても賢いです。私たちは速いインターネットやスマートフォンを使って早く仕事をします。このため、多くの会社は大きくなりたいと思っています。彼らは売るための新しいものを作ります。新しいオフィスを開いて、新しい働き手を見つけます。成長する会社はとても忙しいです。" 
-            },
-            { 
-                eng: "A company needs good ideas to grow. Managers and workers have meetings to talk. They write on whiteboards to see the plan. Then, the team chooses the best idea. Sometimes, business is hard. Fixing problems is important. First, you must find why there is a problem. Next, you must act fast to fix it. Good teams always test their ideas first.", 
-                jpn: "会社が大きくなるには、良いアイデアが必要です。マネージャーと働く人は会議で話します。彼らは計画を見るためにホワイトボードに書きます。そして、チームは一番良いアイデアを選びます。時々、ビジネスは難しいです。問題を直すことは大切です。まず、なぜ問題があるのかを見つけなければなりません。次に、それを直すために早く動かなければなりません。良いチームはいつも最初にアイデアを試します。" 
-            },
-            { 
-                eng: "Jobs are changing too. Workers must learn new things for their office. Many workers want to find a better job or move to a new city. We must also think about the world. People can use the internet to work from any country. We buy things online now. We also need clean energy for our earth. If we plan well today, our world will be good tomorrow.", 
-                jpn: "仕事も変わっています。働く人はオフィスのために新しいことを学ばなければなりません。多くの人が、より良い仕事を見つけたり、新しい町へ引っ越したいと思っています。私たちは世界についても考えなければなりません。人々はインターネットを使って、どの国からでも働くことができます。私たちは今、オンラインで買い物をします。私たちの地球にはクリーンエネルギーも必要です。今日しっかり計画すれば、私たちの世界は明日良くなるでしょう。" 
-            }
-        ],
-        discussionTopics: [
-            { titleEng: "Future Technology", titleJpn: "未来のテクノロジー", subtopics: [{ eng: "AI tools", jpn: "AIツール" }, { eng: "Fast internet", jpn: "高速インターネット" }, { eng: "Smart devices", jpn: "スマートデバイス" }] },
-            { titleEng: "Company Growth", titleJpn: "会社の成長", subtopics: [{ eng: "New products", jpn: "新製品" }, { eng: "Opening new offices", jpn: "新しいオフィスの開設" }, { eng: "Hiring young staff", jpn: "若いスタッフの採用" }] },
-            { titleEng: "Brainstorming Ideas", titleJpn: "アイデアのブレインストーミング", subtopics: [{ eng: "Team meetings", jpn: "チーム会議" }, { eng: "Writing on whiteboards", jpn: "ホワイトボードに書く" }, { eng: "Choosing the best option", jpn: "最良の選択肢を選ぶ" }] },
-            { titleEng: "Solving Problems", titleJpn: "問題解決", subtopics: [{ eng: "Finding the cause", jpn: "原因を見つける" }, { eng: "Cheap solutions", jpn: "安い解決策" }, { eng: "Fast actions", jpn: "素早い行動" }] },
-            { titleEng: "Career Planning", titleJpn: "キャリアプラン", subtopics: [{ eng: "Learning new things", jpn: "新しいことを学ぶ" }, { eng: "Getting a promotion", jpn: "昇進" }, { eng: "Moving to a new city", jpn: "新しい都市への引っ越し" }] },
-            { titleEng: "Global Changes", titleJpn: "世界的な変化", subtopics: [{ eng: "Remote work", jpn: "リモートワーク" }, { eng: "Online shopping", jpn: "オンラインショッピング" }, { eng: "Green energy", jpn: "グリーンエネルギー" }] }
-        ],
-        questions: [
-            { eng: "1. When brainstorming ideas for a team project, what is the best way to choose the final option?", jpn: "1. チームプロジェクトのアイデアを出し合うとき、最終的な選択肢を選ぶための最良の方法は何ですか？" },
-            { eng: "2. In your opinion, what is the biggest challenge when planning for the future?", jpn: "2. あなたの意見では、将来の計画を立てる際の最大の課題は何ですか？" },
-            { eng: "3. When a company needs to grow, what is the smartest strategy they can use?", jpn: "3. 会社が成長する必要があるとき、使用できる最も賢い戦略は何ですか？" },
-            { eng: "4. What is the hardest part about making a decision from many different options?", jpn: "4. 多くの異なる選択肢の中から決定を下す上で、最も難しい部分は何ですか？" },
-            { eng: "5. Do you think the easiest solutions are usually the best ones for a company's future?", jpn: "5. 最も簡単な解決策が、通常、会社の将来にとって最良のものだと思いますか？" },
-            { eng: "6. When predicting the future of your industry, what is the worst mistake a team can make?", jpn: "6. あなたの業界の未来を予測するとき、チームが犯す可能性のある最悪のミスは何ですか？" },
-            { eng: "7. Who usually has the best ideas for the future: the youngest employees or the oldest?", jpn: "7. 将来について最良のアイデアを持っているのは通常誰ですか：最も若い従業員ですか、それとも最も古い従業員ですか？" },
-            { eng: "8. What is the busiest time of year for planning future goals in your life or work?", jpn: "8. あなたの人生や仕事において、将来の目標を計画するのに最も忙しい時期はいつですか？" },
-            { eng: "9. Looking at future technology, what do you think will be the greatest change to our routines?", jpn: "9. 未来のテクノロジーを見ると、私たちのルーティンにおける最大の（最も偉大な）変化は何になると思いますか？" },
-            { eng: "10. When you brainstorm with others, how do you decide which idea is the strongest?", jpn: "10. 他の人とブレインストーミングするとき、どのアイデアが最も強力かをどのように決定しますか？" }
-        ],
-        vocab: [
-            { eng: "Big", jpn: "大きい", exEng: "They live in a very big house.", exJpn: "彼らはとても大きな家に住んでいます。" },
-            { eng: "Smart", jpn: "賢い", exEng: "That is a very smart idea.", exJpn: "それはとても賢いアイデアです。" },
-            { eng: "Hard", jpn: "難しい / 硬い", exEng: "This puzzle is too hard for me.", exJpn: "このパズルは私には難しすぎます。" },
-            { eng: "Young", jpn: "若い", exEng: "She is a young and talented designer.", exJpn: "彼女は若くて才能のあるデザイナーです。" },
-            { eng: "Easy", jpn: "簡単な", exEng: "The recipe is simple and easy to make.", exJpn: "そのレシピはシンプルで簡単に作れます。" },
-            { eng: "Busy", jpn: "忙しい", exEng: "The train is always busy in the morning.", exJpn: "朝は電車がいつも忙しい（混んでいる）です。" },
-            { eng: "Strong", jpn: "強い", exEng: "You need a strong password for your account.", exJpn: "アカウントには強いパスワードが必要です。" },
-            { eng: "Good", jpn: "良い", exEng: "He is a good friend of mine.", exJpn: "彼は私の良い友人です。" },
-            { eng: "Great", jpn: "素晴らしい / 偉大な", exEng: "We had a great dinner at the restaurant.", exJpn: "私たちはレストランで素晴らしい夕食をとりました。" },
-            { eng: "Bad", jpn: "悪い", exEng: "Smoking is a bad habit.", exJpn: "喫煙は悪い習慣です。" },
-            { eng: "Goal", jpn: "目標", exEng: "Winning the game is our final goal.", exJpn: "試合に勝つことが私たちの最終目標です。" },
-            { eng: "Future", jpn: "未来", exEng: "Technology will be very different in the future.", exJpn: "テクノロジーは将来大きく異なるでしょう。" },
-            { eng: "Idea", jpn: "アイデア", exEng: "Do you have any ideas for the party?", exJpn: "パーティーのためのアイデアはありますか？" },
-            { eng: "Mistake", jpn: "間違い / ミス", exEng: "Please check your work for any mistakes.", exJpn: "間違いがないか作業を確認してください。" }
-        ],
-        grammarPoints: [
-            { 
-                point: "1. Adjectives: Comparing 3 things (1 syllable) (1音節の最上級)", 
-                hint: "('the' + adjective + '-est')", 
-                shortExample: "She is the smartest leader.", 
-                explanation: "When you want to compare three or more things and show which one is at the absolute top or bottom, use the superlative form. For short, one-syllable adjectives, always place 'the' before the word and add '-est' to the end.", 
-                explanationJpn: "3つ以上のもの（例えば複数の製品、アイデア、人など）を比較し、その中でどれが絶対的なトップ、あるいは最下位であるかを強調して示す場合は、最上級の形を使用します。短くて1音節の形容詞（smart, fastなど）の場合は、必ず単語の前に定冠詞の「the」を置き、形容詞の最後に「-est」を追加します。", 
-                examples: [
-                    { eng: "She is the smartest leader in the company.", jpn: "彼女は会社で最も賢いリーダーです。" }, 
-                    { eng: "This is the hardest challenge of the year.", jpn: "これは今年で最も難しい課題です。" }
-                ] 
-            },
-            { 
-                point: "2. Adjectives: Comparing 3 things (ends in Y) (Yで終わる形容詞の最上級)", 
-                hint: "(remove 'y', add '-iest')", 
-                shortExample: "He is the busiest person.", 
-                explanation: "For two-syllable adjectives that end in 'y' (like busy, easy, or heavy), you must remove the 'y', change it to an 'i', and add '-est'. Do not forget to include the definite article 'the' before the adjective.", 
-                explanationJpn: "「y」で終わる2音節の形容詞（busy、easy、heavyなど）を最上級にする場合は、スペルに注意が必要です。末尾の「y」を削除して「i」に変え、その後に「-est」を追加しなければなりません。形容詞の前の「the」も忘れないでください。", 
-                examples: [
-                    { eng: "He is the busiest person in the office.", jpn: "彼はオフィスで最も忙しい人です。" }, 
-                    { eng: "This is the easiest way to solve the problem.", jpn: "これが問題を解決する最も簡単な方法です。" }
-                ] 
-            },
-            { 
-                point: "3. Adjectives: Irregular Superlatives (不規則な最上級)", 
-                hint: "(good -> the best, bad -> the worst)", 
-                shortExample: "This is the best idea.", 
-                explanation: "Just like comparative adjectives, some words have completely irregular superlative forms. For example, 'good' becomes 'the best', and 'bad' becomes 'the worst'. You must simply memorize these unique forms.", 
-                explanationJpn: "比較級の形容詞と同様に、よく使われる一部の単語は完全に不規則な最上級の形を持っています。例えば「good（良い）」は「the best（最も良い）」に、「bad（悪い）」は「the worst（最悪の）」に変化します。これらはそのまま暗記する必要があります。", 
-                examples: [
-                    { eng: "That is the best idea you have ever had.", jpn: "それはあなたがこれまでに思いついた最高のアイデアです。" }, 
-                    { eng: "This is the worst mistake a company can make.", jpn: "これは企業が犯す可能性のある最悪のミスです。" }
-                ] 
-            }
-        ],
-expressions: [
-            { eng: "I think...", jpn: "〜だと思います...", exampleEng: "I think the easiest solutions are usually the best ones.", exampleJpn: "最も簡単な解決策が通常最良のものだと思います。" },
-            { eng: "Definitely...", jpn: "絶対に... / 間違いなく...", exampleEng: "Managing our time is definitely the biggest challenge.", exampleJpn: "間違いなく、私たちの時間を管理することが最大の課題です。" },
-            { eng: "That's why...", jpn: "だから... / そのため...", exampleEng: "Option A is the cheapest. That's why we should choose it.", exampleJpn: "オプションAが最も安いです。だから、私たちはそれを選ぶべきです。" },
-            { eng: "So...", jpn: "だから... / それで...", exampleEng: "The new software is the fastest, so it is the best option.", exampleJpn: "新しいソフトウェアが最も速いので、それが最良の選択肢です。" },
-            { eng: "The truth is...", jpn: "実は... / 本当のところは...", exampleEng: "Some people like the old system. The truth is, the new system is much easier to use.", exampleJpn: "古いシステムが好きな人もいます。実は、新しいシステムの方がはるかに使いやすいです。" }
-        ],
-        homework: {
-            vocab: [
-                { eng: "Option", jpn: "選択肢", exEng: "We have one more option.", exJpn: "私達にはもう一つ選択肢があります。" },
-                { eng: "Rank", jpn: "ランク付けする / 順位", exEng: "Please rank these items from 1 to 5.", exJpn: "これらのアイテムを1から5までランク付けしてください。" },
-                { eng: "Decide", jpn: "決定する", exEng: "We need to decide quickly.", exJpn: "私たちは早く決定する必要があります。" },
-                { eng: "Brainstorm", jpn: "ブレインストーミングする", exEng: "Let's brainstorm some ideas.", exJpn: "いくつかのアイデアをブレインストーミングしましょう。" },
-                { eng: "Fast", jpn: "速い", exEng: "He is a fast runner.", exJpn: "彼は速いランナーです。" },
-                { eng: "Slow", jpn: "遅い", exEng: "The internet is very slow today.", exJpn: "今日のインターネットはとても遅いです。" },
-                { eng: "Tall", jpn: "背が高い", exEng: "My brother is very tall.", exJpn: "私の兄はとても背が高いです。" },
-                { eng: "Short", jpn: "短い / 背が低い", exEng: "I need a short break.", exJpn: "私は短い休憩が必要です。" },
-                { eng: "Heavy", jpn: "重い", exEng: "This box is very heavy.", exJpn: "この箱はとても重いです。" },
-                { eng: "Light", jpn: "軽い", exEng: "This bag is very light.", exJpn: "このバッグはとても軽いです。" },
-                { eng: "Cheap", jpn: "安い", exEng: "I bought a cheap watch.", exJpn: "私は安い時計を買いました。" },
-                { eng: "Strategy", jpn: "戦略", exEng: "We need a good business strategy.", exJpn: "私達には良いビジネス戦略が必要です。" },
-                { eng: "Weak", jpn: "弱い", exEng: "I feel weak because I am sick.", exJpn: "病気なので弱っていると感じます。" },
-                { eng: "Old", jpn: "古い / 年をとった", exEng: "My car is very old.", exJpn: "私の車はとても古いです。" }
-            ],
-            writingTask: { promptEng: "Write a short paragraph answering this question: What is the biggest goal you have for your future career or life? Please make sure to use superlative adjectives (e.g., biggest, hardest, easiest) and transitional expressions.", promptJpn: "「あなたの将来のキャリアや人生において、最大の目標は何ですか？」という質問に答える短い段落を書いてください。最上級の形容詞（biggest, hardest, easiestなど）とつなぎの表現を必ず使ってください。" },
-            clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
-            clickingGamesDesc: "Translate the 10 sentences to practice superlative adjectives.",
-            clickingGames: [
-                { prompt: "彼女はここで最も賢いリーダーです。", target: "She is the smartest leader here.", words: ["She", "is", "the", "smartest", "leader", "here."] },
-                { prompt: "これは今年で最も難しい課題です。", target: "This is the hardest challenge of the year.", words: ["This", "is", "the", "hardest", "challenge", "of", "the", "year."] },
-                { prompt: "オプションAが最も速い選択肢でした。", target: "Option A was the fastest choice.", words: ["Option", "A", "was", "the", "fastest", "choice."] },
-                { prompt: "彼はオフィスで最も忙しい人です。", target: "He is the busiest person in the office.", words: ["He", "is", "the", "busiest", "person", "in", "the", "office."] },
-                { prompt: "これがそれを解決する最も簡単な方法です。", target: "This is the easiest way to solve it.", words: ["This", "is", "the", "easiest", "way", "to", "solve", "it."] },
-                { prompt: "都市Cは最も若い人口を持っています。", target: "City C has the youngest population.", words: ["City", "C", "has", "the", "youngest", "population."] },
-                { prompt: "それは今日最高のアイデアですね。", target: "That is the best idea today.", words: ["That", "is", "the", "best", "idea", "today."] },
-                { prompt: "これは企業が犯す可能性のある最悪のミスです。", target: "This is the worst mistake a company can make.", words: ["This", "is", "the", "worst", "mistake", "a", "company", "can", "make."] },
-                { prompt: "オプションBは最も安い選択肢でした。", target: "Option B was the cheapest option.", words: ["Option", "B", "was", "the", "cheapest", "option."] },
-                { prompt: "将来にとって最大の（最も偉大な）変化は何ですか？", target: "What is the greatest change for the future?", words: ["What", "is", "the", "greatest", "change", "for", "the", "future?"] }
-            ],
-            extendedReading: {
-                title: "Task 4: Extended Reading (Planning for the Future)",
-                eng: "When businesses plan for the future, they have to brainstorm many different ideas. Brainstorming means thinking of as many options as possible without judging them immediately. A team might sit in a meeting room and write dozens of ideas on a large whiteboard. They write down everything, from the smallest change to the biggest, most expensive project. After they have many ideas, the hardest part begins: ranking them and deciding which one is the best path forward.\n\nTo make a good decision, people must compare their options carefully. They look for the smartest strategy, the fastest method, or the easiest solution. For example, if a company wants to open a new office branch, they might compare three cities. City A might be the biggest, but City B might be the cheapest for rent. City C might have the youngest population, which is great for hiring new talent. The management team must decide which factor is the most important for their specific goal.\n\nSuperlatives are very useful words when we want to express the extremes of a group. Words like \"biggest,\" \"cheapest,\" and \"easiest\" help us quickly identify the top choice in any category. In English, remember to always use \"the\" before a superlative adjective because you are talking about one specific, unique thing.\n\nIn our personal lives, we also use these concepts to plan our future. You might ask yourself, \"What is the hardest skill I want to learn next year?\" or \"What is the easiest way to save money for a vacation?\" By comparing our options and identifying the best, easiest, or most effective paths, we can reach our goals much faster.",
-                jpn: "企業が将来の計画を立てるとき、彼らは多くの異なるアイデアをブレインストーミングしなければなりません。ブレインストーミングとは、すぐに評価することなく、できるだけ多くの選択肢を考えることを意味します。チームは会議室に座り、大きなホワイトボードに何十ものアイデアを書き出すかもしれません。彼らは最小の変更から、最大で最も高価なプロジェクトまで、すべてを書き留めます。多くのアイデアが出た後、最も難しい部分が始まります。それらをランク付けし、どれが前進するための最良の道かを決定することです。\n\n良い決定を下すために、人々は選択肢を慎重に比較しなければなりません。彼らは最も賢い戦略、最も速い方法、または最も簡単な解決策を探します。例えば、ある企業が新しいオフィス支店をオープンしたい場合、3つの都市を比較するかもしれません。都市Aは最も大きいかもしれませんが、都市Bは家賃が最も安いかもしれません。都市Cは最も若い人口を持っており、新しい人材を雇うのに最適かもしれません。経営陣は、彼らの特定の目標にとってどの要因が最も重要かを決定しなければなりません。\n\n最上級は、グループの両極端を表現したいときに非常に役立つ言葉です。「biggest（最も大きい）」「cheapest（最も安い）」「easiest（最も簡単な）」などの言葉は、どのカテゴリーにおいてもトップの選択肢を素早く特定するのに役立ちます。英語では、ある特定の唯一無二のものについて話しているため、最上級の形容詞の前には常に「the」を使用することを忘れないでください。\n\n私生活においても、私達はこれらの概念を使用して将来の計画を立てます。「来年学びたい最も難しいスキルは何だろう？」や「休暇のためにお金を節約する最も簡単な方法は何だろう？」と自分に問いかけるかもしれません。選択肢を比較し、最良、最も簡単、または最も効果的な道を特定することで、私達ははるかに速く目標に到達することができます。"
-            }
-        }
+{
+    "id": 5, 
+    "chapter": "Chapter 1: Everyday Life", 
+    "type": "opinion", 
+    "title": "Lesson 005: The Daily Commute",
+    "goal": "Discuss commuting, compare transportation, and express opinions using superlative adjectives. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(通勤について話し合い、交通手段を比較し、最上級の形容詞を使って意見を表現する。)</span>",
+    "pronunciation": {
+        "title": "Pronunciation: Syllable Stress",
+        "eng": "Adding 'est' or 'most' never changes the original stress of the base adjective: FAST > FAS-test.",
+        "jpn": "「est」や「most」を付けても、基本となる形容詞の元のアクセントが変わることはありません：FAST > FAS-test。"
     },
+    "introArticle": [
+        { 
+            "eng": "Many people travel to work or school every day. This trip is called a commute. In big cities, people usually take the train or the bus. The train is often the fastest way to travel. However, it is also the busiest in the morning. Many people stand on the train.", 
+            "jpn": "多くの人が毎日仕事や学校へ通います。この移動を通勤（通学）と呼びます。大都市では、人々はたいてい電車やバスに乗ります。電車は多くの場合、移動するのに最も速い方法です。しかし、朝は最も混雑します。多くの人が電車の中で立っています。" 
+        },
+        { 
+            "eng": "Some people like to drive their cars. Driving is comfortable, but traffic can be very bad. On rainy days, the roads are the slowest. Other people ride bicycles. A bicycle is the cheapest way to travel, and it is very good for your health.", 
+            "jpn": "車を運転するのが好きな人もいます。運転は快適ですが、交通渋滞がとてもひどいこともあります。雨の日は、道が最も遅くなります。他の人は自転車に乗ります。自転車は移動するのに最も安い方法であり、健康にもとても良いです。" 
+        },
+        { 
+            "eng": "Every city is different. In some places, walking is the easiest option. In other places, you need a car. What is the best way to commute? It depends on where you live. Finding the best route makes your morning happy.", 
+            "jpn": "どの都市も違います。歩くことが最も簡単な選択肢である場所もあれば、車が必要な場所もあります。通勤するのに最も良い方法は何でしょうか？それはあなたがどこに住んでいるかによります。最も良いルートを見つけることで、朝が楽しいものになります。" 
+        }
+    ],
+    "discussionTopics": [
+        { "titleEng": "Taking the Train", "titleJpn": "電車に乗る", "subtopics": [{ "eng": "Fast travel", "jpn": "速い移動" }, { "eng": "Busy stations", "jpn": "混雑した駅" }, { "eng": "Buying tickets", "jpn": "切符を買う" }] },
+        { "titleEng": "Driving a Car", "titleJpn": "車を運転する", "subtopics": [{ "eng": "Comfortable seats", "jpn": "快適な席" }, { "eng": "Bad traffic", "jpn": "ひどい渋滞" }, { "eng": "Finding parking", "jpn": "駐車場を見つける" }] },
+        { "titleEng": "Riding a Bicycle", "titleJpn": "自転車に乗る", "subtopics": [{ "eng": "Cheap travel", "jpn": "安い移動" }, { "eng": "Good exercise", "jpn": "良い運動" }, { "eng": "Rainy weather", "jpn": "雨の天気" }] },
+        { "titleEng": "Walking", "titleJpn": "歩くこと", "subtopics": [{ "eng": "Short distance", "jpn": "短い距離" }, { "eng": "Safe streets", "jpn": "安全な道" }, { "eng": "Healthy lifestyle", "jpn": "健康的な生活" }] },
+        { "titleEng": "Morning Time", "titleJpn": "朝の時間", "subtopics": [{ "eng": "Waking up early", "jpn": "早く起きる" }, { "eng": "Eating breakfast", "jpn": "朝食を食べる" }, { "eng": "Leaving the house", "jpn": "家を出る" }] },
+        { "titleEng": "City Differences", "titleJpn": "都市の違い", "subtopics": [{ "eng": "Big cities", "jpn": "大都市" }, { "eng": "Small towns", "jpn": "小さな町" }, { "eng": "Public transport", "jpn": "公共交通機関" }] }
+    ],
+    "questions": [
+        { "eng": "1. What is the fastest way to travel in your city?", "jpn": "1. あなたの街で移動するのに最も速い方法は何ですか？" },
+        { "eng": "2. What is the busiest time for trains in the morning?", "jpn": "2. 朝、電車が最も混雑する時間はいつですか？" },
+        { "eng": "3. Do you think riding a bicycle is the cheapest option?", "jpn": "3. 自転車に乗るのが最も安い選択肢だと思いますか？" },
+        { "eng": "4. What is the hardest part about driving to work?", "jpn": "4. 車で通勤する上で最も難しい（大変な）部分は何ですか？" },
+        { "eng": "5. What is the easiest way to commute on a rainy day?", "jpn": "5. 雨の日に通勤するのに最も簡単な方法は何ですか？" },
+        { "eng": "6. In your opinion, what is the worst thing about traffic?", "jpn": "6. あなたの意見では、交通渋滞の最悪なところは何ですか？" },
+        { "eng": "7. Is walking the best way to travel for short distances?", "jpn": "7. 短い距離を移動するのに、歩くことは最も良い方法ですか？" },
+        { "eng": "8. What is the longest trip you take every week?", "jpn": "8. あなたが毎週する移動の中で最も長いものは何ですか？" },
+        { "eng": "9. Which station is the largest near your house?", "jpn": "9. あなたの家の近くで最も大きい駅はどれですか？" },
+        { "eng": "10. How do you find the best route to a new place?", "jpn": "10. 新しい場所へ行くための最も良いルートをどのように見つけますか？" }
+    ],
+    "vocab": [
+        { 
+    "eng": "Drive", 
+    "jpn": "運転する", 
+    "exEng": "She drives her car to the office.", 
+    "exJpn": "彼女は車を運転してオフィスに行きます。" 
+  },
+       { 
+    "eng": "Leave", 
+    "jpn": "出発する / 出る", 
+    "exEng": "I leave my house at eight o'clock.", 
+    "exJpn": "私は8時に家を出ます。" 
+  },
+       { 
+    "eng": "Arrive", 
+    "jpn": "到着する / 着く", 
+    "exEng": "What time do you arrive at work?", 
+    "exJpn": "あなたは何時に職場に着きますか？" 
+  },
+        { 
+    "eng": "Seat", 
+    "jpn": "席 / 座席", 
+    "exEng": "I cannot find a seat on the bus.", 
+    "exJpn": "バスで席が見つかりません。" 
+  },
+        { 
+    "eng": "Catch", 
+    "jpn": "（乗り物に）乗る / 間に合う", 
+    "exEng": "I have to run to catch the bus.", 
+    "exJpn": "バスに間に合うために走らなければなりません。" 
+  },
+      { 
+    "eng": "Miss", 
+    "jpn": "乗り遅れる", 
+    "exEng": "If I wake up late, I miss the train.", 
+    "exJpn": "遅く起きると、電車に乗り遅れます。" 
+  },
+       { 
+    "eng": "Traffic", 
+    "jpn": "交通 / 渋滞", 
+    "exEng": "The traffic is very bad in the evening.", 
+    "exJpn": "夕方は交通渋滞がとてもひどいです。" 
+  },
+       { 
+    "eng": "Travel", 
+    "jpn": "移動する", 
+    "exEng": "How long do you travel every day?", 
+    "exJpn": "あなたは毎日どのくらい移動しますか？" 
+  },
+       { 
+    "eng": "Bicycle", 
+    "jpn": "自転車", 
+    "exEng": "Riding a bicycle is good exercise.", 
+    "exJpn": "自転車に乗ることは良い運動です。" 
+  },
+        { "eng": "Safe", "jpn": "安全な", "exEng": "This train is very safe.", "exJpn": "この電車はとても安全です。" },
+        { "eng": "Commute", "jpn": "通勤する / 通学する", "exEng": "I commute to Tokyo every day.", "exJpn": "私は毎日東京へ通勤しています。" },
+       { 
+    "eng": "Road", 
+    "jpn": "道 / 道路", 
+    "exEng": "This road is always busy in the morning.", 
+    "exJpn": "この道は朝いつも混んでいます。" 
+  },
+        { "eng": "Route", "jpn": "ルート / 道順", "exEng": "I check my map for the best route.", "exJpn": "私は最も良いルートを地図で確認します。" },
+        { "eng": "Passenger", "jpn": "乗客", "exEng": "Many passengers are on the train.", "exJpn": "電車には多くの乗客がいます。" }
+    ],
+    "grammarPoints": [
+        { 
+            "point": "1. Adjectives: Comparing 3 things (1 syllable) (1音節の最上級)", 
+            "hint": "('the' + adjective + '-est')", 
+            "shortExample": "The train is the fastest.", 
+            "explanation": "When you compare three or more things, use the superlative form. For short, one-syllable adjectives (like fast, slow, cheap), put 'the' before the word and add '-est' to the end.", 
+            "explanationJpn": "3つ以上のものを比較する場合、最上級を使用します。短くて1音節の形容詞（fast, slow, cheapなど）の場合は、単語の前に「the」を置き、最後に「-est」を追加します。", 
+            "examples": [
+                { "eng": "The train is the fastest way to travel.", "jpn": "電車は移動するのに最も速い方法です。" }, 
+                { "eng": "Bicycles are the cheapest option.", "jpn": "自転車は最も安い選択肢です。" }
+            ] 
+        },
+        { 
+            "point": "2. Adjectives: Comparing 3 things (ends in Y) (Yで終わる形容詞の最上級)", 
+            "hint": "(remove 'y', add '-iest')", 
+            "shortExample": "Shinjuku is the busiest station.", 
+            "explanation": "For adjectives that end in 'y' (like busy, easy, heavy), remove the 'y', change it to 'i', and add '-est'. Remember to use 'the' before the adjective.", 
+            "explanationJpn": "「y」で終わる形容詞（busy, easy, heavyなど）の場合は、「y」を削除して「i」に変え、「-est」を追加します。形容詞の前に「the」を使うことを忘れないでください。", 
+            "examples": [
+                { "eng": "Shinjuku is the busiest station in Japan.", "jpn": "新宿は日本で最も混雑している駅です。" }, 
+                { "eng": "Taking a taxi is the easiest way.", "jpn": "タクシーに乗るのが最も簡単な方法です。" }
+            ] 
+        },
+        { 
+            "point": "3. Adjectives: Irregular Superlatives (不規則な最上級)", 
+            "hint": "(good -> the best, bad -> the worst)", 
+            "shortExample": "This is the best route.", 
+            "explanation": "Some common words have irregular forms. 'Good' changes to 'the best', and 'bad' changes to 'the worst'. You have to memorize these words.", 
+            "explanationJpn": "よく使われる一部の単語は不規則に変化します。「good（良い）」は「the best（最も良い）」になり、「bad（悪い）」は「the worst（最悪の）」になります。これらの単語は覚える必要があります。", 
+            "examples": [
+                { "eng": "Morning is the best time to walk.", "jpn": "朝は歩くのに最も良い時間です。" }, 
+                { "eng": "Rainy traffic is the worst.", "jpn": "雨の日の渋滞は最悪です。" }
+            ] 
+        }
+    ],
+    "expressions": [
+        { "eng": "I think...", "jpn": "〜だと思います...", "exampleEng": "I think the train is the fastest.", "exampleJpn": "電車が一番速いと思います。" },
+        { "eng": "Definitely...", "jpn": "絶対に... / 間違いなく...", "exampleEng": "Riding a bike is definitely the cheapest.", "exampleJpn": "自転車に乗るのは間違いなく一番安いです。" },
+        { "eng": "That's why...", "jpn": "だから... / そのため...", "exampleEng": "The bus is slow. That's why I walk.", "exampleJpn": "バスは遅いです。だから私は歩きます。" },
+        { "eng": "So...", "jpn": "だから... / それで...", "exampleEng": "Traffic is bad, so I take the train.", "exampleJpn": "渋滞がひどいので、私は電車に乗ります。" },
+        { "eng": "The truth is...", "jpn": "実は... / 本当のところは...", "exampleEng": "The truth is, driving is the most comfortable.", "exampleJpn": "実のところ、車の運転が一番快適です。" }
+    ],
+    "homework": {
+        "vocab": [
+           { 
+    "eng": "Change", 
+    "jpn": "乗り換える", 
+    "exEng": "I have to change trains at the next station.", 
+    "exJpn": "次の駅で電車を乗り換える必要があります。" 
+  },
+          { 
+    "eng": "Near", 
+    "jpn": "近い", 
+    "exEng": "I live near the train station.", 
+    "exJpn": "私は駅の近くに住んでいます。" 
+  },
+            { 
+    "eng": "Far", 
+    "jpn": "遠い", 
+    "exEng": "My office is very far from my house.", 
+    "exJpn": "私のオフィスは家からとても遠いです。" 
+  },
+            { 
+    "eng": "Motorcycle", 
+    "jpn": "オートバイ / バイク", 
+    "exEng": "He rides a motorcycle to work.", 
+    "exJpn": "彼はバイクに乗って仕事に行きます。" 
+  },
+            { 
+    "eng": "Parking", 
+    "jpn": "駐車場 / 駐車", 
+    "exEng": "There is no parking near my office.", 
+    "exJpn": "私のオフィスの近くには駐車場がありません。" 
+  },
+            { "eng": "Ticket", "jpn": "切符", "exEng": "I need to buy a ticket.", "exJpn": "切符を買う必要があります。" },
+            { "eng": "Station", "jpn": "駅", "exEng": "I walk to the station.", "exJpn": "私は駅まで歩きます。" },
+           { 
+    "eng": "Subway", 
+    "jpn": "地下鉄", 
+    "exEng": "The subway is faster than the bus.", 
+    "exJpn": "地下鉄はバスよりも速いです。" 
+  },
+            { 
+    "eng": "Corner", 
+    "jpn": "角", 
+    "exEng": "The bus stop is at the corner.", 
+    "exJpn": "バス停は角にあります。" 
+  },
+            { 
+    "eng": "Cross", 
+    "jpn": "渡る", 
+    "exEng": "Please cross the street carefully.", 
+    "exJpn": "注意して通りを渡ってください。" 
+  },
+            { 
+    "eng": "Light", 
+    "jpn": "信号 / 光", 
+    "exEng": "Stop when the traffic light is red.", 
+    "exJpn": "信号が赤のときは止まってください。" 
+  },
+            { 
+    "eng": "Driver", 
+    "jpn": "運転手", 
+    "exEng": "The bus driver is very friendly.", 
+    "exJpn": "そのバスの運転手はとても親切です。" 
+  },
+         { 
+    "eng": "Bridge", 
+    "jpn": "橋", 
+    "exEng": "The train crosses a big bridge.", 
+    "exJpn": "電車は大きな橋を渡ります。" 
+  },
+            { "eng": "Trip", "jpn": "旅行 / 移動", "exEng": "Have a safe trip!", "exJpn": "安全な移動（旅行）を！" }
+        ],
+        "writingTask": { 
+            "promptEng": "Write a short paragraph answering this question: What is the best way to commute in your city? Please make sure to use superlative adjectives (e.g., fastest, cheapest, busiest) and transitional expressions.", 
+            "promptJpn": "「あなたの街で通勤するのに最も良い方法は何ですか？」という質問に答える短い段落を書いてください。最上級の形容詞（fastest, cheapest, busiestなど）とつなぎの表現を必ず使ってください。" 
+        },
+        "clickingGamesTitle": "Task 3: Grammar Practice (Sentence Builder)",
+        "clickingGamesDesc": "Translate the 10 sentences to practice superlative adjectives about commuting.",
+        "clickingGames": [
+            { "prompt": "電車は移動するのに最も速い方法です。", "target": "The train is the fastest way to travel.", "words": ["The", "train", "is", "the", "fastest", "way", "to", "travel."] },
+            { "prompt": "自転車は最も安い選択肢です。", "target": "Bicycles are the cheapest option.", "words": ["Bicycles", "are", "the", "cheapest", "option."] },
+            { "prompt": "タクシーに乗るのが最も簡単な方法です。", "target": "Taking a taxi is the easiest way.", "words": ["Taking", "a", "taxi", "is", "the", "easiest", "way."] },
+            { "prompt": "新宿は日本で最も混雑している駅です。", "target": "Shinjuku is the busiest station in Japan.", "words": ["Shinjuku", "is", "the", "busiest", "station", "in", "Japan."] },
+            { "prompt": "雨の日の渋滞は最悪です。", "target": "Rainy traffic is the worst.", "words": ["Rainy", "traffic", "is", "the", "worst."] },
+            { "prompt": "朝は歩くのに最も良い時間です。", "target": "Morning is the best time to walk.", "words": ["Morning", "is", "the", "best", "time", "to", "walk."] },
+            { "prompt": "それはここへ来る最も遅いルートでした。", "target": "That was the slowest route to get here.", "words": ["That", "was", "the", "slowest", "route", "to", "get", "here."] },
+            { "prompt": "これは見つけるのが最も難しい駅です。", "target": "This is the hardest station to find.", "words": ["This", "is", "the", "hardest", "station", "to", "find."] },
+            { "prompt": "私の街は最も安全な通りを持っています。", "target": "My city has the safest streets.", "words": ["My", "city", "has", "the", "safest", "streets."] },
+            { "prompt": "通勤に最も良い方法は何ですか？", "target": "What is the best way to commute?", "words": ["What", "is", "the", "best", "way", "to", "commute?"] }
+        ],
+        "extendedReading": {
+            "title": "Task 4: Extended Reading (Commuting in the City)",
+            "eng": "Every day, millions of people travel to work. This travel is called commuting. Commuting is different in every city. In Tokyo, most people take the train. The trains are very fast and always on time. However, Tokyo stations are the busiest in the world. In the morning, finding a seat is the hardest thing to do.\n\nIn some American cities, driving a car is the most popular way to commute. People like cars because they are comfortable. You can listen to music and sit in a soft seat. But cars are not perfect. In the evening, traffic is the worst. A short trip can become the longest trip of the day.\n\nIn European cities like Amsterdam, riding a bicycle is the easiest choice. The streets are safe for bikes, and it is the cheapest way to travel. It is also the best for your health and the environment.\n\nWhen you plan your commute, you have to think about time, money, and comfort. The fastest way is not always the cheapest. The cheapest way is not always the easiest. What is the best way for you? That depends on your city and your lifestyle.",
+            "jpn": "毎日、何百万人もの人々が仕事へ移動します。この移動を通勤と呼びます。通勤は都市によって異なります。東京では、ほとんどの人が電車に乗ります。電車はとても速く、いつも時間通りです。しかし、東京の駅は世界で最も混雑しています。朝、席を見つけることは最も難しいことです。\n\nいくつかのアメリカの都市では、車を運転することが最も人気のある通勤方法です。車は快適なので人気があります。音楽を聴いたり、柔らかい席に座ったりできます。しかし、車は完璧ではありません。夕方には、渋滞が最悪になります。短い移動が、その日で最も長い移動になることもあります。\n\nアムステルダムのようなヨーロッパの都市では、自転車に乗ることが最も簡単な選択です。道は自転車にとって安全で、移動するのに最も安い方法です。また、健康や環境にとっても最も良いものです。\n\n通勤を計画する際、時間、お金、快適さについて考えなければなりません。最も速い方法が常に最も安いとは限りません。最も安い方法が常に最も簡単とも限りません。あなたにとって最も良い方法は何ですか？それはあなたの街とあなたのライフスタイルによります。"
+        }
+    }
+},
  {
     id: 6, 
     chapter: "Chapter 1: Everyday Office Routines", 
@@ -1127,19 +1353,54 @@ pronunciation: {
     jpn: "「Can_I /kə.naɪ/」の単語を繋げ、質問の最後でイントネーションを上げましょう（例：Can_I try_it_on? ↗）。"
 },
         vocab: [
-            { eng: "Jacket", jpn: "ジャケット", exEng: "I need a warm winter jacket.", exJpn: "暖かい冬用のジャケットが必要です。" },
+          { 
+    "eng": "Open", 
+    "jpn": "開いている / 開ける", 
+    "exEng": "The shop is open until eight o'clock.", 
+    "exJpn": "そのお店は8時まで開いています。" 
+  },
             { eng: "Size", jpn: "サイズ", exEng: "What size are you?", exJpn: "サイズはいくつですか？" },
-            { eng: "Large", jpn: "大きい / Lサイズ", exEng: "Do you have a large size?", exJpn: "Lサイズはありますか？" },
-            { eng: "Small", jpn: "小さい / Sサイズ", exEng: "This shirt is too small for me.", exJpn: "このシャツは私には小さすぎます。" },
-            { eng: "Color", jpn: "色", exEng: "What color do you prefer?", exJpn: "何色が好きですか？" },
-            { eng: "Black", jpn: "黒", exEng: "I want to buy a black jacket.", exJpn: "黒いジャケットを買いたいです。" },
+           { 
+    "eng": "Choose", 
+    "jpn": "選ぶ", 
+    "exEng": "Please choose your favorite design.", 
+    "exJpn": "お気に入りのデザインを選んでください。" 
+  },
+           { 
+    "eng": "Sale", 
+    "jpn": "セール / 特売", 
+    "exEng": "I bought these shoes on sale.", 
+    "exJpn": "私はこれらの靴をセールで買いました。" 
+  },
+           { 
+    "eng": "Cost", 
+    "jpn": "費用がかかる / 値段", 
+    "exEng": "How much does this book cost?", 
+    "exJpn": "この本はいくらかかりますか？" 
+  },
+          { 
+    "eng": "Receipt", 
+    "jpn": "レシート / 領収書", 
+    "exEng": "Please keep your receipt.", 
+    "exJpn": "レシートを保管しておいてください。" 
+  },
             { eng: "Try on", jpn: "試着する", exEng: "Can I try this on?", exJpn: "これを試着してもいいですか？" },
             { eng: "Fitting room", jpn: "試着室", exEng: "The fitting room is over there.", exJpn: "試着室はあちらにあります。" },
             { eng: "Credit card", jpn: "クレジットカード", exEng: "I will pay with my credit card.", exJpn: "クレジットカードで支払います。" },
             { eng: "Cash", jpn: "現金", exEng: "I don't have enough cash.", exJpn: "十分な現金を持っていません。" },
             { eng: "Price", jpn: "価格", exEng: "The price is very good.", exJpn: "価格はとても良いです。" },
-            { eng: "Expensive", jpn: "高価な", exEng: "That watch is too expensive.", exJpn: "その時計は高すぎます。" },
-            { eng: "Cheap", jpn: "安い", exEng: "I found a cheap bag.", exJpn: "安いバッグを見つけました。" },
+           { 
+    "eng": "Sell", 
+    "jpn": "売る", 
+    "exEng": "They sell fresh fruit here.", 
+    "exJpn": "ここでは新鮮な果物を売っています。" 
+  },
+            { 
+    "eng": "Pay", 
+    "jpn": "支払う", 
+    "exEng": "I will pay with a credit card.", 
+    "exJpn": "私はクレジットカードで支払います。" 
+  },
             { eng: "Fit", jpn: "（サイズが）合う", exEng: "These shoes fit perfectly.", exJpn: "この靴はサイズがぴったりです。" }
         ],
         dialogue: [
@@ -1252,8 +1513,18 @@ pronunciation: {
                 { eng: "Shirt", jpn: "シャツ", exEng: "I need a white shirt for work.", exJpn: "仕事用に白いシャツが必要です。" },
                 { eng: "Find", jpn: "見つける", exEng: "I cannot find my keys.", exJpn: "鍵が見つかりません。" },
                 { eng: "Look for", jpn: "探す", exEng: "I am looking for a gift.", exJpn: "贈り物を探しています。" },
-                { eng: "Pay", jpn: "支払う", exEng: "I will pay for the dinner.", exJpn: "夕食代は私が支払います。" },
-                { eng: "Receipt", jpn: "レシート", exEng: "Do you need a receipt?", exJpn: "レシートは必要ですか？" },
+{ 
+    "eng": "Spend", 
+    "jpn": "（お金を）使う", 
+    "exEng": "I do not want to spend too much money.", 
+    "exJpn": "私はあまり多くのお金を使いたくありません。" 
+  },
+{ 
+    "eng": "Line", 
+    "jpn": "列", 
+    "exEng": "There is a long line at the register.", 
+    "exJpn": "レジには長い列ができています。" 
+  },
                 { eng: "Bag", jpn: "袋 / バッグ", exEng: "Do you need a plastic bag?", exJpn: "ビニール袋は必要ですか？" },
                 { eng: "Customer", jpn: "客", exEng: "The customer is waiting in line.", exJpn: "客が列に並んで待っています。" },
                 { eng: "Available", jpn: "利用可能な / 在庫がある", exEng: "Is this jacket available in red?", exJpn: "このジャケットの赤色は在庫がありますか？" },
@@ -1283,148 +1554,151 @@ pronunciation: {
             }
         }
     },
+{
+  "id": 10,
+  "chapter": "Chapter 2: Shopping & Errands",
+  "type": "opinion",
+  "title": "Lesson 010: Payment Methods",
+  "goal": "Discuss different payment methods using irregular comparatives and possessive pronouns. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不規則な比較級と所有代名詞を使って、さまざまな支払い方法について議論する。)</span>",
+  "pronunciation": {
+    "title": "Pronunciation: Vowel Reduction",
+    "eng": "Speak the words 'just' and 'only' very quickly and quietly, putting all your vocal power on the number (e.g., It costs just FIVE dollars).",
+    "jpn": "「just」と「only」をとても速く静かに発音し、数字の部分にすべての声の力を込めましょう（例：It costs just FIVE dollars）。"
+  },
+  "introArticle": [
     {
-        id: 10, 
-        chapter: "Chapter 2: Shopping & Errands", 
-        type: "opinion", 
-        title: "Lesson 010: Returns & Payments",
-        goal: "Discuss payment methods and returning items using irregular comparatives and possessive pronouns. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(不規則な比較級と所有代名詞を使って、支払い方法と商品の返品について議論する。)</span>",
-pronunciation: {
-    title: "Pronunciation: Vowel Reduction",
-    eng: "Speak the words 'just' and 'only' very quickly and quietly, putting all your vocal power on the number (e.g., It's just ONE HUNDRED yen).",
-    jpn: "「just」と「only」をとても速く静かに発音し、数字の部分にすべての声の力を込めましょう（例：It's just ONE HUNDRED yen）。"
-},
-        introArticle: [
-    { 
-        eng: "How we pay is changing. In the past, people only used cash. Today, we have many choices. Credit cards and phone apps are very popular. Using a card is usually faster than cash. You do not need heavy coins. But some people like cash better. With cash, you see how much you spend. This helps you save money.", 
-        jpn: "私たちの支払い方法は変化しています。昔は、人々は現金だけを使っていました。今日、私たちには多くの選択肢があります。クレジットカードやスマートフォンのアプリはとても人気があります。カードを使うことは通常、現金よりも速いです。重い硬貨は必要ありません。しかし、現金の方が好きだという人もいます。現金を使えば、いくら使ったかがわかります。これはお金を節約するのに役立ちます。" 
+      "eng": "How we pay for things is changing quickly. In the past, people only used cash. Today, we have many choices. Cash is still good for small things, but credit cards are very popular. Using a card is usually faster than counting coins.",
+      "jpn": "私たちの支払い方法は急速に変化しています。昔は、人々は現金だけを使っていました。今日、私たちには多くの選択肢があります。現金は今でも小さな買い物には良いですが、クレジットカードはとても人気があります。カードを使うことは通常、硬貨を数えるよりも速いです。"
     },
-    { 
-        eng: "Returning things is also important. Sometimes we buy the wrong size or color. Or the item is broken. Then, we must return it to the store. Most stores can give your money back or change the item. You usually need your receipt to get your money back. Online returns can be hard. You have to send the box back by mail.", 
-        jpn: "物を返品することも重要です。時々、私たちは間違ったサイズや色を買ってしまいます。または、品物が壊れていることもあります。その時は、それを店に返品しなければなりません。ほとんどの店は、お金を返してくれたり、品物を交換したりできます。お金を返してもらうには、通常レシートが必要です。オンラインの返品は難しいことがあります。箱を郵便で送り返さなければなりません。" 
+    {
+      "eng": "Smartphone apps like PayPay are also famous now. You do not need a wallet. You just scan a QR code with your phone. Many people think paying with a smartphone is better than carrying heavy money. It is very convenient.",
+      "jpn": "PayPayのようなスマートフォンのアプリも今では有名です。財布は必要ありません。スマートフォンでQRコードをスキャンするだけです。多くの人は、スマートフォンで支払う方が重いお金を持ち歩くよりも良いと考えています。とても便利です。"
     },
-    { 
-        eng: "When you pay or return things, you need to speak clearly. If an item is bad, tell the shop worker. You can say, 'This shirt is broken. I want my money back, please.' Good stores want to help you. They will fix the problem. Shopping is changing, but these things are still important. Knowing how to use money and return items makes you a smart shopper.", 
-        jpn: "支払いや返品をするときは、はっきりと話す必要があります。もし品物が悪かったら、店員に伝えてください。「このシャツは破れています。お金を返してください」と言うことができます。良い店はあなたを助けたいと思っています。彼らは問題を解決してくれます。買い物は変化していますが、これらのことは依然として重要です。お金の使い方や返品の方法を知ることで、あなたは賢い買い物客になります。" 
+    {
+      "eng": "Online shopping has different rules. You can use a credit card, but you can also use a bank transfer. Another choice is cash on delivery, or COD. This means you pay the driver when the box arrives. Knowing your choices makes shopping easier.",
+      "jpn": "オンラインショッピングには異なるルールがあります。クレジットカードも使えますが、銀行振込も使えます。もう一つの選択肢は代金引換（代引き）、つまりCODです。これは箱が届いた時に運転手に支払うという意味です。選択肢を知ることで、買い物がもっと簡単になります。"
     }
-        ],
-        discussionTopics: [
-            { titleEng: "Payment Methods", titleJpn: "支払い方法", subtopics: [{ eng: "Using cash", jpn: "現金を使う" }, { eng: "Credit cards", jpn: "クレジットカード" }, { eng: "Smartphone apps", jpn: "スマートフォンアプリ" }] },
-            { titleEng: "Returning Items", titleJpn: "商品の返品", subtopics: [{ eng: "Wrong sizes", jpn: "間違ったサイズ" }, { eng: "Broken items", jpn: "壊れたアイテム" }, { eng: "Keeping the receipt", jpn: "レシートの保管" }] },
-            { titleEng: "Money Management", titleJpn: "お金の管理", subtopics: [{ eng: "Saving money", jpn: "お金の節約" }, { eng: "Following a budget", jpn: "予算を守る" }, { eng: "Checking bank statements", jpn: "銀行の明細の確認" }] },
-            { titleEng: "Customer Service", titleJpn: "カスタマーサービス", subtopics: [{ eng: "Getting a refund", jpn: "返金を受ける" }, { eng: "Exchanging clothes", jpn: "服の交換" }, { eng: "Explaining problems", jpn: "問題の説明" }] },
-            { titleEng: "Online Returns", titleJpn: "オンラインの返品", subtopics: [{ eng: "Mailing boxes", jpn: "箱の郵送" }, { eng: "Printing labels", jpn: "ラベルの印刷" }, { eng: "Waiting for money", jpn: "お金を待つ" }] },
-            { titleEng: "Shopping Habits", titleJpn: "買い物の習慣", subtopics: [{ eng: "Buying cheap things", jpn: "安いものを買う" }, { eng: "Buying quality", jpn: "品質を買う" }, { eng: "Impulse buying", jpn: "衝動買い" }] }
-        ],
-        questions: [
-            { eng: "1. Do you think using a credit card is better than using cash?", jpn: "1. クレジットカードを使うのは現金を使うよりも良いと思いますか？" },
-            { eng: "2. Have you ever bought something and realized it was broken?", jpn: "2. 何かを買って、それが壊れていることに気づいたことはありますか？" },
-            { eng: "3. Is it hard to return items bought on the internet?", jpn: "3. インターネットで買った商品を返品するのは難しいですか？" },
-            { eng: "4. Do you always keep your receipts?", jpn: "4. いつもレシートを保管していますか？" },
-            { eng: "5. Is your wallet usually full of coins or cards?", jpn: "5. あなたの財布はたいてい硬貨でいっぱいですか、それともカードでいっぱいですか？" },
-            { eng: "6. Do you think a smart phone is worse than a credit card for paying?", jpn: "6. 支払いにおいて、スマートフォンはクレジットカードよりも悪い（劣っている）と思いますか？" },
-            { eng: "7. How do you save money when you go shopping?", jpn: "7. 買い物に行くとき、どのようにお金を節約しますか？" },
-            { eng: "8. If you have only 1000 yen, what will you buy?", jpn: "8. もし1000円しか持っていなかったら、何を買いますか？" },
-            { eng: "9. Is buying one expensive thing better than buying many cheap things?", jpn: "9. 1つの高価なものを買うことは、多くの安いものを買うことよりも良いですか？" },
-            { eng: "10. Have you ever lost your wallet?", jpn: "10. これまでに財布をなくしたことはありますか？" }
-        ],
-        vocab: [
-            { eng: "Pay", jpn: "支払う", exEng: "I will pay with my card.", exJpn: "カードで支払います。" },
-            { eng: "Price", jpn: "価格", exEng: "The price is too high.", exJpn: "その価格は高すぎます。" },
-            { eng: "Expensive", jpn: "高価な", exEng: "This phone is very expensive.", exJpn: "この電話はとても高価です。" },
-            { eng: "Cheap", jpn: "安い", exEng: "I want a cheap car.", exJpn: "安い車が欲しいです。" },
-            { eng: "Fit", jpn: "（サイズが）合う", exEng: "This shirt does not fit me.", exJpn: "このシャツは私にはサイズが合いません。" },
-            { eng: "Broken", jpn: "壊れた", exEng: "The glass is broken.", exJpn: "そのグラスは壊れています。" },
-            { eng: "Wrong", jpn: "間違った", exEng: "This is the wrong color.", exJpn: "これは間違った色です。" },
-            { eng: "Exchange", jpn: "交換する", exEng: "I want to exchange this shirt.", exJpn: "このシャツを交換したいです。" },
-            { eng: "Wallet", jpn: "財布", exEng: "I lost my black wallet.", exJpn: "黒い財布をなくしました。" },
-            { eng: "Coin", jpn: "硬貨 / コイン", exEng: "I have many coins in my pocket.", exJpn: "ポケットにたくさんの硬貨があります。" },
-            { eng: "Bill", jpn: "お札 / 請求書", exEng: "Can you change this bill?", exJpn: "このお札を崩せますか？" },
-            { eng: "Bank", jpn: "銀行", exEng: "I need to go to the bank.", exJpn: "銀行に行かなければなりません。" },
-            { eng: "Spend", jpn: "費やす / 使う", exEng: "Do not spend too much money.", exJpn: "お金を使いすぎないでください。" },
-            { eng: "Save", jpn: "節約する / 貯金する", exEng: "I try to save money every month.", exJpn: "毎月お金を節約しようとしています。" }
-        ],
-        grammarPoints: [
-            { 
-                point: "1. Adjectives: Irregular Comparatives (不規則な比較級: better/worse)", 
-                hint: "Use 'better' for good, and 'worse' for bad.", 
-                shortExample: "Today is better than yesterday.", 
-                explanation: "Some adjectives are completely irregular in the comparative form. You cannot add '-er' or 'more' to them. The two most common ones are: 'good' becomes 'better', and 'bad' becomes 'worse'.", 
-                explanationJpn: "一部の形容詞は比較級で完全に不規則な変化をします。これらに「-er」や「more」を付けることはできません。最も一般的な2つは、「good」が「better」になり、「bad」が「worse」になるものです。", 
-                examples: [
-                    { eng: "Today is better than yesterday.", jpn: "今日は昨日より良いです。" }, 
-                    { eng: "This movie is worse than that movie.", jpn: "この映画はあの映画より悪いです。" }
-                ] 
-            },
-            { 
-                point: "2. Pronouns: Expressing Possession (所有を表す代名詞: mine/yours)", 
-                hint: "Use words like 'mine', 'yours', or 'his' instead of repeating a noun.", 
-                shortExample: "This is mine.", 
-                explanation: "We can use possessive pronouns (mine, yours, his, hers, ours, theirs) instead of a possessive adjective and a noun (like 'my car'). This makes our sentences shorter and more natural.", 
-                explanationJpn: "所有形容詞と名詞（「my car」など）の代わりに、所有代名詞（mine, yours, his, hers, ours, theirs）を使用することができます。これにより、文が短く、より自然になります。", 
-                examples: [
-                    { eng: "This is mine.", jpn: "これは私のものです。" }, 
-                    { eng: "Yours broke yesterday.", jpn: "あなたのは昨日壊れました。" }
-                ] 
-            },
-            { 
-                point: "3. Adverbs: Emphasizing Numbers (数字を強調する副詞: only/just)", 
-                hint: "Use 'only' or 'just' directly before a number.", 
-                shortExample: "I have only 100 yen.", 
-                explanation: "We can use 'only' or 'just' to emphasize that a number, amount, or price is very small.", 
-                explanationJpn: "数、量、または価格が非常に小さいことを強調するために「only」または「just」を使用できます。", 
-                examples: [
-                    { eng: "I have only 100 yen.", jpn: "私は100円しか持っていません。" }, 
-                    { eng: "This hamburger is just 100 yen.", jpn: "このハンバーガーはたったの100円です。" }
-                ] 
-            }
-        ],
-        expressions: [
-            { eng: "In my experience...", jpn: "私の経験では...", exampleEng: "In my experience, online returns are very difficult.", exampleJpn: "私の経験では、オンラインの返品はとても難しいです。" },
-            { eng: "As far as I know...", jpn: "私の知る限り...", exampleEng: "As far as I know, they only take cash.", exampleJpn: "私の知る限り、彼らは現金しか受け付けません。" },
-            { eng: "I'm pretty sure...", jpn: "確か... / 私の知る限りでは...", exampleEng: "I'm pretty sure the meeting starts at 10 AM.", exampleJpn: "確か、会議は午前10時に始まるはずです。" },
-            { eng: "Basically...", jpn: "要するに... / 基本的に...", exampleEng: "Basically, we need to rewrite the introduction.", exampleJpn: "要するに、導入部分を書き直す必要があります。" },
- { eng: "Generally speaking...", jpn: "一般的に言って...", exampleEng: "Generally speaking, local shops are more expensive.", exampleJpn: "一般的に言って、地元のお店の方が高価です。" }
-        ],
-        homework: {
-            vocab: [
-                { eng: "Budget", jpn: "予算", exEng: "We must stay within our budget.", exJpn: "私たちは予算内に収めなければなりません。" },
-                { eng: "Account", jpn: "口座 / アカウント", exEng: "I will check my bank account.", exJpn: "銀行口座を確認します。" },
-                { eng: "Statement", jpn: "明細書", exEng: "Please read your credit card statement.", exJpn: "クレジットカードの明細書を読んでください。" },
-                { eng: "Purchase", jpn: "購入 / 購入する", exEng: "Thank you for your purchase.", exJpn: "ご購入ありがとうございます。" },
-                { eng: "Quality", jpn: "品質", exEng: "This jacket is high quality.", exJpn: "このジャケットは高品質です。" },
-                { eng: "Quantity", jpn: "量", exEng: "Quality is better than quantity.", exJpn: "品質は量より優れています。" },
-                { eng: "Trap", jpn: "罠", exEng: "Do not fall into the money trap.", exJpn: "お金の罠に陥らないでください。" },
-                { eng: "Avoid", jpn: "避ける", exEng: "I try to avoid crowded places.", exJpn: "私は混雑した場所を避けようとします。" },
-                { eng: "Proof", jpn: "証拠", exEng: "The receipt is your proof.", exJpn: "レシートがあなたの証拠です。" },
-                { eng: "Protect", jpn: "守る / 保護する", exEng: "You must protect your password.", exJpn: "パスワードを守らなければなりません。" },
-                { eng: "Worth", jpn: "価値がある", exEng: "This book is worth the money.", exJpn: "この本はお金を払う価値があります。" },
-                { eng: "Effort", jpn: "努力", exEng: "It takes a lot of effort.", exJpn: "それは多くの努力を必要とします。" },
-                { eng: "List", jpn: "リスト / 一覧", exEng: "I always make a shopping list.", exJpn: "私はいつも買い物リストを作ります。" },
-                { eng: "Slightly", jpn: "わずかに / 少し", exEng: "This is slightly more expensive.", exJpn: "これはわずかに高価です。" }
-            ],
-            writingTask: { promptEng: "Write a short paragraph answering this question: Do you think using cash is better or worse than using a smartphone app? Use an irregular comparative (better/worse) and emphasize a small number using 'only' or 'just'.", promptJpn: "「現金を使うことはスマートフォンアプリを使うことより良いと思いますか、それとも悪いと思いますか？」という質問に答える短い段落を書いてください。不規則な比較級（better/worse）を使い、「only」または「just」を使って小さな数を強調してください。" },
-            clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
-            clickingGamesDesc: "Translate the 10 sentences to practice irregular comparatives, possessive pronouns, and emphasizing numbers.",
-            clickingGames: [
-                { prompt: "今日は昨日より良いです。", target: "Today is better than yesterday.", words: ["Today", "is", "better", "than", "yesterday."] },
-                { prompt: "この映画はあの映画より悪いです。", target: "This movie is worse than that movie.", words: ["This", "movie", "is", "worse", "than", "that", "movie."] },
-                { prompt: "彼は私より良い歌手です。", target: "He is a better singer than me.", words: ["He", "is", "a", "better", "singer", "than", "me."] },
-                { prompt: "これは私のものです。", target: "This is mine.", words: ["This", "is", "mine."] },
-                { prompt: "彼らのものは昨日到着しました。", target: "Theirs arrived yesterday.", words: ["Theirs", "arrived", "yesterday."] },
-                { prompt: "あの車は彼（のもの）です。", target: "That car is his.", words: ["That", "car", "is", "his."] },
-                { prompt: "私はたった3分遅刻しました。", target: "I was only 3 minutes late.", words: ["I", "was", "only", "3", "minutes", "late."] },
-                { prompt: "私は100円しか持っていません。", target: "I have only 100 yen.", words: ["I", "have", "only", "100", "yen."] },
-                { prompt: "このハンバーガーはたったの100円です。", target: "This hamburger is just 100 yen.", words: ["This", "hamburger", "is", "just", "100", "yen."] },
-                { prompt: "これらの服はたったの4ドルです。", target: "These clothes are only 4 dollars.", words: ["These", "clothes", "are", "only", "4", "dollars."] }
-            ],
-            extendedReading: {
-                title: "Task 4: Extended Reading (Smart Money Management)",
-                eng: "Money management is a very important skill for everyday life. When we go shopping, it is easy to spend too much money. Stores use many tricks to make us buy things we do not need. For example, they put cheap candies and magazines near the cash register. While you are waiting in line, you might look at these items and buy them. To avoid these traps, you should always make a shopping list before you leave your house. If you only buy the items on your list, you will save a lot of money and protect your budget.\n\nAnother good habit is comparing prices. Today, it is very easy to check the price of an item on your smartphone. If a jacket is expensive in the store, you might find a cheaper one on the internet. However, you must also think about the quality. Sometimes, a cheap item breaks very quickly, and you have to buy a new one. A slightly more expensive item might last for many years. In the end, buying one high-quality item is better than buying three cheap, broken items. Quality is usually a better choice than quantity.\n\nFinally, you should always keep your receipts. If you buy a bad item, the receipt is your proof of purchase. Without a receipt, many stores will not give you a refund. Some stores only give you a short time, like thirty days, to return an item. By keeping your receipts in a safe folder and checking your bank statements every month, you can protect your money. Being a smart shopper takes a little extra time, but it is always worth the effort in the future.",
-                jpn: "お金の管理は日常生活において非常に重要なスキルです。買い物に行くと、簡単にお金を使いすぎてしまいます。店は私たちに必要のないものを買わせるために多くのトリックを使用します。例えば、彼らはレジの近くに安いキャンディーや雑誌を置きます。列で待っている間に、あなたはこれらの品物を見て買ってしまうかもしれません。これらの罠を避けるためには、家を出る前に必ず買い物リストを作るべきです。もしリストにある品物だけを買えば、あなたはたくさんのお金を節約し、予算を守ることができるでしょう。\n\nもう一つの良い習慣は価格を比較することです。今日、スマートフォンでアイテムの価格を確認するのは非常に簡単です。もし店でジャケットが高価なら、インターネットでより安いものを見つけることができるかもしれません。しかし、品質についても考えなければなりません。時々、安いアイテムはすぐに壊れてしまい、新しいものを買わなければならなくなります。少し高価なアイテムなら何年も長持ちするかもしれません。結局のところ、高品質なものを1つ買うことは、安くて壊れたものを3つ買うよりも良いのです。品質は通常、量よりも良い選択です。\n\n最後に、常にレシートを保管しておくべきです。もし悪い商品を買ってしまった場合、レシートがあなたの購入の証明になります。レシートがなければ、多くの店は返金してくれません。店によっては、アイテムを返品するのに30日間といった短い時間しか与えません。レシートを安全なフォルダーに保管し、毎月銀行の明細書を確認することで、あなたのお金を守ることができます。賢い買い物客になるには少し余分な時間がかかりますが、将来においては常にその努力に見合う価値があります。"
-            }
-        }
+  ],
+  "discussionTopics": [
+    { "titleEng": "Physical Money", "titleJpn": "物理的なお金", "subtopics": [{ "eng": "Using cash", "jpn": "現金を使う" }, { "eng": "Heavy coins", "jpn": "重い硬貨" }, { "eng": "Getting change", "jpn": "お釣りをもらう" }] },
+    { "titleEng": "Cards", "titleJpn": "カード", "subtopics": [{ "eng": "Credit cards", "jpn": "クレジットカード" }, { "eng": "Points and miles", "jpn": "ポイントとマイル" }, { "eng": "Tapping a card", "jpn": "カードをタッチする" }] },
+    { "titleEng": "Smartphone Apps", "titleJpn": "スマホアプリ", "subtopics": [{ "eng": "PayPay and Apple Pay", "jpn": "PayPayやApple Pay" }, { "eng": "Scanning QR codes", "jpn": "QRコードのスキャン" }, { "eng": "No wallet needed", "jpn": "財布がいらない" }] },
+    { "titleEng": "Online Payments", "titleJpn": "オンライン決済", "subtopics": [{ "eng": "Bank transfers", "jpn": "銀行振込" }, { "eng": "Cash on delivery (COD)", "jpn": "代金引換（代引き）" }, { "eng": "Security", "jpn": "セキュリティ（安全性）" }] },
+    { "titleEng": "Payment Problems", "titleJpn": "支払いの問題", "subtopics": [{ "eng": "Extra fees", "jpn": "追加の手数料" }, { "eng": "Lost wallets", "jpn": "なくした財布" }, { "eng": "Dead phone batteries", "jpn": "スマホのバッテリー切れ" }] },
+    { "titleEng": "Splitting the Bill", "titleJpn": "割り勘", "subtopics": [{ "eng": "Paying together", "jpn": "一緒に支払う" }, { "eng": "Sending money online", "jpn": "オンラインでの送金" }, { "eng": "Calculating the cost", "jpn": "費用の計算" }] }
+  ],
+  "questions": [
+    { "eng": "1. What is your favorite way to pay when you go shopping?", "jpn": "1. 買い物に行くとき、あなたの好きな支払い方法は何ですか？" },
+    { "eng": "2. Do you think using a smartphone app is better than using cash?", "jpn": "2. スマホアプリを使うことは現金を使うことより良いと思いますか？" },
+    { "eng": "3. Have you ever used cash on delivery (COD) for an online purchase?", "jpn": "3. オンラインショッピングで代金引換（代引き）を使ったことはありますか？" },
+    { "eng": "4. Is a bank transfer worse than a credit card because of the fee?", "jpn": "4. 手数料があるため、銀行振込はクレジットカードよりも悪い（不便だ）と思いますか？" },
+    { "eng": "5. Do you use PayPay or other QR code payment apps?", "jpn": "5. PayPayや他のQRコード決済アプリを使いますか？" },
+    { "eng": "6. How many credit cards do you have in your wallet?", "jpn": "6. 財布の中にクレジットカードを何枚持っていますか？" },
+    { "eng": "7. Do you usually check your change when you pay with cash?", "jpn": "7. 現金で支払うとき、たいていお釣りを確認しますか？" },
+    { "eng": "8. What do you do if your phone battery dies and you only have an app to pay?", "jpn": "8. スマホのバッテリーが切れ、支払い用のアプリしか持っていない場合はどうしますか？" },
+    { "eng": "9. How do you split the bill with your friends at a restaurant?", "jpn": "9. レストランで友達とどのように割り勘をしますか？" },
+    { "eng": "10. Do you feel safe saving your credit card on your smartphone?", "jpn": "10. スマートフォンにクレジットカードを保存することを安全だと感じますか？" }
+  ],
+  "vocab": [
+    { "eng": "Cash", "jpn": "現金", "exEng": "This store only takes cash.", "exJpn": "このお店は現金のみ受け付けます。" },
+    { "eng": "Credit card", "jpn": "クレジットカード", "exEng": "Can I pay by credit card?", "exJpn": "クレジットカードで支払えますか？" },
+    { "eng": "Smartphone payment", "jpn": "スマホ決済", "exEng": "Smartphone payments are very popular here.", "exJpn": "ここではスマホ決済がとても人気です。" },
+    { "eng": "Bank transfer", "jpn": "銀行振込", "exEng": "Please pay by bank transfer.", "exJpn": "銀行振込でお支払いください。" },
+    { "eng": "Cash on delivery (COD)", "jpn": "代金引換 / 代引き", "exEng": "I chose cash on delivery for this package.", "exJpn": "この荷物には代金引換を選びました。" },
+    { "eng": "Wallet", "jpn": "財布", "exEng": "I left my wallet at home.", "exJpn": "家に財布を忘れてきました。" },
+    { "eng": "Change", "jpn": "お釣り / 小銭", "exEng": "Here is your change.", "exJpn": "こちらがお釣りです。" },
+    { "eng": "Fee", "jpn": "手数料 / 料金", "exEng": "There is a small fee for this transfer.", "exJpn": "この振り込みには少しの手数料がかかります。" },
+    { "eng": "Scan", "jpn": "スキャンする / 読み取る", "exEng": "Please scan the QR code to pay.", "exJpn": "支払いのためにQRコードをスキャンしてください。" },
+    { "eng": "Tap", "jpn": "タッチする", "exEng": "You can just tap your card here.", "exJpn": "ここでカードをタッチするだけでいいですよ。" },
+    { "eng": "Split", "jpn": "分ける / 割り勘にする", "exEng": "Let's split the bill.", "exJpn": "割り勘にしましょう。" },
+    { "eng": "Secure", "jpn": "安全な", "exEng": "Online payments are usually secure.", "exJpn": "オンライン決済は通常安全です。" },
+    { "eng": "Balance", "jpn": "残高", "exEng": "I need to check my account balance.", "exJpn": "口座の残高を確認する必要があります。" },
+    { "eng": "Enter", "jpn": "入力する", "exEng": "Please enter your password.", "exJpn": "パスワードを入力してください。" }
+  ],
+  "grammarPoints": [
+    {
+      "point": "1. Adjectives: Irregular Comparatives (不規則な比較級: better/worse)",
+      "hint": "Use 'better' for good, and 'worse' for bad.",
+      "shortExample": "PayPay is better than cash.",
+      "explanation": "Some adjectives are completely irregular in the comparative form. You cannot add '-er' or 'more' to them. The two most common ones are: 'good' becomes 'better', and 'bad' becomes 'worse'.",
+      "explanationJpn": "一部の形容詞は比較級で完全に不規則な変化をします。これらに「-er」や「more」を付けることはできません。最も一般的な2つは、「good」が「better」になり、「bad」が「worse」になるものです。",
+      "examples": [
+        { "eng": "Paying with an app is better than carrying cash.", "jpn": "アプリで支払うことは現金を持ち歩くことより良いです。" },
+        { "eng": "Bank transfers are sometimes worse because of the fee.", "jpn": "銀行振込は手数料のせいで時々より悪い（不便な）ことがあります。" }
+      ]
     },
+    {
+      "point": "2. Pronouns: Expressing Possession (所有を表す代名詞: mine/yours)",
+      "hint": "Use words like 'mine', 'yours', or 'his' instead of repeating a noun.",
+      "shortExample": "This credit card is mine.",
+      "explanation": "We can use possessive pronouns (mine, yours, his, hers, ours, theirs) instead of a possessive adjective and a noun (like 'my card'). This makes our sentences shorter and more natural.",
+      "explanationJpn": "所有形容詞と名詞（「my card」など）の代わりに、所有代名詞（mine, yours, his, hers, ours, theirs）を使用することができます。これにより、文が短く、より自然になります。",
+      "examples": [
+        { "eng": "This credit card is mine.", "jpn": "このクレジットカードは私のものです。" },
+        { "eng": "Is this change yours?", "jpn": "このお釣りはあなたの（もの）ですか？" }
+      ]
+    },
+    {
+      "point": "3. Adverbs: Emphasizing Numbers (数字を強調する副詞: only/just)",
+      "hint": "Use 'only' or 'just' directly before a number.",
+      "shortExample": "The fee is just 100 yen.",
+      "explanation": "We can use 'only' or 'just' to emphasize that a number, amount, or price is very small.",
+      "explanationJpn": "数、量、または価格が非常に小さいことを強調するために「only」または「just」を使用できます。",
+      "examples": [
+        { "eng": "I have only 500 yen in my wallet.", "jpn": "私は財布に500円しか持っていません。" },
+        { "eng": "The transfer fee is just 100 yen.", "jpn": "振込手数料はたったの100円です。" }
+      ]
+    }
+  ],
+  "expressions": [
+    { "eng": "In my experience...", "jpn": "私の経験では...", "exampleEng": "In my experience, PayPay is very easy to use.", "exampleJpn": "私の経験では、PayPayはとても使いやすいです。" },
+    { "eng": "As far as I know...", "jpn": "私の知る限り...", "exampleEng": "As far as I know, they do not accept credit cards.", "exampleJpn": "私の知る限り、彼らはクレジットカードを受け付けていません。" },
+    { "eng": "I'm pretty sure...", "jpn": "確か... / 私の知る限りでは...", "exampleEng": "I'm pretty sure the fee is only 200 yen.", "exampleJpn": "確か、手数料はたった200円のはずです。" },
+    { "eng": "Basically...", "jpn": "要するに... / 基本的に...", "exampleEng": "Basically, you just scan the code to pay.", "exampleJpn": "基本的に、支払うにはコードをスキャンするだけです。" },
+    { "eng": "Generally speaking...", "jpn": "一般的に言って...", "exampleEng": "Generally speaking, younger people prefer apps to cash.", "exampleJpn": "一般的に言って、若い人は現金よりもアプリを好みます。" }
+  ],
+  "homework": {
+    "vocab": [
+      { "eng": "Convenient", "jpn": "便利な", "exEng": "Smartphone apps are very convenient.", "exJpn": "スマホアプリはとても便利です。" },
+      { "eng": "Account", "jpn": "口座 / アカウント", "exEng": "The money goes straight from my bank account.", "exJpn": "お金は私の銀行口座から直接引き落とされます。" },
+      { "eng": "Password", "jpn": "パスワード", "exEng": "Never tell anyone your password.", "exJpn": "誰にもパスワードを教えてはいけません。" },
+      { "eng": "Receipt", "jpn": "レシート / 領収書", "exEng": "Would you like your receipt?", "exJpn": "レシートはご利用ですか？" },
+      { "eng": "Discount", "jpn": "割引", "exEng": "You get a discount if you pay with cash.", "exJpn": "現金で支払うと割引になります。" },
+      { "eng": "Machine", "jpn": "機械", "exEng": "Please insert your card into the machine.", "exJpn": "機械にカードを挿入してください。" },
+      { "eng": "Insert", "jpn": "挿入する / 入れる", "exEng": "Insert your credit card here.", "exJpn": "ここにクレジットカードを挿入してください。" },
+      { "eng": "Points", "jpn": "ポイント", "exEng": "I want to collect shopping points.", "exJpn": "ショッピングのポイントを貯めたいです。" },
+      { "eng": "Accept", "jpn": "受け付ける", "exEng": "Do you accept credit cards?", "exJpn": "クレジットカードは受け付けていますか？" },
+      { "eng": "Driver", "jpn": "運転手", "exEng": "Give the money to the delivery driver.", "exJpn": "配達の運転手にお金を渡してください。" },
+      { "eng": "Package", "jpn": "荷物 / パッケージ", "exEng": "My package arrived this morning.", "exJpn": "今朝、私の荷物が届きました。" },
+      { "eng": "Digital", "jpn": "デジタルの", "exEng": "Digital money is getting popular.", "exJpn": "デジタルマネーが人気を集めています。" },
+      { "eng": "Amount", "jpn": "金額 / 量", "exEng": "Please check the amount on the screen.", "exJpn": "画面上の金額を確認してください。" },
+      { "eng": "Confirm", "jpn": "確認する", "exEng": "Press the button to confirm your payment.", "exJpn": "支払いを確定するためにボタンを押してください。" }
+    ],
+    "writingTask": {
+      "promptEng": "Write a short paragraph about your favorite way to pay when shopping. Use an irregular comparative (better/worse) and emphasize a small number using 'only' or 'just'.",
+      "promptJpn": "買い物をする時のあなたのお気に入りの支払い方法について、短い段落を書いてください。不規則な比較級（better/worse）を使い、「only」または「just」を使って小さな数を強調してください。"
+    },
+    "clickingGamesTitle": "Task 3: Grammar Practice (Sentence Builder)",
+    "clickingGamesDesc": "Translate the 10 sentences to practice irregular comparatives, possessive pronouns, and emphasizing numbers about payment methods.",
+    "clickingGames": [
+      { "prompt": "スマホ決済は現金より良いです。", "target": "Smartphone payments are better than cash.", "words": ["Smartphone", "payments", "are", "better", "than", "cash."] },
+      { "prompt": "銀行振込は代引きより悪いです。", "target": "Bank transfers are worse than cash on delivery.", "words": ["Bank", "transfers", "are", "worse", "than", "cash", "on", "delivery."] },
+      { "prompt": "クレジットカードを使うことはより良いです。", "target": "Using a credit card is better.", "words": ["Using", "a", "credit", "card", "is", "better."] },
+      { "prompt": "このクレジットカードは私のです。", "target": "This credit card is mine.", "words": ["This", "credit", "card", "is", "mine."] },
+      { "prompt": "そのお釣りは彼（のもの）です。", "target": "The change is his.", "words": ["The", "change", "is", "his."] },
+      { "prompt": "あなた（のもの）はテーブルの上にあります。", "target": "Yours is on the table.", "words": ["Yours", "is", "on", "the", "table."] },
+      { "prompt": "私はたった500円しか持っていません。", "target": "I have only 500 yen.", "words": ["I", "have", "only", "500", "yen."] },
+      { "prompt": "手数料はたったの100円です。", "target": "The fee is just 100 yen.", "words": ["The", "fee", "is", "just", "100", "yen."] },
+      { "prompt": "彼はたった1枚のカードを持っています。", "target": "He has only one card.", "words": ["He", "has", "only", "one", "card."] },
+      { "prompt": "私はスマホだけで支払いました。", "target": "I paid with just my phone.", "words": ["I", "paid", "with", "just", "my", "phone."] }
+    ],
+    "extendedReading": {
+      "title": "Task 4: Extended Reading (Paying Without a Wallet)",
+      "eng": "Last weekend, I went to the supermarket to buy some food for dinner. When I went to the cashier to pay, I looked in my bag. My wallet was missing! I was very worried because I had no cash and no credit cards with me.\n\nThen, I remembered my smartphone. I opened a payment app on my screen. In Japan, apps like PayPay are very popular. I asked the cashier, 'Can I pay with this app?' She smiled and said yes. I just scanned the store's QR code and entered the amount. The payment was finished in one second. It was incredibly easy.\n\nIn the past, I always used cash at the supermarket. For online shopping, I sometimes used a bank transfer or cash on delivery. But now, I think smartphone apps are better than cash. I only need my phone when I go out. My phone is mine, and I always keep it safe in my hand. From now on, I will use my phone to pay for almost everything.",
+      "jpn": "先週末、私は夕食の食べ物を買うためにスーパーに行きました。支払いをするためにレジに行き、バッグの中を見ました。財布が見当たらなかったのです！現金もクレジットカードも持っていなかったので、私はとても心配になりました。\n\nその時、私はスマートフォンのことを思い出しました。画面で決済アプリを開きました。日本では、PayPayのようなアプリがとても人気です。私はレジ係に「このアプリで支払えますか？」と聞きました。彼女は微笑んで「はい」と言いました。私はただ店のQRコードをスキャンして、金額を入力しました。支払いは1秒で終わりました。信じられないほど簡単でした。\n\n昔は、スーパーではいつも現金を使っていました。オンラインショッピングでは、時々銀行振込や代金引換を使っていました。しかし今では、スマートフォンアプリの方が現金よりも良いと思います。外出する時は携帯電話だけで十分です。携帯電話は私のものであり、いつも手の中で安全に保っています。これからは、ほとんどすべての支払いに携帯電話を使うつもりです。"
+    }
+  }
+},
     {
         id: 11, 
         chapter: "Chapter 2: Shopping & Errands", 
@@ -1437,20 +1711,20 @@ pronunciation: {
     jpn: "2つの選択肢を提示する時、最初の選択肢で声を上げ、2つ目で下げます（例：Would you like a new machine ↗, or a refund ↘?）。"
 },
         vocab: [
-            { eng: "Return", jpn: "返品する", exEng: "I want to return this phone.", exJpn: "この電話を返品したいです。" },
-            { eng: "Broken", jpn: "壊れた", exEng: "The screen is broken.", exJpn: "画面が壊れています。" },
-            { eng: "Receipt", jpn: "レシート", exEng: "Do you have the receipt?", exJpn: "レシートはありますか？" },
-            { eng: "Refund", jpn: "返金", exEng: "Can I get a full refund?", exJpn: "全額返金してもらえますか？" },
-            { eng: "Exchange", jpn: "交換する", exEng: "I want to exchange this for a new one.", exJpn: "これを新しいものと交換したいです。" },
-            { eng: "Trouble", jpn: "トラブル / お手数", exEng: "I apologize for the trouble.", exJpn: "お手数をおかけして申し訳ありません。" },
-            { eng: "Box", jpn: "箱", exEng: "I brought the original box.", exJpn: "元の箱を持ってきました。" },
-            { eng: "Cheaper", jpn: "より安い", exEng: "I found a cheaper one online.", exJpn: "オンラインでより安いものを見つけました。" },
-            { eng: "Card", jpn: "カード", exEng: "I will put the money on your card.", exJpn: "お金をあなたのカードに入れます（返金します）。" },
-            { eng: "Machine", jpn: "機械", exEng: "The coffee machine does not work.", exJpn: "コーヒーマシンが動きません。" },
-            { eng: "Problem", jpn: "問題", exEng: "What is the problem with it?", exJpn: "それの何が問題ですか？" },
-            { eng: "Yesterday", jpn: "昨日", exEng: "I bought it yesterday.", exJpn: "昨日それを買いました。" },
-            { eng: "Wait", jpn: "待つ", exEng: "You have to wait three days.", exJpn: "3日間待たなければなりません。" },
-            { eng: "Understand", jpn: "理解する", exEng: "I understand the situation.", exJpn: "状況を理解しています。" }
+    { "eng": "Return", "jpn": "返品する", "exEng": "I want to return this phone.", "exJpn": "この電話を返品したいです。" },
+    { "eng": "Refund", "jpn": "返金", "exEng": "Can I get a refund, please?", "exJpn": "返金してもらえますか？" },
+    { "eng": "Exchange", "jpn": "交換する", "exEng": "I would like to exchange this.", "exJpn": "これを交換したいです。" },
+    { "eng": "Customer service", "jpn": "カスタマーサービス / サービスカウンター", "exEng": "The customer service desk is over there.", "exJpn": "カスタマーサービスの受付はあちらです。" },
+    { "eng": "Replace", "jpn": "取り替える / 交換する", "exEng": "Can you replace this with a new one?", "exJpn": "これを新しいものと取り替えてくれますか？" },
+    { "eng": "Box", "jpn": "箱", "exEng": "I still have the original box.", "exJpn": "まだ元の箱を持っています。" },
+    { "eng": "Tag", "jpn": "タグ / 値札", "exEng": "The tag is still on the shirt.", "exJpn": "シャツにはまだタグがついています。" },
+    { "eng": "Missing", "jpn": "見当たらない / 欠けている", "exEng": "One piece of the puzzle is missing.", "exJpn": "パズルのピースが1つ欠けています。" },
+    { "eng": "Part", "jpn": "部品 / パーツ", "exEng": "I cannot find this part.", "exJpn": "この部品が見つかりません。" },
+    { "eng": "Scratch", "jpn": "傷", "exEng": "There is a scratch on the screen.", "exJpn": "画面に傷があります。" },
+    { "eng": "Fix", "jpn": "直す / 修理する", "exEng": "Can you fix this watch?", "exJpn": "この時計を直せますか？" },
+    { "eng": "Drop", "jpn": "落とす", "exEng": "I did not drop the glass.", "exJpn": "私はグラスを落としていません。" },
+    { "eng": "Sign", "jpn": "署名する / サインする", "exEng": "Please sign this paper for the refund.", "exJpn": "返金のためにこの紙にサインしてください。" },
+    { "eng": "Rule", "jpn": "ルール / 規則", "exEng": "It is our store rule to show a receipt.", "exJpn": "レシートを見せるのが当店のルールです。" }
         ],
         dialogue: [
             { speaker: "Clerk", eng: "Hello, how can I help you today?", jpn: "こんにちは、本日はどのようなご用件でしょうか？" },
@@ -1555,20 +1829,21 @@ pronunciation: {
         },
         homework: {
             vocab: [
-                { eng: "Policy", jpn: "ポリシー / 規定", exEng: "What is your return policy?", exJpn: "返品の規定はどうなっていますか？" },
-                { eng: "Cashier", jpn: "レジ係", exEng: "Give the receipt to the cashier.", exJpn: "レシートをレジ係に渡してください。" },
-                { eng: "Service", jpn: "サービス", exEng: "The customer service is great here.", exJpn: "ここのカスタマーサービスは素晴らしいです。" },
-                { eng: "Damage", jpn: "ダメージ / 傷", exEng: "There is some damage on the box.", exJpn: "箱に少し傷があります。" },
-                { eng: "Open", jpn: "開ける", exEng: "Did you open the package?", exJpn: "パッケージを開けましたか？" },
-                { eng: "Close", jpn: "閉める", exEng: "The store will close at 8 PM.", exJpn: "店は午後8時に閉まります。" },
-                { eng: "Decide", jpn: "決める", exEng: "I cannot decide what to buy.", exJpn: "何を買うか決められません。" },
-                { eng: "Accept", jpn: "受け入れる", exEng: "Do you accept credit cards?", exJpn: "クレジットカードは受け付けていますか（使えますか）？" },
-                { eng: "Refuse", jpn: "断る", exEng: "They refused to give me a refund.", exJpn: "彼らは私に返金するのを断りました。" },
-                { eng: "Reason", jpn: "理由", exEng: "What is the reason for the return?", exJpn: "返品の理由は何ですか？" },
-                { eng: "Instead", jpn: "代わりに", exEng: "I will take the blue one instead.", exJpn: "代わりに青い方をもらいます。" },
-                { eng: "Condition", jpn: "状態", exEng: "The item is in perfect condition.", exJpn: "商品は完璧な状態です。" },
-                { eng: "Mistake", jpn: "間違い", exEng: "I made a mistake with my order.", exJpn: "注文で間違いをしました。" },
-                { eng: "Apology", jpn: "謝罪", exEng: "Please accept my apology.", exJpn: "私の謝罪を受け入れてください。" }
+    { "eng": "Policy", "jpn": "規定 / ポリシー", "exEng": "What is your store's return policy?", "exJpn": "あなたの店の返品規定は何ですか？" },
+      { "eng": "Condition", "jpn": "状態", "exEng": "The item must be in good condition.", "exJpn": "品物は良い状態でなければなりません。" },
+      { "eng": "Original", "jpn": "元の", "exEng": "Please put it in the original box.", "exJpn": "元の箱に入れてください。" },
+      { "eng": "Damaged", "jpn": "損傷した / 傷ついた", "exEng": "This shirt is damaged.", "exJpn": "このシャツは損傷しています。" },
+      { "eng": "Proof", "jpn": "証明 / 証拠", "exEng": "The receipt is your proof of purchase.", "exJpn": "レシートはあなたの購入の証明です。" },
+      { "eng": "Valid", "jpn": "有効な", "exEng": "This receipt is no longer valid.", "exJpn": "このレシートはもはや有効ではありません。" },
+      { "eng": "Purchase", "jpn": "購入 / 購入品", "exEng": "Are you happy with your purchase?", "exJpn": "ご購入品にご満足いただけましたか？" },
+      { "eng": "Deadline", "jpn": "期限", "exEng": "Today is the deadline for returns.", "exJpn": "今日が返品の期限です。" },
+      { "eng": "Cashier", "jpn": "レジ係", "exEng": "Give the receipt to the cashier.", "exJpn": "レジ係にレシートを渡してください。" },
+      { "eng": "Manager", "jpn": "マネージャー / 責任者", "exEng": "I would like to speak to the manager.", "exJpn": "マネージャーと話したいのですが。" },
+      { "eng": "Unopened", "jpn": "未開封の", "exEng": "We only accept unopened games.", "exJpn": "未開封のゲームのみ受け付けます。" },
+      { "eng": "Store credit", "jpn": "ストアクレジット / 店舗で使える金券", "exEng": "They gave me store credit instead of cash.", "exJpn": "彼らは現金の代わりにストアクレジットをくれました。" },
+      { "eng": "Apologize", "jpn": "謝る", "exEng": "The manager apologized for the mistake.", "exJpn": "マネージャーは間違いを謝罪しました。" },
+      { "eng": "Describe", "jpn": "説明する / 描写する", "exEng": "Can you describe the problem?", "exJpn": "問題を説明していただけますか？" }
+
             ],
             writingTask: { promptEng: "Write a short paragraph about returning an item. Explain what you returned, why you returned it (e.g., broken, wrong size), and if you got a refund or an exchange.", promptJpn: "商品を返品することについて短い段落を書いてください。何を返品したか、なぜ返品したか（例：壊れていた、サイズが違ったなど）、そして返金か交換のどちらを受けたかを説明してください。" },
             clickingGamesTitle: "Task 3: Grammar Practice (Sentence Builder)",
@@ -1750,7 +2025,12 @@ pronunciation: {
         vocab: [
             { eng: "Supermarket", jpn: "スーパーマーケット", exEng: "I buy fresh fruit at the supermarket.", exJpn: "私はスーパーで新鮮な果物を買います。" },
             { eng: "Customer", jpn: "客 / 顧客", exEng: "The customer is angry about the delay.", exJpn: "客は遅延について怒っています。" },
-            { eng: "Manager", jpn: "マネージャー / 店長", exEng: "The store manager is in the back office.", exJpn: "店長は奥のオフィスにいます。" },
+{ 
+    "eng": "Fresh", 
+    "jpn": "新鮮な", 
+    "exEng": "These tomatoes look very fresh.", 
+    "exJpn": "これらのトマトはとても新鮮に見えます。" 
+  },
             { eng: "Cashier", jpn: "レジ係", exEng: "The cashier scanned my items quickly.", exJpn: "レジ係は私の品物を素早くスキャンしました。" },
             { eng: "Checkout", jpn: "レジ / 支払い", exEng: "There is a long line at the checkout.", exJpn: "レジには長い列ができています。" },
             { eng: "Shelf", jpn: "棚", exEng: "The bread is on the top shelf.", exJpn: "パンは一番上の棚にあります。" },
@@ -1758,10 +2038,25 @@ pronunciation: {
             { eng: "Delivery", jpn: "配達 / 納品", exEng: "The delivery truck arrived late.", exJpn: "配達のトラックが遅れて到着しました。" },
             { eng: "Dirty", jpn: "汚い", exEng: "The floor is very dirty today.", exJpn: "今日の床はとても汚いです。" },
             { eng: "Garbage", jpn: "ゴミ", exEng: "Please empty the garbage can.", exJpn: "ゴミ箱を空にしてください。" },
-            { eng: "Refund", jpn: "返金", exEng: "I gave the customer a full refund.", exJpn: "私は客に全額返金しました。" },
+  { 
+    "eng": "Carry", 
+    "jpn": "運ぶ", 
+    "exEng": "These bags are very heavy to carry.", 
+    "exJpn": "これらの袋は運ぶのにとても重いです。" 
+  },
             { eng: "Complain", jpn: "文句を言う", exEng: "Many people complain about the prices.", exJpn: "多くの人が価格について文句を言います。" },
-            { eng: "Wait", jpn: "待つ", exEng: "We had to wait for twenty minutes.", exJpn: "私たちは20分待たなければなりませんでした。" },
-            { eng: "Fresh", jpn: "新鮮な", exEng: "We need more fresh vegetables.", exJpn: "私たちはもっと新鮮な野菜が必要です。" }
+{ 
+    "eng": "Fruit", 
+    "jpn": "果物", 
+    "exEng": "Bananas are my favorite fruit.", 
+    "exJpn": "バナナは私のお気に入りの果物です。" 
+  },
+        { 
+    "eng": "Frozen", 
+    "jpn": "冷凍の", 
+    "exEng": "The frozen pizza is quick to cook.", 
+    "exJpn": "冷凍ピザはすぐに調理できます。" 
+  }
         ],
         "situation": {
     "eng": "Our company has a big supermarket in the city center. For many years, it was very popular. Families loved to buy food here. But in the last three months, we are losing many customers. People go to the new store across the street instead. The manager is very worried because sales are going down fast. We are losing a lot of money every day. He knows the store has big problems, but he does not know why. He is always in his office and does not see the store. You must help fix this problem. You will read stories from four workers. They work in different parts of the store. They will tell you why their jobs are hard and why customers are angry. You must read carefully. If you fix only one thing, the store will still fail. For example, if you only clean the floors, people will still leave because of the long lines. You must understand all the problems together. Your goal is to make a step-by-step plan to fix all four areas. This will make the customers happy again. Please read the words from the Cashier, the Stock Worker, the Cleaner, and the Customer Service Worker to begin.",
@@ -1823,16 +2118,31 @@ pronunciation: {
         roleplay: "Role-play presenting your solution to the supermarket manager. Do the following using a simple four-slide structure. 1. Outline 2. The problem 3. The causes 4. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(スーパーの店長に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 概要 2. 問題 3. 原因 4. 解決策)</span>",
         homework: {
             vocab: [
-                { eng: "Line", jpn: "列", exEng: "We waited in a long line.", exJpn: "私たちは長い列で待ちました。" },
+     { 
+    "eng": "Plastic", 
+    "jpn": "プラスチックの / ビニールの", 
+    "exEng": "I do not need a plastic bag.", 
+    "exJpn": "私はビニール袋（レジ袋）は必要ありません。" 
+  },
                 { eng: "Machine", jpn: "機械 / マシン", exEng: "The washing machine is broken.", exJpn: "洗濯機が壊れています。" },
                 { eng: "Freeze", jpn: "フリーズする / 固まる", exEng: "The computer screen will freeze.", exJpn: "コンピューターの画面がフリーズします。" },
                 { eng: "Farm", jpn: "農場", exEng: "The vegetables come from a local farm.", exJpn: "野菜は地元の農場から来ます。" },
                 { eng: "Vegetable", jpn: "野菜", exEng: "You should eat more green vegetables.", exJpn: "もっと緑の野菜を食べるべきです。" },
-                { eng: "Fruit", jpn: "果物", exEng: "I like fresh fruit for breakfast.", exJpn: "朝食には新鮮な果物が好きです。" },
+              { 
+    "eng": "Can", 
+    "jpn": "缶", 
+    "exEng": "I need one can of tomato soup.", 
+    "exJpn": "トマトスープの缶詰が1つ必要です。" 
+  },
                 { eng: "Messy", jpn: "散らかった", exEng: "His desk is very messy.", exJpn: "彼の机はとても散らかっています。" },
                 { eng: "Wet", jpn: "濡れた", exEng: "Be careful, the floor is wet.", exJpn: "気をつけて、床が濡れています。" },
                 { eng: "Smell", jpn: "匂いがする", exEng: "These flowers smell beautiful.", exJpn: "これらの花は美しい匂いがします。" },
-                { eng: "Front door", jpn: "正面玄関", exEng: "Please wait at the front door.", exJpn: "正面玄関で待っていてください。" },
+             { 
+    "eng": "Basket", 
+    "jpn": "買い物かご", 
+    "exEng": "I put the apples in my basket.", 
+    "exJpn": "私はりんごを買い物かごに入れました。" 
+  },
                 { eng: "Refrigerator", jpn: "冷蔵庫", exEng: "Put the milk in the refrigerator.", exJpn: "牛乳を冷蔵庫に入れてください。" },
                 { eng: "Cold", jpn: "冷たい / 寒い", exEng: "This drink is not cold enough.", exJpn: "この飲み物は十分に冷たくありません。" },
                 { eng: "Tired", jpn: "疲れた", exEng: "I am very tired today.", exJpn: "今日はとても疲れています。" },
@@ -1905,17 +2215,37 @@ pronunciation: {
                 { eng: "District", jpn: "地区 / 地域", exEng: "The shopping district is very busy.", exJpn: "ショッピング地区はとても忙しいです。" },
                 { eng: "Street", jpn: "通り / 道", exEng: "The store is on Main Street.", exJpn: "その店はメインストリートにあります。" },
                 { eng: "Center", jpn: "中心", exEng: "We live in the center of the city.", exJpn: "私たちは市の中心に住んでいます。" },
-                { eng: "Next to", jpn: "〜の隣に", exEng: "The bank is next to the post office.", exJpn: "銀行は郵便局の隣にあります。" },
+          { 
+    "eng": "Everything", 
+    "jpn": "すべて / 全部", 
+    "exEng": "I want to buy everything in this cute store.", 
+    "exJpn": "このかわいいお店にあるものすべてを買いたいです。" 
+  },
                 { eng: "Selection", jpn: "品揃え / 選択", exEng: "They have a great selection of teas.", exJpn: "彼らはお茶の素晴らしい品揃えを持っています。" },
                 { eng: "Peaceful", jpn: "平和な / 穏やかな", exEng: "The park is very peaceful today.", exJpn: "今日の公園はとても平和です。" },
                 { eng: "Friendly", jpn: "親切な / フレンドリーな", exEng: "The people here are very friendly.", exJpn: "ここの人々はとても親切です。" },
                 { eng: "Smile", jpn: "微笑む / 笑顔", exEng: "She always greets me with a smile.", exJpn: "彼女はいつも笑顔で挨拶してくれます。" },
-                { eng: "Picture", jpn: "写真 / 絵", exEng: "This book has many beautiful pictures.", exJpn: "この本には美しい写真がたくさんあります。" },
+              { 
+    "eng": "Perfect", 
+    "jpn": "完璧な / ぴったりの", 
+    "exEng": "This dress is perfect for the party.", 
+    "exJpn": "このドレスはパーティーにぴったりです。" 
+  },
                 { eng: "Wonderful", jpn: "素晴らしい", exEng: "We had a wonderful time.", exJpn: "私たちは素晴らしい時間を過ごしました。" },
-                { eng: "Conclusion", jpn: "結論", exEng: "In conclusion, we need more time.", exJpn: "結論として、私たちはもっと時間が必要です。" },
+               { 
+    "eng": "Special", 
+    "jpn": "特別な", 
+    "exEng": "I want to buy something special for her birthday.", 
+    "exJpn": "彼女の誕生日に何か特別なものを買いたいです。" 
+  },
                 { eng: "Offer", jpn: "提供する / 申し出る", exEng: "The store offers a big discount.", exJpn: "その店は大きな割引を提供しています。" },
                 { eng: "Place", jpn: "場所", exEng: "This is a good place to eat.", exJpn: "ここは食事をするのに良い場所です。" },
-                { eng: "Drink", jpn: "飲む / 飲み物", exEng: "I will drink a cup of coffee.", exJpn: "私はコーヒーを一杯飲みます。" }
+               { 
+    "eng": "Convenient", 
+    "jpn": "便利な", 
+    "exEng": "This store is very convenient because it is open late.", 
+    "exJpn": "この店は遅くまで開いているのでとても便利です。" 
+  },
             ],
             writingTask: { promptEng: "Write your own short speech describing your favorite store. Please include at least 4 vocabulary words from today's lesson.", promptJpn: "あなたのお気に入りの店を描写する短いスピーチを自分で書いてください。今日のレッスンで学んだ語彙を少なくとも4つ含めてください。" },
             clickingGamesTitle: "Task 3: Grammar Review (Lessons 8-13)",
@@ -1982,33 +2312,93 @@ pronunciation: {
             { titleEng: "Modern Changes", titleJpn: "現代の変化", subtopics: [{ eng: "Cloud storage", jpn: "クラウドストレージ" }, { eng: "Video calls", jpn: "ビデオ通話" }, { eng: "Fast internet searches", jpn: "高速なインターネット検索" }] },
             { titleEng: "Life Before Screens", titleJpn: "画面の前の生活", subtopics: [{ eng: "Simpler life", jpn: "よりシンプルな生活" }, { eng: "More free time", jpn: "より多くの自由時間" }, { eng: "Less stress", jpn: "より少ないストレス" }] }
         ],
-        questions: [
-            { eng: "1. Did you have a computer in your house when you were young?", jpn: "1. あなたが若かった頃、家にコンピューターはありましたか？" },
-            { eng: "2. Do you think writing code was harder in the 90s?", jpn: "2. 90年代にはコードを書くことがより難しかったと思いますか？" },
-            { eng: "3. Have you ever used a fax machine?", jpn: "3. これまでにFAX機を使ったことはありますか？" },
-            { eng: "4. Why did people use plastic disks in the past?", jpn: "4. なぜ過去の人々はプラスチックのディスクを使っていたのですか？" },
-            { eng: "5. Do you think life was better before we had smart phones?", jpn: "5. スマートフォンを持つ前の方が生活は良かったと思いますか？" },
-            { eng: "6. Could people work from home 30 years ago?", jpn: "6. 30年前、人々は家から働くことができましたか？" },
-            { eng: "7. How do you find answers to your work problems today?", jpn: "7. 今日、仕事の問題の答えをどのように見つけますか？" },
-            { eng: "8. Do you think we look at computer screens too much?", jpn: "8. 私たちはコンピューターの画面を見すぎていると思いますか？" },
-            { eng: "9. What is the most useful modern tool in your office?", jpn: "9. あなたのオフィスで最も役立つ現代のツールは何ですか？" },
-            { eng: "10. Would you like to work in an office in the 90s?", jpn: "10. 90年代のオフィスで働いてみたいですか？" }
+"questions": [
+            { "eng": "1. Do you think life was happier before we had smartphones? Why?", "jpn": "1. スマートフォンを持つ前の方が生活は幸せだったと思いますか？それはなぜですか？" },
+            { "eng": "2. In the past, people wrote letters by hand. Do you think this is better than sending an email?", "jpn": "2. 昔、人々は手書きで手紙を書いていました。これはメールを送るよりも良いことだと思いますか？" },
+            { "eng": "3. Many people still use fax machines. Do you think we still need them today?", "jpn": "3. 多くの人がまだFAX機を使っています。今日でもまだFAXが必要だと思いますか？" },
+            { "eng": "4. Before the internet, people used dictionaries to look up words. Do you think this was a good way to learn?", "jpn": "4. インターネットの前は、言葉を調べるために辞書を使っていました。これは学習に良い方法だったと思いますか？" },
+            { "eng": "5. Old computers and cell phones were very heavy. Do you think old machines were stronger than new ones?", "jpn": "5. 古いコンピューターや携帯電話はとても重かったです。古い機械は新しいものより丈夫だったと思いますか？" },
+            { "eng": "6. People bought CDs and tapes to listen to music. Do you think this was more fun than using a music app?", "jpn": "6. 人々は音楽を聴くためにCDやテープを買っていました。これは音楽アプリを使うより楽しかったと思いますか？" },
+            { "eng": "7. Do you think working in an office was harder 30 years ago without the internet?", "jpn": "7. 30年前、インターネットなしでオフィスで働くのはより大変だったと思いますか？" },
+            { "eng": "8. In the 90s, people could not use phones to take pictures. Do you think people took better photos back then?", "jpn": "8. 90年代、人々は携帯電話で写真を撮れませんでした。当時の人々のほうが良い写真を撮っていたと思いますか？" },
+            { "eng": "9. Some people love using old film cameras today. Why do you think old technology is popular again?", "jpn": "9. 今日、古いフィルムカメラを使うのが好きな人がいます。なぜ古い技術が再び人気になっているのだと思いますか？" },
+            { "eng": "10. Would you like to live for one week in the 1980s without any modern technology? Why or why not?", "jpn": "10. 現代の技術が何もない1980年代に1週間住んでみたいですか？それはなぜですか？" }
         ],
         vocab: [
             { eng: "Past", jpn: "過去", exEng: "Things were different in the past.", exJpn: "過去には物事が異なっていました。" },
-            { eng: "Internet", jpn: "インターネット", exEng: "We need the internet to work.", exJpn: "働くにはインターネットが必要です。" },
-            { eng: "Save", jpn: "保存する", exEng: "Please save your file.", exJpn: "ファイルを保存してください。" },
-            { eng: "Cloud", jpn: "クラウド", exEng: "I keep my photos in the cloud.", exJpn: "写真はクラウドに保管しています。" },
-            { eng: "Safe", jpn: "安全な", exEng: "Your data is safe here.", exJpn: "あなたのデータはここでは安全です。" },
-            { eng: "Letter", jpn: "手紙", exEng: "I wrote a letter to my friend.", exJpn: "友達に手紙を書きました。" },
-            { eng: "Send", jpn: "送る", exEng: "Did you send the email?", exJpn: "メールを送りましたか？" },
-            { eng: "Travel", jpn: "移動する / 旅行する", exEng: "I travel to the office by train.", exJpn: "電車でオフィスへ移動します。" },
-            { eng: "Video", jpn: "ビデオ / 動画", exEng: "We had a video call yesterday.", exJpn: "昨日ビデオ通話をしました。" },
-            { eng: "Programmer", jpn: "プログラマー", exEng: "He is a great programmer.", exJpn: "彼は素晴らしいプログラマーです。" },
-            { eng: "Search", jpn: "検索する / 探す", exEng: "I will search the internet for the answer.", exJpn: "答えをインターネットで検索します。" },
+{ 
+    "eng": "History", 
+    "jpn": "歴史", 
+    "exEng": "I like reading about the history of computers.", 
+    "exJpn": "コンピューターの歴史について読むのが好きです。" 
+  },
+{ 
+    "eng": "Machine", 
+    "jpn": "機械", 
+    "exEng": "This old machine is very heavy.", 
+    "exJpn": "この古い機械はとても重いです。" 
+  },
+{ 
+    "eng": "Electric", 
+    "jpn": "電気の", 
+    "exEng": "The first electric lights were very dark.", 
+    "exJpn": "最初の電灯はとても暗かったです。" 
+  },
+{ 
+    "eng": "Battery", 
+    "jpn": "電池 / バッテリー", 
+    "exEng": "You need a large battery for this toy.", 
+    "exJpn": "このおもちゃには大きな電池が必要です。" 
+  },
+{ 
+    "eng": "Turn on", 
+    "jpn": "（電源を）つける", 
+    "exEng": "Please turn on the television.", 
+    "exJpn": "テレビをつけてください。" 
+  },
+{ 
+    "eng": "Turn off", 
+    "jpn": "（電源を）消す", 
+    "exEng": "Don't forget to turn off the radio.", 
+    "exJpn": "ラジオを消すのを忘れないでください。" 
+  },
+{ 
+    "eng": "Send", 
+    "jpn": "送る", 
+    "exEng": "It took one week to send a message.", 
+    "exJpn": "メッセージを送るのに1週間かかりました。" 
+  },
+{ 
+    "eng": "Receive", 
+    "jpn": "受け取る", 
+    "exEng": "I was happy to receive a letter from him.", 
+    "exJpn": "彼から手紙を受け取って嬉しかったです。" 
+  },
+{ 
+    "eng": "Hold", 
+    "jpn": "持つ / 握る", 
+    "exEng": "You had to hold the phone with your hand.", 
+    "exJpn": "手で電話を持たなければなりませんでした。" 
+  },
+{ 
+    "eng": "Noisy", 
+    "jpn": "うるさい", 
+    "exEng": "The old typewriter was very noisy.", 
+    "exJpn": "古いタイプライターはとてもうるさかったです。" 
+  },
             { eng: "Simple", jpn: "シンプルな / 簡単な", exEng: "This tool is very simple to use.", exJpn: "このツールはとてもシンプルに使えます。" },
-            { eng: "Screen", jpn: "画面", exEng: "Do not look at the screen all day.", exJpn: "一日中画面を見ないでください。" },
-            { eng: "Learn", jpn: "学ぶ", exEng: "We learn new things every day.", exJpn: "私たちは毎日新しいことを学びます。" }
+{ 
+    "eng": "Plug", 
+    "jpn": "プラグを差し込む", 
+    "exEng": "You had to plug the phone into the wall.", 
+    "exJpn": "壁に電話のプラグを差し込まなければなりませんでした。" 
+  },
+           { 
+    "eng": "Connect", 
+    "jpn": "つなぐ / 接続する", 
+    "exEng": "It was hard to connect to the early internet.", 
+    "exJpn": "初期のインターネットに接続するのは難しかったです。" 
+  }
         ],
         grammarPoints: [
             { 

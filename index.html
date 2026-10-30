@@ -269,6 +269,11 @@
             filter: grayscale(60%);
         }
 
+        /* NEW CLASS TO HIDE CONTENT IN TRANSACTIONAL AND OPINION LESSONS */
+        .completed-hidden {
+            display: none !important;
+        }
+
         /* --- AUDIO CONTROLS & SHADOWING STYLES --- */
         .audio-controls-panel {
             background: #e0e7ff;
@@ -526,7 +531,6 @@
         }
     </style>
 </head>
-<!-- The body structure and scripts remain strictly identical, ensuring functionality is untouched -->
 <body>
 
     <header class="hero" id="main-hero">
@@ -784,13 +788,35 @@
 
         function toggleComplete(checkbox, elementId) {
             const el = document.getElementById(elementId);
+            const selectVal = document.getElementById("lessonSelect").value;
+            const lesson = (selectVal !== "landing" && typeof a2Curriculum !== 'undefined') ? a2Curriculum[parseInt(selectVal)] : null;
+            
             if (el) {
                 if (checkbox.checked) {
-                    el.classList.add('completed');
+                    // Hide completely if it's a transactional or opinion (discussion) lesson
+                    if (lesson && (lesson.type === 'transactional' || lesson.type === 'opinion')) {
+                        el.classList.add('completed-hidden');
+                    } else {
+                        el.classList.add('completed');
+                    }
                 } else {
                     el.classList.remove('completed');
+                    el.classList.remove('completed-hidden');
                 }
             }
+            updateProgress();
+        }
+
+        // New function to restore all hidden/completed checkboxes and reset progress
+        function restoreCheckboxes() {
+            const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = false);
+            
+            const completedElements = document.querySelectorAll('.completed, .completed-hidden');
+            completedElements.forEach(el => {
+                el.classList.remove('completed', 'completed-hidden');
+            });
+            
             updateProgress();
         }
 
@@ -1207,7 +1233,9 @@
                 html += '</div>';
                 html += '<div id="progress-container" style="width: 100%; height: 20px; background: var(--border); border-radius: 10px; position: relative;">';
                 html += '<div id="progress-bar" style="width: 0%; height: 100%; background: var(--accent); border-radius: 10px; transition: width 0.3s ease-in-out;"></div>';
-                html += '</div></div>';
+                html += '</div>';
+                html += '<button class="action-btn" onclick="restoreCheckboxes()" style="margin-top: 15px; width: 100%; background: var(--text-light);">Restore Checkboxes</button>';
+                html += '</div>';
 
                 if (lesson.type === "opinion") {
                     html += '<div class="opinion-layout">';
@@ -1217,10 +1245,14 @@
                     for (let i = 0; i < dt.length; i++) {
                         let topic = dt[i];
                         const topicId = `topic-box-${i}`;
+                        const articleId = `article-box-${i}`;
+                        
                         html += '<div class="topic-card" id="' + topicId + '">';
                         html += '<input type="checkbox" onchange="toggleComplete(this, \'' + topicId + '\')">';
-                        html += '<div class="topic-card-content">';
-                        html += '<h4 style="font-weight: bold; color: var(--primary); font-size: 1.1rem; margin: 0;">' + topic.titleEng + '</h4>';
+                        
+                        html += '<div class="topic-card-content" style="cursor:pointer; width:100%;" onclick="const el = document.getElementById(\'' + articleId + '\'); el.style.display = el.style.display === \'none\' ? \'block\' : \'none\';">';
+                        
+                        html += '<h4 style="font-weight: bold; color: var(--primary); font-size: 1.1rem; margin: 0;">' + topic.titleEng + ' 📖</h4>';
                         html += '<p class="jpn-text" style="font-size: 0.85rem; color: var(--text-light); margin: 0 0 10px 0;">' + topic.titleJpn + '</p>';
                         html += '<ul style="padding-left: 20px; margin: 0; color: var(--text-dark);">';
                         let st = topic.subtopics || [];
@@ -1228,7 +1260,18 @@
                             let sub = st[j];
                             html += '<li style="margin-bottom: 6px; font-size: 0.95rem;">' + sub.eng + ' <span class="jpn-text" style="font-size: 0.8rem; color: var(--text-light); display: block;">' + sub.jpn + '</span></li>';
                         }
-                        html += '</ul></div></div>';
+                        html += '</ul>';
+                        
+                        if (topic.article) {
+                            html += '<div id="' + articleId + '" style="display: none; margin-top: 15px; padding: 15px; background: #f8fafc; border-left: 4px solid var(--accent); border-radius: 4px;">';
+                            html += '<p style="font-size: 1.05rem; font-weight: 500; margin-top: 0; color: var(--text-dark);">' + topic.article.eng + '</p>';
+                            if (topic.article.jpn) {
+                                html += '<p class="jpn-text" style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 0; border-top: 1px dashed var(--border); padding-top: 10px;">' + topic.article.jpn + '</p>';
+                            }
+                            html += '</div>';
+                        }
+                        
+                        html += '</div></div>';
                     }
                     html += '</div></div>';
 
@@ -1453,3 +1496,4 @@
     </script>
 </body>
 </html>
+```<FollowUp>
