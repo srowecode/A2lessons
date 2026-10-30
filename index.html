@@ -46,6 +46,23 @@
         }
         .toggle-jpn-btn:hover { background: #d97706; }
 
+        /* --- NEW WOODBLOCK / TECH BANNER STYLE --- */
+        .banner-container {
+            width: 100%;
+            background-color: #f7ede2;
+            border-bottom: 5px solid #2b2e4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .hero-banner {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
         /* --- DYNAMIC HERO HEADER STYLES --- */
         .hero {
             position: relative;
@@ -101,7 +118,7 @@
 
         .container { 
             max-width: 1350px; 
-            margin: -30px auto 40px; 
+            margin: 25px auto 40px; 
             padding: 0 15px; 
             position: relative; 
             z-index: 20; 
@@ -533,7 +550,12 @@
 </head>
 <body>
 
-    <header class="hero" id="main-hero">
+    <!-- HERO HEADER WITH MINIMAL JAPANESE TECH WOODBLOCK BANNER -->
+    <div class="banner-container" id="splash-banner">
+        <img src="image_0.jpg" alt="A2 IT English Splash Banner" class="hero-banner">
+    </div>
+
+    <header class="hero" id="main-hero" style="display: none;">
         <div class="hero-text-wrapper">
             <h1 class="hero-title">A2 IT ENGLISH</h1>
             <p class="hero-subtitle">Practical Speaking for Japan's IT Industry</p>
@@ -565,7 +587,7 @@
             <div class="features-grid">
                 <!-- Feature 1 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" alt="Free Education" class="feature-img">
+                    <img src="course001.jpg" alt="Free Education" class="feature-img">
                     <div class="feature-content">
                         <h3> 100% Free</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">This content is free for anyone to use. (but cannot be sold commercially)</p>
@@ -575,7 +597,7 @@
 
                 <!-- Feature 2 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="Streamlined UI" class="feature-img">
+                    <img src="course002.jpg" alt="Streamlined UI" class="feature-img">
                     <div class="feature-content">
                         <h3> Streamlined design</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">All content is on one page, no more clicking multiple links.</p>
@@ -585,7 +607,7 @@
 
                 <!-- Feature 3 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" alt="Holistic Learning" class="feature-img">
+                    <img src="course003.jpg" alt="Holistic Learning" class="feature-img">
                     <div class="feature-content">
                         <h3> Holistic improvement</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Each class includes speaking, listening, reading, writing, 28 new words, and grammar points.</p>
@@ -595,7 +617,7 @@
 
                 <!-- Feature 4 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80" alt="Interactive Homework" class="feature-img">
+                    <img src="course004.jpg" alt="Interactive Homework" class="feature-img">
                     <div class="feature-content">
                         <h3> Interactive homework</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Interactive activities in the homework section help you master new grammar points.</p>
@@ -605,7 +627,7 @@
 
                 <!-- Feature 5 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80" alt="AI Homework Marking" class="feature-img">
+                    <img src="course005.jpg" alt="AI Homework Marking" class="feature-img">
                     <div class="feature-content">
                         <h3> AI HW marking</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Use the provided Gemini Gem in your pacing document to get immediate feedback.</p>
@@ -615,137 +637,149 @@
 
                 <!-- Feature 6 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&q=80" alt="Full Japanese Support" class="feature-img">
+                    <img src="course006.jpg" alt="Full Japanese Support" class="feature-img">
                     <div class="feature-content">
                         <h3> Full Japanese support </h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a full translation into Japanese that you can quickly turn on or off.</p>
                         <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、日本語への完全な翻訳が含まれており、これを簡単にオン・オフに切り替えることができます。</p>
                     </div>
                 </div>
+                
                 <!-- Feature 7 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600&q=80" alt="Anki Intregration" class="feature-img">
+                    <img src="course007.jpg" alt="Anki Integration" class="feature-img">
                     <div class="feature-content">
                         <h3> Anki Integration</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a set of ANKI compatible flashcards that you can use to review the new words in your favorite flashcard app.</p>
                         <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、ANKI対応のフラッシュカードセットが含まれており、お気に入りのフラッシュカードアプリで新しい単語の復習に活用できます。。</p>
                     </div>
                 </div>
+                
                 <!-- Feature 8 -->
                 <div class="feature-card">
-                    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&q=80" alt="Shadowing Method" class="feature-img">
+                    <img src="course008.jpg" alt="Shadowing Method" class="feature-img">
                     <div class="feature-content">
                         <h3> Shadowing Method</h3>
                         <p style="font-size: 1rem; margin-bottom: 8px;">Listen and repeat exactly what you hear to improve pronunciation and speaking fluency.</p>
                         <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">音声を聞き、聞こえた通りに繰り返すことで発音と流暢さを向上させます。</p>
                     </div>
                 </div>
+
+                <!-- Feature 9 -->
+                <div class="feature-card">
+                    <img src="course009.jpg" alt="Flipped Learning" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Flipped Learning</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Study the material before class to maximize your active speaking time during the lesson.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">授業中のスピーキング時間を最大化するために、レッスン前に内容を学習します。</p>
+                    </div>
+                </div>
             </div>
 
             <h2 style="font-size: 1.8rem; margin-top: 40px; border-bottom: none;">Course Chapters (全15章)</h2>
-            <p class="jpn-text" style="color: var(--text-light); margin-top: -10px; margin-bottom: 20px;">We cover 105 lessons across 15 different topics. There is a mix of everyday English as well as content specific to the IT indstury. (15の異なるトピックにわたる105のレッスンを網羅しています。日常的な英語に加え、IT業界特有の内容も盛り込まれています。)</p>
+            <p class="jpn-text" style="color: var(--text-light); margin-top: -10px; margin-bottom: 20px;">We cover 105 lessons across 15 different topics. There is a mix of everyday English as well as content specific to the IT industry. (15の異なるトピックにわたる105のレッスンを網羅しています。日常的な英語に加え、IT業界特有の内容も盛り込まれています。)</p>
             
             <div class="chapter-grid">
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&h=250&fit=crop" alt="Office" class="chapter-banner">
+                    <img src="chapter001.jpg" alt="Office" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 1: Everyday Office Routines</p>
                         <p class="chapter-jpn jpn-text">第1章：オフィスでの日常業務</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=250&fit=crop" alt="Shopping" class="chapter-banner">
+                    <img src="chapter002.jpg" alt="Shopping" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 2: Shopping and Errands</p>
                         <p class="chapter-jpn jpn-text">第2章：買い物と用事</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=250&fit=crop" alt="Bugs and Code" class="chapter-banner">
+                    <img src="chapter003.jpg" alt="Bugs and Code" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 3: Past Projects & Bugs</p>
                         <p class="chapter-jpn jpn-text">第3章：過去のプロジェクトと不具合</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500&h=250&fit=crop" alt="Travel" class="chapter-banner">
+                    <img src="chapter004.jpg" alt="Travel" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 4: Travel & Transport</p>
                         <p class="chapter-jpn jpn-text">第4章：旅行と交通手段</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500&h=250&fit=crop" alt="Future Planning" class="chapter-banner">
+                    <img src="chapter005.jpg" alt="Future Planning" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 5: Future Planning</p>
                         <p class="chapter-jpn jpn-text">第5章：将来の計画</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=250&fit=crop" alt="Food and Dining" class="chapter-banner">
+                    <img src="chapter006.jpg" alt="Food and Dining" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 6: Food & Dining</p>
                         <p class="chapter-jpn jpn-text">第6章：食事と外食</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=250&fit=crop" alt="Data and Charts" class="chapter-banner">
+                    <img src="chapter007.jpg" alt="Data and Charts" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 7: Data & Quantities</p>
                         <p class="chapter-jpn jpn-text">第7章：データと数量</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=500&h=250&fit=crop" alt="Instructions" class="chapter-banner">
+                    <img src="chapter008.jpg" alt="Instructions" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 8: Instructions & Support</p>
                         <p class="chapter-jpn jpn-text">第8章：指示とサポート</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=250&fit=crop" alt="People Working" class="chapter-banner">
+                    <img src="chapter009.jpg" alt="People Working" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 9: People & Roles</p>
                         <p class="chapter-jpn jpn-text">第9章：人と役割</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500&h=250&fit=crop" alt="Health" class="chapter-banner">
+                    <img src="chapter010.jpg" alt="Health" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 10: Health & Wellness</p>
                         <p class="chapter-jpn jpn-text">第10章：健康とウェルネス</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=500&h=250&fit=crop" alt="Housing" class="chapter-banner">
+                    <img src="chapter011.jpg" alt="Housing" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 11: Housing & Living</p>
                         <p class="chapter-jpn jpn-text">第11章：住居と生活</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?w=500&h=250&fit=crop" alt="Hobbies" class="chapter-banner">
+                    <img src="chapter012.jpg" alt="Hobbies" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 12: Hobbies & Entertainment</p>
                         <p class="chapter-jpn jpn-text">第12章：趣味と娯楽</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&h=250&fit=crop" alt="News and Media" class="chapter-banner">
+                    <img src="chapter013.jpg" alt="News and Media" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 13: News & Media</p>
                         <p class="chapter-jpn jpn-text">第13章：ニュースとメディア</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=250&fit=crop" alt="Social Events" class="chapter-banner">
+                    <img src="chapter014.jpg" alt="Social Events" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 14: Socializing & Events</p>
                         <p class="chapter-jpn jpn-text">第14章：社交とイベント</p>
                     </div>
                 </div>
                 <div class="chapter-card">
-                    <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?w=500&h=250&fit=crop" alt="Goals and Mountains" class="chapter-banner">
+                    <img src="chapter015.jpg" alt="Goals and Mountains" class="chapter-banner">
                     <div class="chapter-content">
                         <p class="chapter-title">Chapter 15: Life Goals & Achievements</p>
                         <p class="chapter-jpn jpn-text">第15章：人生の目標と達成</p>
@@ -972,10 +1006,13 @@
                 const heroTitle = document.querySelector(".hero-title");
                 const heroSubtitle = document.querySelector(".hero-subtitle");
                 const heroEl = document.getElementById("main-hero");
+                const splashBanner = document.getElementById("splash-banner");
 
                 if (val === "landing") {
                     landingPage.style.display = "block";
                     lessonContent.style.display = "none";
+                    if (splashBanner) splashBanner.style.display = "flex";
+                    if (heroEl) heroEl.style.display = "none";
                     heroTitle.innerText = "A2 IT ENGLISH";
                     heroSubtitle.innerText = "Practical Speaking for Japan's IT Industry";
                     if (heroEl) heroEl.style.backgroundImage = "none";
@@ -984,6 +1021,8 @@
 
                 landingPage.style.display = "none";
                 lessonContent.style.display = "block";
+                if (splashBanner) splashBanner.style.display = "none";
+                if (heroEl) heroEl.style.display = "flex";
 
                 const index = parseInt(val);
                 const lesson = a2Curriculum[index];
@@ -1113,7 +1152,7 @@
             // Hidden explanation for Flipped Learning (Tech vibe)
             html += '<div id="flipped-expl-' + lesson.id + '" style="display: none; background: #ffffff; border: 2px solid #7dd3fc; border-radius: 8px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">';
             html += '<p style="margin: 0 0 10px 0; font-weight: bold; color: #0284c7; font-size: 1.05rem;">👨‍💻 エンジニア向け解説：なぜ反転授業（フリップト・ラーニング）なのか？</p>';
-            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">お疲れ様です！フリップト・ラーニングって聞いたことありますか？これ、開発現場にいる人なら絶対しっくりくると思うんですけど、要するに<strong>「APIドキュメントや仕様書は非同期で事前に読んでおいて、同期ミーティング（授業）の時間はハンズオンの実装とディスカッションに全振りしようぜ」</strong>っていうアプローチなんですよね。</p>';
+            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">お疲れ様です！フリップト・ラーニングって聞いたことありますか？これ、開発現場にいる人なら絶対しっくりくると思うんですけど、要するに<strong>「APIドキュメントや仕様書は非同期で事前に読んでおいて、同期ミーティング（授業）の時間はハンズオンの実装とディスカッションに全振りしようぜ」</strong>っていうアプローチなんんですよね。</p>';
             html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">従来の学校の授業だと「教室でインプット（講義）して、家でアウトプット（宿題）」だったのを「反転」させて、<strong>「家でインプット（事前の仕込み）して、教室でアウトプット（スピーキング）」</strong>にする仕組みです。</p>';
             html += '<p class="jpn-text" style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">語学、特にスピーキング力を爆速で上げるにはこれがマジで効きます。せっかくの講師との貴重なセッション時間を、一人でもできる単語や文法のインプットに使うのってコスパ悪いじゃないですか。事前に知識を頭に入れておけば、レッスン中はひたすら<strong>「口を動かしてエラー（言い間違い）を出して、その場でデバッグ（修正）する」</strong>っていうアジャイルな実践サイクルに集中できるんです。事前の仕込みをバッチリやって、本番でガンガンアウトプットしていきましょう！</p>';
             html += '</div>';
@@ -1549,4 +1588,3 @@
     </script>
 </body>
 </html>
-```<FollowUp>
