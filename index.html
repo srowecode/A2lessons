@@ -168,6 +168,16 @@
         .vocab-item { background: var(--bg-color); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;}
         .vocab-text { display: flex; flex-direction: column; width: 100%;}
         .vocab-eng { font-weight: 700; color: var(--text-dark); font-size: 1.05rem; }
+        .vocab-eng a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .vocab-eng a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
         .vocab-jpn { font-size: 0.85rem; color: var(--text-light); margin-top: 2px; }
 
         .flashcard {
@@ -993,6 +1003,27 @@
             return htmlStr;
         }
 
+        function renderVocabItem(wordObj) {
+            const cleanWord = stripHtmlTags(wordObj.eng).trim();
+            const yarnUrl = 'https://yarn.co/yarn-find?text=' + encodeURIComponent(cleanWord);
+
+            let itemHtml = '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+            itemHtml += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+            itemHtml += '<div class="vocab-text">';
+            itemHtml += '<span class="vocab-eng"><a href="' + yarnUrl + '" target="_blank" rel="noopener noreferrer" title="Search video clips on Yarn">' + wordObj.eng + '</a></span>';
+            itemHtml += '<span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span>';
+            itemHtml += '</div>';
+            itemHtml += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+
+            if (wordObj.exEng) {
+                itemHtml += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                itemHtml += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                itemHtml += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+            }
+            itemHtml += '</div>';
+            return itemHtml;
+        }
+
         function loadLesson() {
             try {
                 if (currentMp3Audio) {
@@ -1200,17 +1231,7 @@
                 html += '<div class="section-card"><h3>Target Vocabulary</h3><div class="vocab-grid">';
                 let vList = lesson.vocab || [];
                 for (let i = 0; i < vList.length; i++) {
-                    let wordObj = vList[i];
-                    html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
-                    html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
-                    html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
-                    html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
-                    if (wordObj.exEng) {
-                        html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
-                        html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
-                        html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
-                    }
-                    html += '</div>';
+                    html += renderVocabItem(vList[i]);
                 }
                 html += '</div></div>';
                 html += renderPronunciation(lesson);
@@ -1232,17 +1253,7 @@
                 if (lesson.vocab) {
                     html += '<div class="section-card"><h3>Target Vocabulary</h3><div class="vocab-grid">';
                     for (let i = 0; i < lesson.vocab.length; i++) {
-                        let wordObj = lesson.vocab[i];
-                        html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
-                        html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
-                        html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
-                        html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
-                        if (wordObj.exEng) {
-                            html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
-                            html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
-                            html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
-                        }
-                        html += '</div>';
+                        html += renderVocabItem(lesson.vocab[i]);
                     }
                     html += '</div></div>';
                 }
@@ -1289,17 +1300,7 @@
                 html += '<div class="section-card"><h3>Target Vocabulary</h3><div class="vocab-grid">';
                 let opVocab = lesson.vocab || [];
                 for (let i = 0; i < opVocab.length; i++) {
-                    let wordObj = opVocab[i];
-                    html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
-                    html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
-                    html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
-                    html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
-                    if (wordObj.exEng) {
-                        html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
-                        html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
-                        html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
-                    }
-                    html += '</div>';
+                    html += renderVocabItem(opVocab[i]);
                 }
                 html += '</div></div>';
                 html += renderPronunciation(lesson);
@@ -1470,17 +1471,7 @@
                 html += '<h3>Homework (宿題)</h3><h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4><div class="vocab-grid">';
                 let hVocab = lesson.homework.vocab || [];
                 for (let i = 0; i < hVocab.length; i++) {
-                    let wordObj = hVocab[i];
-                    html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
-                    html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
-                    html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
-                    html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
-                    if (wordObj.exEng) {
-                        html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
-                        html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
-                        html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
-                    }
-                    html += '</div>';
+                    html += renderVocabItem(hVocab[i]);
                 }
                 html += '</div>';
 
